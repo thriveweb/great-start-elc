@@ -11,12 +11,14 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         edges {
           node {
             id
+            frontmatter {
+              template
+              slug
+              title
+            }
             fields {
               slug
-            }
-            frontmatter {
-              tags
-              templateKey
+              contentType
             }
           }
         }
@@ -28,44 +30,44 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       return Promise.reject(result.errors)
     }
 
-    const posts = result.data.allMarkdownRemark.edges
+    const contentType = edge => _.get(edge, 'node.fields.contentType')
 
-    posts.forEach(edge => {
-      const id = edge.node.id
+    const mdFiles = result.data.allMarkdownRemark.edges
+
+    // Pages
+    const pages = mdFiles.filter(edge => contentType(edge) === 'pages')
+    pages
+      .filter(page => _.get(page, `node.frontmatter.template`)) // get pages with template field
+      .forEach(page => {
+        const id = page.node.id
+        createPage({
+          // page slug set in md frontmatter
+          path: page.node.fields.slug,
+          component: path.resolve(
+            `src/templates/${String(page.node.frontmatter.template)}.js`
+          ),
+          // additional data can be passed via context
+          context: {
+            id
+          }
+        })
+      })
+
+    // Posts
+    const posts = mdFiles.filter(edge => contentType(edge) === 'posts')
+    posts.forEach((post, index) => {
+      const id = post.node.id
+      const previous = index === posts.length - 1 ? null : posts[index + 1].node
+      const next = index === 0 ? null : posts[index - 1].node
+
       createPage({
-        path: edge.node.fields.slug,
-        tags: edge.node.frontmatter.tags,
-        component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-        ),
-        // additional data can be passed via context
+        path: post.node.fields.slug,
+        component: path.resolve(`src/templates/SinglePost.js`),
         context: {
           id,
-        },
-      })
-    })
-
-    // Tag pages:
-    let tags = []
-    // Iterate through each post, putting all found tags into `tags`
-    posts.forEach(edge => {
-      if (_.get(edge, `node.frontmatter.tags`)) {
-        tags = tags.concat(edge.node.frontmatter.tags)
-      }
-    })
-    // Eliminate duplicate tags
-    tags = _.uniq(tags)
-
-    // Make tag pages
-    tags.forEach(tag => {
-      const tagPath = `/tags/${_.kebabCase(tag)}/`
-
-      createPage({
-        path: tagPath,
-        component: path.resolve(`src/templates/tags.js`),
-        context: {
-          tag,
-        },
+          previous,
+          next
+        }
       })
     })
   })
@@ -74,12 +76,42 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators
 
-  if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+  // Create smart slugs
+  // https://github.com/Vagr9K/gatsby-advanced-starter/blob/master/gatsby-node.js
+  let slug
+  if (node.internal.type === 'MarkdownRemark') {
+    const fileNode = getNode(node.parent)
+    const parsedFilePath = path.parse(fileNode.relativePath)
+    if (_.get(node, 'frontmatter.slug')) {
+      slug = `/${node.frontmatter.slug}/`
+    } else if (
+      // home page gets root slug
+      parsedFilePath.name === 'home' &&
+      parsedFilePath.dir === 'pages'
+    ) {
+      slug = `/`
+    } else if (_.get(node, 'frontmatter.title')) {
+      slug = `/${parsedFilePath.dir}/${_.kebabCase(node.frontmatter.title)}`
+    } else if (parsedFilePath.dir === '') {
+      slug = `/${parsedFilePath.name}/`
+    } else {
+      slug = `/${parsedFilePath.dir}/`
+    }
+
     createNodeField({
-      name: `slug`,
       node,
-      value,
+      name: 'slug',
+      value: slug
+    })
+
+    // Add contentType to node.fields
+    createNodeField({
+      node,
+      name: 'contentType',
+      value: parsedFilePath.dir
     })
   }
 }
+
+// Random fix for https://github.com/gatsbyjs/gatsby/issues/5700
+module.exports.resolvableExtensions = () => ['.json']

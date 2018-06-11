@@ -6,6 +6,8 @@ import BackgroundImage from '../components/BackgroundImage'
 import Content from '../components/Content'
 import Button from '../components/Button'
 import JoinBanner from '../components/JoinBanner'
+import FamilyHandbookSection from '../components/FamilyHandbookSection'
+import ExceedBanner from '../components/ExceedBanner'
 import './HomePage.css'
 
 // Export Template for use in CMS preview
@@ -130,6 +132,14 @@ export const HomePageTemplate = ({
         </div>
       </div>
     )}
+
+    <FamilyHandbookSection />
+
+    <div className="section">
+      <div className="container">
+        <ExceedBanner image={'/images/uploads/logo.png'} />
+      </div>
+    </div>
   </main>
 )
 

@@ -36,3 +36,31 @@
   width: calc(50% - 8rem);
   margin: auto;
 }
+
+.homeSection3--items {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.homeSection3--item {
+  display: flex;
+  width: 45%;
+  align-items: flex-start;
+  margin: 2rem 0;
+}
+
+.homeSection3--item--icon {
+  width: 7rem;
+  margin-right: 2rem;
+  height: auto;
+}
+
+.homeSection3--item--title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}

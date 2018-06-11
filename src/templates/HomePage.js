@@ -13,7 +13,8 @@ export const HomePageTemplate = ({
   subtitle,
   featuredImage,
   homeSection1,
-  homeSection2
+  homeSection2,
+  homeSection3
 }) => (
   <main className="Home">
     <PageHeader large title={title} subtitle={subtitle} />
@@ -49,8 +50,8 @@ export const HomePageTemplate = ({
     )}
 
     {homeSection2 && (
-      <div class="section light">
-        <div class="container homeSection2--container">
+      <div className="section light">
+        <div className="container homeSection2--container">
           <div className="relative">
             <BackgroundImage src={homeSection2.image} />
           </div>
@@ -62,6 +63,29 @@ export const HomePageTemplate = ({
             <Content src={homeSection2.content} />
             <Button to={homeSection2.linkTo}>Read More</Button>
           </div>
+        </div>
+      </div>
+    )}
+
+    {homeSection3 && (
+      <div className="section">
+        <div className="container">
+          <h3>{homeSection3.title}</h3>
+          {homeSection3.items && (
+            <div className="homeSection3--items">
+              {homeSection3.items.map(item => (
+                <div className="homeSection3--item" key={item.title}>
+                  <img src={item.icon} className="homeSection3--item--icon" />
+                  <div>
+                    <div className="homeSection3--item--title">
+                      {item.title}
+                    </div>
+                    <div>{item.subtitle}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     )}
@@ -99,6 +123,14 @@ export const pageQuery = graphql`
           content
           linkTo
           image
+        }
+        homeSection3 {
+          title
+          items {
+            icon
+            title
+            subtitle
+          }
         }
       }
     }

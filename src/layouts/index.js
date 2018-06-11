@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import 'modern-normalize/modern-normalize.css'
 
@@ -7,19 +7,24 @@ import Nav from '../components/Nav'
 import GithubCorner from '../components/GithubCorner'
 import './globalStyles.css'
 
-export default ({ children, data }) => {
+export default ({ children, data = {} }) => {
   const {
     siteTitle,
     siteUrl,
     siteDescription,
     socialMediaCard,
     headerScripts
-  } = data.settingsYaml
+  } =
+    data.settingsYaml || {}
 
   return (
-    <div>
-      <GithubCorner url="https://github.com/Jinksi/netlify-cms-react-starter" />
-      <Helmet defaultTitle={siteTitle} titleTemplate={`${siteTitle} | %s`} />
+    <Fragment>
+      <Helmet defaultTitle={siteTitle} titleTemplate={`${siteTitle} | %s`}>
+        <link
+          href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,600,700|Varela+Round"
+          rel="stylesheet"
+        />
+      </Helmet>
       <Meta
         headerScripts={headerScripts}
         absoluteImageUrl={
@@ -37,8 +42,8 @@ export default ({ children, data }) => {
 
       <Nav />
 
-      <div>{children()}</div>
-    </div>
+      <Fragment>{children()}</Fragment>
+    </Fragment>
   )
 }
 

@@ -1,0 +1,38 @@
+.homeSection1--boxes {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.homeSection1--box {
+  display: block;
+  width: calc(33.33% - 2rem);
+  padding: 4rem 3rem;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homeSection1--box--logo {
+  display: block;
+  max-width: 20rem;
+  max-height: 20rem;
+  margin-bottom: 3rem;
+}
+
+.homeSection2--container {
+  display: flex;
+  align-items: stretch;
+}
+
+.homeSection2--container > * {
+  width: 50%;
+}
+
+.homeSection2--container > *:nth-child(2) {
+  width: calc(50% - 8rem);
+  margin: auto;
+}

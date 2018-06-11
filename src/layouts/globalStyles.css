@@ -1,13 +1,18 @@
 :root {
-  --primary: #0984d2;
-  --primary-light: #6fadff;
-  --secondary: #212121;
-  --lightGrey: whitesmoke;
+  --col1: #f16668;
+  --col2: #9fc9eb;
+  --col2-trans: rgba(158, 200, 235, 0.95);
+  --col2-light: #dbebf9;
+  --col3: #faed87;
+  --col4: #5dbf88;
+  --secondary: #222f50;
+  --lightGrey: #ede9e0;
   --midGrey: #cacaca;
   --darkGrey: #272727;
   --danger: #ff3d3d;
-  --font-primary: 'Open Sans', sans-serif;
   --font-system: system-ui; /* postcssPresetEnv */
+  --font-col1: 'Montserrat', var(--font-system);
+  --font-secondary: 'Varela Round', var(--font-system);
   --borderRadius: 3px;
 }
 
@@ -19,20 +24,20 @@ html {
 }
 
 body {
-  font-family: var(--font-system);
+  font-family: var(--font-col1);
   min-height: 100%;
   position: relative;
   background: white;
   color: var(--secondary);
   font-size: 1.6em;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.01em;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 
 a {
-  color: var(--primary);
+  color: var(--col1);
 }
 
 strong {
@@ -52,6 +57,29 @@ h5,
 h6 {
   margin: 0;
   margin-bottom: 0.5em;
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+h1,
+.h1 {
+}
+h2,
+.h2 {
+  font-size: 5.4rem;
+}
+h3,
+.h3 {
+}
+h4,
+.h4 {
+}
+h5,
+.h5 {
+}
+h6,
+.h6 {
 }
 
 pre {
@@ -86,7 +114,7 @@ blockquote {
   line-height: 1.1;
   font-size: 1em;
   font-style: italic;
-  border-left: 2px solid var(--primary);
+  border-left: 2px solid var(--col1);
 }
 
 /* Utility Classes */
@@ -97,7 +125,7 @@ blockquote {
   background-color: white;
 }
 .dark {
-  background-color: var(--primary);
+  background-color: var(--col1);
   color: white;
 }
 .dark h1,
@@ -146,7 +174,7 @@ blockquote {
 }
 
 .container {
-  max-width: 1111px;
+  max-width: 1400px;
   width: 90%;
   margin: 0 auto;
 }
@@ -157,49 +185,16 @@ blockquote {
   max-width: 555px;
 }
 
-/* Buttons */
+.hasBorder {
+  border: 3px solid var(--secondary);
+}
 
-.Button {
-  background: var(--primary);
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  font-size: 1.4rem;
-  display: inline-block;
-  padding: 1.25rem 3rem;
-  border: none;
-  transition: all 0.2s ease;
-  cursor: pointer;
-  border-radius: var(--borderRadius);
+.hasShadowHover {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 0px 0 var(--col2-trans);
 }
-.Button:hover,
-.Button:focus {
-  background: var(--primary-light);
-  outline: none;
-}
-.Button[disabled] {
-  opacity: 0.4;
-  pointer-events: none;
-  cursor: progress;
-}
-.Button.Button--inverted {
-  background: white;
-  border-color: white;
-  color: var(--primary);
-}
-.Button.Button--inverted:hover,
-.Button.Button--inverted:focus {
-  background: transparent;
-  border-color: currentColor;
-  color: white;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0)),
-    linear-gradient(
-      -32deg,
-      rgba(255, 255, 255, 0),
-      rgba(255, 255, 255, 0.05) 50%,
-      rgba(255, 255, 255, 0) 50%,
-      rgba(255, 255, 255, 0)
-    );
+.hasShadowHover:hover,
+.hasShadowHover:focus {
+  box-shadow: 8px 10px 0 var(--col2-trans);
+  transform: translateY(-1px);
 }

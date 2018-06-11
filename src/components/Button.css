@@ -1,0 +1,28 @@
+.Button {
+  background: white;
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 1.6rem;
+  display: inline-block;
+  padding: 1.25rem 4rem;
+  border: 3px solid currentColor;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border-radius: 0;
+}
+.Button:hover,
+.Button:focus {
+  transform: translateY(-1px);
+}
+.Button[disabled] {
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: progress;
+}
+.Button.Button--inverted {
+  background: white;
+  border-color: white;
+  color: var(--col1);
+}

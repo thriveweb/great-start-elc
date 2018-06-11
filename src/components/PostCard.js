@@ -9,10 +9,11 @@ const PostCard = ({
   title,
   excerpt,
   slug,
+  date,
   className = '',
   ...props
 }) => (
-  <Link to={slug} className={`PostCard ${className}`} {...props}>
+  <Link to={slug} className={`PostCard ${className}`}>
     {featuredImage && (
       <div className="PostCard--Image relative">
         <BackgroundImage src={featuredImage} alt={title} />
@@ -22,6 +23,7 @@ const PostCard = ({
       <div className='PostCard--Category'>{category}</div>
     )} */}
     <div className="PostCard--Content">
+      {date && <span className="">{date}</span>}
       {title && <h3 className="PostCard--Title">{title}</h3>}
       {excerpt && <div className="PostCard--Excerpt">{excerpt}</div>}
     </div>

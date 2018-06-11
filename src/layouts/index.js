@@ -4,7 +4,7 @@ import 'modern-normalize/modern-normalize.css'
 
 import Meta from '../components/Meta'
 import Nav from '../components/Nav'
-import GithubCorner from '../components/GithubCorner'
+import Footer from '../components/Footer'
 import './globalStyles.css'
 
 export default ({ children, data = {} }) => {
@@ -43,6 +43,8 @@ export default ({ children, data = {} }) => {
       <Nav />
 
       <Fragment>{children()}</Fragment>
+
+      <Footer siteTitle={siteTitle} />
     </Fragment>
   )
 }

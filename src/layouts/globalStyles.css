@@ -176,9 +176,14 @@ blockquote {
 .taRight {
   text-align: right;
 }
+.noDecoration {
+  text-decoration: none;
+}
+.colorInherit {
+  color: inherit;
+}
 
 /* Layout */
-
 .section {
   width: 100%;
   padding: 7.5rem 0;

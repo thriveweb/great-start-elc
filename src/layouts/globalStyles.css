@@ -153,6 +153,9 @@ blockquote {
 .col4 {
   background-color: var(--col4);
 }
+.col5 {
+  background-color: var(--col5);
+}
 
 .relative {
   position: relative;

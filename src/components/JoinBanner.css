@@ -1,0 +1,10 @@
+.JoinBanner {
+  padding: 5rem 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.JoinBanner--title {
+  margin-bottom: 0;
+}

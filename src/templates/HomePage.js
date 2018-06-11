@@ -5,6 +5,7 @@ import PageHeader from '../components/PageHeader'
 import BackgroundImage from '../components/BackgroundImage'
 import Content from '../components/Content'
 import Button from '../components/Button'
+import JoinBanner from '../components/JoinBanner'
 import './HomePage.css'
 
 // Export Template for use in CMS preview
@@ -123,6 +124,9 @@ export const HomePageTemplate = ({
               <BackgroundImage src={homeSection4.image2} />
             </div>
           </div>
+        </div>
+        <div className="container">
+          <JoinBanner linkTo="/" />
         </div>
       </div>
     )}

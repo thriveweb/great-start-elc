@@ -3,8 +3,9 @@
   --col2: #9fc9eb;
   --col2-trans: rgba(158, 200, 235, 0.95);
   --col2-light: #dbebf9;
-  --col3: #faed87;
+  --col3: #dbebf9;
   --col4: #5dbf88;
+  --col5: #faed87;
   --secondary: #222f50;
   --lightGrey: #ede9e0;
   --midGrey: #cacaca;
@@ -75,12 +76,15 @@ h3,
 }
 h4,
 .h4 {
+  font-size: 3.5rem;
 }
 h5,
 .h5 {
+  font-size: 2.8rem;
 }
 h6,
 .h6 {
+  font-size: 2rem;
 }
 
 pre {
@@ -136,6 +140,18 @@ blockquote {
 .dark h5,
 .dark h6 {
   color: white;
+}
+.col1 {
+  background-color: var(--col1);
+}
+.col2 {
+  background-color: var(--col2);
+}
+.col3 {
+  background-color: var(--col3);
+}
+.col4 {
+  background-color: var(--col4);
 }
 
 .relative {

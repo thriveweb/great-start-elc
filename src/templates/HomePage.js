@@ -14,7 +14,8 @@ export const HomePageTemplate = ({
   featuredImage,
   homeSection1,
   homeSection2,
-  homeSection3
+  homeSection3,
+  homeSection4
 }) => (
   <main className="Home">
     <PageHeader large title={title} subtitle={subtitle} />
@@ -89,6 +90,42 @@ export const HomePageTemplate = ({
         </div>
       </div>
     )}
+
+    {homeSection4 && (
+      <div className="section">
+        <div className="container">
+          <div className="homeSection4--grid">
+            <div className="homeSection4--grid--image relative">
+              <BackgroundImage src={homeSection4.image1} />
+            </div>
+            {homeSection4.items &&
+              homeSection4.items.map((item, index) => {
+                const col = `col${index + 1}`
+                return (
+                  <Link
+                    to={item.linkTo}
+                    className={`homeSection4--grid--item hasShadowHover ${col}`}
+                    key={item.title}
+                  >
+                    <h3 className="homeSection4--grid--item--title">
+                      {item.title}
+                    </h3>
+                    <p className="homeSection4--grid--item--description">
+                      {item.description}
+                    </p>
+                    <div className="Button homeSection4--grid--item--button">
+                      Read More
+                    </div>
+                  </Link>
+                )
+              })}
+            <div className="homeSection4--grid--image relative">
+              <BackgroundImage src={homeSection4.image2} />
+            </div>
+          </div>
+        </div>
+      </div>
+    )}
   </main>
 )
 
@@ -130,6 +167,15 @@ export const pageQuery = graphql`
             icon
             title
             subtitle
+          }
+        }
+        homeSection4 {
+          image1
+          image2
+          items {
+            title
+            description
+            linkTo
           }
         }
       }

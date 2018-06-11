@@ -41,6 +41,23 @@ homeSection3:
       title: Professional, Experienced and Qualified Educators
       subtitle: All our educators and teachers are qualified in early childhood education and have considerable early learning experience.
 
+homeSection4:
+  image1: /images/uploads/isabella juskova.jpg
+  image2: /images/uploads/ng-32703.jpg
+  items:
+    - title: Learning Approach
+      description: Our adaptation of the Reggio Emilia Approach to childhood learning suits Australian culture, climate and educational expectations of families.
+      linkTo: /
+    - title: Educational Programs
+      description: Our curriculum is built in order to meet the needs of each child while instilling life-long learning into their early childhood.
+      linkTo: /
+    - title: New Family Checklist
+      description: View or print our new family checklist to help you and your children have all the necessary information to start at our centre.
+      linkTo: /
+    - title: How to Enrol?
+      description: View our step-by-step guide to enrolling your child in one of our beautiful early learning centres.
+      linkTo: /
+
 meta:
   title: ''
 ---

@@ -1,0 +1,223 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/uploads
+public_folder: /uploads
+
+# display_url: https://netlify-cms-react-starter.netlify.com # This url will display in the top-right of the CMS
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "pages"
+    label: "Page"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: true
+    files:
+      - file: "content/pages/contact.md"
+        label: "Contact Page"
+        name: "contact-page"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: featuredImage, widget: image}
+          - {label: Subtitle, name: subtitle, widget: markdown}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Address, name: address, widget: text}
+          - {label: Phone, name: phone, widget: string}
+          - {label: Email Address, name: email, widget: string}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
+
+      - file: "content/pages/blog.md"
+        label: "Blog Page"
+        name: "blog-page"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: featuredImage, widget: image}
+          - {label: Subtitle, name: subtitle, widget: markdown}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
+
+      - file: "content/pages/about.md"
+        label: "About Page"
+        name: "about-page"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: featuredImage, widget: image}
+          - {label: Subtitle, name: subtitle, widget: markdown}
+          - {label: Section 1, name: section1, widget: markdown}
+          - {label: Section 2, name: section2, widget: markdown}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
+
+      - file: "content/pages/home.md"
+        label: "Home Page"
+        name: "home-page"
+        fields:
+          - {name: template, label: Template, widget: hidden, default: 'HomePage'}
+          - {name: slug, label: Slug, widget: hidden, default: ''}
+          - {name: title, label: Title, widget: string}
+          - {name: subtitle, label: Subtitle, widget: string}
+          - {name: featuredImage, label: Featured Image, widget: image}
+          - name: homeSection1
+            label: Section 1
+            widget: object
+            required: false
+            fields:
+              - {name: title, label: Title, widget: string}
+              - name: centres
+                label: Centres
+                widget: list
+                fields:
+                  - {name: description, label: Description, widget: text, required: false}
+                  - {name: logo, label: Logo, widget: image, required: false}
+          #
+          # homeSection2:
+          #   title: We strive to create a foundation for your child's future
+          #   subtitle: Early childhood is a time when foundations are laid for future health, learning and wellbeing.
+          #   content: We are committed to educational excellence for every child through the delivery of high quality early years curriculum.  Our pedagogy promotes school readiness and achievement of learning outcomes by applying our knowledge and experience of how children learn and play.
+          #   linkTo: /
+          #   image: /images/uploads/isabella juskova.jpg
+          #
+          # homeSection3:
+          #   title: Why Choose Us?
+          #   items:
+          #     - icon: /images/uploads/logo.png
+          #       title: Fun and Safe Environment
+          #       subtitle: Our curriculum is fun and exciting within a safe and secure environment.
+          #     - icon: /images/uploads/logo.png
+          #       title: Reggio Emilia Approach
+          #       subtitle: We have taken the Reggio Emilia Approach to early childhood education and adapted it.
+          #     - icon: /images/uploads/logo.png
+          #       title: Exceeding Standards
+          #       subtitle: Our centres are rated as ‘Exceeding’ the National Quality Standards.
+          #     - icon: /images/uploads/logo.png
+          #       title: Nutritional Menu
+          #       subtitle: We prepare in accordance with Food Safety and Nutrition standards plus dietary, cultural and medical needs.
+          #     - icon: /images/uploads/logo.png
+          #       title: Professional, Experienced and Qualified Educators
+          #       subtitle: All our educators and teachers are qualified in early childhood education and have considerable early learning experience.
+          #
+          # homeSection4:
+          #   image1: /images/uploads/isabella juskova.jpg
+          #   image2: /images/uploads/ng-32703.jpg
+          #   items:
+          #     - title: Learning Approach
+          #       description: Our adaptation of the Reggio Emilia Approach to childhood learning suits Australian culture, climate and educational expectations of families.
+          #       linkTo: /
+          #     - title: Educational Programs
+          #       description: Our curriculum is built in order to meet the needs of each child while instilling life-long learning into their early childhood.
+          #       linkTo: /
+          #     - title: New Family Checklist
+          #       description: View or print our new family checklist to help you and your children have all the necessary information to start at our centre.
+          #       linkTo: /
+          #     - title: How to Enrol?
+          #       description: View our step-by-step guide to enrolling your child in one of our beautiful early learning centres.
+          #       linkTo: /
+          #
+          # meta:
+          #   title: ''
+
+  - name: posts
+    label: Post
+    editor:
+      preview: true
+    folder: content/posts
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: Title, name: title, widget: string}
+      - label: 'Status'
+        name: 'status'
+        widget: 'select'
+        options: ["Published", "Featured", "Draft"]
+        default: 'Published'
+      - {label: Date / Order, name: date, widget: date}
+      - {label: Post Featured Image, name: postFeaturedImage, widget: image, required: false}
+      - {label: Excerpt, name: excerpt, widget: text}
+      - {label: Content, name: body, widget: markdown}
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Category"
+            name: "category"
+            widget: "relation"
+            collection: "postCategories"
+            searchFields: ["title"]
+            valueField: "title"
+      - label: "Meta"
+        required: false
+        name: "meta"
+        widget: "object"
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+          - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+          - {label: Noindex, name: noindex, widget: boolean, required: false}
+
+
+  - name: postCategories
+    label: Post Category
+    editor:
+      preview: false
+    folder: content/postCategories
+    slug: "{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: Title, name: title, widget: string}
+      - label: "Meta"
+        required: false
+        name: "meta"
+        widget: "object"
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+          - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+          - {label: Noindex, name: noindex, widget: boolean, required: false}
+
+
+  - name: "settings"
+    label: "Settings"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - file: "content/settings/global.yml"
+        label: "Global Settings"
+        name: "global-settings"
+        fields:
+          - {label: Site Title, name: siteTitle, widget: string}
+          - {label: Site Url, name: siteUrl, widget: string, required: false}
+          - {label: Site Description, name: siteDescription, widget: text, required: false}
+          - label: Social Media Card
+            name: socialMediaCard
+            widget: object
+            fields:
+              - {label: Image, name: image, widget: image, required: false}
+              - {label: Twitter Site Account, name: twitterSiteAccount, widget: string, required: false}
+              - {label: Twitter Creator Account, name: twitterCreatorAccount, widget: string, required: false}
+          - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
+          - {label: Enable Service Worker Pre-Cache, name: enableServiceWorker, widget: boolean, required: false}

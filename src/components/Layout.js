@@ -1,0 +1,68 @@
+import React, { Fragment } from 'react'
+import { StaticQuery, graphql } from 'gatsby'
+import Helmet from 'react-helmet'
+import 'modern-normalize/modern-normalize.css'
+
+import './globalStyles.css'
+import Meta from '../components/Meta'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
+
+export default ({ children }) => (
+  <StaticQuery
+    query={graphql`
+      query LayoutQuery {
+        settingsYaml {
+          siteTitle
+          siteDescription
+          headerScripts
+          socialMediaCard {
+            image
+            twitterCreatorAccount
+            twitterSiteAccount
+          }
+        }
+      }
+    `}
+    render={data => {
+      const {
+        siteTitle,
+        siteUrl,
+        siteDescription,
+        socialMediaCard,
+        headerScripts
+      } =
+        data.settingsYaml || {}
+      return (
+        <Fragment>
+          <Helmet defaultTitle={siteTitle} titleTemplate={`${siteTitle} | %s`}>
+            <link
+              href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,600,700|Varela+Round"
+              rel="stylesheet"
+            />
+          </Helmet>
+          <Meta
+            headerScripts={headerScripts}
+            absoluteImageUrl={
+              socialMediaCard &&
+              socialMediaCard.image &&
+              siteUrl + socialMediaCard.image
+            }
+            twitterCreatorAccount={
+              socialMediaCard && socialMediaCard.twitterCreatorAccount
+            }
+            twitterSiteAccount={
+              socialMediaCard && socialMediaCard.twitterSiteAccount
+            }
+          />
+
+          <Nav />
+
+          <Fragment>{children}</Fragment>
+
+          <Footer siteTitle={siteTitle} />
+        </Fragment>
+      )
+    }}
+  />
+)

@@ -1,6 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
+import NavLink from './NavLink'
 import './PostCategoriesNav.css'
 
 const PostCategoriesNav = ({ categories }) => (

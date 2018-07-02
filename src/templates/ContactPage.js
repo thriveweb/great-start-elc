@@ -1,8 +1,10 @@
 import React from 'react'
 
+import NavLink from '../components/NavLink'
 import PageHeader from '../components/PageHeader'
 import EnquiryFormSimpleAjax from '../components/EnquiryFormSimpleAjax'
 import Content from '../components/Content'
+import { MapPin, Smartphone, Mail } from 'react-feather'
 import './ContactPage.css'
 
 // Export Template for use in CMS preview

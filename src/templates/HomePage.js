@@ -141,8 +141,8 @@ export const HomePageTemplate = ({
 )
 
 // Export Default HomePage for front-end
-const HomePage = ({ data: { markdownRemark } }) => (
-  <HomePageTemplate {...markdownRemark.frontmatter} />
+const HomePage = ({ data: { page } }) => (
+  <HomePageTemplate {...page.frontmatter} />
 )
 export default HomePage
 
@@ -152,7 +152,7 @@ export const pageQuery = graphql`
   ## $id is processed via gatsby-node.js
   ## query name must be unique to this file
   query HomePage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+    page: markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
         template

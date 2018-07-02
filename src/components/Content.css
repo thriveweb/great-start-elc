@@ -33,4 +33,9 @@
     float: left;
     margin: 1rem 3rem 2rem 0;
   }
+
+  .Content ul {
+    columns: 2;
+    column-gap: 4rem;
+  }
 }

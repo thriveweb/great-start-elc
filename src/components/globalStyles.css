@@ -46,9 +46,38 @@ strong {
   font-weight: 700;
 }
 
+hr {
+  border: none;
+  border-bottom: whitesmoke 1px solid;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 1em;
+}
+
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+  position: relative;
+  padding: 0 0 0 2rem;
+  margin-bottom: 1.25rem;
+}
+ul li:before {
+  content: '';
+  background-image: url(/images/tri.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  left: 0;
+  top: 0.5em;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
 }
 
 h1,

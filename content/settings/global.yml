@@ -7,6 +7,9 @@ socialMediaCard:
   image: /images/uploads/card-og.png
   twitterCreatorAccount: '@Jinksi'
   twitterSiteAccount: ''
+footer:
+  exceedText: 'Our centres are rated as exceeding the National Quality Standards'
+  exceedLogo: '/images/uploads/exceeding.png'
 headerScripts: |-
   <!-- Add your analytics scripts / verification meta here -->
 enableServiceWorker: false

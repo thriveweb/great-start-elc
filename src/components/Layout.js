@@ -8,7 +8,7 @@ import Meta from '../components/Meta'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 
-export default ({ children }) => (
+export default ({ children, showHandbook }) => (
   <StaticQuery
     query={graphql`
       query LayoutQuery {
@@ -60,7 +60,7 @@ export default ({ children }) => (
 
           <Fragment>{children}</Fragment>
 
-          <Footer siteTitle={siteTitle} />
+          <Footer showHandbook={showHandbook} />
         </Fragment>
       )
     }}

@@ -3,12 +3,11 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import PageHeader from '../components/PageHeader'
+import Wave from '../components/Wave'
 import BackgroundImage from '../components/BackgroundImage'
 import Content from '../components/Content'
 import Button from '../components/Button'
-import JoinBanner from '../components/JoinBanner'
-import FamilyHandbookSection from '../components/FamilyHandbookSection'
-import ExceedBanner from '../components/ExceedBanner'
+
 import './HomePage.css'
 
 // Export Template for use in CMS preview
@@ -21,7 +20,7 @@ export const HomePageTemplate = ({
   homeSection3,
   homeSection4
 }) => (
-  <Layout>
+  <Layout showHandbook>
     <main className="Home">
       <PageHeader large title={title} subtitle={subtitle} />
       {homeSection1 && (
@@ -111,6 +110,7 @@ export const HomePageTemplate = ({
                       <h3 className="homeSection4--grid--item--title">
                         {item.title}
                       </h3>
+                      <Wave />
                       <p className="homeSection4--grid--item--description">
                         {item.description}
                       </p>
@@ -125,17 +125,8 @@ export const HomePageTemplate = ({
               </div>
             </div>
           </div>
-          <div className="container">
-            <JoinBanner linkTo="/" />
-          </div>
         </div>
       )}
-      <FamilyHandbookSection />
-      <div className="section">
-        <div className="container">
-          <ExceedBanner image={'/images/uploads/logo.png'} />
-        </div>
-      </div>
     </main>
   </Layout>
 )

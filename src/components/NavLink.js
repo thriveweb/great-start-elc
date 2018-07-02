@@ -3,8 +3,13 @@ import { Link } from 'gatsby'
 
 import './NavLink.css'
 
-export default ({ className, children, ...props }) => (
-  <Link {...props} className={`NavLink ${className || ''}`}>
-    {children}
-  </Link>
-)
+const A = props => <a {...props} />
+
+export default ({ className, children, to, ...props }) => {
+  let Comp = to ? Link : A
+  return (
+    <Comp {...props} to={to} className={`NavLink ${className || ''}`}>
+      {children}
+    </Comp>
+  )
+}

@@ -7,4 +7,14 @@
 
 .JoinBanner--title {
   margin-bottom: 0;
+  flex-shrink: 0;
+}
+
+.JoinBanner .Wave {
+  margin: auto 3rem;
+  flex-shrink: 1;
+}
+
+.JoinBanner .Button {
+  flex-shrink: 0;
 }

@@ -1,6 +1,8 @@
 .NavLink {
   padding: 0.5rem 1rem;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 500;
   transition: color 0.2s, border-bottom-color 0.2s;
   color: inherit;
@@ -9,8 +11,9 @@
   border-bottom-color: transparent;
 }
 
-.NavLink + .NavLink {
-  margin-left: 1rem;
+.NavLink + .NavLink,
+.NavLink + .Button {
+  margin-left: 1.5rem;
 }
 
 .NavLink:hover,
@@ -18,4 +21,8 @@
 .NavLink:focus {
   color: var(--col1);
   border-bottom-color: currentColor;
+}
+
+.NavLink svg {
+  margin-right: 0.3em;
 }

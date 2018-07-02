@@ -1,41 +1,39 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 
+import Layout from '../components/Layout'
 import PageHeader from '../components/PageHeader'
-// import Content from '../components/Content'
+import Content from '../components/Content.js'
+import './DefaultPage.css'
 
 // Export Template for use in CMS preview
 export const DefaultPageTemplate = ({
   title,
   subtitle,
   featuredImage,
-  content
+  rawMarkdownBody
 }) => (
-  <main className="DefaultPage">
-    {/* <PageHeader
-      large
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    /> */}
+  <Layout>
+    <main className="DefaultPage">
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
 
-    <div className="section">
-      <div className="container">{/* <Content source={content} /> */}</div>
-    </div>
-  </main>
+      <PageHeader title={title} subtitle={subtitle} />
+
+      <div className="section">
+        <div className="container content">
+          <Content source={rawMarkdownBody} />
+        </div>
+      </div>
+    </main>
+  </Layout>
 )
 
-// Export Default DefaultPage for front-end
 const DefaultPage = ({ data }) => {
   const { markdownRemark: page } = data
 
-  return (
-    <DefaultPageTemplate
-      title={page.frontmatter.title}
-      subtitle={page.frontmatter.subtitle}
-      featuredImage={page.frontmatter.featuredImage}
-      content={page.htmlAst}
-    />
-  )
+  return <DefaultPageTemplate {...page} {...page.frontmatter} />
 }
 
 export default DefaultPage
@@ -46,17 +44,11 @@ export default DefaultPage
 export const pageQuery = graphql`
   query DefaultPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      id
-      html
-      htmlAst
+      rawMarkdownBody
       frontmatter {
         title
-        template
         subtitle
         featuredImage
-      }
-      fields {
-        slug
       }
     }
   }

@@ -39,10 +39,11 @@ body {
 
 a {
   color: var(--col1);
+  text-decoration: none;
 }
 
 strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 p {
@@ -68,7 +69,7 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 5.4rem;
+  font-size: 5rem;
 }
 h3,
 .h3 {
@@ -206,6 +207,10 @@ blockquote {
   max-width: 1400px;
   width: 90%;
   margin: 0 auto;
+}
+.container.content {
+  max-width: 1200px;
+  width: 80%;
 }
 .container.skinny {
   max-width: 888px;

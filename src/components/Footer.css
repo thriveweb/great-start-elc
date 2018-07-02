@@ -28,6 +28,10 @@
   border-top: 1px solid var(--midGrey);
 }
 
+.JoinBannerSection.section {
+  padding-top: 0;
+}
+
 .JoinBannerSection + .section {
   padding-top: 0;
 }

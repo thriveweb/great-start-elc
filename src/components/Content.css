@@ -5,6 +5,8 @@
 .Content--Image {
   max-width: 100%;
   height: auto;
+  margin: 3rem auto;
+  display: block;
 }
 
 .Content--Iframe {
@@ -22,4 +24,13 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+@media (min-width: 1000px) {
+  .Content--Image {
+    max-width: 50%;
+    height: auto;
+    float: left;
+    margin: 1rem 3rem 2rem 0;
+  }
 }

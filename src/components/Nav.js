@@ -14,14 +14,26 @@ export default ({ handlePopupOpen }) => (
         <Logo />
       </Link>
       <div className="Nav--Container--Links">
-        <NavLink to="/" exact>
-          Home
-        </NavLink>
         <NavLink to="/about/" exact>
           About
         </NavLink>
-        <NavLink to="/blog/" exact>
-          Blog
+        <NavLink to="/learning/" exact>
+          Learning
+        </NavLink>
+        <NavLink to="/centres/" exact>
+          Centres
+        </NavLink>
+        <NavLink to="/enrolments/" exact>
+          Enrolments
+        </NavLink>
+        <NavLink to="/centres/" exact>
+          Centres
+        </NavLink>
+        <NavLink to="/parents/" exact>
+          Parents
+        </NavLink>
+        <NavLink to="/careers/" exact>
+          Careers
         </NavLink>
         <NavLink to="/contact/" exact>
           Contact

@@ -22,7 +22,12 @@ export const HomePageTemplate = ({
 }) => (
   <Layout showHandbook>
     <main className="Home">
-      <PageHeader large title={title} subtitle={subtitle} />
+      <PageHeader
+        large
+        title={title}
+        subtitle={subtitle}
+        button={{ linkTo: '/enrol/', title: 'Enrol Now' }}
+      />
       {homeSection1 && (
         <div className="section">
           <div className="container taCenter">

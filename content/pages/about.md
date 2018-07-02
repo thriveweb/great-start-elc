@@ -1,34 +1,25 @@
 ---
-template: AboutPage
+template: DefaultPage
 slug: 'about'
-title: About page title
-featuredImage: /images/uploads/tim-marshall-155597.jpg
-section1: |-
-  ## Lorem Ipsum
-
-  Netlify CMS works with both `.md` and `.json`.
-
-  ![Image test](/images/uploads/isabella juskova.jpg)
-
-  [Link test](/images/uploads/isabella juskova.jpg)
-
-  ### Embed Test
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Js00yn142ic" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-section2: |-
-  ## This is a Container component
-
-  A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur
-  tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi
-  a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
-  Dictumst a ultrices mi a dignissim ad fermentum eget a nam et a blandit
-  scelerisque. Taciti lorem tempor quam vestibulum dis habitasse vestibulum diam
-  vel est ut proin dis auctor. Suscipit scelerisque orci magna interdum vel
-  bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt
-  vestibulum.
-
-  The image below will have a `srcset` attribute generated:
-
-  ## ![Tim Marshall](/images/uploads/tim-marshall-155597.jpg)
+title: Welcome
+featuredImage: /images/uploads/learn.jpg
 ---
+
+### Welcome to Great Start Early Learning Centre
+
+**We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing.**
+
+For this reason, Great Start Early Learning Centres employs professional educators that focus on building our children’s social, emotional and physical wellbeing, while teaching them to be respectful to others and the community in which they live. Supporting and strengthening all of these aspects of the child gives them the best foundation for their future.
+
+We have taken the Reggio Emilia Approach to early childhood education and adapted it to suit the Australian culture, climate and educational expectations of families. Our curriculum is fun and exciting within a safe and secure environment and links to the Victorian Early Years Learning Framework and the National Early Years Framework. The regulating body ACECQA, has assessed our centre and we are very proud to receive the rating “Exceeding” National Quality Standards in all seven areas! This rating is reserved for only the highest quality centres.
+
+We understand that as parents you strive to create a caring and safe environment for your family, and it is only natural you seek the same standard for an early learning centre. Your child’s transition from home to one of our early learning centres should be seamless and it will feel like a home away from home where they are comfortable, happy and inspired.
+
+We support working families by being open 11 to 12 hours per day, Monday to Friday, 52 weeks a year, to offer the convenience and flexibility that busy families need. From six weeks of age until they are ready to attend school, your child will receive the highest quality education and care.
+
+All our educators and teachers are qualified in early childhood education and have considerable early learning experience. Our kindergarten and preschool teachers have university qualifications.
+Our Educators have access to the best resources, expertise and professional development to allow them to deliver the highest quality education and care to your children.
+
+We look forward to welcoming you and your family.
+
+**To find out more about our early learning offering [contact us](/contact/) today**

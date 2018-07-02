@@ -7,13 +7,14 @@ export default ({
   src,
   imageSize,
   contain = false,
+  backgroundSize,
   opacity = 1
 }) => (
   <div
     className={`BackgroundImage absolute ${className}`}
     style={{
       backgroundImage: `url(${encodeURI(src)})`,
-      backgroundSize: contain ? 'contain' : 'cover',
+      backgroundSize: backgroundSize || (contain ? 'contain' : 'cover'),
       opacity: opacity
     }}
   />

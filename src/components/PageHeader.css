@@ -1,16 +1,25 @@
 .PageHeader {
   background: var(--col2-light);
-  padding: 15rem 0;
+  padding: 5rem 0;
+}
+
+.PageHeader--BG {
+  background-position: top;
 }
 
 .PageHeader-large {
-  padding: 20rem 0;
+  padding: 15rem 0;
 }
 
 .PageHeader--Title {
-  font-size: 7rem;
-  margin-bottom: 2rem;
+  font-size: 4.8rem;
+  margin-bottom: 0;
   line-height: 1.1;
+}
+
+.PageHeader-large .PageHeader--Title {
+  margin-bottom: 2rem;
+  font-size: 7rem;
 }
 
 .PageHeader--Inner {

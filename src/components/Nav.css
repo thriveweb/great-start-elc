@@ -8,9 +8,21 @@
 .Nav--Container {
   display: flex;
   align-items: center;
-  height: 6rem;
+  height: 10rem;
 }
 
 .Nav .Logo {
-  margin-right: 3rem;
+  margin-right: auto;
+}
+
+.Nav--Container--Links {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.Nav--Container--Sep {
+  margin: 0 1.5rem;
+  border: 1px solid currentColor;
+  height: 1.5em;
 }

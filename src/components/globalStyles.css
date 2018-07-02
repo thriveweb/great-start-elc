@@ -157,6 +157,10 @@ blockquote {
   background-color: var(--col5);
 }
 
+.primary {
+  color: var(--col4);
+}
+
 .relative {
   position: relative;
 }

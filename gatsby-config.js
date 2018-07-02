@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/img`,
+        path: `${__dirname}/src/images`,
         name: 'images'
       }
     },
@@ -53,16 +53,16 @@ module.exports = {
     'gatsby-transformer-sharp',
 
     // css
-    {
-      resolve: `gatsby-plugin-postcss-sass`,
-      options: {
-        postCssPlugins: [
-          postcssPresetEnv({
-            browsers: '> 0.5%, last 2 versions, ie 11'
-          })
-        ]
-      }
-    },
+    // {
+    //   resolve: `gatsby-plugin-postcss-sass`,
+    //   options: {
+    //     postCssPlugins: [
+    //       postcssPresetEnv({
+    //         browsers: '> 0.5%, last 2 versions, ie 11'
+    //       })
+    //     ]
+    //   }
+    // },
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {

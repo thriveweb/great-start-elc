@@ -9,21 +9,13 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import DownloadBanner from '../components/DownloadBanner'
 
-export default ({ children, showHandbook, downloadBanner }) => (
+export default ({
+  children,
+  showHandbook = false,
+  simpleFooter = false,
+  downloadBanner
+}) => (
   <StaticQuery
-    query={graphql`
-      query LayoutQuery {
-        settingsYaml {
-          siteTitle
-          headerScripts
-          socialMediaCard {
-            image
-            twitterCreatorAccount
-            twitterSiteAccount
-          }
-        }
-      }
-    `}
     render={data => {
       const {
         siteTitle,
@@ -68,9 +60,25 @@ export default ({ children, showHandbook, downloadBanner }) => (
             />
           )}
 
-          <Footer showHandbook={showHandbook} simple={!!downloadBanner} />
+          <Footer
+            showHandbook={showHandbook}
+            simple={simpleFooter || !!downloadBanner}
+          />
         </Fragment>
       )
     }}
+    query={graphql`
+      query LayoutQuery {
+        settingsYaml {
+          siteTitle
+          headerScripts
+          socialMediaCard {
+            image
+            twitterCreatorAccount
+            twitterSiteAccount
+          }
+        }
+      }
+    `}
   />
 )

@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
+import PopoutBanner from '../components/PopoutBanner.js'
 import './DefaultPage.css'
 
 // Export Template for use in CMS preview
@@ -12,9 +13,10 @@ export const DefaultPageTemplate = ({
   subtitle,
   featuredImage,
   downloadBanner,
+  popoutBanner,
   rawMarkdownBody
 }) => (
-  <Layout downloadBanner={downloadBanner}>
+  <Layout downloadBanner={downloadBanner} simpleFooter>
     <main className="DefaultPage">
       <Helmet>
         <title>{title}</title>
@@ -27,6 +29,10 @@ export const DefaultPageTemplate = ({
           <Content source={rawMarkdownBody} />
         </div>
       </div>
+
+      {popoutBanner && (
+        <PopoutBanner image={popoutBanner.image} title={popoutBanner.title} />
+      )}
     </main>
   </Layout>
 )
@@ -50,6 +56,10 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
+        popoutBanner {
+          title
+          image
+        }
         downloadBanner {
           file
           title

@@ -1,0 +1,19 @@
+.PopoutBanner {
+  padding-top: 0;
+}
+
+.PopoutBanner--Container {
+  display: flex;
+  align-items: center;
+  padding: 5rem 7%;
+}
+
+.PopoutBanner--Image {
+  margin-right: 4rem;
+  width: 20%;
+  height: auto;
+}
+
+.PopoutBanner--Button {
+  margin-top: 1rem;
+}

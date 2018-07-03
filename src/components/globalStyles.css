@@ -6,6 +6,7 @@
   --col3: #dbebf9;
   --col4: #5dbf88;
   --col5: #faed87;
+  --col6: #c8e8e5;
   --secondary: #222f50;
   --lightGrey: #ede9e0;
   --midGrey: #cacaca;
@@ -60,6 +61,7 @@ p {
 
 ul {
   padding: 0;
+  margin: 3rem 0;
 }
 ul li {
   list-style: none;
@@ -118,7 +120,7 @@ h4,
 }
 h5,
 .h5 {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
 }
 h6,
 .h6 {
@@ -193,6 +195,9 @@ blockquote {
 }
 .col5 {
   background-color: var(--col5);
+}
+.col6 {
+  background-color: var(--col6);
 }
 
 .primary {

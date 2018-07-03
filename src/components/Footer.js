@@ -6,30 +6,33 @@ import FamilyHandbookSection from '../components/FamilyHandbookSection'
 import ExceedBanner from '../components/ExceedBanner'
 import './Footer.css'
 
-export default ({ showHandbook = false, ...props }) => (
+export default ({ showHandbook = false, simple = false, ...props }) => (
   <StaticQuery
     render={({ globalSettings }) => {
       const { siteTitle, footer } = globalSettings
       return (
         <Fragment>
-          <div className="section thin JoinBannerSection">
-            <div className="container">
-              <JoinBanner linkTo="/" />
-            </div>
-          </div>
+          {!simple && (
+            <Fragment>
+              <div className="section thin JoinBannerSection">
+                <div className="container">
+                  <JoinBanner linkTo="/" />
+                </div>
+              </div>
 
-          {showHandbook && (
-            <FamilyHandbookSection image="/images/uploads/handbook.jpg" />
+              {showHandbook && (
+                <FamilyHandbookSection image="/images/uploads/handbook.jpg" />
+              )}
+              <div className="section thin">
+                <div className="container">
+                  <ExceedBanner
+                    image={footer.exceedLogo}
+                    title={footer.exceedText}
+                  />
+                </div>
+              </div>
+            </Fragment>
           )}
-
-          <div className="section thin">
-            <div className="container">
-              <ExceedBanner
-                image={footer.exceedLogo}
-                title={footer.exceedText}
-              />
-            </div>
-          </div>
 
           <footer className="Footer">
             <div className="Footer--upper">

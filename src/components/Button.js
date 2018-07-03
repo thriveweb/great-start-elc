@@ -3,6 +3,8 @@ import Link from 'gatsby-link'
 
 import './Button.css'
 
+const A = props => <a {...props} />
+
 export default ({
   className = '',
   to,
@@ -12,9 +14,10 @@ export default ({
   ...props
 }) => {
   if (hasShadow) className += ' hasShadowHover'
+  let Comp = to ? Link : A
   return (
-    <Link to={to} className={`Button ${className}`} {...props}>
+    <Comp to={to} href={href} className={`Button ${className}`} {...props}>
       {children}
-    </Link>
+    </Comp>
   )
 }

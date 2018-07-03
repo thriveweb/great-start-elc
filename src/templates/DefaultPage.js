@@ -11,9 +11,10 @@ export const DefaultPageTemplate = ({
   title,
   subtitle,
   featuredImage,
+  downloadBanner,
   rawMarkdownBody
 }) => (
-  <Layout>
+  <Layout downloadBanner={downloadBanner}>
     <main className="DefaultPage">
       <Helmet>
         <title>{title}</title>
@@ -49,6 +50,11 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
+        downloadBanner {
+          file
+          title
+          preview
+        }
       }
     }
   }

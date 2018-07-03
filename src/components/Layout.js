@@ -7,14 +7,14 @@ import './globalStyles.css'
 import Meta from '../components/Meta'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import DownloadBanner from '../components/DownloadBanner'
 
-export default ({ children, showHandbook }) => (
+export default ({ children, showHandbook, downloadBanner }) => (
   <StaticQuery
     query={graphql`
       query LayoutQuery {
         settingsYaml {
           siteTitle
-          siteDescription
           headerScripts
           socialMediaCard {
             image
@@ -60,7 +60,15 @@ export default ({ children, showHandbook }) => (
 
           <Fragment>{children}</Fragment>
 
-          <Footer showHandbook={showHandbook} />
+          {downloadBanner && (
+            <DownloadBanner
+              file={downloadBanner.file}
+              title={downloadBanner.title}
+              preview={downloadBanner.preview}
+            />
+          )}
+
+          <Footer showHandbook={showHandbook} simple={!!downloadBanner} />
         </Fragment>
       )
     }}

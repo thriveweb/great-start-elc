@@ -1,0 +1,12 @@
+.DownloadBanner--Container {
+  display: flex;
+  align-items: center;
+}
+
+.DownloadBanner--Image {
+  margin-right: 4rem;
+}
+
+.DownloadBanner--Button {
+  margin-top: 1rem;
+}

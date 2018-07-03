@@ -1,22 +1,31 @@
 ---
 template: DefaultPage
 slug: 'learning'
-title: Learning
+title: Learning at Great Start Early Learning Centres
 featuredImage: /images/uploads/learn.jpg
 ---
 
-##### With a focus on the holistic development of each child, we are committed to providing a creative, stimulating and nurturing environment for children to thrive.
+##### We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing.
 
-![](/images/uploads/learn.jpg)
+We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing. We use a Reggio Emilia inspired approach to meet the objectives outlined in the National and Victorian Early Years Learning and Development Frameworks; including social skills, language, maths, investigation, creative pursuits, fine and gross motor skills, sensory experiences, cultural experiences and environmental understanding.
 
-We understand that as parents you strive to create a caring and safe environment for your family, and it is only natural you seek the same standard for an early learning centre. Your child’s transition from home to one of our early learning centres should be seamless and it will feel like a home away from home where they are comfortable, happy and inspired.
+Each day has structure and a flexible routine and includes time for play, project work and also free choice. Every child has learning goals, and each child’s progress is monitored by observation-based assessment and documentation. In addition, an online learning portfolio is compiled for every child to capture their unique creativity and expression whilst regular communication with parents is maintained via our My Family Lounge App. A Daily Journal is available at the end of each day which documents the experiences and learning throughout the day. Our educators are always willing to discuss your child’s learning and day with you. You will be amazed what your child will learn and the experiences your child is involved in at our early learning centres.
 
-We view the environment as the third Teacher. Children are encouraged to flow freely between the indoor and outdoor learning environments which include vegetable patches, relaxation spaces, areas to grow and care for living things, areas for musical play, areas for large scale construction activities and carefully considered learning spaces. Mirrors are used to enable children to see things from different angles, encourage play, view the world in different ways and to develop a sense of self. Spaces are adapted to each age group including Nursery, Toddlers, Prekindergarten and Kindergarten.
+---
 
-Careful consideration has also been given to the family of each child and parents are encouraged to participate in our curriculum and educational programs. We provide parents with the opportunity to engage and enjoy the environment, just as much as the children. Each and every day, families are invited to provide input in our curriculum and we also have a calendar of events to allow family members to be a part of their child’s learning.
+**Our curriculum supports:**
 
-Our early learning centres are places where environmental education is part of the everyday philosophy and curriculum. We believe in teaching the children a sense of responsibility to both the living and non-living environment, providing sustainability classes for children.
+- Having a play based emergent curriculum;
+- Numeracy, literacy, music and movement, science and social development;
+- Children developing knowledge and an understanding of technology and computers;
+- Promoting physical activity, health and wellbeing;
+- Adopting intentional and spontaneous teaching methods to optimise learning;
+- Child lead and initiated experiences;
+- Structured but flexible routines;
+- Family participation and input to allow the Educators to pursue child’s interests;
+- Scaffolding experiences and projects to extend children’s learning;
+- Developing school readiness;
+- Reflecting and evaluating our practices;
+- Keeping up to date with leading research on early childhood Education and innovation.
 
-We support working families, opening up to 12 hours per day, Monday to Friday, 52 weeks a year, to offer the convenience and flexibility that busy families need. Families are able to choose hours during our opening hours that best suit their family schedule. From six weeks of age until they are ready to attend school, your child will receive high quality education and care that is important to their development and to give them a great start.
-
-To see our beautiful, engaging learning environments for yourself, contact us to arrange a centre tour. We would love to show you our classrooms and outdoor play spaces.
+The primary means of learning in early childhood is through play. Play is purposeful and goal-centred. The curriculum is designed to cater for each child’s needs and interests. Play is a vital part of a child’s life and is the way they make sense of their world. It is the basic ingredient to learning, develops new skills, and stimulates intellectual growth.

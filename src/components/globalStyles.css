@@ -80,6 +80,14 @@ ul li:before {
   height: 1rem;
 }
 
+ol {
+  padding-left: 1em;
+}
+ol li {
+  font-weight: 700;
+  color: var(--col4);
+}
+
 h1,
 h2,
 h3,

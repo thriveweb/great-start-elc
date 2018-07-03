@@ -9,6 +9,7 @@
   text-decoration: none;
   border-bottom: 2px solid;
   border-bottom-color: transparent;
+  position: relative;
 }
 
 .NavLink + .NavLink,
@@ -17,12 +18,14 @@
 }
 
 .NavLink:hover,
-.NavLink.active,
 .NavLink:focus {
-  color: var(--col1);
   border-bottom-color: currentColor;
 }
 
 .NavLink svg {
   margin-right: 0.3em;
+}
+
+.NavLink:hover .SubNav {
+  display: block;
 }

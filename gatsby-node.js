@@ -13,7 +13,6 @@ exports.createPages = ({ actions, graphql }) => {
             id
             frontmatter {
               template
-              slug
               title
             }
             fields {
@@ -30,16 +29,25 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors)
     }
 
-    const contentType = edge => _.get(edge, 'node.fields.contentType')
-
     const mdFiles = result.data.allMarkdownRemark.edges
 
-    // Pages
-    const pages = mdFiles.filter(edge => contentType(edge) === 'pages')
-    pages
-      .filter(page => _.get(page, `node.frontmatter.template`)) // get pages with template field
-      .forEach(page => {
+    const contentTypes = _.groupBy(mdFiles, 'node.fields.contentType')
+
+    _.each(contentTypes, (pages, contentType) => {
+      const pagesToCreate = pages.filter(page =>
+        // get pages with template field
+        _.get(page, `node.frontmatter.template`)
+      )
+      if (!pagesToCreate.length) return console.log(`Skipping ${contentType}`)
+
+      console.log(`Creating ${pagesToCreate.length} ${contentType}`)
+
+      pagesToCreate.forEach((page, index) => {
         const id = page.node.id
+        const previous =
+          index === mdFiles.length - 1 ? null : mdFiles[index + 1].node
+        const next = index === 0 ? null : mdFiles[index - 1].node
+
         createPage({
           // page slug set in md frontmatter
           path: page.node.fields.slug,
@@ -48,26 +56,11 @@ exports.createPages = ({ actions, graphql }) => {
           ),
           // additional data can be passed via context
           context: {
-            id
+            id,
+            previous,
+            next
           }
         })
-      })
-
-    // Posts
-    const posts = mdFiles.filter(edge => contentType(edge) === 'posts')
-    posts.forEach((post, index) => {
-      const id = post.node.id
-      const previous = index === posts.length - 1 ? null : posts[index + 1].node
-      const next = index === 0 ? null : posts[index - 1].node
-
-      createPage({
-        path: post.node.fields.slug,
-        component: path.resolve(`src/templates/SinglePost.js`),
-        context: {
-          id,
-          previous,
-          next
-        }
       })
     })
   })
@@ -82,6 +75,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   if (node.internal.type === 'MarkdownRemark') {
     const fileNode = getNode(node.parent)
     const parsedFilePath = path.parse(fileNode.relativePath)
+
     if (_.get(node, 'frontmatter.slug')) {
       slug = `/${node.frontmatter.slug}/`
     } else if (

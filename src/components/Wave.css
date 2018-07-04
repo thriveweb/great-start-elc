@@ -4,3 +4,7 @@
   background-repeat: repeat-x;
   background-position: center;
 }
+
+.Wave.short {
+  width: 20rem;
+}

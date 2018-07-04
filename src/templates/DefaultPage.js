@@ -15,27 +15,30 @@ export const DefaultPageTemplate = ({
   downloadBanner,
   popoutBanner,
   rawMarkdownBody
-}) => (
-  <Layout downloadBanner={downloadBanner} simpleFooter>
-    <main className="DefaultPage">
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
+}) => {
+  const simpleFooter = !!popoutBanner
+  return (
+    <Layout downloadBanner={downloadBanner} simpleFooter={simpleFooter}>
+      <main className="DefaultPage">
+        <Helmet>
+          <title>{title}</title>
+        </Helmet>
 
-      <PageHeader title={title} subtitle={subtitle} />
+        <PageHeader title={title} subtitle={subtitle} />
 
-      <div className="section">
-        <div className="container content">
-          <Content source={rawMarkdownBody} />
+        <div className="section">
+          <div className="container content">
+            <Content source={rawMarkdownBody} />
+          </div>
         </div>
-      </div>
 
-      {popoutBanner && (
-        <PopoutBanner image={popoutBanner.image} title={popoutBanner.title} />
-      )}
-    </main>
-  </Layout>
-)
+        {popoutBanner && (
+          <PopoutBanner image={popoutBanner.image} title={popoutBanner.title} />
+        )}
+      </main>
+    </Layout>
+  )
+}
 
 const DefaultPage = ({ data }) => {
   const { markdownRemark: page } = data
@@ -56,10 +59,6 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
-        popoutBanner {
-          title
-          image
-        }
         downloadBanner {
           file
           title

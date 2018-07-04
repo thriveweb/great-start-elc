@@ -2,6 +2,12 @@
   white-space: pre-line;
 }
 
+.Content:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .Content--Image {
   max-width: 100%;
   height: auto;

@@ -3,9 +3,6 @@ template: DefaultPage
 slug: 'learning/national-quality-framework'
 title: National Quality Framework
 featuredImage: /images/uploads/learn.jpg
-popoutBanner:
-  image: /images/uploads/exceeding.png
-  title: Our practices, policies and procedures for the key seven areas are to a high standard and all our centres are rated by ACECQA as “Exceeding”. The exceeding rating is only reserved for high quality early learning centres.
 ---
 
 ##### The National Quality Framework (NQF) encourages services to provide a high quality and consistent standard of early childhood education and care across Australia. The NQF includes:

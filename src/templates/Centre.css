@@ -1,0 +1,29 @@
+.Centre {
+}
+
+.Centre--Intro {
+  padding-bottom: 0;
+}
+
+.Centre--Intro .container {
+  display: flex;
+  align-items: center;
+}
+
+.Centre--Intro .container > *:first-child {
+  margin-right: 4rem;
+}
+
+.Centre--Intro--Logo {
+  width: 12rem;
+}
+
+.Centre--Intro--Title {
+  margin-bottom: 0;
+}
+
+.Centre--Details {
+  float: right;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+}

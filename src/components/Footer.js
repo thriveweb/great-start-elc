@@ -6,7 +6,12 @@ import FamilyHandbookSection from '../components/FamilyHandbookSection'
 import ExceedBanner from '../components/ExceedBanner'
 import './Footer.css'
 
-export default ({ showHandbook = false, simple = false, ...props }) => (
+export default ({
+  showHandbook = false,
+  simple = false,
+  showExceedBannerLong = false,
+  ...props
+}) => (
   <StaticQuery
     render={({ globalSettings }) => {
       const { siteTitle, footer } = globalSettings
@@ -23,11 +28,14 @@ export default ({ showHandbook = false, simple = false, ...props }) => (
               {showHandbook && (
                 <FamilyHandbookSection image="/images/uploads/handbook.jpg" />
               )}
+
               <div className="section thin">
                 <div className="container">
                   <ExceedBanner
                     image={footer.exceedLogo}
                     title={footer.exceedText}
+                    longText={footer.exceedTextLong}
+                    long={showExceedBannerLong}
                   />
                 </div>
               </div>
@@ -122,6 +130,7 @@ export default ({ showHandbook = false, simple = false, ...props }) => (
           footer {
             exceedText
             exceedLogo
+            exceedTextLong
           }
         }
       }

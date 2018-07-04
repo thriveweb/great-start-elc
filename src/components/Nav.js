@@ -53,7 +53,6 @@ export default ({ handlePopupOpen }) => (
               <NavLinkWithChildren to="/enrolments/" title="Enrolments" />
               <NavLinkWithChildren to="/parents/" title="Parents" />
               <NavLinkWithChildren to="/careers/" title="Careers" />
-              <NavLinkWithChildren to="/careers/" title="Careers" />
               <NavLink to="/contact/">Contact</NavLink>
 
               <div className="Nav--Container--Sep" />

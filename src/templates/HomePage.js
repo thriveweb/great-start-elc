@@ -159,6 +159,7 @@ export const pageQuery = graphql`
           centres {
             logo
             description
+            linkTo
           }
         }
         homeSection2 {

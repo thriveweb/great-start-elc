@@ -10,6 +10,7 @@ homeSection1:
   centres:
     - description: East Malvern Early Learning Centre is a beautiful cottage with lots of charm and character.
       logo: /images/uploads/east-malvern.svg
+      linkTo: /centres/east-malvern-early-learning-centre/
     - description: Mildura Early Learning Centre embraces the world-class educational approach, Reggio Emilia.
       logo: /images/uploads/mildura.svg
     - description: Mildura Central Early Learning Centre is a boutique centre located in the Mildura CBD area.

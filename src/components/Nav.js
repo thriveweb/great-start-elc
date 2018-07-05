@@ -33,11 +33,13 @@ export default ({ handlePopupOpen }) => (
         )
       }
 
-      const NavLinkWithChildren = ({ to, title, ...props }) => (
-        <NavLink to={to} {...props}>
-          {title}
+      const NavLinkGroup = ({ to, title, ...props }) => (
+        <div className="NavLinkGroup">
+          <NavLink to={to} {...props}>
+            {title}
+          </NavLink>
           {renderChildPageLinks(to)}
-        </NavLink>
+        </div>
       )
 
       return (
@@ -47,12 +49,12 @@ export default ({ handlePopupOpen }) => (
               <Logo />
             </Link>
             <div className="Nav--Container--Links">
-              <NavLinkWithChildren to="/about/" title="About" />
-              <NavLinkWithChildren to="/learning/" title="Learning" />
-              <NavLinkWithChildren to="/centres/" title="Centres" />
-              <NavLinkWithChildren to="/enrolments/" title="Enrolments" />
-              <NavLinkWithChildren to="/parents/" title="Parents" />
-              <NavLinkWithChildren to="/careers/" title="Careers" />
+              <NavLinkGroup to="/about/" title="About" />
+              <NavLinkGroup to="/learning/" title="Learning" />
+              <NavLinkGroup to="/centres/" title="Centres" />
+              <NavLinkGroup to="/enrolments/" title="Enrolments" />
+              <NavLinkGroup to="/parents/" title="Parents" />
+              <NavLinkGroup to="/careers/" title="Careers" />
               <NavLink to="/contact/">Contact</NavLink>
 
               <div className="Nav--Container--Sep" />

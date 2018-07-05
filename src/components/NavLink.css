@@ -12,11 +12,6 @@
   position: relative;
 }
 
-.NavLink + .NavLink,
-.NavLink + .Button {
-  margin-left: 1em;
-}
-
 .NavLink:hover,
 .NavLink:focus {
   border-bottom-color: currentColor;
@@ -24,8 +19,4 @@
 
 .NavLink svg {
   margin-right: 0.3em;
-}
-
-.NavLink:hover .SubNav {
-  display: block;
 }

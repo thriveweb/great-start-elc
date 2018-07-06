@@ -219,6 +219,11 @@ blockquote {
   color: var(--col4);
 }
 
+.secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+
 .relative {
   position: relative;
 }

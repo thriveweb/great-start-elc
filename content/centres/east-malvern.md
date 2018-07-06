@@ -8,6 +8,22 @@ centreDetails:
   phone: 03 9886 9142 
   email: eastmalvern@mychildelc.com.au
 centreIntro: East Malvern Early Learning Centre is a beautiful cottage with lots of charm and character. We are in the Malvern East community, close to buses and Darlington Train Station
+classroomsSection:
+  title: "We provide early learning and care to children in the following classrooms:"
+  subtitle: Our education programs cater for each individual child’s needs.
+  items:
+    - icon: /images/uploads/baby.svg
+      title: Nursery
+      subtitle: Joey Classroom, 6 week to 18 months old
+    - icon: /images/uploads/toddler.svg
+      title: Toddler
+      subtitle: Possum Classroom, 18 months to 3 years old
+    - icon: /images/uploads/prekindergarten.svg
+      title: Prekindergarten Classroom
+      subtitle: 3 to 4 years old
+    - icon: /images/uploads/kindergarten.svg
+      title: Kindergarten Classroom
+      subtitle: 4 to 5 years old
 ---
 
 We only have a maximum of 50 children attending the centre each day across four classrooms; this provides opportunities for educators, parents and children to develop close relationships. We offer care to all age groups from as young as six weeks up to school age. We are open every day from Monday to Friday, except for public holidays.

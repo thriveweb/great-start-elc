@@ -20,6 +20,7 @@ export const CentreTemplate = ({
   logo,
   centreIntro,
   centreDetails,
+  classroomsSection,
   rawMarkdownBody
 }) => {
   const { openingHours, location, phone, email } = centreDetails
@@ -33,14 +34,14 @@ export const CentreTemplate = ({
 
         <PageHeader title={title} subtitle={subtitle} />
 
-        <div className="section Centre--Intro">
+        <section className="section Centre--Intro">
           <div className="container content">
             <img className="Centre--Intro--Logo" src={logo} alt={title} />
             <h5 className="Centre--Intro--Title">{centreIntro}</h5>
           </div>
-        </div>
+        </section>
 
-        <div className="section Centre--MainSection">
+        <section className="section Centre--MainSection">
           <div className="container content">
             <BreakoutBox className="Centre--Details" title="Centre Details">
               {openingHours && (
@@ -66,8 +67,40 @@ export const CentreTemplate = ({
             </BreakoutBox>
             <Content source={rawMarkdownBody} />
           </div>
-        </div>
-        <ExceedBanner showExceedBannerLong />
+        </section>
+
+        <ExceedBanner long />
+
+        {classroomsSection && (
+          <section className="section secondary Centre--ClassroomsSection">
+            <div className="container skinny taCenter">
+              <h3>{classroomsSection.title}</h3>
+            </div>
+            <div className="container taCenter">
+              {classroomsSection.items && (
+                <div className="Centre--ClassroomsSection--Items">
+                  {classroomsSection.items.map(item => (
+                    <div className="Centre--ClassroomsSection--Item">
+                      <img
+                        className="Centre--ClassroomsSection--Item--Icon"
+                        src={item.icon}
+                        alt={item.title}
+                      />
+                      <h6 className="Centre--ClassroomsSection--Item--Title">
+                        {item.title}
+                      </h6>
+                      <p>{item.subtitle}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
+              <div className="Centre--ClassroomsSection--Subtitle">
+                {classroomsSection.subtitle}
+                <Button to="/">Enrol Now</Button>
+              </div>
+            </div>
+          </section>
+        )}
       </main>
     </Layout>
   )
@@ -97,6 +130,15 @@ export const pageQuery = graphql`
           location
           phone
           email
+        }
+        classroomsSection {
+          title
+          subtitle
+          items {
+            icon
+            title
+            subtitle
+          }
         }
       }
     }

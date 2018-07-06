@@ -27,3 +27,24 @@
   margin-bottom: 3rem;
   margin-left: 3rem;
 }
+
+.Centre--ClassroomsSection--Items {
+  display: flex;
+  align-items: stretch;
+}
+
+.Centre--ClassroomsSection--Item {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Centre--ClassroomsSection--Item--Icon {
+  height: 5rem;
+  width: auto;
+  margin-bottom: 2rem;
+}
+
+.Centre--ClassroomsSection--Subtitle .Button {
+  margin: 3rem;
+}

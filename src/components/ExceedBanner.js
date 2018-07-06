@@ -5,7 +5,7 @@ import Button from './Button'
 import PopoutBanner from './PopoutBanner'
 import './ExceedBanner.css'
 
-export default ({ showExceedBannerLong, ...props }) => (
+export default ({ long, ...props }) => (
   <StaticQuery
     render={data => {
       const {
@@ -14,7 +14,7 @@ export default ({ showExceedBannerLong, ...props }) => (
         exceedTextLong
       } = data.globalSettings.footer
 
-      return showExceedBannerLong ? (
+      return long ? (
         <PopoutBanner image={exceedLogo} title={exceedTextLong} />
       ) : (
         <div className="ExceedBanner">

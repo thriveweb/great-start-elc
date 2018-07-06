@@ -24,6 +24,11 @@ classroomsSection:
     - icon: /images/uploads/kindergarten.svg
       title: Kindergarten Classroom
       subtitle: 4 to 5 years old
+testimonials:
+  - name: John Doe
+    testimonial: The staff at Great Start Early Learning Centre are always amazing and very welcoming. They try and make you feel as comfortable as possible when you are dropping your child off for the first time. Noah loves having kids his own age to play with and all the activities he can do outside.
+  - name: Jane Doe
+    testimonial: This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language. Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website.
 ---
 
 We only have a maximum of 50 children attending the centre each day across four classrooms; this provides opportunities for educators, parents and children to develop close relationships. We offer care to all age groups from as young as six weeks up to school age. We are open every day from Monday to Friday, except for public holidays.

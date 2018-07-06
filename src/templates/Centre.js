@@ -9,6 +9,8 @@ import Content from '../components/Content'
 import PopoutBanner from '../components/PopoutBanner'
 import BreakoutBox from '../components/BreakoutBox'
 import ExceedBanner from '../components/ExceedBanner'
+import Testimonials from '../components/Testimonials'
+
 import './Centre.css'
 
 // Export Template for use in CMS preview
@@ -21,6 +23,7 @@ export const CentreTemplate = ({
   centreIntro,
   centreDetails,
   classroomsSection,
+  testimonials,
   rawMarkdownBody
 }) => {
   const { openingHours, location, phone, email } = centreDetails
@@ -101,6 +104,8 @@ export const CentreTemplate = ({
             </div>
           </section>
         )}
+
+        {testimonials && <Testimonials items={testimonials} />}
       </main>
     </Layout>
   )
@@ -139,6 +144,10 @@ export const pageQuery = graphql`
             title
             subtitle
           }
+        }
+        testimonials {
+          name
+          testimonial
         }
       }
     }

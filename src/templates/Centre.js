@@ -24,6 +24,7 @@ export const CentreTemplate = ({
   centreDetails,
   classroomsSection,
   testimonials,
+  directorStatement,
   rawMarkdownBody
 }) => {
   const { openingHours, location, phone, email } = centreDetails
@@ -106,6 +107,24 @@ export const CentreTemplate = ({
         )}
 
         {testimonials && <Testimonials items={testimonials} />}
+
+        {directorStatement && (
+          <section className="section Centre--DirectorStatement">
+            <div className="container">
+              <h5 className="Centre--DirectorStatement--Title">
+                {directorStatement.title}
+              </h5>
+              {directorStatement.image && (
+                <img
+                  className="Centre--DirectorStatement--Image"
+                  src={directorStatement.image}
+                  alt={directorStatement.title}
+                />
+              )}
+              <Content src={directorStatement.content} />
+            </div>
+          </section>
+        )}
       </main>
     </Layout>
   )
@@ -148,6 +167,11 @@ export const pageQuery = graphql`
         testimonials {
           name
           testimonial
+        }
+        directorStatement {
+          image
+          title
+          content
         }
       }
     }

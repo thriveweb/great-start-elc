@@ -48,3 +48,12 @@
 .Centre--ClassroomsSection--Subtitle .Button {
   margin: 3rem;
 }
+
+.Centre--DirectorStatement--Title {
+  margin-bottom: 5rem;
+}
+
+.Centre--DirectorStatement--Image {
+  margin: 0 3rem 1rem 0;
+  float: left;
+}

@@ -52,19 +52,22 @@ export const CentreTemplate = ({
             <BreakoutBox className="Centre--Details" title="Centre Details">
               {openingHours && (
                 <p>
-                  Open Hours<br />
+                  <strong>Open Hours</strong>
+                  <br />
                   {openingHours}
                 </p>
               )}
               {location && (
                 <p>
-                  Centre Location<br />
+                  <strong>Centre Location</strong>
+                  <br />
                   {location}
                 </p>
               )}
               {(email || phone) && (
                 <div>
-                  Contact Info<br />
+                  <strong>Contact Info</strong>
+                  <br />
                   {phone && <div>T: {phone}</div>}
                   {email && <div>E: {email}</div>}
                 </div>

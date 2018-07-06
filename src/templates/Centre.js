@@ -62,7 +62,7 @@ export const CentreTemplate = ({
                   {email && <div>E: {email}</div>}
                 </p>
               )}
-              <Button to={'dsf'}>asdf</Button>
+              <Button to={'/'}>Enrol Now</Button>
             </BreakoutBox>
             <Content source={rawMarkdownBody} />
           </div>

@@ -6,10 +6,10 @@ import Layout from '../components/Layout'
 import Button from '../components/Button'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
-import PopoutBanner from '../components/PopoutBanner'
 import BreakoutBox from '../components/BreakoutBox'
 import ExceedBanner from '../components/ExceedBanner'
 import Testimonials from '../components/Testimonials'
+import Gallery from '../components/Gallery'
 
 import './Centre.css'
 
@@ -25,6 +25,8 @@ export const CentreTemplate = ({
   classroomsSection,
   testimonials,
   directorStatement,
+  gallery = [],
+  additionalInfoBoxes = [],
   rawMarkdownBody
 }) => {
   const { openingHours, location, phone, email } = centreDetails
@@ -61,12 +63,13 @@ export const CentreTemplate = ({
                 </p>
               )}
               {(email || phone) && (
-                <p>
+                <div>
                   Contact Info<br />
                   {phone && <div>T: {phone}</div>}
                   {email && <div>E: {email}</div>}
-                </p>
+                </div>
               )}
+              <br />
               <Button to={'/'}>Enrol Now</Button>
             </BreakoutBox>
             <Content source={rawMarkdownBody} />
@@ -84,7 +87,10 @@ export const CentreTemplate = ({
               {classroomsSection.items && (
                 <div className="Centre--ClassroomsSection--Items">
                   {classroomsSection.items.map(item => (
-                    <div className="Centre--ClassroomsSection--Item">
+                    <div
+                      className="Centre--ClassroomsSection--Item"
+                      key={item.title}
+                    >
                       <img
                         className="Centre--ClassroomsSection--Item--Icon"
                         src={item.icon}
@@ -125,6 +131,38 @@ export const CentreTemplate = ({
             </div>
           </section>
         )}
+
+        {gallery.length && (
+          <section className="section thin Centre--Gallery">
+            <div className="container taCenter">
+              <h3 className="Centre--Gallery--Title">Centre Gallery</h3>
+              <Gallery images={gallery} />
+            </div>
+          </section>
+        )}
+
+        <section className="section thin Centre--InfoBoxes">
+          <div className="container">
+            {additionalInfoBoxes.map((box, index) => {
+              const cols = [3, 4, 5]
+              const color = cols[index % cols.length]
+              return (
+                <BreakoutBox
+                  className="Centre--InfoBox"
+                  title={box.title}
+                  key={box.title}
+                  color={color}
+                  noShadow
+                >
+                  <p>{box.content}</p>
+                  {box.buttonTitle && (
+                    <Button to={box.buttonLinkTo}>{box.buttonTitle}</Button>
+                  )}
+                </BreakoutBox>
+              )
+            })}
+          </div>
+        </section>
       </main>
     </Layout>
   )
@@ -172,6 +210,13 @@ export const pageQuery = graphql`
           image
           title
           content
+        }
+        gallery
+        additionalInfoBoxes {
+          title
+          content
+          buttonTitle
+          buttonLinkTo
         }
       }
     }

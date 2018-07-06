@@ -57,3 +57,18 @@
   margin: 0 3rem 1rem 0;
   float: left;
 }
+
+.Centre--Gallery--Title {
+  margin-bottom: 5rem;
+}
+
+.Centre--InfoBoxes .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Centre--InfoBox {
+  width: calc(50% - 2rem);
+  margin-bottom: 4rem;
+}

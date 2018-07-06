@@ -36,6 +36,10 @@
   margin-bottom: 2em;
 }
 
+.Content p:last-child {
+  margin-bottom: 0;
+}
+
 @media (min-width: 1000px) {
   .Content--Image {
     max-width: 50%;

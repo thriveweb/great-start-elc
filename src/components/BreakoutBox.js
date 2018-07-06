@@ -4,8 +4,19 @@ import Button from './Button'
 import Wave from './Wave'
 import './BreakoutBox.css'
 
-export default ({ title, image, className = '', children }) => (
-  <div className={`BreakoutBox col6 hasShadow ${className}`}>
+export default ({
+  title,
+  image,
+  className = '',
+  color = 6,
+  noShadow = false,
+  children
+}) => (
+  <div
+    className={`BreakoutBox col${color} ${
+      noShadow ? '' : 'hasShadow'
+    } ${className}`}
+  >
     {image && <img src={image} alt={title} className="BreakoutBox--Image" />}
     <div className="BreakoutBox--Content">
       {title && (

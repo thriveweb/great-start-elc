@@ -8,6 +8,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import PopoutBanner from '../components/PopoutBanner'
 import BreakoutBox from '../components/BreakoutBox'
+import ExceedBanner from '../components/ExceedBanner'
 import './Centre.css'
 
 // Export Template for use in CMS preview
@@ -66,6 +67,7 @@ export const CentreTemplate = ({
             <Content source={rawMarkdownBody} />
           </div>
         </div>
+        <ExceedBanner showExceedBannerLong />
       </main>
     </Layout>
   )

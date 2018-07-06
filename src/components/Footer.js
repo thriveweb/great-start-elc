@@ -31,12 +31,7 @@ export default ({
 
               <div className="section thin">
                 <div className="container">
-                  <ExceedBanner
-                    image={footer.exceedLogo}
-                    title={footer.exceedText}
-                    longText={footer.exceedTextLong}
-                    long={showExceedBannerLong}
-                  />
+                  <ExceedBanner long={showExceedBannerLong} />
                 </div>
               </div>
             </Fragment>
@@ -127,11 +122,6 @@ export default ({
       query FooterQuery {
         globalSettings: settingsYaml {
           siteTitle
-          footer {
-            exceedText
-            exceedLogo
-            exceedTextLong
-          }
         }
       }
     `}

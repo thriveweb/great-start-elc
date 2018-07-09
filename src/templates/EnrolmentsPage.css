@@ -1,0 +1,19 @@
+.EnrolmentsPage {
+}
+
+.EnrolmentsPage--Section1 {
+}
+
+.EnrolmentsPage--Section1 .container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.EnrolmentsPage--Section1 .container > * {
+  width: calc(50% - 2rem);
+}
+
+.EnrolmentsPage--Section2--Step + .EnrolmentsPage--Section2--Step {
+  margin-top: 4rem;
+}

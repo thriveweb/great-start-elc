@@ -4,10 +4,15 @@ import Button from './Button'
 import Wave from './Wave'
 import './JoinBanner.css'
 
-export default ({ linkTo = '/', ...props }) => (
+export default ({
+  buttonLinkTo = '/',
+  buttonTitle = 'Enrol Now',
+  title = 'Join Our Community',
+  ...props
+}) => (
   <div className="col5 JoinBanner">
-    <h3 className="JoinBanner--title">Join Our Community</h3>
+    <h3 className="JoinBanner--title">{title}</h3>
     <Wave />
-    <Button to={linkTo}>Enrol Now</Button>
+    <Button to={buttonLinkTo}>{buttonTitle}</Button>
   </div>
 )

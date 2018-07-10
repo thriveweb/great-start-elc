@@ -17,13 +17,7 @@ export default ({
 }) => (
   <StaticQuery
     render={data => {
-      const {
-        siteTitle,
-        siteUrl,
-        siteDescription,
-        socialMediaCard,
-        headerScripts
-      } =
+      const { siteTitle, siteUrl, socialMediaCard, headerScripts } =
         data.settingsYaml || {}
       return (
         <Fragment>

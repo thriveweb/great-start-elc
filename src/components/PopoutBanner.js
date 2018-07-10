@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Button from './Button'
 import './PopoutBanner.css'
 
 export default ({ title, image }) => (

@@ -1,7 +1,6 @@
 import React from 'react'
 import { graphql, StaticQuery } from 'gatsby'
 
-import Button from './Button'
 import PopoutBanner from './PopoutBanner'
 import './ExceedBanner.css'
 

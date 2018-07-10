@@ -109,6 +109,7 @@ export default ({
                   href="https://thriveweb.com.au"
                   target="_blank"
                   className="colorInherit"
+                  rel="noopener noreferrer"
                 >
                   Thrive
                 </a>

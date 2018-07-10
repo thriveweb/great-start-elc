@@ -1,6 +1,5 @@
 import React from 'react'
 
-import NavLink from '../components/NavLink'
 import PageHeader from '../components/PageHeader'
 import EnquiryFormSimpleAjax from '../components/EnquiryFormSimpleAjax'
 import Content from '../components/Content'
@@ -37,6 +36,7 @@ export const ContactPageTemplate = ({
                   address
                 )}`}
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 <MapPin /> {address}
               </a>

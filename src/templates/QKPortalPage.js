@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
-import PopoutBanner from '../components/PopoutBanner.js'
 import './QKPortalPage.css'
 
 // Export Template for use in CMS preview

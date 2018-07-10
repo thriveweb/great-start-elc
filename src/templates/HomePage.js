@@ -43,7 +43,7 @@ export const HomePageTemplate = ({
                     <img
                       className="homeSection1--box--logo"
                       src={centre.logo}
-                      alt={centre.title}
+                      alt={centre.title || centre.description}
                     />
 
                     <p className="homeSection1--box--description">
@@ -82,7 +82,11 @@ export const HomePageTemplate = ({
               <div className="homeSection3--items">
                 {homeSection3.items.map(item => (
                   <div className="homeSection3--item" key={item.title}>
-                    <img src={item.icon} className="homeSection3--item--icon" />
+                    <img
+                      src={item.icon}
+                      className="homeSection3--item--icon"
+                      alt={item.title}
+                    />
                     <div>
                       <div className="homeSection3--item--title">
                         {item.title}

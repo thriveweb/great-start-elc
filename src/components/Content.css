@@ -52,4 +52,9 @@
     columns: 2;
     column-gap: 4rem;
   }
+
+  .Content ul li {
+    display: inline-block;
+    width: 100%;
+  }
 }

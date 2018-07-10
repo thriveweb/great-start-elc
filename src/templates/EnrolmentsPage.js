@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
 import Button from '../components/Button.js'
+import Accordion from '../components/Accordion.js'
 import BackgroundImage from '../components/BackgroundImage.js'
 import BreakoutBox from '../components/BreakoutBox.js'
 import JoinBanner from '../components/JoinBanner.js'
@@ -22,6 +23,7 @@ export const EnrolmentsPageTemplate = ({
   enrolmentsSection3,
   accordion
 }) => {
+  const awesome = 'r'
   return (
     <Layout>
       <main className="EnrolmentsPage">
@@ -43,7 +45,7 @@ export const EnrolmentsPageTemplate = ({
           </div>
         </section>
 
-        <section className="section">
+        <section className="">
           <div className="container content">
             <BreakoutBox title={breakoutBox.title}>
               <Content src={breakoutBox.content} />
@@ -82,6 +84,7 @@ export const EnrolmentsPageTemplate = ({
         <section className="section">
           <div className="container content">
             <Content src={enrolmentsSection3} />
+            <Accordion items={accordion} />
           </div>
         </section>
       </main>

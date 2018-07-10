@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 
-import Button from './Button'
 import Wave from './Wave'
 import './BreakoutBox.css'
 

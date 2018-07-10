@@ -1,0 +1,79 @@
+.Accordion {
+  width: 100%;
+}
+
+.Accordion > * + * {
+  margin-top: 3rem;
+}
+
+.Accordion--item {
+  padding: 1rem;
+  background: white;
+  padding: 1.5rem;
+  padding: 3rem;
+  border: 3px solid var(--lightGrey);
+  transform: translateY(0px);
+}
+
+.Accordion--item h2 {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.6rem;
+  display: block;
+  margin: 0;
+}
+
+.Accordion--item h2:after {
+  content: '+';
+  float: right;
+  font-size: 4rem;
+  color: var(--midGrey);
+  line-height: 1;
+  font-weight: 300;
+  position: relative;
+  top: -1rem;
+}
+
+.Accordion--item.active {
+  border-color: currentColor;
+  box-shadow: 8px 10px 0 var(--col4);
+}
+
+.Accordion--item.active h2 {
+  color: var(--primary);
+}
+.Accordion--item.active h2:after {
+  content: '-';
+  float: right;
+  font-size: 4rem;
+  color: var(--darkGrey);
+  line-height: 1;
+  font-weight: 300;
+  top: -1.5rem;
+}
+
+.Accordion--item.active .Accordion--item--content:before {
+  content: '';
+  background: var(--primary);
+  height: 2px;
+  width: 33.33%;
+  display: block;
+  margin: 1rem 0;
+}
+
+.Accordion--item {
+  animation-fill-mode: both;
+}
+
+.Accordion--item.active {
+  animation: Accordion--Item 0.2s ease-out forwards;
+}
+
+@keyframes Accordion--Item {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-1px);
+  }
+}

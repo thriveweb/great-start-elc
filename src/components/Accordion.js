@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Content from './Content'
 import './Accordion.css'
 
 export default class Accordion extends React.Component {
@@ -31,7 +32,7 @@ export default class Accordion extends React.Component {
               <h2 onClick={() => this.handleClick(index)}>{item.title}</h2>
               {active && (
                 <div className="Accordion--item--content">
-                  {item.content} <br />
+                  <Content src={item.content} />
                   {item.link && (
                     <a href={item.link} className="button">
                       {item.linkTitle}

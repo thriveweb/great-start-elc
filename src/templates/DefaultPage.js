@@ -3,8 +3,9 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
 import PageHeader from '../components/PageHeader'
-import Content from '../components/Content.js'
-import PopoutBanner from '../components/PopoutBanner.js'
+import Content from '../components/Content'
+import Accordion from '../components/Accordion'
+import PopoutBanner from '../components/PopoutBanner'
 import './DefaultPage.css'
 
 // Export Template for use in CMS preview
@@ -14,6 +15,7 @@ export const DefaultPageTemplate = ({
   featuredImage,
   downloadBanner,
   popoutBanner,
+  accordion,
   rawMarkdownBody
 }) => {
   const simpleFooter = !!popoutBanner
@@ -26,11 +28,16 @@ export const DefaultPageTemplate = ({
 
         <PageHeader title={title} subtitle={subtitle} />
 
-        <div className="section">
+        <section className="section">
           <div className="container content">
             <Content source={rawMarkdownBody} />
           </div>
-        </div>
+          <br />
+          <br />
+          <div className="container content">
+            <Accordion items={accordion} />
+          </div>
+        </section>
 
         {popoutBanner && (
           <PopoutBanner image={popoutBanner.image} title={popoutBanner.title} />
@@ -63,6 +70,10 @@ export const pageQuery = graphql`
           file
           title
           preview
+        }
+        accordion {
+          title
+          content
         }
       }
     }

@@ -23,9 +23,8 @@ export const EnrolmentsPageTemplate = ({
   enrolmentsSection3,
   accordion
 }) => {
-  const awesome = 'r'
   return (
-    <Layout>
+    <Layout showHandbook>
       <main className="EnrolmentsPage">
         <Helmet>
           <title>{title}</title>

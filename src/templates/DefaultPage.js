@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
@@ -32,11 +32,15 @@ export const DefaultPageTemplate = ({
           <div className="container content">
             <Content source={rawMarkdownBody} />
           </div>
-          <br />
-          <br />
-          <div className="container content">
-            <Accordion items={accordion} />
-          </div>
+          {accordion && (
+            <Fragment>
+              <br />
+              <br />
+              <div className="container content">
+                <Accordion items={accordion} />
+              </div>
+            </Fragment>
+          )}
         </section>
 
         {popoutBanner && (

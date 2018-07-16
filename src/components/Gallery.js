@@ -31,7 +31,9 @@ export default ({ images = [], alt = '' }) => {
     <div className="Gallery">
       <Swiper {...params}>
         {images.map((image, index) => (
-          <Image key={image + index} src={image} alt={alt} />
+          <div>
+            <Image key={image + index} src={image} alt={alt} />
+          </div>
         ))}
       </Swiper>
     </div>

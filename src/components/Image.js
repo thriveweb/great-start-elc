@@ -1,6 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import GatsbyImage from 'gatsby-image'
 import PropTypes from 'prop-types'
+import _get from 'lodash/get'
 
 import { extractChildImageSharp } from '../utils'
 import './Image.css'
@@ -24,8 +26,22 @@ class Image extends React.Component {
       alt
     } = this.props
 
+    const fluid = extractChildImageSharp(src, 'fluid')
+    const fixed = extractChildImageSharp(src, 'fixed')
     const imageSrcSet = srcSet || extractChildImageSharp(src, 'srcSet')
     const imageSrc = extractChildImageSharp(src || source)
+
+    if (fluid || fixed) {
+      return (
+        <GatsbyImage
+          className={`Image ${className}`}
+          fluid={fluid}
+          fixed={fixed}
+          onClick={onClick}
+          alt={alt}
+        />
+      )
+    }
 
     return (
       <img
@@ -50,30 +66,24 @@ export const query = graphql`
   fragment LargeImage on File {
     publicURL
     childImageSharp {
-      sizes(maxWidth: 1800) {
-        src
-        srcSet
-        srcWebp
+      fluid(maxWidth: 1800) {
+        ...GatsbyImageSharpFluid_withWebp_tracedSVG
       }
     }
   }
   fragment MediumImage on File {
     publicURL
     childImageSharp {
-      sizes(maxWidth: 800) {
-        src
-        srcSet
-        srcWebp
+      fluid(maxWidth: 1800) {
+        ...GatsbyImageSharpFluid_withWebp_tracedSVG
       }
     }
   }
   fragment SmallImage on File {
     publicURL
     childImageSharp {
-      sizes(maxWidth: 400) {
-        src
-        srcSet
-        srcWebp
+      fluid(maxWidth: 400) {
+        ...GatsbyImageSharpFluid_withWebp_tracedSVG
       }
     }
   }

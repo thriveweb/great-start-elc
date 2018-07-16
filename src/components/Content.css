@@ -1,5 +1,4 @@
 .Content {
-  white-space: pre-line;
 }
 
 .Content:after {
@@ -8,7 +7,8 @@
   clear: both;
 }
 
-.Content--Image {
+.Content--Image,
+.Content img {
   max-width: 100%;
   height: auto;
   margin: 3rem auto;
@@ -41,11 +41,11 @@
 }
 
 @media (min-width: 1000px) {
-  .Content--Image {
-    max-width: 50%;
-    height: auto;
+  .Content--Image,
+  .Content .gatsby-resp-image-wrapper {
+    width: 50%;
     float: left;
-    margin: 1rem 3rem 2rem 0;
+    margin: 1rem 3rem 2rem 0 !important;
   }
 
   .Content ul {

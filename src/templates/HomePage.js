@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import PageHeader from '../components/PageHeader'
 import Wave from '../components/Wave'
 import BackgroundImage from '../components/BackgroundImage'
+import Image from '../components/Image'
 import Content from '../components/Content'
 import Button from '../components/Button'
 
@@ -40,7 +41,7 @@ export const HomePageTemplate = ({
                     className="hasBorder hasShadowHover homeSection1--box"
                     to={centre.linkTo}
                   >
-                    <img
+                    <Image
                       className="homeSection1--box--logo"
                       src={centre.logo}
                       alt={centre.title || centre.description}
@@ -82,7 +83,7 @@ export const HomePageTemplate = ({
               <div className="homeSection3--items">
                 {homeSection3.items.map(item => (
                   <div className="homeSection3--item" key={item.title}>
-                    <img
+                    <Image
                       src={item.icon}
                       className="homeSection3--item--icon"
                       alt={item.title}
@@ -164,7 +165,7 @@ export const pageQuery = graphql`
           title
           centres {
             logo {
-              ...LargeImage
+              ...SmallImage
             }
             description
             linkTo
@@ -176,14 +177,14 @@ export const pageQuery = graphql`
           content
           linkTo
           image {
-            ...LargeImage
+            ...MediumImage
           }
         }
         homeSection3 {
           title
           items {
             icon {
-              ...LargeImage
+              ...SmallImage
             }
             title
             subtitle
@@ -191,10 +192,10 @@ export const pageQuery = graphql`
         }
         homeSection4 {
           image1 {
-            ...LargeImage
+            ...MediumImage
           }
           image2 {
-            ...LargeImage
+            ...MediumImage
           }
           items {
             title

@@ -1,4 +1,5 @@
 import React from 'react'
+import GatsbyImage from 'gatsby-image'
 
 import { extractChildImageSharp } from '../utils'
 import './BackgroundImage.css'

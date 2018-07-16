@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import PageHeader from '../components/PageHeader'
@@ -16,7 +17,7 @@ export const DefaultPageTemplate = ({
   downloadBanner,
   popoutBanner,
   accordion,
-  rawMarkdownBody
+  body
 }) => {
   const simpleFooter = !!popoutBanner
   return (
@@ -30,7 +31,7 @@ export const DefaultPageTemplate = ({
 
         <section className="section">
           <div className="container content">
-            <Content source={rawMarkdownBody} />
+            <Content source={body} />
           </div>
           {accordion && (
             <Fragment>
@@ -53,8 +54,9 @@ export const DefaultPageTemplate = ({
 
 const DefaultPage = ({ data }) => {
   const { markdownRemark: page } = data
-
-  return <DefaultPageTemplate {...page} {...page.frontmatter} />
+  return (
+    <DefaultPageTemplate {...page} {...page.frontmatter} body={page.html} />
+  )
 }
 
 export default DefaultPage
@@ -65,7 +67,7 @@ export default DefaultPage
 export const pageQuery = graphql`
   query DefaultPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      rawMarkdownBody
+      html
       frontmatter {
         title
         subtitle

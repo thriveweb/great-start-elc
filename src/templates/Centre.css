@@ -56,7 +56,7 @@
 .Centre--DirectorStatement--Image {
   margin: 0 3rem 1rem 0;
   float: left;
-  max-width: 45%;
+  width: 45%;
 }
 
 .Centre--Gallery--Title {

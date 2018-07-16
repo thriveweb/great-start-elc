@@ -34,7 +34,7 @@ const HtmlBlock = ({ value }) => {
 
 const Content = ({ source, src, className = '' }) => {
   // accepts either html or markdown
-  source = source || src
+  source = source || src || ''
   if (source.match(/^</)) {
     // If source is html (starts with '<')
     return (

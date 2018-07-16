@@ -8,12 +8,7 @@ import BookForm from '../components/BookForm'
 import './BookPage.css'
 
 // Export Template for use in CMS preview
-export const BookPageTemplate = ({
-  title,
-  subtitle,
-  featuredImage,
-  rawMarkdownBody
-}) => {
+export const BookPageTemplate = ({ title, subtitle, featuredImage, body }) => {
   return (
     <Layout showHandbook>
       <main className="BookPage">
@@ -25,7 +20,7 @@ export const BookPageTemplate = ({
 
         <div className="section">
           <div className="container content">
-            <Content source={rawMarkdownBody} />
+            <Content source={body} />
 
             <BookForm />
           </div>
@@ -38,7 +33,7 @@ export const BookPageTemplate = ({
 const BookPage = ({ data }) => {
   const { markdownRemark: page } = data
 
-  return <BookPageTemplate {...page} {...page.frontmatter} />
+  return <BookPageTemplate {...page} {...page.frontmatter} body={page.html} />
 }
 
 export default BookPage
@@ -49,12 +44,13 @@ export default BookPage
 export const pageQuery = graphql`
   query BookPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      rawMarkdownBody
-
+      html
       frontmatter {
         title
         subtitle
-        featuredImage
+        featuredImage {
+          ...LargeImage
+        }
       }
     }
   }

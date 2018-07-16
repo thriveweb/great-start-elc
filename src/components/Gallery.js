@@ -3,6 +3,7 @@ import { ChevronRight, ChevronLeft } from 'react-feather'
 import Swiper from 'react-id-swiper/lib/custom'
 import 'react-id-swiper/src/styles/css/swiper.css'
 
+import Image from './Image'
 import './Gallery.css'
 
 export default ({ images = [], alt = '' }) => {
@@ -30,7 +31,7 @@ export default ({ images = [], alt = '' }) => {
     <div className="Gallery">
       <Swiper {...params}>
         {images.map((image, index) => (
-          <img key={image + index} src={image} alt={alt} />
+          <Image key={image + index} src={image} alt={alt} />
         ))}
       </Swiper>
     </div>

@@ -109,7 +109,9 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subtitle
-        featuredImage
+        featuredImage {
+          ...LargeImage
+        }
         enrolmentsSection1 {
           title
         }

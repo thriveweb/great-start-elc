@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
+import Image from '../components/Image'
 import Button from '../components/Button'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
@@ -42,7 +43,7 @@ export const CentreTemplate = ({
 
         <section className="section Centre--Intro">
           <div className="container content">
-            <img className="Centre--Intro--Logo" src={logo} alt={title} />
+            <Image className="Centre--Intro--Logo" src={logo} alt={title} />
             <h5 className="Centre--Intro--Title">{centreIntro}</h5>
           </div>
         </section>
@@ -94,7 +95,7 @@ export const CentreTemplate = ({
                       className="Centre--ClassroomsSection--Item"
                       key={item.title}
                     >
-                      <img
+                      <Image
                         className="Centre--ClassroomsSection--Item--Icon"
                         src={item.icon}
                         alt={item.title}
@@ -124,7 +125,7 @@ export const CentreTemplate = ({
                 {directorStatement.title}
               </h5>
               {directorStatement.image && (
-                <img
+                <Image
                   className="Centre--DirectorStatement--Image"
                   src={directorStatement.image}
                   alt={directorStatement.title}
@@ -188,7 +189,9 @@ export const pageQuery = graphql`
       rawMarkdownBody
       frontmatter {
         title
-        logo
+        logo {
+          ...LargeImage
+        }
         centreIntro
         centreDetails {
           openingHours
@@ -200,7 +203,9 @@ export const pageQuery = graphql`
           title
           subtitle
           items {
-            icon
+            icon {
+              ...SmallImage
+            }
             title
             subtitle
           }
@@ -210,11 +215,15 @@ export const pageQuery = graphql`
           testimonial
         }
         directorStatement {
-          image
+          image {
+            ...MediumImage
+          }
           title
           content
         }
-        gallery
+        gallery {
+          ...LargeImage
+        }
         additionalInfoBoxes {
           title
           content

@@ -90,7 +90,9 @@ export const pageQuery = graphql`
         title
         template
         subtitle
-        featuredImage
+        featuredImage {
+          ...LargeImage
+        }
       }
     }
   }

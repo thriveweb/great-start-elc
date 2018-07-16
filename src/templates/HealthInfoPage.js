@@ -6,10 +6,10 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Accordion from '../components/Accordion'
 import PopoutBanner from '../components/PopoutBanner'
-import './DefaultPage.css'
+import './HealthInfoPage.css'
 
 // Export Template for use in CMS preview
-export const DefaultPageTemplate = ({
+export const HealthInfoPageTemplate = ({
   title,
   subtitle,
   featuredImage,
@@ -21,7 +21,7 @@ export const DefaultPageTemplate = ({
   const simpleFooter = !!popoutBanner
   return (
     <Layout downloadBanner={downloadBanner} simpleFooter={simpleFooter}>
-      <main className="DefaultPage">
+      <main className="HealthInfoPage">
         <Helmet>
           <title>{title}</title>
         </Helmet>
@@ -51,32 +51,38 @@ export const DefaultPageTemplate = ({
   )
 }
 
-const DefaultPage = ({ data }) => {
+const HealthInfoPage = ({ data }) => {
   const { markdownRemark: page } = data
 
-  return <DefaultPageTemplate {...page} {...page.frontmatter} />
+  return <HealthInfoPageTemplate {...page} {...page.frontmatter} />
 }
 
-export default DefaultPage
+export default HealthInfoPage
 
-// Query for DefaultPage data
+// Query for HealthInfoPage data
 // Use GraphiQL interface (http://localhost:8000/___graphql)
 // ID is processed via gatsby-node.js
 export const pageQuery = graphql`
-  query DefaultPage($id: String!) {
+  query HealthInfoPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       rawMarkdownBody
       frontmatter {
         title
         subtitle
         featuredImage {
-          ...LargeImage
+          childImageSharp {
+            sizes(maxWidth: 1800) {
+              src
+              srcSet
+              srcWebp
+            }
+          }
         }
         downloadBanner {
+          title
           file {
             publicURL
           }
-          title
           preview {
             ...LargeImage
           }

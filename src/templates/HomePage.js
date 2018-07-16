@@ -157,11 +157,15 @@ export const pageQuery = graphql`
         title
         template
         subtitle
-        featuredImage
+        featuredImage {
+          ...LargeImage
+        }
         homeSection1 {
           title
           centres {
-            logo
+            logo {
+              ...LargeImage
+            }
             description
             linkTo
           }
@@ -171,19 +175,27 @@ export const pageQuery = graphql`
           subtitle
           content
           linkTo
-          image
+          image {
+            ...LargeImage
+          }
         }
         homeSection3 {
           title
           items {
-            icon
+            icon {
+              ...LargeImage
+            }
             title
             subtitle
           }
         }
         homeSection4 {
-          image1
-          image2
+          image1 {
+            ...LargeImage
+          }
+          image2 {
+            ...LargeImage
+          }
           items {
             title
             description

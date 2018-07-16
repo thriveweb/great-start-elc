@@ -8,6 +8,14 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     `gatsby-transformer-yaml`,
 
+    // Add static assets before markdown files
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/images/uploads`,
+        name: 'uploads'
+      }
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -23,35 +31,27 @@ module.exports = {
       }
     },
 
+    // images
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+
     {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           // gatsby-remark-relative-images must
           // go before gatsby-remark-images
-          // {
-          //   resolve: `gatsby-remark-relative-images`
-          // },
-          // {
-          //   resolve: `gatsby-remark-images`,
-          //   options: {
-          //     maxWidth: 650
-          //   }
-          // },
-          // {
-          //   resolve: `gatsby-remark-responsive-iframe`,
-          //   options: {
-          //     wrapperStyle: `margin-bottom: 1.0725rem`
-          //   }
-          // }
+          'gatsby-remark-relative-images',
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 800,
+              linkImagesToOriginal: false
+            }
+          }
         ]
       }
     },
-
-    // images
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
-
     // css
     // {
     //   resolve: `gatsby-plugin-postcss-sass`,
@@ -63,6 +63,8 @@ module.exports = {
     //     ]
     //   }
     // },
+    'gatsby-plugin-sitemap',
+
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {

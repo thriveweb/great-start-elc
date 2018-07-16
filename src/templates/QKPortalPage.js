@@ -49,11 +49,17 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subtitle
-        featuredImage
+        featuredImage {
+          ...LargeImage
+        }
         downloadBanner {
-          file
           title
-          preview
+          file {
+            publicURL
+          }
+          preview {
+            ...LargeImage
+          }
         }
       }
     }

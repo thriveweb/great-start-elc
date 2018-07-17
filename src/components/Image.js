@@ -10,10 +10,6 @@ import './Image.css'
 // Not lazy yet
 
 class Image extends React.Component {
-  static defaultProps = {
-    lazy: false
-  }
-
   render() {
     let {
       className = '',
@@ -21,9 +17,10 @@ class Image extends React.Component {
       srcSet,
       source,
       sizes,
-      // lazy,
       onClick,
-      alt
+      alt,
+      style,
+      ...props
     } = this.props
 
     const fluid = extractChildImageSharp(src, 'fluid')
@@ -39,13 +36,14 @@ class Image extends React.Component {
           fixed={fixed}
           onClick={onClick}
           alt={alt}
+          style={style}
         />
       )
     }
 
     return (
       <img
-        className={`Image loaded ${className}`}
+        className={`Image Normal-Image ${className}`}
         src={imageSrc}
         srcSet={imageSrcSet}
         sizes={sizes || '100vw'}
@@ -63,27 +61,51 @@ Image.propTypes = {
 export default Image
 
 export const query = graphql`
-  fragment LargeImage on File {
+  fragment LargeImageFluid on File {
     publicURL
     childImageSharp {
       fluid(maxWidth: 1800) {
         ...GatsbyImageSharpFluid_withWebp_tracedSVG
+      }
+    }
+  }
+  fragment MediumImageFluid on File {
+    publicURL
+    childImageSharp {
+      fluid(maxWidth: 800) {
+        ...GatsbyImageSharpFluid_withWebp_tracedSVG
+      }
+    }
+  }
+  fragment SmallImageFluid on File {
+    publicURL
+    childImageSharp {
+      fluid(maxWidth: 400) {
+        ...GatsbyImageSharpFluid_withWebp_tracedSVG
+      }
+    }
+  }
+  fragment LargeImage on File {
+    publicURL
+    childImageSharp {
+      fixed(width: 1800) {
+        ...GatsbyImageSharpFixed_withWebp_tracedSVG
       }
     }
   }
   fragment MediumImage on File {
     publicURL
     childImageSharp {
-      fluid(maxWidth: 1800) {
-        ...GatsbyImageSharpFluid_withWebp_tracedSVG
+      fixed(width: 800) {
+        ...GatsbyImageSharpFixed_withWebp_tracedSVG
       }
     }
   }
   fragment SmallImage on File {
     publicURL
     childImageSharp {
-      fluid(maxWidth: 400) {
-        ...GatsbyImageSharpFluid_withWebp_tracedSVG
+      fixed(width: 400) {
+        ...GatsbyImageSharpFixed_withWebp_tracedSVG
       }
     }
   }

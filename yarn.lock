@@ -4857,12 +4857,11 @@ gatsby-react-router-scroll@^2.0.0-beta.2:
     warning "^3.0.0"
 
 gatsby-remark-images@^2.0.1-beta.6:
-  version "2.0.1-beta.6"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-2.0.1-beta.6.tgz#858493a66946bef86ce5bbdaeb1c6047691b68c0"
+  version "2.0.1-beta.7"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-2.0.1-beta.7.tgz#b7e71e7a7c16353eb4da5ff6e44b70f74a1a4e6a"
   dependencies:
     "@babel/runtime" "7.0.0-beta.51"
     cheerio "^1.0.0-rc.2"
-    gatsby-plugin-sharp "^2.0.0-beta.5"
     is-relative-url "^2.0.0"
     lodash "^4.17.4"
     slash "^1.0.0"
@@ -4922,8 +4921,8 @@ gatsby-transformer-remark@^2.1.1-beta.3:
     unist-util-visit "^1.3.0"
 
 gatsby-transformer-sharp@^2.1.1-beta.3:
-  version "2.1.1-beta.3"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.1.1-beta.3.tgz#63e4d5a3997f5fe4f38bdba3a9e5a6d276f606c6"
+  version "2.1.1-beta.4"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.1.1-beta.4.tgz#ac441a5807b64b5d8b6744033a181f3f818a7cc3"
   dependencies:
     "@babel/runtime" "7.0.0-beta.51"
     bluebird "^3.5.0"
@@ -6680,6 +6679,10 @@ js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
+"js-tokens@^3.0.0 || ^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
+
 js-yaml@3.7.0, js-yaml@~3.7.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.7.0.tgz#5c967ddd837a9bfdca5f2de84253abe8a1c03b80"
@@ -7176,11 +7179,17 @@ longest@^1.0.0, longest@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/longest/-/longest-1.0.1.tgz#30a0b2da38f73770e8294a0d22e6625ed77d0097"
 
-loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3.1:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.3.1.tgz#d1a8ad33fa9ce0e713d65fdd0ac8b748d478c848"
   dependencies:
     js-tokens "^3.0.0"
+
+loose-envify@^1.3.1:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  dependencies:
+    js-tokens "^3.0.0 || ^4.0.0"
 
 loud-rejection@^1.0.0, loud-rejection@^1.2.0, loud-rejection@^1.6.0:
   version "1.6.0"

@@ -52,22 +52,17 @@ export const DefaultPageTemplate = ({
   )
 }
 
-const DefaultPage = ({ data }) => {
-  const { markdownRemark: page } = data
-  return (
-    <DefaultPageTemplate {...page} {...page.frontmatter} body={page.html} />
-  )
-}
+const DefaultPage = ({ data: { page } }) => (
+  <DefaultPageTemplate {...page} {...page.frontmatter} body={page.html} />
+)
 
 export default DefaultPage
 
-// Query for DefaultPage data
-// Use GraphiQL interface (http://localhost:8000/___graphql)
-// ID is processed via gatsby-node.js
 export const pageQuery = graphql`
   query DefaultPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+    page: markdownRemark(id: { eq: $id }) {
       html
+      rawMarkdownBody
       frontmatter {
         title
         subtitle

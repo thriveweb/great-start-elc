@@ -49,7 +49,8 @@ module.exports = {
               maxWidth: 800,
               linkImagesToOriginal: false
             }
-          }
+          },
+          `gatsby-remark-responsive-iframe`
         ]
       }
     },

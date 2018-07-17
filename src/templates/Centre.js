@@ -190,7 +190,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         logo {
-          ...LargeImage
+          ...FluidImage
         }
         centreIntro
         centreDetails {
@@ -222,7 +222,7 @@ export const pageQuery = graphql`
           content
         }
         gallery {
-          ...LargeImageFluid
+          ...FluidImage
         }
         additionalInfoBoxes {
           title

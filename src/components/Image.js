@@ -64,7 +64,7 @@ export const query = graphql`
   fragment LargeImageFluid on File {
     publicURL
     childImageSharp {
-      fluid(maxWidth: 1800) {
+      fluid(maxWidth: 1800, quality: 80) {
         ...GatsbyImageSharpFluid_withWebp_tracedSVG
       }
     }
@@ -72,7 +72,7 @@ export const query = graphql`
   fragment MediumImageFluid on File {
     publicURL
     childImageSharp {
-      fluid(maxWidth: 800) {
+      fluid(maxWidth: 800, quality: 80) {
         ...GatsbyImageSharpFluid_withWebp_tracedSVG
       }
     }
@@ -80,7 +80,7 @@ export const query = graphql`
   fragment SmallImageFluid on File {
     publicURL
     childImageSharp {
-      fluid(maxWidth: 400) {
+      fluid(maxWidth: 400, quality: 80) {
         ...GatsbyImageSharpFluid_withWebp_tracedSVG
       }
     }
@@ -88,7 +88,7 @@ export const query = graphql`
   fragment LargeImage on File {
     publicURL
     childImageSharp {
-      fixed(width: 1800) {
+      fixed(width: 1800, quality: 80) {
         ...GatsbyImageSharpFixed_withWebp_tracedSVG
       }
     }
@@ -96,7 +96,7 @@ export const query = graphql`
   fragment MediumImage on File {
     publicURL
     childImageSharp {
-      fixed(width: 800) {
+      fixed(width: 800, quality: 80) {
         ...GatsbyImageSharpFixed_withWebp_tracedSVG
       }
     }
@@ -104,7 +104,7 @@ export const query = graphql`
   fragment SmallImage on File {
     publicURL
     childImageSharp {
-      fixed(width: 400) {
+      fixed(width: 400, quality: 80) {
         ...GatsbyImageSharpFixed_withWebp_tracedSVG
       }
     }

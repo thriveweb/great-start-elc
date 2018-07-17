@@ -5,6 +5,9 @@
 
 .DownloadBanner--Image {
   margin-right: 4rem;
+  display: block;
+  flex-shrink: 0;
+  width: auto;
 }
 
 .DownloadBanner--Button {

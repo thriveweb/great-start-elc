@@ -17,7 +17,7 @@ export const HealthInfoPageTemplate = ({
   downloadBanner,
   popoutBanner,
   accordion,
-  rawMarkdownBody
+  body
 }) => {
   const simpleFooter = !!popoutBanner
   return (
@@ -31,7 +31,7 @@ export const HealthInfoPageTemplate = ({
 
         <section className="section">
           <div className="container content">
-            <Content source={rawMarkdownBody} />
+            <Content source={body} />
           </div>
           {accordion && (
             <Fragment>
@@ -55,18 +55,17 @@ export const HealthInfoPageTemplate = ({
 const HealthInfoPage = ({ data }) => {
   const { markdownRemark: page } = data
 
-  return <HealthInfoPageTemplate {...page} {...page.frontmatter} />
+  return (
+    <HealthInfoPageTemplate {...page} {...page.frontmatter} body={page.html} />
+  )
 }
 
 export default HealthInfoPage
 
-// Query for HealthInfoPage data
-// Use GraphiQL interface (http://localhost:8000/___graphql)
-// ID is processed via gatsby-node.js
 export const pageQuery = graphql`
   query HealthInfoPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      rawMarkdownBody
+      html
       frontmatter {
         title
         subtitle

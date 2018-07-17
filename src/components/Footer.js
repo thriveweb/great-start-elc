@@ -26,7 +26,10 @@ export default ({
               </div>
 
               {showHandbook && (
-                <FamilyHandbookSection image="/images/uploads/handbook.jpg" />
+                <FamilyHandbookSection
+                  image={footer.handbookImage}
+                  file={footer.handbookFile}
+                />
               )}
 
               <div className="section thin">
@@ -123,6 +126,10 @@ export default ({
       query FooterQuery {
         globalSettings: settingsYaml {
           siteTitle
+          footer {
+            handbookFile
+            handbookImage
+          }
         }
       }
     `}

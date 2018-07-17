@@ -1,5 +1,5 @@
 ---
-template: DefaultPage
+template: HealthInfoPage
 slug: 'parents/health-information'
 title: Health and Medication Information
 ---

@@ -80,7 +80,7 @@ export const pageQuery = graphql`
           }
           title
           preview {
-            ...LargeImage
+            ...SmallImage
           }
         }
         accordion {

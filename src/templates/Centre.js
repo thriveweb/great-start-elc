@@ -222,7 +222,7 @@ export const pageQuery = graphql`
           content
         }
         gallery {
-          ...LargeImage
+          ...LargeImageFluid
         }
         additionalInfoBoxes {
           title

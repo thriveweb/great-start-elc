@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, StaticQuery, graphql } from 'gatsby'
+import Link from 'gatsby-link'
 import { User } from 'react-feather'
 import _get from 'lodash/get'
 import _kebabCase from 'lodash/kebabCase'

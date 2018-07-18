@@ -7,6 +7,7 @@
     "dom-form-serializer": "^1.0.7",
     "gatsby": "^1.9.274",
     "gatsby-image": "^1.0.55",
+    "gatsby-link": "^1.6.46",
     "gatsby-plugin-netlify": "^1.0.21",
     "gatsby-plugin-netlify-cms": "^2.0.1",
     "gatsby-plugin-react-helmet": "^2.0.11",

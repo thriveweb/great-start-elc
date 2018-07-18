@@ -66,6 +66,7 @@
 ## gatsby v1 rollback
 
 - reinstall all `gatsby-` packages in `package.json` including `gatsby` (`npm i gatsby`, `yarn add gatby`)
+- install `gatsby-link`
 - `gatsby-node.js` actions -> boundActionCreators
 - search-replace `pageContext` with `pathContext`
 - move and rename `Layout.js` to `src/layouts/index.js` will require editing:
@@ -76,4 +77,4 @@
 - copy `src/utils` from [Gatsbro](https://github.com/Jinksi/gatsbro/blob/master/src/utils.js)
 - copy `src/components/Image` from [Gatsbro](https://github.com/Jinksi/gatsbro/tree/master/src/components/Image.js)
 - remove any `StaticQuery`, if using query, will need move this query to a page or the main layout and pass down as props
-- remove `<Layout>` and Layout import from all `src/templates`
+- remove `<Layout>` and Layout import from all `src/templates` and `src/pages`

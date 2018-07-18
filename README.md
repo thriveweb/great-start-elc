@@ -62,3 +62,17 @@
   - Detailed form
 - OTHER PAGES
   - FAQs (accordion style), disclaimers, templates and landing pages
+
+## gatsby v1 rollback
+
+- reinstall all `gatsby-` packages in `package.json` including `gatsby` (`npm i gatsby`, `yarn add gatby`)
+- `gatsby-node.js` actions -> boundActionCreators
+- search-replace `pageContext` with `pathContext`
+- move and rename `Layout.js` to `src/layouts/index.js` will require editing:
+  - [see Gatsbro](https://github.com/Jinksi/gatsbro/blob/master/src/layouts/index.js)
+  - `{children}` -> `{children()}`
+- import `Link` is now from `gatsby-link` not `gatsby`
+- remove import `{ graphql }` from `gatsby` - not needed
+- copy `src/utils` from [Gatsbro](https://github.com/Jinksi/gatsbro/blob/master/src/utils.js)
+- copy `src/components/Image` from [Gatsbro](https://github.com/Jinksi/gatsbro/tree/master/src/components/Image.js)
+- remove any `StaticQuery`, if using query, will need move this query to a page or the main layout and pass down as props

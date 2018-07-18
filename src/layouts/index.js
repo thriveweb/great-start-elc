@@ -12,6 +12,7 @@ export default ({ children, data }) => {
   const { siteTitle, siteUrl, socialMediaCard, headerScripts } =
     data.settingsYaml || {}
   const { showHandbook = false, simpleFooter = false, downloadBanner } = data
+  const allPages = data.allPages.edges.map(edge => edge.node)
 
   return (
     <Fragment>
@@ -36,7 +37,7 @@ export default ({ children, data }) => {
         }
       />
 
-      <Nav />
+      <Nav allPages={allPages} />
 
       <Fragment>{children()}</Fragment>
 
@@ -65,6 +66,19 @@ export const query = graphql`
         image
         twitterCreatorAccount
         twitterSiteAccount
+      }
+    }
+
+    allPages: allMarkdownRemark {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
       }
     }
   }

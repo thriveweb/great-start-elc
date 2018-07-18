@@ -1,8 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { graphql } from 'gatsby'
 
-import Layout from '../components/Layout'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
 import './QKPortalPage.css'
@@ -15,21 +13,21 @@ export const QKPortalPageTemplate = ({
   downloadBanner,
   rawMarkdownBody
 }) => (
-  <Layout downloadBanner={downloadBanner}>
-    <main className="QKPortalPage">
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
+  // downloadBanner={downloadBanner}
 
-      <PageHeader title={title} subtitle={subtitle} />
+  <main className="QKPortalPage">
+    <Helmet>
+      <title>{title}</title>
+    </Helmet>
 
-      <div className="section">
-        <div className="container content">
-          <Content source={rawMarkdownBody} />
-        </div>
+    <PageHeader title={title} subtitle={subtitle} />
+
+    <div className="section">
+      <div className="container content">
+        <Content source={rawMarkdownBody} />
       </div>
-    </main>
-  </Layout>
+    </div>
+  </main>
 )
 
 const QKPortalPage = ({ data }) => {

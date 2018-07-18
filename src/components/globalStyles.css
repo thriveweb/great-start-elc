@@ -82,6 +82,11 @@ ul li:before {
   height: 1rem;
 }
 
+ol ul,
+ul ul {
+  margin-bottom: 0;
+}
+
 ol {
   padding-left: 1em;
 }

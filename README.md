@@ -76,3 +76,4 @@
 - copy `src/utils` from [Gatsbro](https://github.com/Jinksi/gatsbro/blob/master/src/utils.js)
 - copy `src/components/Image` from [Gatsbro](https://github.com/Jinksi/gatsbro/tree/master/src/components/Image.js)
 - remove any `StaticQuery`, if using query, will need move this query to a page or the main layout and pass down as props
+- remove `<Layout>` and Layout import from all `src/templates`

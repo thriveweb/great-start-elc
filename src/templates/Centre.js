@@ -138,7 +138,7 @@ export const CentreTemplate = ({
         <section className="section thin Centre--Gallery">
           <div className="container taCenter">
             <h3 className="Centre--Gallery--Title">Centre Gallery</h3>
-            <Gallery images={gallery} />
+            <Gallery images={gallery.map(item => item.image)} />
           </div>
         </section>
       )}
@@ -216,7 +216,9 @@ export const pageQuery = graphql`
           content
         }
         gallery {
-          ...FluidImage
+          image {
+            ...FluidImage
+          }
         }
         additionalInfoBoxes {
           title

@@ -138,8 +138,9 @@ collections: # A list of collections the CMS should be able to edit
       preview: true
     folder: content/defaultPages
     slug: "{{slug}}"
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
+    delete: false
+    create: true
+    fields:
       - {label: Template, name: template, widget: hidden, default: DefaultPage}
       - {label: Slug, name: slug, widget: string, default: ''}
       - {label: Title, name: title, widget: string}
@@ -150,7 +151,7 @@ collections: # A list of collections the CMS should be able to edit
         required: false
         widget: "object"
         fields:
-          - {label: Title, name: title, widget: text, required: false}
+          - {label: Title, name: title, widget: string, required: false}
           - {label: File, name: file, widget: file, required: false}
           - {label: Preview Image, name: preview, widget: image, required: false}
       - label: Accordion
@@ -158,8 +159,87 @@ collections: # A list of collections the CMS should be able to edit
         required: false
         widget: "object"
         fields:
-          - {label: Title, name: title, widget: text, required: false}
+          - {label: Title, name: title, widget: string, required: false}
           - {label: Content, name: content, widget: markdown, required: false}
+      - label: "Meta"
+        required: false
+        name: "meta"
+        widget: "object"
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+          - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+          - {label: Noindex, name: noindex, widget: boolean, required: false}
+
+
+  - name: centres
+    label: Centre
+    editor:
+      preview: true
+    folder: content/centres
+    slug: "{{slug}}"
+    create: false # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: Template, name: template, widget: hidden, default: Centre}
+      # - {label: Slug, name: slug, widget: string, default: ''}
+      - {label: Title, name: title, widget: string}
+      - {label: Logo, name: logo, widget: image, required: true}
+      - {label: Content, name: body, widget: markdown}
+      - label: Centre Details
+        name: centreDetails
+        required: false
+        widget: "object"
+        fields:
+          - {label: Opening Hours, name: openingHours, widget: string, required: false}
+          - {label: Location, name: location, widget: string, required: false}
+          - {label: Phone, name: phone, widget: string, required: false}
+          - {label: Email, name: email, widget: string, required: false}
+      - {label: Centre Intro, name: centreIntro, widget: text}
+      - label: Classrooms Section
+        name: classroomsSection
+        required: false
+        widget: "object"
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Subtitle, name: subtitle, widget: string, required: false}
+          - label: Items
+            name: items
+            widget: list
+            required: false
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Icon, name: icon, widget: image, required: false}
+              - {label: Subtitle, name: subtitle, widget: string, required: false}
+      - label: Testimonials
+        name: testimonials
+        required: false
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string, required: false}
+          - {label: Testimonial, name: testimonial, widget: text, required: false}
+      - label: Director Statement
+        name: directorStatement
+        required: false
+        widget: object
+        fields:
+          - {label: Title, name: title, widget: text, required: false}
+          - {label: Image, name: image, widget: image, required: false}
+          - {label: Content, name: content, widget: markdown, required: false}
+      - label: Gallery Images
+        name: gallery
+        required: false
+        widget: list
+        fields:
+          - {label: Image, name: image, widget: image}
+      - label: Additional Info Boxes
+        name: additionalInfoBoxes
+        required: false
+        widget: list
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Content, name: content, widget: text, required: false}
+          - {label: Button Title, name: buttonTitle, widget: string, required: false}
+          - {label: Button Link To, name: buttonLinkTo, widget: string, required: false}
       - label: "Meta"
         required: false
         name: "meta"

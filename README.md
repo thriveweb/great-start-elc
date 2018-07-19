@@ -65,7 +65,7 @@
 
 ## gatsby v1 rollback
 
-- reinstall all `gatsby-` packages in `package.json` including `gatsby` (`npm i gatsby`, `yarn add gatby`)
+- reinstall all `gatsby-` packages in `package.json` including `gatsby` (`npm i gatsby`, `yarn add gatsby`)
 - install `gatsby-link`
 - `gatsby-node.js` actions -> boundActionCreators
 - search-replace `pageContext` with `pathContext`

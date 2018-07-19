@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Image from '../components/Image'
+import Meta from '../components/Meta'
 import Button from '../components/Button'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
@@ -26,7 +27,9 @@ export const CentreTemplate = ({
   directorStatement,
   gallery = [],
   additionalInfoBoxes = [],
-  rawMarkdownBody
+  body,
+  meta,
+  footerSettings
 }) => {
   const { openingHours, location, phone, email } = centreDetails
 
@@ -37,6 +40,7 @@ export const CentreTemplate = ({
         <title>{title}</title>
       </Helmet>
 
+      <Meta {...meta} />
       <PageHeader title={title} subtitle={subtitle} />
 
       <section className="section Centre--Intro">
@@ -74,11 +78,11 @@ export const CentreTemplate = ({
             <br />
             <Button to={'/'}>Enrol Now</Button>
           </BreakoutBox>
-          <Content source={rawMarkdownBody} />
+          <Content source={body} />
         </div>
       </section>
 
-      <ExceedBanner long />
+      {footerSettings && <ExceedBanner long {...footerSettings} />}
 
       {classroomsSection && (
         <section className="section secondary Centre--ClassroomsSection">
@@ -169,18 +173,21 @@ export const CentreTemplate = ({
   )
 }
 
-const Centre = ({ data }) => {
-  const { markdownRemark: page } = data
-
-  return <CentreTemplate {...page} {...page.frontmatter} />
-}
+const Centre = ({ data: { page, footerSettings } }) => (
+  <CentreTemplate
+    {...page}
+    {...page.frontmatter}
+    body={page.html}
+    footerSettings={footerSettings}
+  />
+)
 
 export default Centre
 
 export const pageQuery = graphql`
   query Centre($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      rawMarkdownBody
+    page: markdownRemark(id: { eq: $id }) {
+      html
       frontmatter {
         title
         logo {
@@ -227,6 +234,11 @@ export const pageQuery = graphql`
           buttonLinkTo
         }
       }
+    }
+    footerSettings: settingsYaml(id: { regex: "/footer.yml/" }) {
+      exceedText
+      exceedTextLong
+      exceedLogo
     }
   }
 `

@@ -23,7 +23,6 @@ class Image extends React.Component {
 
     const imageSizes = extractChildImageSharp(src, 'sizes')
     const resolutions = extractChildImageSharp(src, 'resolutions')
-    const imageSrcSet = srcSet || extractChildImageSharp(src, 'srcSet')
     const imageSrc = extractChildImageSharp(src || source)
 
     if (imageSizes || resolutions) {
@@ -44,7 +43,6 @@ class Image extends React.Component {
       <img
         className={`Image ${className}`}
         src={imageSrc}
-        srcSet={imageSrcSet}
         sizes={sizes || '100vw'}
         onClick={onClick}
         alt={alt}

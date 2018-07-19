@@ -1,33 +1,29 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { graphql } from 'gatsby'
 
-import Layout from '../components/Layout'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import BookForm from '../components/BookForm'
 import './BookPage.css'
 
-// Export Template for use in CMS preview
 export const BookPageTemplate = ({ title, subtitle, featuredImage, body }) => {
+  // showHandbook
   return (
-    <Layout showHandbook>
-      <main className="BookPage">
-        <Helmet>
-          <title>{title}</title>
-        </Helmet>
+    <main className="BookPage">
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
 
-        <PageHeader title={title} subtitle={subtitle} />
+      <PageHeader title={title} subtitle={subtitle} />
 
-        <div className="section">
-          <div className="container content">
-            <Content source={body} />
+      <div className="section">
+        <div className="container content">
+          <Content source={body} />
 
-            <BookForm />
-          </div>
+          <BookForm />
         </div>
-      </main>
-    </Layout>
+      </div>
+    </main>
   )
 }
 

@@ -143,7 +143,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Template, name: template, widget: hidden, default: DefaultPage}
       - {label: Slug, name: slug, widget: string, default: ''}
       - {label: Title, name: title, widget: string}
-      - {label: Featured Image, name: featuredImage, widget: image, required: false}
+      # - {label: Featured Image, name: featuredImage, widget: image, required: false}
       - {label: Content, name: body, widget: markdown}
       - label: Download Banner
         name: downloadBanner

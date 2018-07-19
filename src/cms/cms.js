@@ -2,11 +2,15 @@ import React from 'react'
 import CMS from 'netlify-cms'
 
 import { HomePageTemplate } from '../templates/HomePage'
+import { DefaultPageTemplate } from '../templates/DefaultPage'
 
 CMS.registerPreviewStyle('/styles.css')
 
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
   <HomePageTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('defaultPages', ({ entry }) => (
+  <DefaultPageTemplate {...entry.toJS().data} />
 ))
 
 if (typeof window !== 'undefined') {

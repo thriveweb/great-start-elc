@@ -10,9 +10,10 @@ export default ({
   simple = false,
   showExceedBannerLong = false,
   globalSettings = {},
+  footerSettings = {},
   ...props
 }) => {
-  const { siteTitle, footer } = globalSettings
+  const { siteTitle } = globalSettings
   return (
     <Fragment>
       {!simple && (
@@ -24,10 +25,10 @@ export default ({
           </div>
 
           {showHandbook &&
-            footer && (
+            footerSettings && (
               <FamilyHandbookSection
-                image={footer.handbookImage}
-                file={footer.handbookFile}
+                image={footerSettings.handbookImage}
+                file={footerSettings.handbookFile}
               />
             )}
 
@@ -103,15 +104,3 @@ export default ({
     </Fragment>
   )
 }
-
-// query={graphql`
-//   query FooterQuery {
-//     globalSettings: settingsYaml {
-//       siteTitle
-//       footer {
-//         handbookFile
-//         handbookImage
-//       }
-//     }
-//   }
-// `}

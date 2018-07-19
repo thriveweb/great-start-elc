@@ -9,8 +9,8 @@ import Footer from '../components/Footer'
 import DownloadBanner from '../components/DownloadBanner'
 
 export default ({ children, data }) => {
-  const { siteTitle, siteUrl, socialMediaCard, headerScripts } =
-    data.settingsYaml || {}
+  const { footerSettings, globalSettings } = data
+  const { siteTitle, siteUrl, socialMediaCard, headerScripts } = globalSettings
   const { showHandbook = false, simpleFooter = false, downloadBanner } = data
   const allPages = data.allPages.edges.map(edge => edge.node)
 
@@ -29,12 +29,6 @@ export default ({ children, data }) => {
           socialMediaCard.image &&
           siteUrl + socialMediaCard.image
         }
-        twitterCreatorAccount={
-          socialMediaCard && socialMediaCard.twitterCreatorAccount
-        }
-        twitterSiteAccount={
-          socialMediaCard && socialMediaCard.twitterSiteAccount
-        }
       />
 
       <Nav allPages={allPages} />
@@ -52,6 +46,8 @@ export default ({ children, data }) => {
       <Footer
         showHandbook={showHandbook}
         simple={simpleFooter || !!downloadBanner}
+        footerSettings={footerSettings}
+        globalSettings={globalSettings}
       />
     </Fragment>
   )
@@ -59,14 +55,20 @@ export default ({ children, data }) => {
 
 export const query = graphql`
   query LayoutQuery {
-    settingsYaml {
+    globalSettings: settingsYaml(id: { regex: "/global.yml/" }) {
       siteTitle
       headerScripts
       socialMediaCard {
         image
-        twitterCreatorAccount
-        twitterSiteAccount
       }
+    }
+
+    footerSettings: settingsYaml(id: { regex: "/footer.yml/" }) {
+      exceedText
+      exceedTextLong
+      exceedLogo
+      handbookFile
+      handbookImage
     }
 
     allPages: allMarkdownRemark {

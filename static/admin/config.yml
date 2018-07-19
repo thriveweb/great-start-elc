@@ -157,7 +157,7 @@ collections: # A list of collections the CMS should be able to edit
       - label: Accordion
         name: accordion
         required: false
-        widget: "object"
+        widget: list
         fields:
           - {label: Title, name: title, widget: string, required: false}
           - {label: Content, name: content, widget: markdown, required: false}

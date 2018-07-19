@@ -2,6 +2,24 @@
 template: HealthInfoPage
 slug: 'parents/health-information'
 title: Health and Medication Information
+lowerSection: |-
+  ### Medical Condition Management
+
+  If you child has a Medical Condition or Illness (for example anaphylaxis, allergies, asthma, diabetes, epilepsy, hearing loss, or medically diagnosed dietary restrictions) please discuss this with the Centre Director upon enrolment or when diagnosed. In this case, you must:
+
+  1.  Complete relevant "Medical Management, Risk Minimisation & Communication Plan” - this form is obtained from the centre or our website.
+  2.  Complete the relevant forms:
+
+      - ASCIA Action Plan for Anaphylaxis Reactions form (Found at ASCIA - www.allergy.org.au); or
+      - Complete an ASCIA Action Plan for Allergic Reactions form (Found at ASCIA - www.allergy.org.au); or
+      - Complete an Asthma Australia Asthma Care Plan for Education and Care Centre form (Found at Asthma Australia - www.asthmaaustralia.org.au)
+
+  3.  Have the forms signed by your child's doctor.
+  4.  Please discuss Forms and Plans with the Centre Director during orientation sessions.
+  5.  Upload signed forms to our enrolment system section - Medical Condition & Dietary Restriction.
+
+  **A Medical Management, Risk Minimisation & Communication Plan is required for each type of medical condition. If the medical dietary condition is an allergy please follow the Allergy Medical Condition requirements.**
+
 ---
 
 ### Our priority is providing your child with a safe, clean and nurturing environment. If your child has fallen ill, for the interest of you, your child, and other children in the centre we ask that they should be picked up immediately.

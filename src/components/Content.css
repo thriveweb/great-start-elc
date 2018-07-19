@@ -53,6 +53,12 @@
     column-gap: 4rem;
   }
 
+  .Content ul ul,
+  .Content ol ul {
+    columns: 1;
+    margin-bottom: 2rem;
+  }
+
   .Content ul li {
     display: inline-block;
     width: 100%;

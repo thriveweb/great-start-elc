@@ -78,3 +78,5 @@
 - copy `src/components/Image` from [Gatsbro](https://github.com/Jinksi/gatsbro/tree/master/src/components/Image.js)
 - remove any `StaticQuery`, if using query, will need move this query to a page or the main layout and pass down as props
 - remove `<Layout>` and Layout import from all `src/templates` and `src/pages`
+- install `gatsby-plugin-postcss-sass` and uncomment in `gatsby-config.js`  
+  https://github.com/thriveweb/great-start-elc/blob/9162de6fc1bc2cb99cbe5c0600cc0a07b4f19a31/gatsby-config.js#L58-L67

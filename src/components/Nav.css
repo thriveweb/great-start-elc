@@ -42,6 +42,8 @@
   border: 3px solid currentColor;
   top: 100%;
   text-align: left;
+  width: 300px;
+  padding: 1rem;
 }
 
 .NavLinkGroup:hover .SubNav {

@@ -2,7 +2,7 @@
   padding: 0.5em;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-weight: 500;
   transition: color 0.2s, border-bottom-color 0.2s;
   color: inherit;

@@ -192,4 +192,12 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Twitter Site Account, name: twitterSiteAccount, widget: string, required: false}
               - {label: Twitter Creator Account, name: twitterCreatorAccount, widget: string, required: false}
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
-          - {label: Enable Service Worker Pre-Cache, name: enableServiceWorker, widget: boolean, required: false}
+      - file: "content/settings/footer.yml"
+        label: "Footer"
+        name: "footer"
+        fields:
+          - {label: Exceed Banner Text, name: exceedText, widget: string, required: false}
+          - {label: Exceed Banner Text (Long), name: exceedTextLong, widget: text, required: false}
+          - {label: Exceed Banner Logo, name: exceedLogo, widget: image, required: false}
+          - {label: Handbook Image, name: handbookImage, widget: image, required: false}
+          - {label: Handbook File, name: handbookFile, widget: file, required: false}

@@ -92,52 +92,45 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {name: description, label: Description, widget: text, required: false}
                   - {name: logo, label: Logo, widget: image, required: false}
-          #
-          # homeSection2:
-          #   title: We strive to create a foundation for your child's future
-          #   subtitle: Early childhood is a time when foundations are laid for future health, learning and wellbeing.
-          #   content: We are committed to educational excellence for every child through the delivery of high quality early years curriculum.  Our pedagogy promotes school readiness and achievement of learning outcomes by applying our knowledge and experience of how children learn and play.
-          #   linkTo: /
-          #   image: /images/uploads/isabella juskova.jpg
-          #
-          # homeSection3:
-          #   title: Why Choose Us?
-          #   items:
-          #     - icon: /images/uploads/logo.png
-          #       title: Fun and Safe Environment
-          #       subtitle: Our curriculum is fun and exciting within a safe and secure environment.
-          #     - icon: /images/uploads/logo.png
-          #       title: Reggio Emilia Approach
-          #       subtitle: We have taken the Reggio Emilia Approach to early childhood education and adapted it.
-          #     - icon: /images/uploads/logo.png
-          #       title: Exceeding Standards
-          #       subtitle: Our centres are rated as ‘Exceeding’ the National Quality Standards.
-          #     - icon: /images/uploads/logo.png
-          #       title: Nutritional Menu
-          #       subtitle: We prepare in accordance with Food Safety and Nutrition standards plus dietary, cultural and medical needs.
-          #     - icon: /images/uploads/logo.png
-          #       title: Professional, Experienced and Qualified Educators
-          #       subtitle: All our educators and teachers are qualified in early childhood education and have considerable early learning experience.
-          #
-          # homeSection4:
-          #   image1: /images/uploads/isabella juskova.jpg
-          #   image2: /images/uploads/ng-32703.jpg
-          #   items:
-          #     - title: Learning Approach
-          #       description: Our adaptation of the Reggio Emilia Approach to childhood learning suits Australian culture, climate and educational expectations of families.
-          #       linkTo: /
-          #     - title: Educational Programs
-          #       description: Our curriculum is built in order to meet the needs of each child while instilling life-long learning into their early childhood.
-          #       linkTo: /
-          #     - title: New Family Checklist
-          #       description: View or print our new family checklist to help you and your children have all the necessary information to start at our centre.
-          #       linkTo: /
-          #     - title: How to Enrol?
-          #       description: View our step-by-step guide to enrolling your child in one of our beautiful early learning centres.
-          #       linkTo: /
-          #
-          # meta:
-          #   title: ''
+                  - {name: linkTo, label: Link To, widget: string, required: false}
+          - name: homeSection2
+            label: Section 2
+            widget: object
+            required: false
+            fields:
+              - {name: title, label: Title, widget: string}
+              - {name: subtitle, label: Subitle, widget: string, required: false}
+              - {name: content, label: Content, widget: markdown, required: false}
+              - {name: linkTo, label: Link To, widget: string, required: false}
+              - {name: image, label: Image, widget: image, required: false}
+          - name: homeSection3
+            label: Section 3
+            widget: object
+            required: false
+            fields:
+              - {name: title, label: Title, widget: string}
+              - name: items
+                label: Items
+                widget: list
+                fields:
+                  - {name: title, label: Title, widget: string, required: false}
+                  - {name: subtitle, label: Subtitle, widget: string, required: false}
+                  - {name: icon, label: Icon, widget: image, required: false}
+          - name: homeSection4
+            label: Section 4
+            widget: object
+            required: false
+            fields:
+              - {name: image1, label: Image 1, widget: image}
+              - {name: image2, label: Image 2, widget: image}
+              - name: items
+                label: Items
+                widget: list
+                fields:
+                  - {name: title, label: Title, widget: string, required: false}
+                  - {name: description, label: Description, widget: text, required: false}
+                  - {name: linkTo, label: Link To, widget: string, required: false}
+
 
   - name: posts
     label: Post

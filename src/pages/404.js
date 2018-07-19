@@ -5,8 +5,6 @@ import _get from 'lodash/get'
 import AlertTriangle from 'react-feather/dist/icons/alert-triangle'
 
 const NotFoundPage = ({ data = {} }) => (
-  // siteUrl
-  // siteTitle
   <main>
     <Helmet>
       <title>404 – Page Not Found</title>
@@ -27,3 +25,11 @@ const NotFoundPage = ({ data = {} }) => (
 )
 
 export default NotFoundPage
+
+export const query = graphql`
+  query NotFoundPageQuery {
+    globalSettings: settingsYaml(id: { regex: "/global.yml/" }) {
+      siteTitle
+    }
+  }
+`

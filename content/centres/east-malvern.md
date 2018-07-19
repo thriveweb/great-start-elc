@@ -41,9 +41,9 @@ directorStatement:
 
     We invite you to come and visit our centre to meet our team and to see for yourself our commitment to your child’s early learning journey.
 gallery:
-  - /images/uploads/centre.jpg
-  - /images/uploads/tim-marshall-155597.jpg
-  - /images/uploads/vyouw5byhlc.jpeg
+  - image: /images/uploads/centre.jpg
+  - image: /images/uploads/tim-marshall-155597.jpg
+  - image: /images/uploads/vyouw5byhlc.jpeg
 additionalInfoBoxes:
   - title: Approved Kindergarten Program
     content: At East Malvern Early Learning Centre we offer an approved kindergarten program within our long day care program. Our kindergarten teachers are university qualified and provided a play-based emergent curriculum that supports your child in learning school readiness skills.

@@ -5,7 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
 import Button from '../components/Button.js'
 import Accordion from '../components/Accordion.js'
-import BackgroundImage from '../components/BackgroundImage.js'
+import Image from '../components/Image.js'
 import BreakoutBox from '../components/BreakoutBox.js'
 import JoinBanner from '../components/JoinBanner.js'
 import './EnrolmentsPage.css'
@@ -34,7 +34,11 @@ export const EnrolmentsPageTemplate = ({
       <section className="section EnrolmentsPage--Section1">
         <div className="container content">
           <div className="relative">
-            <BackgroundImage src={featuredImage} />
+            <Image
+              background
+              src={featuredImage}
+              alt={enrolmentsSection1.title}
+            />
           </div>
           <div>
             <h5>{enrolmentsSection1.title}</h5>

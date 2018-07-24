@@ -3,7 +3,6 @@ import Link from 'gatsby-link'
 
 import PageHeader from '../components/PageHeader'
 import Wave from '../components/Wave'
-import BackgroundImage from '../components/BackgroundImage'
 import Image from '../components/Image'
 import Content from '../components/Content'
 import Button from '../components/Button'
@@ -61,7 +60,11 @@ export const HomePageTemplate = ({
       <div className="section light">
         <div className="container homeSection2--container">
           <div className="relative">
-            <BackgroundImage src={homeSection2.image} />
+            <Image
+              background
+              src={homeSection2.image}
+              alt={homeSection2.title}
+            />
           </div>
           <div>
             <h2>{homeSection2.title}</h2>
@@ -105,7 +108,7 @@ export const HomePageTemplate = ({
         <div className="container">
           <div className="homeSection4--grid">
             <div className="homeSection4--grid--image relative">
-              <BackgroundImage src={homeSection4.image1} />
+              <Image background src={homeSection4.image1} alt={title} />
             </div>
             {homeSection4.items &&
               homeSection4.items.map((item, index) => {
@@ -130,7 +133,7 @@ export const HomePageTemplate = ({
                 )
               })}
             <div className="homeSection4--grid--image relative">
-              <BackgroundImage src={homeSection4.image2} />
+              <Image background src={homeSection4.image2} alt={title} />
             </div>
           </div>
         </div>

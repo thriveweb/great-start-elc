@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Content from './Content'
-import BackgroundImage from './BackgroundImage'
+import Image from './Image'
 import Button from './Button'
 import headerMain from '../images/header-main.png'
 import header from '../images/header.png'
@@ -18,14 +18,14 @@ const PageHeader = ({
   if (large) className += ' PageHeader-large'
   return (
     <div className={`PageHeader relative ${className}`}>
-      <BackgroundImage
+      <Image
         src={large ? header : headerMain}
         className="PageHeader--BG"
         backgroundSize="auto 100%"
       />
       {large &&
         backgroundImage && (
-          <BackgroundImage src={backgroundImage} opacity={0.4} />
+          <Image background src={backgroundImage} opacity={0.4} />
         )}
       <div className="container relative content">
         <div className="PageHeader--Inner">

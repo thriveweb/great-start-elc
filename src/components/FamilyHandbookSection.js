@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Button from './Button'
-import BackgroundImage from './BackgroundImage'
+import Image from './Image'
 import './FamilyHandbookSection.css'
 
 export default ({ image, file, ...props }) => (
@@ -17,7 +17,9 @@ export default ({ image, file, ...props }) => (
       </div>
     </div>
     <div className="FamilyHandbookSection--image dark">
-      {image && <BackgroundImage src={image} />}
+      {image && (
+        <Image background src={image} alt="Download Our Family Handbook" />
+      )}
     </div>
   </div>
 )

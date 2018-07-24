@@ -19,6 +19,7 @@ const PageHeader = ({
   return (
     <div className={`PageHeader relative ${className}`}>
       <Image
+        background
         src={large ? header : headerMain}
         className="PageHeader--BG"
         backgroundSize="auto 100%"

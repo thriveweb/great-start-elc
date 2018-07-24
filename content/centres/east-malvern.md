@@ -3,56 +3,75 @@ template: Centre
 title: East Malvern Early Learning Centre
 logo: /images/uploads/east-malvern.svg
 centreDetails:
-  openingHours: Monday to Friday 7:00am - 6:00pm
-  location: 11 Illowa Street Malvern East VIC 3145
-  phone: 03 9886 9142 
   email: eastmalvern@mychildelc.com.au
-centreIntro: East Malvern Early Learning Centre is a beautiful cottage with lots of charm and character. We are in the Malvern East community, close to buses and Darlington Train Station
+  location: 11 Illowa Street Malvern East VIC 3145
+  openingHours: 'Monday to Friday 7:00am - 6:00pm'
+  phone: "03 9886 9142\L"
+centreIntro: >-
+  East Malvern Early Learning Centre is a beautiful cottage with lots of charm
+  and character. We are in the Malvern East community, close to buses and
+  Darlington Train Station
 classroomsSection:
-  title: "We provide early learning and care to children in the following classrooms:"
-  subtitle: Our education programs cater for each individual child’s needs.
   items:
     - icon: /images/uploads/baby.svg
+      subtitle: 'Joey Classroom, 6 week to 18 months old'
       title: Nursery
-      subtitle: Joey Classroom, 6 week to 18 months old
     - icon: /images/uploads/toddler.svg
+      subtitle: 'Possum Classroom, 18 months to 3 years old'
       title: Toddler
-      subtitle: Possum Classroom, 18 months to 3 years old
     - icon: /images/uploads/prekindergarten.svg
-      title: Prekindergarten Classroom
       subtitle: 3 to 4 years old
+      title: Prekindergarten Classroom
     - icon: /images/uploads/kindergarten.svg
-      title: Kindergarten Classroom
       subtitle: 4 to 5 years old
+      title: Kindergarten Classroom
+  subtitle: Our education programs cater for each individual child’s needs.
+  title: 'We provide early learning and care to children in the following classrooms:'
 testimonials:
   - name: John Doe
-    testimonial: The staff at Great Start Early Learning Centre are always amazing and very welcoming. They try and make you feel as comfortable as possible when you are dropping your child off for the first time. Noah loves having kids his own age to play with and all the activities he can do outside.
+    testimonial: >-
+      The staff at Great Start Early Learning Centre are always amazing and very
+      welcoming. They try and make you feel as comfortable as possible when you
+      are dropping your child off for the first time. Noah loves having kids his
+      own age to play with and all the activities he can do outside.
   - name: Jane Doe
-    testimonial: This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language. Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website.
+    testimonial: >-
+      This is placeholder text that our web designers put here to make sure
+      words appear properly on your website. This text is going to be replaced
+      once the website is completed. You are currently reading text that is
+      written in English, not any other language. Be careful not to waste too
+      much time reading placeholder text! This text isn’t going to remain here
+      because it doesn't pertain to the website.
 directorStatement:
-  title: Hello, my name is Liz Cosier and I have been the Centre Director and Nominated Supervisor at East Malvern Early Learning Centre since XXXX (Year).
+  content: "I have been in the early learning and child care industry since 19XX and I have an Advanced Diploma in Early Childhood Education.\LI am very passionate about the Reggio Emilia Approach. We tailor our curriculum to encourage learning and lay down strong foundations which are so vital in the early years. Our curriculum is designed to address the children’s interests and to develop their skills. Our programming format is unique and is designed to address key learning areas including social skills, language, maths, investigation, creative pursuits, fine and gross motor skills, sensory experiences, cultural experiences and environmental understanding. In addition to this it addresses the Outcomes as outlined in the Early Years Learning Frameworks.\n\nI believe that each child is unique and learns and explores in his or her own way. Therefore, we encourage building on their own interests and strengths through scaffolding, mentoring and facilitating their learning and development.\_I believe that our centre truly captivates this and we ignite the endless possibilities of  learning by embracing challenges and rejoicing in accomplishments through our various spaces, open-ended resources and our vibrant atmosphere.\n\nThe team I am fortunate to work with shares my passion for seeing children meet their potential. They are dedicated, professional, experienced and highly qualified.\n\n**We invite you to come and visit our centre to meet our team and to see for yourself our commitment to your child’s early learning journey.**"
   image: /images/uploads/shutterstock_58596811.jpg
-  content: |-
-    I have been in the early learning and child care industry since 19XX and I have an Advanced Diploma in Early Childhood Education. I am very passionate about the Reggio Emilia Approach. We tailor our curriculum to encourage learning and lay down strong foundations which are so vital in the early years. Our curriculum is designed to address the children’s interests and to develop their skills. Our programming format is unique and is designed to address key learning areas including social skills, language, maths, investigation, creative pursuits, fine and gross motor skills, sensory experiences, cultural experiences and environmental understanding. In addition to this it addresses the Outcomes as outlined in the Early Years Learning Frameworks.
-
-    I believe that each child is unique and learns and explores in his or her own way. Therefore, we encourage building on their own interests and strengths through scaffolding, mentoring and facilitating their learning and development. I believe that our centre truly captivates this and we ignite the endless possibilities of  learning by embracing challenges and rejoicing in accomplishments through our various spaces, open-ended resources and our vibrant atmosphere.
-
-    The team I am fortunate to work with shares my passion for seeing children meet their potential. They are dedicated, professional, experienced and highly qualified.
-
-    We invite you to come and visit our centre to meet our team and to see for yourself our commitment to your child’s early learning journey.
+  title: >-
+    Hello, my name is Liz Cosier and I have been the Centre Director and
+    Nominated Supervisor at East Malvern Early Learning Centre since XXXX
+    (Year).
 gallery:
   - image: /images/uploads/centre.jpg
   - image: /images/uploads/tim-marshall-155597.jpg
   - image: /images/uploads/vyouw5byhlc.jpeg
 additionalInfoBoxes:
-  - title: Approved Kindergarten Program
-    content: At East Malvern Early Learning Centre we offer an approved kindergarten program within our long day care program. Our kindergarten teachers are university qualified and provided a play-based emergent curriculum that supports your child in learning school readiness skills.
+  - buttonLinkTo: /
     buttonTitle: Read More
-    buttonLinkTo: /
-  - title: Childcare Subsidies
-    content: We are an approved childcare operator and the Australian Government provides financial assistance to eligible families to help cover the cost of childcare. The childcare subsidies help eligible families reduce their weekly payments and make childcare more affordable. To find out more information about childcare subsidies, please contact the Family Assistant Office on 13 61 50 or see their website.
+    content: >-
+      At East Malvern Early Learning Centre we offer an approved kindergarten
+      program within our long day care program. Our kindergarten teachers are
+      university qualified and provided a play-based emergent curriculum that
+      supports your child in learning school readiness skills.
+    title: Approved Kindergarten Program
+  - buttonLinkTo: /
     buttonTitle: Read More
-    buttonLinkTo: /
+    content: >-
+      We are an approved childcare operator and the Australian Government
+      provides financial assistance to eligible families to help cover the cost
+      of childcare. The childcare subsidies help eligible families reduce their
+      weekly payments and make childcare more affordable. To find out more
+      information about childcare subsidies, please contact the Family Assistant
+      Office on 13 61 50 or see their website.
+    title: Childcare Subsidies
 ---
 
 We only have a maximum of 50 children attending the centre each day across four classrooms; this provides opportunities for educators, parents and children to develop close relationships. We offer care to all age groups from as young as six weeks up to school age. We are open every day from Monday to Friday, except for public holidays.

@@ -3,7 +3,7 @@ template: DefaultPage
 slug: about/our-learning-environments
 title: Our Learning Environments
 ---
-##### With a focus on the holistic development of each child, we are committed to providing a creative, stimulating and nurturing environment for children to thrive.
+### With a focus on the holistic development of each child, we are committed to providing a creative, stimulating and nurturing environment for children to thrive.
 
 ![null](/images/uploads/img_0772.jpg)
 

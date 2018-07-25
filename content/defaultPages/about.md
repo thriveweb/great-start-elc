@@ -5,9 +5,9 @@ title: Welcome
 ---
 ![](/images/uploads/learn.jpg)
 
-### Welcome to Great Start Early Learning Centre
+# Welcome to Great Start Early Learning Centre
 
-**We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing.**
+###### **We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing.**
 
 For this reason, Great Start Early Learning Centres employs professional educators that focus on building our children’s social, emotional and physical wellbeing, while teaching them to be respectful to others and the community in which they live. Supporting and strengthening all of these aspects of the child gives them the best foundation for their future.
 

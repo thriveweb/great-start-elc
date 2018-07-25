@@ -10,16 +10,68 @@ accordion:
       applies, both parents are deemed to be authorised to collect their child.
     title: 'Court Orders, Parent Plans and Orders'
   - content: >-
-      If court order, parent plans or orders apply, a copy must be provided to
-      the centre on enrolment and uploaded in QK Enrol. Any changes to these
-      orders must be provided to the centre. Unless a custody and contact order
-      applies, both parents are deemed to be authorised to collect their child.
+      If you child has a Medical Condition or Illness (for example Anaphylaxis,
+      Allergies, Asthma, Diabetes, epilepsy, hearing loss, or medically
+      diagnosed dietary restrictions), please advise your Centre Director. The
+      completed forms detailed below will be required to be uploaded onto the
+      Enrolment system.
+
+
+      Please complete “Medical Conditions Management, Risk Minimisation &
+      Communication Plans”, ASCIA Action Plans Forms and/or Asthma Australia
+      Asthma Care Plan and upload them onto the QK Enrol portal. 
+
+
+      The Medical Conditions Management, Risk Minimisation & Communication Plans
+      and the Medical Action Plan are required to be signed by your child’s
+      doctor.  If the signing date is greater than 12 months old, you will need
+      to have new forms prepared and signed.
+
+
+      Please undertake the following:
+
+
+      Complete relevant "Medical Management, Risk Minimisation & Communication
+      Plan” - this form is obtained from the centre or our website.
+
+
+
+
+      Complete the relevant form:
+
+
+      1. Complete relevant "Medical Management, Risk Minimisation &
+      Communication Plan” - this form is obtained from the centre or our
+      website.
+
+      2. Complete an ASCIA Action Plan for Anaphylaxis Reactions
+      [form](www.allergy.org.au)
+
+      3. Complete an ASCIA Action Plan for Allergic Reactions
+      [form](www.allergy.org.au)
+
+      4. Complete an Asthma Australia Asthma Care Plan for Education and Care
+      Centre [form](www.asthmaaustralia.org.au)
+
+      5. Have the forms signed by your child's doctor.
+
+      6. Please discuss Forms and Plans with the Centre Director during
+      orientation sessions. Upload signed forms to our enrolment system section
+      - Medical Condition & Dietary Restriction. 
+
+
+      A Medical Management, Risk Minimisation & Communication Plan is required
+      for each type of medical condition. If the medical dietary condition is an
+      allergy please follow the Allergy Medical Condition requirements.
     title: Medical Conditions and Illness
   - content: >-
-      If court order, parent plans or orders apply, a copy must be provided to
-      the centre on enrolment and uploaded in QK Enrol. Any changes to these
-      orders must be provided to the centre. Unless a custody and contact order
-      applies, both parents are deemed to be authorised to collect their child.
+      Please complete the Immunisation Status table and upload your child’s
+      Immunisation History Statement or Medical Exemption Form onto the
+      enrolment system portal. (NOTE: The Child Health Book is not an accepted
+      proof of immunisation.) You can obtain an Immunisation History Statement
+      in the following ways: Online through MyGov, Medicare Express App, over
+      the counter at a Medicare Service Centre or by calling AIR on 1800 653
+      809.
     title: Immunisation Compliance
 ---
 ![Puzzle](/images/uploads/evan-kirby.jpg)

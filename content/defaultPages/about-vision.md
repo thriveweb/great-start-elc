@@ -220,3 +220,13 @@ We believe that children are capable, inquisitive and active learners who play a
 We recognise and respect Aboriginal and Torres Strait Islander peoples as the traditional custodians of the land on which our early childhood services are offered. We are committed to building partnerships based on trust, respect and recognition of the rights of Aboriginal and Torres Strait Islander peoples. On a foundation of equity, integrity and respect we create high quality early learning experiences for all children.
 
 #### Giving back
+
+We believe that being part of a community is important in the development of a child. Activities we have supported to promote the sense of belonging and community include:
+
+* Breast Cancer: fundraising and afternoon teas
+* Red Nose Day: fundraising
+* Relay for Life: fundraising
+* Secondary school students volunteering at our centres
+* Christmas food hamper appeals
+* Eco-village members
+* Work experience placement for students studying early childhood education

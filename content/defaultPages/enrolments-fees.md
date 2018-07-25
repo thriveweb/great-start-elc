@@ -34,7 +34,119 @@ accordion:
       is no limit on these days, but you will be required to provide
       documentation to support the absence. Please see the Governments website
       for more information.
-    title: Initial Fees
+    title: Initial Fees to Secure Enrolment
+  - content: >-
+      Like most early learning centres, your child’s place is reserved when they
+      are away so the day still needs to be paid for. Each financial year, the
+      Family Assistance Office will pay your childcare subsidies for the first
+      42 absence days. These absences can be for any reason, including public
+      holidays, and the initial 42 days must be used before any additional
+      absences can be claimed (please see below).
+
+
+      You may receive childcare subsidies for absence days after the initial 42
+      days each financial year if you are able to provide evidence to
+      demonstrate the absence has occurred under permitted circumstances. There
+      is no limit on these days, but you will be required to provide
+      documentation to support the absence. Please see the Governments website
+      for more information.
+    title: Holidays
+  - content: >-
+      Like most early learning centres, your child’s place is reserved when they
+      are away so the day still needs to be paid for. Each financial year, the
+      Family Assistance Office will pay your childcare subsidies for the first
+      42 absence days. These absences can be for any reason, including public
+      holidays, and the initial 42 days must be used before any additional
+      absences can be claimed (please see below).
+
+
+      You may receive childcare subsidies for absence days after the initial 42
+      days each financial year if you are able to provide evidence to
+      demonstrate the absence has occurred under permitted circumstances. There
+      is no limit on these days, but you will be required to provide
+      documentation to support the absence. Please see the Governments website
+      for more information.
+    title: Medical Conditions and Illness
+  - content: >-
+      Like most early learning centres, your child’s place is reserved when they
+      are away so the day still needs to be paid for. Each financial year, the
+      Family Assistance Office will pay your childcare subsidies for the first
+      42 absence days. These absences can be for any reason, including public
+      holidays, and the initial 42 days must be used before any additional
+      absences can be claimed (please see below).
+
+
+      You may receive childcare subsidies for absence days after the initial 42
+      days each financial year if you are able to provide evidence to
+      demonstrate the absence has occurred under permitted circumstances. There
+      is no limit on these days, but you will be required to provide
+      documentation to support the absence. Please see the Governments website
+      for more information.
+    title: Public Holidays
+  - content: >-
+      Like most early learning centres, your child’s place is reserved when they
+      are away so the day still needs to be paid for. Each financial year, the
+      Family Assistance Office will pay your childcare subsidies for the first
+      42 absence days. These absences can be for any reason, including public
+      holidays, and the initial 42 days must be used before any additional
+      absences can be claimed (please see below).
+
+
+      You may receive childcare subsidies for absence days after the initial 42
+      days each financial year if you are able to provide evidence to
+      demonstrate the absence has occurred under permitted circumstances. There
+      is no limit on these days, but you will be required to provide
+      documentation to support the absence. Please see the Governments website
+      for more information.
+    title: Late Pick-up Fees
+  - content: >-
+      Like most early learning centres, your child’s place is reserved when they
+      are away so the day still needs to be paid for. Each financial year, the
+      Family Assistance Office will pay your childcare subsidies for the first
+      42 absence days. These absences can be for any reason, including public
+      holidays, and the initial 42 days must be used before any additional
+      absences can be claimed (please see below).
+
+
+      You may receive childcare subsidies for absence days after the initial 42
+      days each financial year if you are able to provide evidence to
+      demonstrate the absence has occurred under permitted circumstances. There
+      is no limit on these days, but you will be required to provide
+      documentation to support the absence. Please see the Governments website
+      for more information.
+    title: Immunisation Compliance
+  - content: >-
+      Like most early learning centres, your child’s place is reserved when they
+      are away so the day still needs to be paid for. Each financial year, the
+      Family Assistance Office will pay your childcare subsidies for the first
+      42 absence days. These absences can be for any reason, including public
+      holidays, and the initial 42 days must be used before any additional
+      absences can be claimed (please see below).
+
+
+      You may receive childcare subsidies for absence days after the initial 42
+      days each financial year if you are able to provide evidence to
+      demonstrate the absence has occurred under permitted circumstances. There
+      is no limit on these days, but you will be required to provide
+      documentation to support the absence. Please see the Governments website
+      for more information.
+    title: Withdrawal of Children from the Centre
+  - content: >-
+      Like most early learning centres, your child’s place is reserved when they
+      are away so the day still needs to be paid for. Each financial year, the
+      Family Assistance Office will pay your childcare subsidies for the first
+      42 absence days. These absences can be for any reason, including public
+      holidays, and the initial 42 days must be used before any additional
+      absences can be claimed (please see below).
+
+
+      You may receive childcare subsidies for absence days after the initial 42
+      days each financial year if you are able to provide evidence to
+      demonstrate the absence has occurred under permitted circumstances. There
+      is no limit on these days, but you will be required to provide
+      documentation to support the absence. Please see the Governments website
+      for more information.
+    title: Changes to your Child’s Regular Booked Days
 ---
 
 ##### Great Start Early Learning Centres is registered as a provider of “Approved Care” under the Child Care Management System (“CCMS”). Under CCMS, the Federal Government provides us with each family’s approval details directly, which is why each family must be registered with the Family Assistance Office (FAO).

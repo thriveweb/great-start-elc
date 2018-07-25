@@ -66,15 +66,15 @@ export const pageQuery = graphql`
         featuredImage {
           ...LargeImage
         }
-        downloadBanner {
-          file {
-            publicURL
-          }
-          title
-          preview {
-            ...SmallImage
-          }
-        }
+        # downloadBanner {
+        #   file {
+        #     publicURL
+        #   }
+        #   title
+        #   preview {
+        #     ...SmallImage
+        #   }
+        # }
         accordion {
           title
           content

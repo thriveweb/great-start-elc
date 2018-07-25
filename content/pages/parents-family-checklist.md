@@ -15,6 +15,7 @@ checklist:
   - cell1: Enrolment Form and Direct Debit Authority Form completed?
 checklistDownload:
   file: /images/uploads/apple.svg
+  preview: /images/uploads/apple.svg
   title: >-
     Download our printable family checklist to get you and your child ready to
     start at one of our centres.

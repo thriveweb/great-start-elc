@@ -8,9 +8,10 @@ centreDetails:
   openingHours: 'Monday to Friday 6:30am - 6:30pm'
   phone: 03 5023 2888
 centreIntro: >-
-  East Malvern Early Learning Centre is a beautiful cottage with lots of charm
-  and character. We are in the Malvern East community, close to buses and
-  Darlington Train Station
+  Mildura Early Learning Centre embraces the world-class educational approach,
+  Reggio Emilia. We have created a learning environment enriched with creative
+  and sensory experiences as avenues for growth, allowing every child to reach
+  their full potential.
 classroomsSection:
   items:
     - icon: /images/uploads/baby.svg
@@ -58,7 +59,7 @@ additionalInfoBoxes:
       Office on 13 61 50 or see their website. 
     title: Childcare Subsidies
 ---
-Mildura Early Learning Centre embraces the world-class educational approach, Reggio Emilia. We have created a learning environment enriched with creative and sensory experiences as avenues for growth, allowing every child to reach their full potential. We offer care to all age groups from as young as six weeks up to school age. We are open every day from Monday to Friday, except for public holidays.
+We offer care to all age groups from as young as six weeks up to school age. We are open every day from Monday to Friday, except for public holidays.
 
 We pride ourselves on having the best curriculum and education programs, this is supported by having experienced and knowledgeable early childhood professional educators. We offer an Approved Kindergarten Program delivered by a teacher with a bachelor’s degree. We have received the highest rating and recognition for our Educational Programs.
 
@@ -80,7 +81,7 @@ Our inspired outdoor play spaces stimulate children's imagination, creativity, e
 
 We believe that we are only as great as our people. Our team of educators are well trained, knowledgeable, trust worthy and above all else, their level of commitment to the wellbeing of children is second to none. All our educators hold formal qualifications; including bachelor degrees, advance diplomas, diplomas and certificate III in early childhood. All our educators hold Working With Children Checks and have current first aid and CPR certificates. Our educators attend regular professional development and training to allow them to deliver best practice educational programs for your children.
 
----
+- - -
 
 A major focus for our centre is how working with the broader community can help us enrich the children’s learning experience. Through visits to the centre as well as excursions and participation in community events, we are able to deepen the relationship between the centre and the community, while teaching the children about being a contributing and active member of society.
 

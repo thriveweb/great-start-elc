@@ -3,10 +3,10 @@ template: Centre
 title: Mildura Early Learning Centre
 logo: /images/uploads/mildura.svg
 centreDetails:
-  email: eastmalvern@mychildelc.com.au
-  location: 11 Illowa Street Malvern East VIC 3145
-  openingHours: 'Monday to Friday 7:00am - 6:00pm'
-  phone: "03 9886 9142\L"
+  email: mildura@mychildelc.com.au
+  location: 340-342 San Mateo Avenue Mildura VIC 3500
+  openingHours: 'Monday to Friday 6:30am - 6:30pm'
+  phone: 03 5023 2888
 centreIntro: >-
   East Malvern Early Learning Centre is a beautiful cottage with lots of charm
   and character. We are in the Malvern East community, close to buses and

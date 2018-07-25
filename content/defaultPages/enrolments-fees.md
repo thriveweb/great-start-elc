@@ -1,19 +1,40 @@
 ---
 template: DefaultPage
-slug: 'enrolments/fees'
+slug: enrolments/fees
 title: Fees and Government Subsidies
 accordion:
-  - title: Entitlement When Your Child is Absent
-    content: |-
-      Like most early learning centres, your child’s place is reserved when they are away so the day still needs to be paid for. Each financial year, the Family Assistance Office will pay your childcare subsidies for the first 42 absence days. These absences can be for any reason, including public holidays, and the initial 42 days must be used before any additional absences can be claimed (please see below).
+  - content: >-
+      Like most early learning centres, your child’s place is reserved when they
+      are away so the day still needs to be paid for. Each financial year, the
+      Family Assistance Office will pay your childcare subsidies for the first
+      42 absence days. These absences can be for any reason, including public
+      holidays, and the initial 42 days must be used before any additional
+      absences can be claimed (please see below).
 
-      You may receive childcare subsidies for absence days after the initial 42 days each financial year if you are able to provide evidence to demonstrate the absence has occurred under permitted circumstances. There is no limit on these days, but you will be required to provide documentation to support the absence. Please see the Governments website for more information.
-  - title: Initial Fees
-    content: |-
-      Like most early learning centres, your child’s place is reserved when they are away so the day still needs to be paid for. Each financial year, the Family Assistance Office will pay your childcare subsidies for the first 42 absence days. These absences can be for any reason, including public holidays, and the initial 42 days must be used before any additional absences can be claimed (please see below).
 
-      You may receive childcare subsidies for absence days after the initial 42 days each financial year if you are able to provide evidence to demonstrate the absence has occurred under permitted circumstances. There is no limit on these days, but you will be required to provide documentation to support the absence. Please see the Governments website for more information.
+      You may receive childcare subsidies for absence days after the initial 42
+      days each financial year if you are able to provide evidence to
+      demonstrate the absence has occurred under permitted circumstances. There
+      is no limit on these days, but you will be required to provide
+      documentation to support the absence. Please see the Governments website
+      for more information.
+    title: Entitlement When Your Child is Absent
+  - content: >-
+      Like most early learning centres, your child’s place is reserved when they
+      are away so the day still needs to be paid for. Each financial year, the
+      Family Assistance Office will pay your childcare subsidies for the first
+      42 absence days. These absences can be for any reason, including public
+      holidays, and the initial 42 days must be used before any additional
+      absences can be claimed (please see below).
 
+
+      You may receive childcare subsidies for absence days after the initial 42
+      days each financial year if you are able to provide evidence to
+      demonstrate the absence has occurred under permitted circumstances. There
+      is no limit on these days, but you will be required to provide
+      documentation to support the absence. Please see the Governments website
+      for more information.
+    title: Initial Fees
 ---
 
 ##### Great Start Early Learning Centres is registered as a provider of “Approved Care” under the Child Care Management System (“CCMS”). Under CCMS, the Federal Government provides us with each family’s approval details directly, which is why each family must be registered with the Family Assistance Office (FAO).
@@ -25,7 +46,7 @@ The Australian Government may provide financial assistance towards the cost of c
 - Your date of birth (CRN Holder).
 - Your child’s date of birth.
 
-This information will be provided to the Australian Department of Education and validated against their records to determine if you can receive fee subsidies. Your subsidy will then be subtracted from the full fees owing, leaving a gap fee which is the amount families pay to the Centre, meaning less out of pocket expense.
+###### This information will be provided to the Australian Department of Education and validated against their records to determine if you can receive fee subsidies. Your subsidy will then be subtracted from the full fees owing, leaving a gap fee which is the amount families pay to the Centre, meaning less out of pocket expense.
 
 #### Registering for Child Care Subsidies
 
@@ -44,7 +65,7 @@ We also require you to register at myGov at https://my.gov.au. MyGov is a simple
 
 Note: Even if you have previously registered with the FAO for another childcare centre you will still need to contact the FAO again to provide the specific details of your child’s enrolment. You may also need to provide updated information relating to the previous financial year.
 
-#### All fees are to be paid in accordance with the Terms and Conditions of Enrolment, Fee Schedule and our Fee Policy.
+##### All fees are to be paid in accordance with the Terms and Conditions of Enrolment, Fee Schedule and our Fee Policy.
 
 The following information is general information regarding payment of centre fees.
 

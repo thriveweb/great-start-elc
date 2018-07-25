@@ -15,7 +15,7 @@ checklist:
   - cell1: Enrolment Form and Direct Debit Authority Form completed?
 downloadBanner:
   file: ''
-  preview: ''
+  preview: /images/uploads/family-checklist.jpg
   title: asdf
 ---
 

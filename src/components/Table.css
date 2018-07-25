@@ -25,6 +25,7 @@
 
 .Table--Row {
   display: flex;
+  align-items: center;
 }
 
 .Table--Row > * {

@@ -71,6 +71,38 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
+      - file: "content/pages/parents-family-checklist.md"
+        label: "Family Checklist"
+        name: "family-checklist"
+        fields:
+          - {name: template, label: Template, widget: hidden, default: FamilyChecklist}
+          - {name: slug, label: Slug, widget: hidden, default: 'parents/family-checklist'}
+          - {name: title, label: Title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - label: Checklist
+            name: checklist
+            required: false
+            widget: list
+            fields:
+              - {name: cell1, label: Item, widget: string, required: false}
+          - label: Download Banner
+            name: downloadBanner
+            required: false
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: File, name: file, widget: file, required: false}
+              - {label: Preview Image, name: preview, widget: image, required: false}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
+
       - file: "content/pages/parents-health-medication-information.md"
         label: "Health and Medical Info"
         name: "health-info-page"

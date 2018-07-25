@@ -34,4 +34,12 @@
 
 .Table--Cell {
   padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Table--Input {
+  margin-left: 2rem;
+  cursor: pointer;
 }

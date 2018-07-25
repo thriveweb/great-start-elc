@@ -32,6 +32,10 @@
   width: 50%;
 }
 
+.homeSection2--container .Button {
+  margin-top: 2rem;
+}
+
 .homeSection2--container > *:nth-child(2) {
   width: calc(50% - 8rem);
   margin: auto;

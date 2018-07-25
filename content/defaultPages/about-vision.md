@@ -17,74 +17,179 @@ accordion:
       their full potential.
     title: Image of the child
   - content: >-
-      We view children as active learners who are involved in their own
-      acquisition of knowledge. Each child arrives at our service with their own
-      experiences, knowledge, personality, interests and needs. Children learn
-      through play, exploration, problem solving and sharing of knowledge
-      through social play. 
+      It is the Educator’s role to facilitate and support the child’s learning. 
+      Small group interactions are encouraged and children are provided with
+      opportunities to collaborate and create inquiry projects.  Independence
+      and problem-solving skills are encouraged to help children resolve social
+      conflicts and build relationships.  Children are regularly engaged in
+      discussions that encourage them to reflect on their own social
+      interactions and develop their social skills.
 
 
-      We have an uncompromising commitment to nurturing active bodies and
-      creating healthy minds through a holistic approach to early childhood
-      development. We strive to deliver this by creating an environment that
-      empowers, challenges and provides opportunities for children to develop to
-      their full potential.
+      ##### We aim to promote relationships that support children to:
+
+
+      * feel a sense of belonging through promoting a strong sense of identity
+      which allows them to feel safe, secure and supported;
+
+      * see themselves as constructive contributors to the community;
+
+      * see themselves as valued and unique;
+
+      * engage in caring and respectful relationships; 
+
+      * develop resilience, knowledge and confident self-identities;
+
+      * be active participants in their learning and in creating their
+      environment;
+
+      * be competent/confident learners;
+
+      * be respected and recognized for their strengths, interests and
+      abilities;
+
+      * provide input over the direction of their learning;
+
+      * have endless opportunities to express and embrace their individuality;
+      and
+
+      * be encouraged to play and this is valued as children’s work.
     title: Relationships
   - content: >-
-      We view children as active learners who are involved in their own
-      acquisition of knowledge. Each child arrives at our service with their own
-      experiences, knowledge, personality, interests and needs. Children learn
-      through play, exploration, problem solving and sharing of knowledge
-      through social play. 
+      In the Reggio approach, the Teacher is considered a co-learner and
+      collaborator with the child and not just an instructor. Educators are
+      encouraged to facilitate the child's learning by planning activities and
+      lessons based on the child's interests, asking questions to further
+      understanding and actively engaging in the activities alongside the child.
 
 
-      We have an uncompromising commitment to nurturing active bodies and
-      creating healthy minds through a holistic approach to early childhood
-      development. We strive to deliver this by creating an environment that
-      empowers, challenges and provides opportunities for children to develop to
-      their full potential.
+      We recognise the importance of open and honest communication, team work
+      and collaboration between families and Educators and strive to form
+      positive relationships with all. We acknowledge that learning is life-long
+      and are committed to professional development. In our interaction with
+      children our Educators will:
+
+
+      * have a passion for children’s learning; 
+
+      * focus on maintaining the health and safety of the children and the
+      environment;
+
+      * demonstrate personal excellence and team work in their role as Teachers,
+      nurturers and professional contributors to the child’s environment; always
+      offering opportunity for exploration, fascination, examination and
+      provocation;
+
+      * have positive interactions and relationships with children and families;
+
+      * facilitate an emergent curriculum based on The Reggio Emilia approach.
+      This approach to teaching young children puts the natural development of
+      children as well as the close relationship they share with their
+      environment as the centre of the philosophy; and 
+
+      * act with integrity and honesty and offer flexibility to each child,
+      their family and their peers. 
+
+
+      Educators and the service formally acknowledge and commit to the Early
+      Childhood Australia Code of Ethics (2016) and will uphold the outlined
+      ethical principles and professional standards to guide decision making and
+      practice.
     title: Role of Teachers and Educators
   - content: >-
-      We view children as active learners who are involved in their own
-      acquisition of knowledge. Each child arrives at our service with their own
-      experiences, knowledge, personality, interests and needs. Children learn
-      through play, exploration, problem solving and sharing of knowledge
-      through social play. 
-
-
-      We have an uncompromising commitment to nurturing active bodies and
-      creating healthy minds through a holistic approach to early childhood
-      development. We strive to deliver this by creating an environment that
-      empowers, challenges and provides opportunities for children to develop to
-      their full potential.
+      We view the environment as the third Teacher.  It should be creative,
+      supportive and inclusive so that children feel comfortable and safe.  Our
+      environment is designed to provide children with opportunities to work
+      together in small groups or independently, and reflects the local
+      community and the families who use our service.  The children are
+      encouraged to move freely through the classroom to explore the areas that
+      interest them.  We feel technology and computers are an essential learning
+      tool for today’s child, and it is incorporated into the child’s learning
+      environment.
     title: Environment
   - content: >-
-      We view children as active learners who are involved in their own
-      acquisition of knowledge. Each child arrives at our service with their own
-      experiences, knowledge, personality, interests and needs. Children learn
-      through play, exploration, problem solving and sharing of knowledge
-      through social play. 
+      We work to support families in their parenting role and share with them
+      information of benefit to their child’s development. We encourage families
+      to be actively involved in the life of the service. Through sharing
+      cultures, ideas, knowledge, strengths and differences, we develop
+      partnerships with families that are beneficial to the child’s learning and
+      development. We incorporate a model of family grouping which allows
+      siblings to be together.
 
 
-      We have an uncompromising commitment to nurturing active bodies and
-      creating healthy minds through a holistic approach to early childhood
-      development. We strive to deliver this by creating an environment that
-      empowers, challenges and provides opportunities for children to develop to
-      their full potential.
+      Working in partnership with parents and families we will:
+
+
+      * create relationships of respect, trust, communication, consultation and
+      information sharing;
+
+      * understand the importance of a child’s home and family/community; 
+
+      * recognise parents as their child’s first and most influential teachers;
+      and
+
+      * recognise the skills and interests of families and incorporate their
+      beliefs and values into our centre. 
+
+
+      We feel it is important to connect to our local community and its
+      resources to create avenues for learning opportunities, and encourage
+      children to connect and contribute to their world.
     title: Families and the Community
   - content: >-
-      We view children as active learners who are involved in their own
-      acquisition of knowledge. Each child arrives at our service with their own
-      experiences, knowledge, personality, interests and needs. Children learn
-      through play, exploration, problem solving and sharing of knowledge
-      through social play. 
+      The children’s experiences are documented to make their learning visible
+      to all. This is achieved through a portfolio presentation approach.  We
+      document using photos, comments, art work and learning stories.  Recording
+      of this information leads to informed decision making about the provision
+      of materials and future experiences for the children.  
 
 
-      We have an uncompromising commitment to nurturing active bodies and
-      creating healthy minds through a holistic approach to early childhood
-      development. We strive to deliver this by creating an environment that
-      empowers, challenges and provides opportunities for children to develop to
-      their full potential.
+      Child’s achievement are evaluated against the Early Years Learning
+      outcomes.  We provide Child Reflection Reports and Transition Statements
+      that document each child’s learning and development.
+
+
+      We create a curriculum that empowers children to make choices, promote
+      peer relationships and to provoke thoughts and imagination.  Through
+      observing and listening to the children we question and suggest new
+      possibilities and encourage them to search and explore meaning in whatever
+      they do.
+
+
+      ##### Our curriculum supports:
+
+
+      * having a play based emergent curriculum;
+
+      * numeracy, literacy, music and movement, science and social development;
+
+      * children developing knowledge and an understanding of technology and
+      computers;
+
+      * promoting physical activity, health and wellbeing;
+
+      * adopting intentional and spontaneous teaching methods to optimise
+      learning;
+
+      * child lead and initiated experiences;
+
+      * structured but flexible routines;
+
+      * family participation and input to allow the Educators to pursue the
+      child’s interests;
+
+      * scaffolding experiences and projects to extend children’s learning;
+
+      * developing school readiness;
+
+      * reflecting and evaluating our practices; and
+
+      * keeping up to date with leading research on early childhood education
+      and innovation.
+
+
+      We periodically evaluate and reflect on our practices to continuously
+      improve in all areas of the service.
     title: Curriculum and Documentation
 ---
 #### Our Vision

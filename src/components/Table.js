@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Content from './Content'
+import Checkbox from './Checkbox'
 import './Table.css'
 
 export default ({ headings = [], items = [], checklist }) => (
@@ -23,8 +25,7 @@ export default ({ headings = [], items = [], checklist }) => (
         items.map((item = {}, index) => (
           <div className="Table--Row" key={'item' + index}>
             <div className="Table--Cell">
-              {item['cell1']}{' '}
-              {checklist && <input className="Table--Input" type="checkbox" />}
+              <Content src={item['cell1']} /> {checklist && <Checkbox />}
             </div>
             {item['cell2'] && (
               <div className="Table--Cell">{item['cell2']}</div>

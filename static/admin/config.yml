@@ -84,7 +84,7 @@ collections: # A list of collections the CMS should be able to edit
             required: false
             widget: list
             fields:
-              - {name: cell1, label: Item, widget: string, required: false}
+              - {name: cell1, label: Item, widget: markdown, required: false}
           - label: Download Banner
             name: downloadBanner
             required: false

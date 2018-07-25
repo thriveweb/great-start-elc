@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Accordion from '../components/Accordion'
-import PopoutBanner from '../components/PopoutBanner'
+import Table from '../components/Table'
 import './HealthInfoPage.css'
 
 // Export Template for use in CMS preview
@@ -16,7 +16,8 @@ export const HealthInfoPageTemplate = ({
   popoutBanner,
   accordion,
   body,
-  lowerSection
+  lowerSection,
+  table
 }) => (
   <main className="HealthInfoPage">
     <Helmet>
@@ -28,6 +29,15 @@ export const HealthInfoPageTemplate = ({
     <section className="section">
       <div className="container content">
         <Content source={body} />
+      </div>
+    </section>
+
+    <section>
+      <div className="container content">
+        <Table
+          headings={table.headings.map(item => item.heading)}
+          items={table.items}
+        />
       </div>
     </section>
 
@@ -66,13 +76,13 @@ export const pageQuery = graphql`
         title
         subtitle
         lowerSection
-        featuredImage {
-          childImageSharp {
-            sizes(maxWidth: 1800) {
-              src
-              srcSet
-              srcWebp
-            }
+        table {
+          headings {
+            heading
+          }
+          items {
+            cell1
+            cell2
           }
         }
         accordion {

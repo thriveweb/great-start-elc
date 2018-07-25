@@ -1,0 +1,36 @@
+.Table {
+  background: white;
+}
+
+.Table--Headings {
+  background: var(--secondary);
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+
+.Table--Body {
+  padding: 2rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.Table--Body > * + * {
+  border-top: 1px solid var(--midGrey);
+}
+
+.Table--Body .Table--Cell + .Table--Cell {
+  border-left: 1px solid var(--midGrey);
+}
+
+.Table--Row {
+  display: flex;
+}
+
+.Table--Row > * {
+  width: 100%;
+}
+
+.Table--Cell {
+  padding: 1.5rem 2rem;
+}

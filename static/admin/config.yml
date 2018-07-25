@@ -79,6 +79,24 @@ collections: # A list of collections the CMS should be able to edit
           - {name: slug, label: Slug, widget: hidden, default: 'parents/health-information'}
           - {name: title, label: Title, widget: string}
           - {label: Upper Section, name: body, widget: markdown}
+          - label: Table
+            name: table
+            required: false
+            widget: object
+            fields:
+              - label: Headings
+                name: headings
+                required: false
+                widget: list
+                fields:
+                  - {name: heading, label: Heading, widget: string, required: false}
+              - label: items
+                name: items
+                required: false
+                widget: list
+                fields:
+                  - {name: cell1, label: Cell 1, widget: string, required: false}
+                  - {name: cell2, label: Cell 2, widget: string, required: false}
           - {label: Lower Section, name: lowerSection, widget: markdown}
           - label: "Meta"
             required: false

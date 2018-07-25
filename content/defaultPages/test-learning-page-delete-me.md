@@ -1,9 +1,9 @@
 ---
 template: DefaultPage
-slug: learning/new-learning-page
-title: Test Learning Page - Delete Me
+slug: learning/Enrolling
+title: Enrolling at a Great Start Early Learning Centre
 ---
-![Keanu](/images/uploads/squarespace-make-it-with-keanu-reeves-600-76496.jpg)
+![Keanu](/images/uploads/evan-kirby.jpg)
 
 ##### This is placeholder text that our web designers put here to make sure words appear properly on your website.
 

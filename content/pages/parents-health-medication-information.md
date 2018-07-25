@@ -2,6 +2,19 @@
 template: HealthInfoPage
 slug: parents/health-information
 title: Health and Medication Information
+table:
+  headings:
+    - heading: Common Illnesses
+    - heading: Exclusion Period
+  items:
+    - cell1: Diarrhoea
+      cell2: Until 24 hours after last loose bowl motion
+    - cell1: 'Hand, foot, and mouth disease'
+      cell2: Until all blisters have dried
+    - cell1: Head lice
+      cell2: Not excluded if effective treatment occurs before next day at the centre
+    - cell1: Influenza and influenza-like illnessess
+      cell2: Until child is well
 lowerSection: >-
   ### Medical Condition Management
 

@@ -1,7 +1,7 @@
 ---
 template: HealthInfoPage
 slug: parents/health-information
-title: Health and Medication Information
+title: Health & Medication Information
 table:
   headings:
     - heading: Common Illnesses
@@ -47,6 +47,7 @@ lowerSection: >-
   each type of medical condition. If the medical dietary condition is an allergy
   please follow the Allergy Medical Condition requirements.**
 ---
+
 ### Our priority is providing your child with a safe, clean and nurturing environment. If your child has fallen ill, for the interest of you, your child, and other children in the centre we ask that they should be picked up immediately.
 
 If a child becomes unwell whilst at the centre the parents or care givers will be notified and asked to take the child home. Unwell children must be collected from the centre within an hour of being contacted therefore families must ensure emergency contacts are documented as part of the enrolment process and are available.

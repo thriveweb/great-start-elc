@@ -1,6 +1,6 @@
 ---
 template: DefaultPage
-slug: parent/Health-Medication
+slug: parents/Health-Medication
 title: Health & Medication Information
 ---
 ### Our priority is providing your child with a safe, clean and nurturing environment. If your child has fallen ill, for the interest of you, your child, and other children in the centre we ask that they should be picked up immediately.

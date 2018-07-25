@@ -71,6 +71,25 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
+      - file: "content/pages/parents-health-medication-information.md"
+        label: "Health and Medical Info"
+        name: "health-info-page"
+        fields:
+          - {name: template, label: Template, widget: hidden, default: HealthInfoPage}
+          - {name: slug, label: Slug, widget: hidden, default: 'parents/health-information'}
+          - {name: title, label: Title, widget: string}
+          - {label: Upper Section, name: body, widget: markdown}
+          - {label: Lower Section, name: lowerSection, widget: markdown}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
+
       - file: "content/pages/home.md"
         label: "Home Page"
         name: "home-page"

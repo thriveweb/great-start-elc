@@ -5,6 +5,7 @@ import './cms-utils'
 import { HomePageTemplate } from '../templates/HomePage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { CentreTemplate } from '../templates/Centre'
+import { HealthInfoPageTemplate } from '../templates/HealthInfoPage'
 
 CMS.registerPreviewStyle('/styles.css')
 
@@ -16,4 +17,7 @@ CMS.registerPreviewTemplate('defaultPages', ({ entry }) => (
 ))
 CMS.registerPreviewTemplate('centres', ({ entry }) => (
   <CentreTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('health-info-page', ({ entry }) => (
+  <HealthInfoPageTemplate {...entry.toJS().data} />
 ))

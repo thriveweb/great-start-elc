@@ -15,39 +15,38 @@ export const HealthInfoPageTemplate = ({
   downloadBanner,
   popoutBanner,
   accordion,
-  body
-}) => {
-  const simpleFooter = !!popoutBanner
-  // downloadBanner={downloadBanner} simpleFooter={simpleFooter}
-  return (
-    <main className="HealthInfoPage">
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
+  body,
+  lowerSection
+}) => (
+  <main className="HealthInfoPage">
+    <Helmet>
+      <title>{title}</title>
+    </Helmet>
 
-      <PageHeader title={title} subtitle={subtitle} />
+    <PageHeader title={title} subtitle={subtitle} />
 
-      <section className="section">
-        <div className="container content">
-          <Content source={body} />
-        </div>
-        {accordion && (
-          <Fragment>
-            <br />
-            <br />
-            <div className="container content">
-              <Accordion items={accordion} />
-            </div>
-          </Fragment>
-        )}
-      </section>
+    <section className="section">
+      <div className="container content">
+        <Content source={body} />
+      </div>
+    </section>
 
-      {popoutBanner && (
-        <PopoutBanner image={popoutBanner.image} title={popoutBanner.title} />
+    <section className="section">
+      <div className="container content">
+        <Content source={lowerSection} />
+      </div>
+      {accordion && (
+        <Fragment>
+          <br />
+          <br />
+          <div className="container content">
+            <Accordion items={accordion} />
+          </div>
+        </Fragment>
       )}
-    </main>
-  )
-}
+    </section>
+  </main>
+)
 
 const HealthInfoPage = ({ data }) => {
   const { markdownRemark: page } = data
@@ -66,6 +65,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subtitle
+        lowerSection
         featuredImage {
           childImageSharp {
             sizes(maxWidth: 1800) {
@@ -73,15 +73,6 @@ export const pageQuery = graphql`
               srcSet
               srcWebp
             }
-          }
-        }
-        downloadBanner {
-          title
-          file {
-            publicURL
-          }
-          preview {
-            ...LargeImage
           }
         }
         accordion {

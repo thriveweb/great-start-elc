@@ -99,6 +99,8 @@ We are committed to educational excellence for every child through the delivery 
 
 We believe that children are capable, inquisitive and active learners who play a crucial role in education.  It is our role as Educators to support and scaffold the children’s development and learning.  We believe in allowing children to learn through exploration, inquiry projects and open-ended play.  We value an inclusive, supportive and stimulating learning environment that evokes imagination and creativity, while providing opportunities for problem solving and independence.  Collaboration between children, educators and families is valued and enables us to better understand the child as a whole.  We believe in documenting the children’s experiences to make their learning visible to our community and provide the children with opportunities to reflect, share and build on their understanding.
 
+![]()
+
 ##### Our Reggio Emilia approach has the following key principles:
 
 * The Image of the child

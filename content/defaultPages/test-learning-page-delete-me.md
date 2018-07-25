@@ -1,6 +1,6 @@
 ---
 template: DefaultPage
-slug: learning/Enrolling
+slug: enrolments/Enrolling
 title: Enrolling at a Great Start Early Learning Centre
 accordion:
   - content: >-

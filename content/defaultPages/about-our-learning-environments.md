@@ -1,13 +1,11 @@
 ---
 template: DefaultPage
-slug: 'about/our-learning-environments'
+slug: about/our-learning-environments
 title: Our Learning Environments
-featuredImage: /images/uploads/learn.jpg
 ---
-
 ##### With a focus on the holistic development of each child, we are committed to providing a creative, stimulating and nurturing environment for children to thrive.
 
-![](/images/uploads/learn.jpg)
+![null](/images/uploads/img_0772.jpg)
 
 We understand that as parents you strive to create a caring and safe environment for your family, and it is only natural you seek the same standard for an early learning centre. Your child’s transition from home to one of our early learning centres should be seamless and it will feel like a home away from home where they are comfortable, happy and inspired.
 

@@ -1,7 +1,7 @@
 ---
 template: Centre
 title: Mildura Central Early Learning Centre
-logo: /images/uploads/east-malvern.svg
+logo: /images/uploads/mildura-central.svg
 centreDetails:
   email: eastmalvern@mychildelc.com.au
   location: 11 Illowa Street Malvern East VIC 3145
@@ -14,10 +14,10 @@ centreIntro: >-
 classroomsSection:
   items:
     - icon: /images/uploads/baby.svg
-      subtitle: 'Joey Classroom, 6 week to 18 months old'
+      subtitle: 'Joey Classroom, 6 week to 12 months old'
       title: Nursery
     - icon: /images/uploads/toddler.svg
-      subtitle: 'Possum Classroom, 18 months to 3 years old'
+      subtitle: 'Possum Classroom, 12 months to 2 1/2 years old'
       title: Toddler
     - icon: /images/uploads/prekindergarten.svg
       subtitle: 3 to 4 years old
@@ -43,12 +43,9 @@ testimonials:
       much time reading placeholder text! This text isn’t going to remain here
       because it doesn't pertain to the website.
 directorStatement:
-  content: "I have been in the early learning and child care industry since 19XX and I have an Advanced Diploma in Early Childhood Education.\LI am very passionate about the Reggio Emilia Approach. We tailor our curriculum to encourage learning and lay down strong foundations which are so vital in the early years. Our curriculum is designed to address the children’s interests and to develop their skills. Our programming format is unique and is designed to address key learning areas including social skills, language, maths, investigation, creative pursuits, fine and gross motor skills, sensory experiences, cultural experiences and environmental understanding. In addition to this it addresses the Outcomes as outlined in the Early Years Learning Frameworks.\n\nI believe that each child is unique and learns and explores in his or her own way. Therefore, we encourage building on their own interests and strengths through scaffolding, mentoring and facilitating their learning and development.\_I believe that our centre truly captivates this and we ignite the endless possibilities of  learning by embracing challenges and rejoicing in accomplishments through our various spaces, open-ended resources and our vibrant atmosphere.\n\nThe team I am fortunate to work with shares my passion for seeing children meet their potential. They are dedicated, professional, experienced and highly qualified.\n\n**We invite you to come and visit our centre to meet our team and to see for yourself our commitment to your child’s early learning journey.**"
+  content: "I hold a Diploma of Early Childhood and I have been in the early childhood profession for the past X years. I am extremely passionate about early childhood education, having worked with all age groups and having been involved in all aspects of child development. I believe that childhood is a special time of life and that the first five years are so very important not only for the child but also for the family as well.\n\nIt is a privilege to be a part of a child’s fundamental growth and development and I’m sure that you would agree that there is something very rewarding in seeing children reach their true potential during this formative and important period of time.\L\LI look forward to meeting and working with you and your family."
   image: /images/uploads/shutterstock_58596811.jpg
-  title: >-
-    Hello, my name is Liz Cosier and I have been the Centre Director and
-    Nominated Supervisor at East Malvern Early Learning Centre since XXXX
-    (Year).
+  title: "Hello, my name is Ainslee Sullivan and I am the Centre Director here at Mildura Central Early Learning Centre.\L\L"
 gallery:
   - image: /images/uploads/centre.jpg
   - image: /images/uploads/tim-marshall-155597.jpg
@@ -57,7 +54,7 @@ additionalInfoBoxes:
   - buttonLinkTo: /
     buttonTitle: Read More
     content: >-
-      At East Malvern Early Learning Centre we offer an approved kindergarten
+      At Mildura Central Early Learning Centre we offer an approved kindergarten
       program within our long day care program. Our kindergarten teachers are
       university qualified and provided a play-based emergent curriculum that
       supports your child in learning school readiness skills.
@@ -70,37 +67,30 @@ additionalInfoBoxes:
       of childcare. The childcare subsidies help eligible families reduce their
       weekly payments and make childcare more affordable. To find out more
       information about childcare subsidies, please contact the Family Assistant
-      Office on 13 61 50 or see their website.
+      Office on 13 61 50 or see their website. 
     title: Childcare Subsidies
 ---
+Mildura Central Early Learning Centre is located in the Mildura CBD area, being convenient for all families in the community. We offer care to all age groups from as young as six weeks up to school age. We are open every day from Monday to Friday, except for public holidays.
 
-We only have a maximum of 50 children attending the centre each day across four classrooms; this provides opportunities for educators, parents and children to develop close relationships. We offer care to all age groups from as young as six weeks up to school age. We are open every day from Monday to Friday, except for public holidays.
+Channelling a world-class Reggio Emilia approach, we provide beautiful, nature-inspired spaces, a supportive co-learning approach and degree-qualified teachers, to best stimulate a lifelong love of learning, exploration and discovery.
 
-We pride ourselves on having the best curriculum and education programs which is supported by having experienced and knowledgeable early childhood professional educators. We offer an Approved Kindergarten Program delivered by a teacher with a bachelor’s degree. We have received the highest rating and recognition for our Educational Programs – Exceeding NQS in all seven quality areas.
+We pride ourselves on having the best curriculum and education programs and this is supported by having experienced and knowledgeable early childhood professional educators. We offer an Approved Kindergarten Program delivered by a teacher with a bachelor’s degree. We have received the highest rating and recognition for our Educational Programs.
 
-We understand the importance of education and believe that childhood is a unique time of life which should be valued and enjoyed. We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing. We use a Reggio Emilia inspired approach to meet the objectives outlined in the National and Victorian Early Years Learning and Development Frameworks; including emphasis on literacy, numeracy, music and movement and social development.
+#### Education
 
-At East Malvern Early Learning Centre, we provide an environment where both children and families feel safe, secure and supported. A place where partnerships and friendships can be formed and maintained, where trust and credibility can be built upon and upheld, and lines of communication are always open and valued.
-
-#### Outdoor
-
-Our outdoor play space stimulates children's imagination, creativity, exploration, discovery, engagement and a sense of wonder. We have created sensory gardens, mud kitchens, herb and vegetable gardens, natural materials and magical play spaces. We have carefully designed and planned spaces to encourage a stronger understanding of the environment and sustainability – while giving children the scope to explore, play and let their imaginations roam.
-
-#### Team
-
-We believe that we are only as great as our people. Our team of educators are well trained, knowledgeable, trust worthy and above all else, their level of commitment to the wellbeing of children is second to none. All our educator’s hold formal qualifications; including bachelor degrees, advance diplomas, diplomas and certificate III in early childhood. All our educators hold Working With Children Checks and have current first aid and CPR certificates.
-
-#### Diet
-
-Our cook freshly prepares and serves warm meals and snacks on the premises, taking into consideration any special dietary requirements.
-
-#### Environment
-
-Our qualified and trained educators implement an educational program that enhances and challenges each child's individual learning and promotes a safe and happy environment.
+We understand the importance of education and believe that childhood is a unique time of life which should be valued and enjoyed. We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing. We use a Reggio Emilia inspired approach to meet the objectives outlined in the National and Victorian Early Years Learning and Development Frameworks; including emphasis on literacy, numeracy, music and movement and social development. 
 
 #### Centre
 
-We are open every day from Monday to Friday, except for public holidays. Educators attend regular professional development and training to allow them to deliver best practice educational programs for your children.
+At Mildura Central Early Learning Centre, we provide an environment where both children and families feel safe, secure and supported. A place where partnerships and friendships can be formed and maintained, where trust and credibility can be built upon and upheld, and lines of communication are always open and valued.
+
+#### Outside
+
+Outside, our playground areas are a balance of natural and manmade elements and play surfaces – with sandpits, worm farm, vegetable patch, water tank, mud kitchen, bike path, gardens, a stage, cubbyhouse and lots of shade. We have carefully designed and planned spaces to encourage a stronger understanding of the environment and sustainability – while giving children the scope to explore, play and let their imaginations roam.  Our cook freshly prepares and serves warm meals and snacks on the premises, taking into consideration any special dietary requirements. Our qualified and trained staff implement a developmental program that enhances and challenges each child's individual learning and promotes a safe and happy environment.
+
+#### Team
+
+We believe that we are only as great as our people. Our team of educators are well trained, knowledgeable, trust worthy and above all else, their level of commitment to the wellbeing of children is second to none. All our educator hold formal qualifications; including bachelor degrees, advance diplomas, diplomas and certificate III in early childhood. All our educators hold Working With Children Checks and have current first aid and CPR certificates. Our educators attend regular professional development and training to allow them to deliver best practices educational programs for your children.
 
 ---
 

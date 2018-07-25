@@ -6,8 +6,8 @@ checklist:
   - cell1: Have you received a tour of the centre and received our welcome email?
   - cell1: >-
       Have you contacted Centrelink/myGov to obtain information and update your
-      information? (including authorising your child’s attendance in the mygov
-      app or via telephone)?
+      information? (including authorising your child’s attendance in the [mygov
+      app](https://my.gov.au/) or via telephone)?
   - cell1: >-
       Have you been informed of the centre’s rating and assessment status and
       our quality improvement plan?

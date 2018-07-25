@@ -1,9 +1,9 @@
 ---
 template: DefaultPage
-slug: 'about'
+slug: about
 title: Welcome
-featuredImage: /images/uploads/learn.jpg
 ---
+![](/images/uploads/learn.jpg)
 
 ### Welcome to Great Start Early Learning Centre
 
@@ -11,7 +11,7 @@ featuredImage: /images/uploads/learn.jpg
 
 For this reason, Great Start Early Learning Centres employs professional educators that focus on building our children’s social, emotional and physical wellbeing, while teaching them to be respectful to others and the community in which they live. Supporting and strengthening all of these aspects of the child gives them the best foundation for their future.
 
-We have taken the Reggio Emilia Approach to early childhood education and adapted it to suit the Australian culture, climate and educational expectations of families. Our curriculum is fun and exciting within a safe and secure environment and links to the Victorian Early Years Learning Framework and the National Early Years Framework. The regulating body ACECQA, has assessed our centre and we are very proud to receive the rating “Exceeding” National Quality Standards in all seven areas! This rating is reserved for only the highest quality centres.
+We have taken the Reggio Emilia Approach to early childhood education and adapted it to suit the Australian culture, climate and educational expectations of families. Our curriculum is fun and exciting within a safe and secure environment and links to the Victorian Early Years Learning Framework and the National Early Years Framework. The regulating body ACECQA, has assessed our centre and we are very proud to receive the rating **“Exceeding”** National Quality Standards in all seven areas! This rating is reserved for only the highest quality centres.
 
 We understand that as parents you strive to create a caring and safe environment for your family, and it is only natural you seek the same standard for an early learning centre. Your child’s transition from home to one of our early learning centres should be seamless and it will feel like a home away from home where they are comfortable, happy and inspired.
 

@@ -107,3 +107,7 @@ We believe that children are capable, inquisitive and active learners who play a
 * Environment
 * Families and the Community
 * Curriculum and Documentation
+
+#### Our Vision for Reconciliation
+
+We recognise and respect Aboriginal and Torres Strait Islander peoples as the traditional custodians of the land on which our early childhood services are offered. We are committed to building partnerships based on trust, respect and recognition of the rights of Aboriginal and Torres Strait Islander peoples. On a foundation of equity, integrity and respect we create high quality early learning experiences for all children.

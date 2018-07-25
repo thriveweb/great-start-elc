@@ -80,7 +80,9 @@ export const pageQuery = graphql`
           content
         }
         downloadBanner {
-          file
+          file {
+            publicURL
+          }
           title
           preview {
             ...SmallImage

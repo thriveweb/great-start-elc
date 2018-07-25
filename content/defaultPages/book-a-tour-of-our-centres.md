@@ -1,6 +1,6 @@
 ---
 template: DefaultPage
-slug: Enrolment/book-a-tour
+slug: enrolments/book-a-tour
 title: Book a Tour of Our Centres
 ---
 ![](/images/uploads/action-child-children.jpg)

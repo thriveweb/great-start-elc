@@ -20,160 +20,92 @@ accordion:
       for more information.
     title: Entitlement When Your Child is Absent
   - content: >-
-      Like most early learning centres, your child’s place is reserved when they
-      are away so the day still needs to be paid for. Each financial year, the
-      Family Assistance Office will pay your childcare subsidies for the first
-      42 absence days. These absences can be for any reason, including public
-      holidays, and the initial 42 days must be used before any additional
-      absences can be claimed (please see below).
+      To secure child’s enrolment, an initial fee of two weeks fees is required
+      to be paid on enrolment of your child or $100 (whichever is greater). The
+      initial fee is not refundable under any circumstances; I.e. if you child
+      does not attend the centre as booked, you cancel your child enrolment
+      before commencement, etc. 
 
 
-      You may receive childcare subsidies for absence days after the initial 42
-      days each financial year if you are able to provide evidence to
-      demonstrate the absence has occurred under permitted circumstances. There
-      is no limit on these days, but you will be required to provide
-      documentation to support the absence. Please see the Governments website
-      for more information.
+      Once your child commences at the centres, the amount equal to the initial
+      fee will be credited to your account and offset against the attendance
+      fees charged.
     title: Initial Fees to Secure Enrolment
   - content: >-
-      Like most early learning centres, your child’s place is reserved when they
-      are away so the day still needs to be paid for. Each financial year, the
-      Family Assistance Office will pay your childcare subsidies for the first
-      42 absence days. These absences can be for any reason, including public
-      holidays, and the initial 42 days must be used before any additional
-      absences can be claimed (please see below).
-
-
-      You may receive childcare subsidies for absence days after the initial 42
-      days each financial year if you are able to provide evidence to
-      demonstrate the absence has occurred under permitted circumstances. There
-      is no limit on these days, but you will be required to provide
-      documentation to support the absence. Please see the Governments website
-      for more information.
+      Families taking annual leave will be entitled to a holiday discount in
+      accordance with the fee schedule of the centre, provided two weeks’ notice
+      in writing is given of intended dates of absence. Holiday discounts will
+      only apply to a whole week of holidays taken at a time, and only for two
+      weeks in the year.  Any holidays taken as part weeks or single days will
+      not attract a discount.  Discounts will only be applied to parent accounts
+      that are up to date and where appropriate written notice has been given.
     title: Holidays
-  - content: >-
-      Like most early learning centres, your child’s place is reserved when they
-      are away so the day still needs to be paid for. Each financial year, the
-      Family Assistance Office will pay your childcare subsidies for the first
-      42 absence days. These absences can be for any reason, including public
-      holidays, and the initial 42 days must be used before any additional
-      absences can be claimed (please see below).
-
-
-      You may receive childcare subsidies for absence days after the initial 42
-      days each financial year if you are able to provide evidence to
-      demonstrate the absence has occurred under permitted circumstances. There
-      is no limit on these days, but you will be required to provide
-      documentation to support the absence. Please see the Governments website
-      for more information.
+  - content: '1'
     title: Medical Conditions and Illness
   - content: >-
-      Like most early learning centres, your child’s place is reserved when they
-      are away so the day still needs to be paid for. Each financial year, the
-      Family Assistance Office will pay your childcare subsidies for the first
-      42 absence days. These absences can be for any reason, including public
-      holidays, and the initial 42 days must be used before any additional
-      absences can be claimed (please see below).
-
-
-      You may receive childcare subsidies for absence days after the initial 42
-      days each financial year if you are able to provide evidence to
-      demonstrate the absence has occurred under permitted circumstances. There
-      is no limit on these days, but you will be required to provide
-      documentation to support the absence. Please see the Governments website
-      for more information.
+      a public holiday.  Should a public holiday fall on a booked day, families
+      may request to have an extra day (subject to notified availability) in the
+      week of the public holiday for the nominal cost of $1. Please note
+      childcare subsidies are usually paid for public holidays, unless your
+      initial 42 days have already been used.
     title: Public Holidays
   - content: >-
-      Like most early learning centres, your child’s place is reserved when they
-      are away so the day still needs to be paid for. Each financial year, the
-      Family Assistance Office will pay your childcare subsidies for the first
-      42 absence days. These absences can be for any reason, including public
-      holidays, and the initial 42 days must be used before any additional
-      absences can be claimed (please see below).
-
-
-      You may receive childcare subsidies for absence days after the initial 42
-      days each financial year if you are able to provide evidence to
-      demonstrate the absence has occurred under permitted circumstances. There
-      is no limit on these days, but you will be required to provide
-      documentation to support the absence. Please see the Governments website
-      for more information.
+      We understand that sometimes families may run late and collect their child
+      after our early learning program ends. Please see our fee schedule for
+      additional costs of continuing to provide care after the operating hours.
+      This will be charged to your account accordingly. If late pick-up occurs
+      regularly the centre reserves the right to cancel child’s enrolment.
     title: Late Pick-up Fees
   - content: >-
-      Like most early learning centres, your child’s place is reserved when they
-      are away so the day still needs to be paid for. Each financial year, the
-      Family Assistance Office will pay your childcare subsidies for the first
-      42 absence days. These absences can be for any reason, including public
-      holidays, and the initial 42 days must be used before any additional
-      absences can be claimed (please see below).
-
-
-      You may receive childcare subsidies for absence days after the initial 42
-      days each financial year if you are able to provide evidence to
-      demonstrate the absence has occurred under permitted circumstances. There
-      is no limit on these days, but you will be required to provide
-      documentation to support the absence. Please see the Governments website
-      for more information.
+      Please complete the Immunisation Status table and upload your child’s
+      Immunisation History Statement or Medical Exemption Form onto the
+      enrolment system portal. (NOTE: The Child Health Book is not an accepted
+      proof of immunisation.) You can obtain an Immunisation History Statement
+      in the following ways: Online through MyGov, Medicare Express App, over
+      the counter at a Medicare Service Centre or by calling AIR on 1800 653
+      809.
     title: Immunisation Compliance
   - content: >-
-      Like most early learning centres, your child’s place is reserved when they
-      are away so the day still needs to be paid for. Each financial year, the
-      Family Assistance Office will pay your childcare subsidies for the first
-      42 absence days. These absences can be for any reason, including public
-      holidays, and the initial 42 days must be used before any additional
-      absences can be claimed (please see below).
-
-
-      You may receive childcare subsidies for absence days after the initial 42
-      days each financial year if you are able to provide evidence to
-      demonstrate the absence has occurred under permitted circumstances. There
-      is no limit on these days, but you will be required to provide
-      documentation to support the absence. Please see the Governments website
-      for more information.
+      Two weeks’ notice of cancellation of your booking in writing is required. 
+      Parents should be aware that non-attendance during the two-week notice
+      period will result in ineligibility for childcare subsidies, hence full
+      fees will be payable in the event of non-attendance.
     title: Withdrawal of Children from the Centre
   - content: >-
-      Like most early learning centres, your child’s place is reserved when they
-      are away so the day still needs to be paid for. Each financial year, the
-      Family Assistance Office will pay your childcare subsidies for the first
-      42 absence days. These absences can be for any reason, including public
-      holidays, and the initial 42 days must be used before any additional
-      absences can be claimed (please see below).
+      Two weeks written notice is required if you need to change or cancel your
+      child’s regular booked days of attendance. 
 
 
-      You may receive childcare subsidies for absence days after the initial 42
-      days each financial year if you are able to provide evidence to
-      demonstrate the absence has occurred under permitted circumstances. There
-      is no limit on these days, but you will be required to provide
-      documentation to support the absence. Please see the Governments website
-      for more information.
+      Additional days can be requested at any time and taken immediately if
+      available. If unavailable, your request for additional days can be added
+      to your centre’s waiting list using QK Enrol portal.
     title: Changes to your Child’s Regular Booked Days
 ---
-
 ##### Great Start Early Learning Centres is registered as a provider of “Approved Care” under the Child Care Management System (“CCMS”). Under CCMS, the Federal Government provides us with each family’s approval details directly, which is why each family must be registered with the Family Assistance Office (FAO).
 
 The Australian Government may provide financial assistance towards the cost of childcare. If you would like to access this assistance, please include this information in your child’s enrolment form:
 
-- Your Customer Reference Number (CRN – issued to you by the Family Assistance Office).
-- Your child’s Customer Reference Number (issued to you by the Family Assistance Office)
-- Your date of birth (CRN Holder).
-- Your child’s date of birth.
+* Your Customer Reference Number (CRN – issued to you by the Family Assistance Office).
+* Your child’s Customer Reference Number (issued to you by the Family Assistance Office)
+* Your date of birth (CRN Holder).
+* Your child’s date of birth.
 
 ###### This information will be provided to the Australian Department of Education and validated against their records to determine if you can receive fee subsidies. Your subsidy will then be subtracted from the full fees owing, leaving a gap fee which is the amount families pay to the Centre, meaning less out of pocket expense.
 
 #### Registering for Child Care Subsidies
 
-Registering can be completed through:  
-In person: [at Medicare offices or Centrelink offices](https://findus.humanservices.gov.au/)  
+Registering can be completed through:\
+In person: [at Medicare offices or Centrelink offices](https://findus.humanservices.gov.au/)\
  Internet: [www.familyassist.gov.au](http://www.familyassist.gov.au)
-Phone: [13 61 50](tel:13 61 50)
+Phone: \[13 61 50](tel:13 61 50)
 
 We also require you to register at myGov at https://my.gov.au. MyGov is a simple and secure government online service providing information on:
 
-- Australian Taxation Office
-- Centrelink
-- Child Support
-- Medicare
-- My Health Record
+* Australian Taxation Office
+* Centrelink
+* Child Support
+* Medicare
+* My Health Record
 
 Note: Even if you have previously registered with the FAO for another childcare centre you will still need to contact the FAO again to provide the specific details of your child’s enrolment. You may also need to provide updated information relating to the previous financial year.
 
@@ -181,18 +113,20 @@ Note: Even if you have previously registered with the FAO for another childcare 
 
 The following information is general information regarding payment of centre fees.
 
-- Your child’s attendance is booked and charged on a daily basis (not a part day basis).
-- An initial booking fee is due when your position is confirmed to secure your child’s enrolment. The initial fee is non-refundable if your child does not attend as booked.
-- Two weeks advance payment (current week plus 2 weeks) of full fees is required before your child starts and must be maintained during your child’s attendance.
-- Fees will apply for booked days that your child does not attend due to illness, holidays or public holidays.
-- We provide Statements weekly via email and these can also be requested at any time from your Centre Director at the administration office.
-- Late Pick-up Fees: We understand that sometimes families may run late and collect their child after our early learning program ends. Please see our fee schedule for additional costs of continuing to provide care after the operating hours. This will be charged to your account accordingly. If late pick-up occurs regularly the centre reserves the right to cancel child’s enrolment.
-- If your account falls in arrears, your Centre Director will work with you to plan your payments to bring your account back to two weeks in advance. Failure to comply with the terms and conditions of enrolment may result in child’s enrolment being terminated.
-- If your account is referred to our debt collectors, recovery costs of 25% of the outstanding account balance will be added to your account.
-- If an account goes into credit due to the application or backdating of CCB entitlement, that credit will remain on the customer’s account to be set against subsequent fee statements. If an account is in credit when a child leaves the Centre, after all fees owing have been paid, then the source of the balance will be reviewed to determine whether the money should be returned to the parent or refunded to the Federal Government as an overpayment of Child Care Subsidy.
+* Your child’s attendance is booked and charged on a daily basis (not a part day basis).
+* An initial booking fee is due when your position is confirmed to secure your child’s enrolment. The initial fee is non-refundable if your child does not attend as booked.
+* Two weeks advance payment (current week plus 2 weeks) of full fees is required before your child starts and must be maintained during your child’s attendance.
+* Fees will apply for booked days that your child does not attend due to illness, holidays or public holidays.
+* We provide Statements weekly via email and these can also be requested at any time from your Centre Director at the administration office.
+* Late Pick-up Fees: We understand that sometimes families may run late and collect their child after our early learning program ends. Please see our fee schedule for additional costs of continuing to provide care after the operating hours. This will be charged to your account accordingly. If late pick-up occurs regularly the centre reserves the right to cancel child’s enrolment.
+* If your account falls in arrears, your Centre Director will work with you to plan your payments to bring your account back to two weeks in advance. Failure to comply with the terms and conditions of enrolment may result in child’s enrolment being terminated.
+* If your account is referred to our debt collectors, recovery costs of 25% of the outstanding account balance will be added to your account.
+* If an account goes into credit due to the application or backdating of CCB entitlement, that credit will remain on the customer’s account to be set against subsequent fee statements. If an account is in credit when a child leaves the Centre, after all fees owing have been paid, then the source of the balance will be reviewed to determine whether the money should be returned to the parent or refunded to the Federal Government as an overpayment of Child Care Subsidy.
 
 Our method of payment is via direct debit either from your nominated bank account or credit card. Once your completed direct debit form has been received at the centre your fees will be debited and automatically applied to your childcare account.
 
 Dishonour fees are charged to you by the financial institutions. The charge is set by the financial institution or agency and is subject to change at any time. For further information consult the financial institution website.
 
 If cash or cheque payments are made, they should be handed to the Centre Director and a cash receipt will be issued. No responsibility will be accepted by the centre for cash payments for which parents have not obtained a receipt. Cheque payments should be made payable to Great Start Early Learning Centres Pty Ltd. The Centre Director or Educator will assist you with EFTPOS payments. The details for BPay are listed on your weekly parent statement.
+
+**Download Terms and Conditions**

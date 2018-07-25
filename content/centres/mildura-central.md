@@ -28,21 +28,7 @@ classroomsSection:
       title: Kindergarten Classroom
   subtitle: Our education programs cater for each individual child’s needs.
   title: 'We provide early learning and care to children in the following classrooms:'
-testimonials:
-  - name: John Doe
-    testimonial: >-
-      The staff at Great Start Early Learning Centre are always amazing and very
-      welcoming. They try and make you feel as comfortable as possible when you
-      are dropping your child off for the first time. Noah loves having kids his
-      own age to play with and all the activities he can do outside.
-  - name: Jane Doe
-    testimonial: >-
-      This is placeholder text that our web designers put here to make sure
-      words appear properly on your website. This text is going to be replaced
-      once the website is completed. You are currently reading text that is
-      written in English, not any other language. Be careful not to waste too
-      much time reading placeholder text! This text isn’t going to remain here
-      because it doesn't pertain to the website.
+testimonials: []
 directorStatement:
   content: "I hold a Diploma of Early Childhood and I have been in the early childhood profession for the past X years. I am extremely passionate about early childhood education, having worked with all age groups and having been involved in all aspects of child development. I believe that childhood is a special time of life and that the first five years are so very important not only for the child but also for the family as well.\n\nIt is a privilege to be a part of a child’s fundamental growth and development and I’m sure that you would agree that there is something very rewarding in seeing children reach their true potential during this formative and important period of time.\L\LI look forward to meeting and working with you and your family."
   image: /images/uploads/shutterstock_58596811.jpg

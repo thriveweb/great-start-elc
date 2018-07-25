@@ -1,11 +1,10 @@
 ---
 template: DefaultPage
-slug: 'learning'
+slug: learning
 title: Learning at Great Start Early Learning Centres
-featuredImage: /images/uploads/learn.jpg
 ---
 
-##### We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing.
+### We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing.
 
 We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing. We use a Reggio Emilia inspired approach to meet the objectives outlined in the National and Victorian Early Years Learning and Development Frameworks; including social skills, language, maths, investigation, creative pursuits, fine and gross motor skills, sensory experiences, cultural experiences and environmental understanding.
 
@@ -13,7 +12,7 @@ Each day has structure and a flexible routine and includes time for play, projec
 
 ---
 
-**Our curriculum supports:**
+###### **Our curriculum supports:**
 
 - Having a play based emergent curriculum;
 - Numeracy, literacy, music and movement, science and social development;

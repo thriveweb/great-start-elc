@@ -15,13 +15,13 @@ centreIntro: >-
 classroomsSection:
   items:
     - icon: /images/uploads/baby.svg
-      subtitle: 'Joey Classroom, 6 week to 18 months old'
+      subtitle: 'Koala Classroom, 6 week to 12 months old'
       title: Nursery
     - icon: /images/uploads/toddler.svg
-      subtitle: 'Possum Classroom, 18 months to 3 years old'
+      subtitle: 'Wombat Classroom, 12 months to 2 1/2 years old'
       title: Toddler
     - icon: /images/uploads/prekindergarten.svg
-      subtitle: 3 to 4 years old
+      subtitle: 3.5 to 4 years old
       title: Prekindergarten Classroom
     - icon: /images/uploads/kindergarten.svg
       subtitle: 4 to 5 years old

@@ -11,14 +11,24 @@ We may need to call an ambulance or doctor if urgent medical attention is requir
 
 All medical and ambulance costs are the parent’s responsibility. All illness at the centre is recorded on an Incident, Injury, Trauma, and Illness Record form.
 
-###### You will find a table below detailing some common childhood illnesses and the exclusion periods recommended by the National Health and Medical Research Council that we follow. You can find the full publication this table is taken from in Staying Healthy in Childcare, 5th edition at www.nhmrc.gov.au.
+###### You will find a table below detailing some common childhood illnesses and the exclusion periods recommended by the National Health and Medical Research Council that we follow. You can find the full publication this table is taken from in Staying Healthy in Childcare, 5th edition at [www.nhmrc.gov.au](www.nhmrc.gov.au).
+
+# Table goes here
+a
+
+a
+
+a
+
+a
+
+a
 
 # Medical Condition Management
 
 If you child has a Medical Condition or Illness (for example anaphylaxis, allergies, asthma, diabetes, epilepsy, hearing loss, or medically diagnosed dietary restrictions) please discuss this with the Centre Director upon enrolment or when diagnosed. In this case, you must:
 
 1. Complete relevant "Medical Management, Risk Minimisation & Communication Plan” - this form is obtained from the centre or our website.
-
 2. Complete the relevant forms:
 
 * ASCIA Action Plan for Anaphylaxis Reactions form (Found at ASCIA - www.allergy.org.au); or
@@ -26,9 +36,7 @@ If you child has a Medical Condition or Illness (for example anaphylaxis, allerg
 * Complete an Asthma Australia Asthma Care Plan for Education and Care Centre form (Found at Asthma Australia - www.asthmaaustralia.org.au)
 
 3. Have the forms signed by your child's doctor.
-
 4. Please discuss Forms and Plans with the Centre Director during orientation sessions. 
-
 5. Upload signed forms to our enrolment system section - Medical Condition & Dietary Restriction.
 
 ###### A Medical Management, Risk Minimisation & Communication Plan is required for each type of medical condition. If the medical dietary condition is an allergy please follow the Allergy Medical Condition requirements.

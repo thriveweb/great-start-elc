@@ -8,6 +8,11 @@ checklist:
       Have you contacted Centrelink/myGov to obtain information and update your
       information? (including authorising your child’s attendance in the mygov
       app or via telephone)?
+  - cell1: >-
+      Have you been informed of the centre’s rating and assessment status and
+      our quality improvement plan?
+  - cell1: Have you been introduced to educators?
+  - cell1: Enrolment Form and Direct Debit Authority Form completed?
 downloadBanner:
   file: ''
   preview: /images/uploads/family-checklist.jpg

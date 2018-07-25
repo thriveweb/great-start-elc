@@ -16,6 +16,76 @@ accordion:
       empowers, challenges and provides opportunities for children to develop to
       their full potential.
     title: Image of the child
+  - content: >-
+      We view children as active learners who are involved in their own
+      acquisition of knowledge. Each child arrives at our service with their own
+      experiences, knowledge, personality, interests and needs. Children learn
+      through play, exploration, problem solving and sharing of knowledge
+      through social play. 
+
+
+      We have an uncompromising commitment to nurturing active bodies and
+      creating healthy minds through a holistic approach to early childhood
+      development. We strive to deliver this by creating an environment that
+      empowers, challenges and provides opportunities for children to develop to
+      their full potential.
+    title: Relationships
+  - content: >-
+      We view children as active learners who are involved in their own
+      acquisition of knowledge. Each child arrives at our service with their own
+      experiences, knowledge, personality, interests and needs. Children learn
+      through play, exploration, problem solving and sharing of knowledge
+      through social play. 
+
+
+      We have an uncompromising commitment to nurturing active bodies and
+      creating healthy minds through a holistic approach to early childhood
+      development. We strive to deliver this by creating an environment that
+      empowers, challenges and provides opportunities for children to develop to
+      their full potential.
+    title: Role of Teachers and Educators
+  - content: >-
+      We view children as active learners who are involved in their own
+      acquisition of knowledge. Each child arrives at our service with their own
+      experiences, knowledge, personality, interests and needs. Children learn
+      through play, exploration, problem solving and sharing of knowledge
+      through social play. 
+
+
+      We have an uncompromising commitment to nurturing active bodies and
+      creating healthy minds through a holistic approach to early childhood
+      development. We strive to deliver this by creating an environment that
+      empowers, challenges and provides opportunities for children to develop to
+      their full potential.
+    title: Environment
+  - content: >-
+      We view children as active learners who are involved in their own
+      acquisition of knowledge. Each child arrives at our service with their own
+      experiences, knowledge, personality, interests and needs. Children learn
+      through play, exploration, problem solving and sharing of knowledge
+      through social play. 
+
+
+      We have an uncompromising commitment to nurturing active bodies and
+      creating healthy minds through a holistic approach to early childhood
+      development. We strive to deliver this by creating an environment that
+      empowers, challenges and provides opportunities for children to develop to
+      their full potential.
+    title: Families and the Community
+  - content: >-
+      We view children as active learners who are involved in their own
+      acquisition of knowledge. Each child arrives at our service with their own
+      experiences, knowledge, personality, interests and needs. Children learn
+      through play, exploration, problem solving and sharing of knowledge
+      through social play. 
+
+
+      We have an uncompromising commitment to nurturing active bodies and
+      creating healthy minds through a holistic approach to early childhood
+      development. We strive to deliver this by creating an environment that
+      empowers, challenges and provides opportunities for children to develop to
+      their full potential.
+    title: Curriculum and Documentation
 ---
 #### Our Vision
 

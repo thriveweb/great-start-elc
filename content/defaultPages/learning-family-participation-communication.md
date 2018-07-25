@@ -1,10 +1,10 @@
 ---
 template: DefaultPage
-slug: 'learning/family-participation-communication'
+slug: learning/family-participation-communication
 title: Family Participation & Communication
 ---
 
-##### Open, honest, respectful and harmonious communication between families, educators and children is essential. We feel this is important in delivering high-quality, effective education and care for each child.
+### Open, honest, respectful and harmonious communication between families, educators and children is essential. We feel this is important in delivering high-quality, effective education and care for each child.
 
 Please keep in touch with what is going on at the centre through reading the QK Journeys Curriculum Portal, noticeboards and our emails. Please participate in your child’s curriculum by completing curriculum input forms. We value your feedback and the unique experiences and culture of your family. Sharing this information with your child’s class will provide opportunities for your child to share their culture and create new topics for learning.
 

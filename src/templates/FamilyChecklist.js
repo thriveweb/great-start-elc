@@ -11,7 +11,7 @@ export const FamilyChecklistTemplate = ({
   title,
   subtitle,
   featuredImage,
-  downloadBanner,
+  checklistDownload,
   popoutBanner,
   accordion,
   body,
@@ -50,7 +50,7 @@ export const FamilyChecklistTemplate = ({
           </div>
         </Fragment>
       )}
-      <DownloadBanner {...downloadBanner} />
+      <DownloadBanner {...checklistDownload} />
     </section>
   </main>
 )
@@ -79,7 +79,7 @@ export const pageQuery = graphql`
           title
           content
         }
-        downloadBanner {
+        checklistDownload {
           file {
             publicURL
           }

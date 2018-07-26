@@ -6,6 +6,7 @@ import { HomePageTemplate } from '../templates/HomePage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { CentreTemplate } from '../templates/Centre'
 import { HealthInfoPageTemplate } from '../templates/HealthInfoPage'
+import { FamilyChecklistTemplate } from '../templates/FamilyChecklist'
 
 CMS.registerPreviewStyle('/styles.css')
 
@@ -20,4 +21,7 @@ CMS.registerPreviewTemplate('centres', ({ entry }) => (
 ))
 CMS.registerPreviewTemplate('health-info-page', ({ entry }) => (
   <HealthInfoPageTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('family-checklist', ({ entry }) => (
+  <FamilyChecklistTemplate {...entry.toJS().data} />
 ))

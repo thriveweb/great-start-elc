@@ -15,5 +15,7 @@ checklist:
   - cell1: Enrolment Form and Direct Debit Authority Form completed?
 checklistDownload:
   title: ''
+meta:
+  title: ''
 ---
 ### We aim to ensure that parents have all the necessary information so your children feel settled and excited to start at our centre.

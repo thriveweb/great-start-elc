@@ -1,20 +1,20 @@
 ### Templates:
 
-- [ ] DefaultPage
-- [ ] HomePage
+- [x] DefaultPage
+- [x] HomePage
 - [ ] OurVisionPage
 - [ ] TeamPage
 - [ ] QKPortalPage
-- [ ] Centre
+- [x] Centre
 - [ ] EnrolmentPage
 - [ ] TourPage
 - [ ] CareersPage
 - [ ] FeesPage
-- [ ] ContactPage
+- [x] ContactPage
 - [ ] HealthPage
 - [ ] ChecklistPage
 - [ ] ProgramsPage
-- [ ] FamilyPage
+- [x] FamilyChecklistPage
 
 - HOMEPAGE [heavily customised]
 

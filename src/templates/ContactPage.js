@@ -1,75 +1,70 @@
 import React from 'react'
 
 import PageHeader from '../components/PageHeader'
-import EnquiryFormSimpleAjax from '../components/EnquiryFormSimpleAjax'
 import Content from '../components/Content'
-import { MapPin, Smartphone, Mail } from 'react-feather'
+import BreakoutBox from '../components/BreakoutBox'
+import Button from '../components/Button'
 import './ContactPage.css'
 
 // Export Template for use in CMS preview
 export const ContactPageTemplate = ({
   body,
   title,
-  subtitle,
   featuredImage,
-  address,
-  phone,
-  email
+  centres = []
 }) => (
   <main className="Contact">
-    <PageHeader
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    />
+    <PageHeader title={title} backgroundImage={featuredImage} />
 
     <div className="section Contact--Section1">
-      <div className="container Contact--Section1--Container">
-        <div>
-          <Content source={body} />
+      <div className="container content Contact--Section1--Container">
+        <Content source={body} />
+      </div>
 
-          <div className="Contact--Details">
-            {address && (
-              <a
-                className="Contact--Details--Item"
-                href={`https://www.google.com.au/maps/search/${encodeURI(
-                  address
-                )}`}
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <MapPin /> {address}
-              </a>
+      <div className="container Contact--Centres">
+        {centres.map(({ title, centreDetails }) => (
+          <BreakoutBox title={title} key={title}>
+            {centreDetails.openingHours && (
+              <p>
+                <strong>Open Hours</strong>
+                <br />
+                {centreDetails.openingHours}
+              </p>
             )}
-            {phone && (
-              <a className="Contact--Details--Item" href={`tel:${phone}`}>
-                <Smartphone /> {phone}
-              </a>
+            {centreDetails.location && (
+              <p>
+                <strong>Centre Location</strong>
+                <br />
+                {centreDetails.location}
+              </p>
             )}
-            {email && (
-              <a className="Contact--Details--Item" href={`mailto:${email}`}>
-                <Mail /> {email}
-              </a>
+            {(centreDetails.email || centreDetails.phone) && (
+              <div>
+                <strong>Contact Info</strong>
+                <br />
+                {centreDetails.phone && <div>T: {centreDetails.phone}</div>}
+                {centreDetails.email && <div>E: {centreDetails.email}</div>}
+              </div>
             )}
-          </div>
-        </div>
-
-        <div>
-          <EnquiryFormSimpleAjax name="Simple Form Ajax" />
-        </div>
+            <br />
+            <Button to={'/'}>Enrol Now</Button>
+          </BreakoutBox>
+        ))}
       </div>
     </div>
   </main>
 )
 
 const ContactPage = ({ data }) => {
-  const { markdownRemark: page } = data
-
+  const { page } = data
   return (
     <ContactPageTemplate
-      body={page.rawMarkdownBody}
-      // inject all page frontmatter props
+      body={page.html}
       {...page.frontmatter}
+      centres={data.centres.edges.map(edge => ({
+        ...edge.node,
+        ...edge.node.frontmatter
+      }))}
     />
   )
 }
@@ -81,14 +76,26 @@ export default ContactPage
 // ID is processed via gatsby-node.js
 export const pageQuery = graphql`
   query ContactPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      rawMarkdownBody
+    page: markdownRemark(id: { eq: $id }) {
+      html
       frontmatter {
         title
-        template
-        subtitle
-        featuredImage {
-          ...LargeImage
+      }
+    }
+    centres: allMarkdownRemark(
+      filter: { fields: { contentType: { regex: "/centre/" } } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            centreDetails {
+              email
+              location
+              openingHours
+              phone
+            }
+          }
         }
       }
     }

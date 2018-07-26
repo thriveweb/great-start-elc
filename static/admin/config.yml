@@ -18,13 +18,9 @@ collections: # A list of collections the CMS should be able to edit
         label: "Contact Page"
         name: "contact-page"
         fields:
+          - {name: template, label: Template, widget: hidden, default: ContactPage}
+          - {name: slug, label: Slug, widget: hidden, default: 'contact'}
           - {label: Title, name: title, widget: string}
-          - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Subtitle, name: subtitle, widget: markdown}
-          - {label: Body, name: body, widget: markdown}
-          - {label: Address, name: address, widget: text}
-          - {label: Phone, name: phone, widget: string}
-          - {label: Email Address, name: email, widget: string}
           - label: "Meta"
             required: false
             name: "meta"
@@ -52,25 +48,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
-      - file: "content/pages/about.md"
-        label: "About Page"
-        name: "about-page"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Subtitle, name: subtitle, widget: markdown}
-          - {label: Section 1, name: section1, widget: markdown}
-          - {label: Section 2, name: section2, widget: markdown}
-          - label: "Meta"
-            required: false
-            name: "meta"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
-              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-              - {label: Noindex, name: noindex, widget: boolean, required: false}
-
       - file: "content/pages/parents-family-checklist.md"
         label: "Family Checklist"
         name: "family-checklist"
@@ -85,9 +62,9 @@ collections: # A list of collections the CMS should be able to edit
             widget: list
             fields:
               - {name: cell1, label: Item, widget: markdown, required: false}
-          - label: Download Banner
-            name: downloadBanner
+          - label: "Checklist Download"
             required: false
+            name: "checklistDownload"
             widget: "object"
             fields:
               - {label: Title, name: title, widget: string, required: false}
@@ -148,11 +125,11 @@ collections: # A list of collections the CMS should be able to edit
           - {name: slug, label: Slug, widget: hidden, default: ''}
           - {name: title, label: Title, widget: string}
           - {name: subtitle, label: Subtitle, widget: string}
-          - {name: featuredImage, label: Featured Image, widget: image}
+          - {name: featuredImage, label: Featured Image, widget: image, required: true}
           - name: homeSection1
             label: Section 1
             widget: object
-            required: false
+            required: true
             fields:
               - {name: title, label: Title, widget: string}
               - name: centres
@@ -165,17 +142,17 @@ collections: # A list of collections the CMS should be able to edit
           - name: homeSection2
             label: Section 2
             widget: object
-            required: false
+            required: true
             fields:
               - {name: title, label: Title, widget: string}
-              - {name: subtitle, label: Subitle, widget: string, required: false}
+              - {name: subtitle, label: Subtitle, widget: string, required: false}
               - {name: content, label: Content, widget: markdown, required: false}
               - {name: linkTo, label: Link To, widget: string, required: false}
               - {name: image, label: Image, widget: image, required: false}
           - name: homeSection3
             label: Section 3
             widget: object
-            required: false
+            required: true
             fields:
               - {name: title, label: Title, widget: string}
               - name: items
@@ -188,9 +165,9 @@ collections: # A list of collections the CMS should be able to edit
           - name: homeSection4
             label: Section 4
             widget: object
-            required: false
+            required: true
             fields:
-              - {name: image1, label: Image 1, widget: image}
+              - {name: image1, label: Image 1, widget: image, required: true}
               - {name: image2, label: Image 2, widget: image}
               - name: items
                 label: Items

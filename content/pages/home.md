@@ -59,6 +59,7 @@ homeSection3:
         education and have considerable early learning experience.
   title: Why Choose Us?
 homeSection4:
+  image1: /images/uploads/kids-2.jpg
   image2: /images/uploads/evan-kirby.jpg
   items:
     - description: >-
@@ -82,4 +83,3 @@ homeSection4:
       linkTo: /
       title: How to Enrol?
 ---
-

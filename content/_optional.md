@@ -2,7 +2,8 @@
 homeSection1:
   centres:
     - logo: /images/logo.svg
-
+homeSection4:
+  image1: /images/logo.svg
 checklistDownload:
   file: '/images/logo.png'
   preview: '/images/logo.svg'

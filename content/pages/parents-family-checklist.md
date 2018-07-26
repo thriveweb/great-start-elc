@@ -14,6 +14,8 @@ checklist:
   - cell1: Have you been introduced to educators?
   - cell1: Enrolment Form and Direct Debit Authority Form completed?
 checklistDownload:
+  file: ''
+  preview: ''
   title: ''
 meta:
   canonicalLink: ''

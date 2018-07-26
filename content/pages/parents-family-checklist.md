@@ -14,7 +14,7 @@ checklist:
   - cell1: Have you been introduced to educators?
   - cell1: Enrolment Form and Direct Debit Authority Form completed?
 checklistDownload:
-  enabled: true
+  enabled: false
   title: ''
 ---
 ### We aim to ensure that parents have all the necessary information so your children feel settled and excited to start at our centre.

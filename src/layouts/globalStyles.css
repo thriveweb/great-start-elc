@@ -302,3 +302,7 @@ blockquote {
   box-shadow: 8px 10px 0 var(--col2-trans);
   transform: translateY(-1px);
 }
+
+.m-t-2 {
+  margin-top: 2rem;
+}

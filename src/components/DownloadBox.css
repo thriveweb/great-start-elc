@@ -1,0 +1,18 @@
+.DownloadBox {
+  max-width: 400px;
+  padding: 3rem;
+}
+
+.DownloadBox--Item {
+  display: flex;
+  margin: 0.5em 0;
+}
+
+.DownloadBox--Title {
+  margin-bottom: 2rem;
+}
+
+.DownloadBox--Item svg {
+  margin-right: 1rem;
+  height: 1.4em;
+}

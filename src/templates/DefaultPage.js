@@ -5,6 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Accordion from '../components/Accordion'
 import PopoutBanner from '../components/PopoutBanner'
+import DownloadBox from '../components/DownloadBox'
 import './DefaultPage.css'
 
 // Export Template for use in CMS preview
@@ -15,10 +16,9 @@ export const DefaultPageTemplate = ({
   downloadBanner,
   popoutBanner,
   accordion,
+  downloadableForms,
   body
 }) => {
-  const simpleFooter = !!popoutBanner
-  // downloadBanner={downloadBanner} simpleFooter={simpleFooter}
   return (
     <main className="DefaultPage">
       <Helmet>
@@ -31,14 +31,13 @@ export const DefaultPageTemplate = ({
         <div className="container content">
           <Content source={body} />
         </div>
+        <div className="container content m-t-2">
+          {downloadableForms && <DownloadBox listItems={downloadableForms} />}
+        </div>
         {accordion && (
-          <Fragment>
-            <br />
-            <br />
-            <div className="container content">
-              <Accordion items={accordion} />
-            </div>
-          </Fragment>
+          <div className="container content m-t-2">
+            <Accordion items={accordion} />
+          </div>
         )}
       </section>
 
@@ -65,6 +64,12 @@ export const pageQuery = graphql`
         subtitle
         featuredImage {
           ...LargeImage
+        }
+        downloadableForms {
+          file {
+            publicURL
+          }
+          title
         }
         # downloadBanner {
         #   file {

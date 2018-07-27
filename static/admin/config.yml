@@ -200,6 +200,13 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string, required: false}
           - {label: File, name: file, widget: file, required: false}
           - {label: Preview Image, name: preview, widget: image, required: false}
+      - label: Downloadable Forms
+        name: downloadableForms
+        required: false
+        widget: list
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: File, name: file, widget: file, required: false}
       - label: Accordion
         name: accordion
         required: false

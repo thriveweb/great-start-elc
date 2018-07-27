@@ -7,6 +7,9 @@ homeSection4:
 checklistDownload:
   file: /images/logo.svg
   preview: /images/logo.svg
+downloadableForms:
+  - title: Test
+    file: /images/logo.svg
 meta:
   canonicalLink: ''
   description: ''

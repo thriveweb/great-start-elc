@@ -2,24 +2,26 @@
 template: DefaultPage
 slug: learning/family-participation-communication
 title: Family Participation & Communication
+downloadableForms:
+  - title: Item 1
+    file: /images/uploads/blank.pdf
 ---
+
 ### Open, honest, respectful and harmonious communication between families, educators and children is essential. We feel this is important in delivering high-quality, effective education and care for each child.
 
 Please keep in touch with what is going on at the centre through reading the QK Journeys Curriculum Portal, noticeboards and our emails. Please participate in your child’s curriculum by completing curriculum input forms. We value your feedback and the unique experiences and culture of your family. Sharing this information with your child’s class will provide opportunities for your child to share their culture and create new topics for learning.
 
-**Downloadable forms**
-
 ###### **Communication between parents and educators occurs in many ways:**
 
-* QK Journeys Curriculum Portal; daily communication about what the children have learned and experienced via their online learning portfolio.
-* Educational Programs are displayed within your child’s classroom and in QK Journeys. These explain the activities your child has participated in and specific experiences they have enjoyed.
-* Each child has learning goals and focuses which are discussed with parents and formally documented.
-* Child Wellbeing Schedules communicate each child’s health and wellbeing.
-* Term newsletters and notices.
-* Verbal updates from educators when you pick up your child.
-* Special meetings - either for the whole centre or individually if educators need to speak with you in a confidential environment.
-* Phone and email - if there is anything that we want to bring to your attention immediately regarding your child, we will attempt to phone you during the day. This is particularly relevant in the case of illness or accidents.
-* Special events and social functions are only successful if families get involved. These are great ways to enjoy the centre, get to know other families and celebrate your child’s learning and achievements.
+- QK Journeys Curriculum Portal; daily communication about what the children have learned and experienced via their online learning portfolio.
+- Educational Programs are displayed within your child’s classroom and in QK Journeys. These explain the activities your child has participated in and specific experiences they have enjoyed.
+- Each child has learning goals and focuses which are discussed with parents and formally documented.
+- Child Wellbeing Schedules communicate each child’s health and wellbeing.
+- Term newsletters and notices.
+- Verbal updates from educators when you pick up your child.
+- Special meetings - either for the whole centre or individually if educators need to speak with you in a confidential environment.
+- Phone and email - if there is anything that we want to bring to your attention immediately regarding your child, we will attempt to phone you during the day. This is particularly relevant in the case of illness or accidents.
+- Special events and social functions are only successful if families get involved. These are great ways to enjoy the centre, get to know other families and celebrate your child’s learning and achievements.
 
 ![Family Participation & Communication](/images/uploads/baby.jpg)
 

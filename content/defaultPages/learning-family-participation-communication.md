@@ -3,8 +3,10 @@ template: DefaultPage
 slug: learning/family-participation-communication
 title: Family Participation & Communication
 downloadableForms:
-  - title: Item 1
-    file: /images/uploads/blank.pdf
+  - file: /images/uploads/blank.pdf
+    title: Item 1
+  - file: /images/uploads/being becoming book.png
+    title: Item 2
 ---
 
 ### Open, honest, respectful and harmonious communication between families, educators and children is essential. We feel this is important in delivering high-quality, effective education and care for each child.

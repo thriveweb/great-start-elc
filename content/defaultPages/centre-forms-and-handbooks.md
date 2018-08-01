@@ -5,7 +5,8 @@ title: Centre Forms and Handbooks
 downloadBanner:
   title: ''
 downloadableForms:
-  - title: Holiday Form (PDF)
+  - file: /images/uploads/baby.jpg
+    title: Holiday Form (PDF)
   - title: Ending Care Form (PDF)
   - title: Medical Management Plans form (PDF)
   - title: Great Start Handbook Eastmalvern (PDF)

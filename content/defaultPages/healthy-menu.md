@@ -3,7 +3,7 @@ template: DefaultPage
 slug: parents/Healthy-Menu
 title: Healthy Menu
 ---
-##### We aim to instil in all children the importance of maintaining a lifelong respect for food and living a healthy lifestyle. 
+### We aim to instil in all children the importance of maintaining a lifelong respect for food and living a healthy lifestyle. 
 
 It is important that children understand where food comes from and each centre uses fresh seasonal produce. During meal times educators discuss food, nutrition and hygiene. All meals are prepared in accordance with Food Safety and Nutrition standards plus dietary, cultural and medical needs. Each classroom has a copy of all dietary requirements and food allergies plus we encourage families to meet with the cook during the orientation process to discuss your child’s specific needs.
 

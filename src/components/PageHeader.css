@@ -1,6 +1,33 @@
 .PageHeader {
   background: var(--col2-light);
   padding: 5rem 0;
+  position: relative;
+}
+
+.PageHeader:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20rem;
+  height: 100%;
+  background-image: url(../../public/images/uploads/bannerimg-left.png);
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.PageHeader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14.6rem;
+  height: 100%;
+  background-image: url(../../public/images/uploads/bannerimg-right.png);
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .PageHeader--BG {
@@ -9,6 +36,15 @@
 
 .PageHeader-large {
   padding: 15rem 0;
+}
+
+.PageHeader-large:before {
+  background-image: url(../../public/images/uploads/homeimg-left.png);
+}
+
+.PageHeader-large:after {
+  background-image: url(../../public/images/uploads/homeimg-right.png);
+  width: 62.2rem;
 }
 
 .PageHeader--Title {

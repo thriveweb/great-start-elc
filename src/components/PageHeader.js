@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Content from './Content'
 import Image from './Image'
+import Content from './Content'
 import Button from './Button'
 import headerMain from '../images/header-main.png'
 import header from '../images/header.png'
@@ -21,6 +21,10 @@ const PageHeader = ({ title, subtitle, backgroundImage, large, button, className
           {button && <Button to={button.linkTo}>{button.title}</Button>}
         </div>
       </div>
+      {large &&
+        backgroundImage && (
+          <Image background src={backgroundImage} />
+      )}
     </div>
   )
 }

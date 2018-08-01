@@ -26,6 +26,7 @@ export const HomePageTemplate = ({
       title={title}
       subtitle={subtitle}
       button={{ linkTo: '/enrol/', title: 'Enrol Now' }}
+      backgroundImage={featuredImage}
     />
     {homeSection1 && (
       <div className="section">
@@ -156,7 +157,7 @@ export const pageQuery = graphql`
         template
         subtitle
         featuredImage {
-          ...LargeImage
+          ...MediumImage
         }
         homeSection1 {
           title

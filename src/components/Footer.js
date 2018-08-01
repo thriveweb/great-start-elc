@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 
 import JoinBanner from '../components/JoinBanner'
+import StandardsBanner from '../components/StandardsBanner'
 import FamilyHandbookSection from '../components/FamilyHandbookSection'
 import ExceedBanner from '../components/ExceedBanner'
 import './Footer.css'
@@ -14,6 +15,7 @@ export default ({
   ...props
 }) => {
   const { siteTitle } = globalSettings
+
   return (
     <Fragment>
       {!simple && (
@@ -23,7 +25,6 @@ export default ({
               <JoinBanner linkTo="/" />
             </div>
           </div>
-
           {showHandbook &&
             footerSettings && (
               <FamilyHandbookSection

@@ -184,7 +184,7 @@ collections: # A list of collections the CMS should be able to edit
       preview: true
     folder: content/defaultPages
     slug: "{{slug}}"
-    delete: false
+    delete: true
     create: true
     fields:
       - {label: Template, name: template, widget: hidden, default: DefaultPage}

@@ -114,11 +114,11 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 3.5rem;
+  font-size: 5.4rem;
 }
 h3,
 .h3 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 h4,
 .h4 {
@@ -268,6 +268,32 @@ blockquote {
 }
 .section.noPadding {
   padding: 0;
+}
+
+.section.dots-left, .section.dots-right {
+  position: relative;
+}
+
+.section.dots-left:before, .section.dots-right:before {
+  content: '';
+  position: absolute;
+  bottom: -3rem;
+  left: 0;
+  height: 50rem;
+  width: 40rem;
+  background-image: url(../../public/images/uploads/background-dots.png);
+  background-size: contain;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+.section.dots-right:before {
+  background-image: url(../../public/images/uploads/black-background-dots.png);
+  left: auto;
+  right: 0;
+  bottom: -20rem;
+  width: 50rem;
+  height: 60rem;
 }
 
 .container {

@@ -32,6 +32,10 @@
   height: 100%;
 }
 
+.Content h6 strong {
+  line-height: 1.4;
+}
+
 .Content p {
   margin-bottom: 2em;
 }

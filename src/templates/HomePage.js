@@ -58,7 +58,7 @@ export const HomePageTemplate = ({
       </div>
     )}
     {homeSection2 && (
-      <div className="section light">
+      <div className="section dots-left light">
         <div className="container homeSection2--container">
           <div className="relative">
             <Image
@@ -79,7 +79,7 @@ export const HomePageTemplate = ({
       </div>
     )}
     {homeSection3 && (
-      <div className="section">
+      <div className="section homeSection3">
         <div className="container">
           <h3>{homeSection3.title}</h3>
           {homeSection3.items && (
@@ -105,7 +105,7 @@ export const HomePageTemplate = ({
       </div>
     )}
     {homeSection4 && (
-      <div className="section">
+      <div className="section dots-right">
         <div className="container">
           <div className="homeSection4--grid">
             <div className="homeSection4--grid--image relative">

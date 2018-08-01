@@ -2,6 +2,7 @@
   display: flex;
   align-items: stretch;
   justify-content: space-between;
+  margin-top: 6.5rem;
 }
 
 .homeSection1--box {
@@ -32,6 +33,14 @@
   width: 50%;
 }
 
+.homeSection2--container p {
+  font-size: 1.6rem;
+}
+
+.homeSection2--container p strong {
+  font-size: 2rem;
+}
+
 .homeSection2--container .Button {
   margin-top: 2rem;
 }
@@ -39,6 +48,10 @@
 .homeSection2--container > *:nth-child(2) {
   width: calc(50% - 8rem);
   margin: auto;
+}
+
+.homeSection3 {
+  padding-bottom: 0;
 }
 
 .homeSection3--items {
@@ -58,9 +71,8 @@
 }
 
 .homeSection3--item--icon {
-  width: 7rem;
+  flex: 0 0 15%;
   margin-right: 2rem;
-  height: auto;
 }
 
 .homeSection3--item--title {

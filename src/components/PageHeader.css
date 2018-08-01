@@ -1,6 +1,6 @@
 .PageHeader {
   background: var(--col2-light);
-  padding: 5rem 0;
+  padding: 6rem 0;
   position: relative;
 }
 
@@ -22,7 +22,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 14.6rem;
+  width: 17.45rem;
   height: 100%;
   background-image: url(../../public/images/uploads/bannerimg-right.png);
   background-position: top left;
@@ -57,7 +57,7 @@
 }
 
 .PageHeader--Title {
-  font-size: 4rem;
+  font-size: 4.8rem;
   margin-bottom: 0;
   line-height: 1.1;
 }

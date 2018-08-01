@@ -5,5 +5,7 @@ siteDescription: >-
   Netlify CMS and React.
 socialMediaCard:
   image: /images/uploads/card-og.png
-headerScripts: |-
-  <!-- Add your analytics scripts / verification meta here -->
+headerScripts: <!-- Add your analytics scripts / verification meta here -->
+standardsBanner:
+  description: Our centres are rated as exceeding the National Quality Standards
+  image: /images/uploads/exceeding.png

@@ -7,18 +7,26 @@ import _kebabCase from 'lodash/kebabCase'
 import Logo from './Logo'
 import Button from './Button'
 import NavLink from './NavLink'
+
+import { ICONArrowDown } from './Icons.js'
+
 import './Nav.css'
 
 export default class Nav extends Component {
   state = {
-    active: false
+    active: false,
+    menuItemActive: false
   }
 
-  toggleActive = () => this.setState({ active: !this.state.active })
+
+  toggleActive = () =>
+    this.setState({ 
+      active: !this.state.active
+    })
 
   render() {
     const { allPages } = this.props
-    const { active } = this.state
+    const { active, menuItemActive } = this.state
 
     const getChildPages = parentSlug =>
       allPages.filter(
@@ -39,12 +47,18 @@ export default class Nav extends Component {
       )
     }
 
-    const NavLinkGroup = ({ to, title, ...props }) => (
-      <div className="NavLinkGroup">
+    const NavLinkGroup = ({ to, title, dropdown, ...props }) => (
+      <div className={`NavLinkGroup ${menuItemActive === dropdown ? 'menu-active' : ''}`}>
         <NavLink to={to} {...props}>
           {title}
         </NavLink>
         {renderChildPageLinks(to)}
+        <span 
+        className={`MenuToggle`}
+        onClick={() => this.setState({ menuItemActive: menuItemActive === dropdown ? false : dropdown })}
+        >
+          <ICONArrowDown/>
+        </span>
       </div>
     )
 
@@ -61,12 +75,12 @@ export default class Nav extends Component {
             {active ? <X /> : <Menu />}
           </button>
           <div className={`Nav--Container--Links ${active ? 'active' : ''}`}>
-            <NavLinkGroup to="/about/" title="About" />
-            <NavLinkGroup to="/learning/" title="Learning" />
-            <NavLinkGroup to="/centres/" title="Centres" />
-            <NavLinkGroup to="/enrolments/" title="Enrolments" />
-            <NavLinkGroup to="/parents/" title="Parents" />
-            <NavLinkGroup to="/careers/" title="Careers" />
+            <NavLinkGroup to="/about/" title="About" dropdown="1" />
+            <NavLinkGroup to="/learning/" title="Learning" dropdown="2" />
+            <NavLinkGroup to="/centres/" title="Centres" dropdown="3" />
+            <NavLinkGroup to="/enrolments/" title="Enrolments" dropdown="4" />
+            <NavLinkGroup to="/parents/" title="Parents" dropdown="5" />
+            <NavLinkGroup to="/careers/" title="Careers" dropdown="6" />
             <NavLink to="/contact/">Contact</NavLink>
 
             <div className="Nav--Container--Sep" />

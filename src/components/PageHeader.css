@@ -48,7 +48,12 @@
 }
 
 .PageHeader-large .Image {
-  
+  height: auto;
+  width: 55rem;
+  position: absolute !important;
+  bottom: -15rem;
+  right: 15rem;
+  z-index: 1;
 }
 
 .PageHeader--Title {

@@ -9,6 +9,8 @@ import './PageHeader.css'
 
 const PageHeader = ({ title, subtitle, backgroundImage, large, button, className = '' }) => {
 
+  console.log(backgroundImage)
+
   if (large) className += ' PageHeader-large'
   return (
     <div className={`PageHeader relative ${className}`}>
@@ -23,7 +25,7 @@ const PageHeader = ({ title, subtitle, backgroundImage, large, button, className
       </div>
       {large &&
         backgroundImage && (
-          <Image background src={backgroundImage} />
+          <Image src={backgroundImage} />
       )}
     </div>
   )

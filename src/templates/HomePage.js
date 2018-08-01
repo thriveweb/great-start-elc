@@ -157,7 +157,7 @@ export const pageQuery = graphql`
         template
         subtitle
         featuredImage {
-          ...MediumImage
+          ...LargeImage
         }
         homeSection1 {
           title

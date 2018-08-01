@@ -6,7 +6,7 @@ subtitle: >-
   We strive for all children to achieve their full potential by offering the
   education, care and nurturing they need to grow and have a great start in
   life.
-featuredImage: /images/uploads/isabella juskova.jpg
+featuredImage: /images/uploads/home-foregroundimg.png
 homeSection1:
   centres:
     - description: >-
@@ -83,3 +83,4 @@ homeSection4:
       linkTo: /
       title: How to Enrol?
 ---
+

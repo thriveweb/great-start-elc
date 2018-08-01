@@ -74,7 +74,7 @@ accordion:
       809.
     title: Immunisation Compliance
 ---
-![Puzzle](/images/uploads/529400494-2048x2048-copy.jpg)
+![Puzzle](/images/uploads/evan-kirby.jpg)
 
 ### We would love to find your child a place at our centre. A centre tour is a great way for you and your child to meet the educators, understand our curriculum and learning programs and see our environment first hand.
 

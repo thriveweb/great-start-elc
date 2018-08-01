@@ -36,8 +36,8 @@ export const TeamMembersTemplate = ({
   )
 }
 
-const DefaultPage = ({ data: { page } }) => (
-  <DefaultPageTemplate {...page} {...page.frontmatter} body={page.html} />
+const TeamMembers = ({ data: { page } }) => (
+  <TeamMembersTemplate {...page} {...page.frontmatter} body={page.html} />
 )
 
 export default TeamMembers
@@ -48,10 +48,11 @@ export const pageQuery = graphql`
       html
       rawMarkdownBody
       frontmatter {
-        title
-        subtitle
-        featuredImage {
-          ...LargeImage
+        members {
+          description
+          excerpt
+          name
+          title
         }
       }
     }

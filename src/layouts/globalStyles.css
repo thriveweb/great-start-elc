@@ -67,7 +67,7 @@ ul li {
   list-style: none;
   position: relative;
   padding: 0 0 0 2rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: .6rem;
 }
 ul li:before {
   content: '';

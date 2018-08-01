@@ -5,7 +5,7 @@ title: Safety and Security
 ---
 ![](/images/uploads/kids-2.jpg)
 
-###### Our priority is providing your child with a safe, clean and nurturing environment. All our centres are only accessible via single-entry security keypad access and there are no external entry points to the playground or outdoor areas. 
+### Our priority is providing your child with a safe, clean and nurturing environment. All our centres are only accessible via single-entry security keypad access and there are no external entry points to the playground or outdoor areas. 
 An electronic record is kept of every child’s daily arrival and departure times and the adult responsible for picking up and dropping off the child must sign in using the electronic kiosk. A child will not be released to an unauthorised person or any persons under the age of 18. 
 
 All educators are trained in first aid and asthma & anaphylaxis care and no educators are present without a current Working With Children Check (WWCC). We hold our child protection, safety and security procedures in the highest regard and will not compromise on safety when it comes to the protection of your children.

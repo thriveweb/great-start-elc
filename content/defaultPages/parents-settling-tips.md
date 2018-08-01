@@ -31,7 +31,7 @@ meta:
     will be fine and confirm when you will return.
   title: 'If your children shows fear, accept that fear.'
 ---
-##### An anxious time for both parents and children. We have an orientation and transitioning program for all new children at the centre; this is arranged in consultation with parents, as you know your child the best.
+### An anxious time for both parents and children. We have an orientation and transitioning program for all new children at the centre; this is arranged in consultation with parents, as you know your child the best.
 
 Our aim is for each child to separate happily from their parent, to develop strong and trusting relationships with the educators and other children and to relax and enjoy the daily activities that are provided. How long this takes varies from child to child. Some children will settle in quickly, others will take longer; others may decide a few weeks down the track that they do not want to come any more.
 

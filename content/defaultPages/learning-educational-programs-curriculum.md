@@ -101,7 +101,7 @@ accordion:
       them the head start for their primary schooling.
     title: Kindergarten Education and Care
 ---
-##### We understand the importance of education and believe that childhood is a unique time of life which should be valued and enjoyed.
+### We understand the importance of education and believe that childhood is a unique time of life which should be valued and enjoyed.
 
 We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing. We use a Reggio Emilia approach to achieve the objectives outlined in the National and Victorian Early Years Learning and Development Frameworks to enhance each child’s emotional and developmental competence in the following ways:
 

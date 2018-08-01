@@ -15,7 +15,7 @@ title: Why Join Our Team?
 * The ongoing support of our Educational Leaders to assist in planning and curriculum.
 * Annual staff appraisals and salary reviews including meaningful feedback in relation to your performance.
 
-**In return, we expect all team members to be engaged, productive and collaborative in all that they undertake and will:**
+###### **In return, we expect all team members to be engaged, productive and collaborative in all that they undertake and will:**
 
 * have a passion for children’s learning; 
 * focus on maintaining the health and safety of the children and the environment;

@@ -2,8 +2,12 @@
 template: DefaultPage
 slug: parents/Forms-and-Handbooks
 title: Centre Forms and Handbooks
+downloadBanner:
+  title: ''
+downloadableForms:
+  - {}
 ---
-#### Here are some handbooks lorem ipsum
+#### Here are some important downloads
 
 Holiday Form (PDF)
 
@@ -11,7 +15,7 @@ Ending Care Form (PDF)
 
 Medical Management Plans form (PDF)
 
-Family Handbook (PDF)
+3x Family Handbook (PDF)
 
 Centre Policy Handbook (PDF)
 

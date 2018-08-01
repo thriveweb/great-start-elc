@@ -134,7 +134,7 @@ accordion:
       to your centre’s waiting list using QK Enrol portal.
     title: Changes to your Child’s Regular Booked Days
 ---
-##### Great Start Early Learning Centres is registered as a provider of “Approved Care” under the Child Care Management System (“CCMS”). Under CCMS, the Federal Government provides us with each family’s approval details directly, which is why each family must be registered with the Family Assistance Office (FAO).
+### Great Start Early Learning Centres is registered as a provider of “Approved Care” under the Child Care Management System (“CCMS”). Under CCMS, the Federal Government provides us with each family’s approval details directly, which is why each family must be registered with the Family Assistance Office (FAO).
 
 The Australian Government may provide financial assistance towards the cost of childcare. If you would like to access this assistance, please include this information in your child’s enrolment form:
 
@@ -143,7 +143,7 @@ The Australian Government may provide financial assistance towards the cost of c
 * Your date of birth (CRN Holder).
 * Your child’s date of birth.
 
-###### This information will be provided to the Australian Department of Education and validated against their records to determine if you can receive fee subsidies. Your subsidy will then be subtracted from the full fees owing, leaving a gap fee which is the amount families pay to the Centre, meaning less out of pocket expense.
+###### **This information will be provided to the Australian Department of Education and validated against their records to determine if you can receive fee subsidies. Your subsidy will then be subtracted from the full fees owing, leaving a gap fee which is the amount families pay to the Centre, meaning less out of pocket expense.**
 
 #### Registering for Child Care Subsidies
 
@@ -160,9 +160,11 @@ We also require you to register at myGov at https://my.gov.au. MyGov is a simple
 * Medicare
 * My Health Record
 
+**From the 1 July 2018, you will be required to authorise your child’s attendance using the MyGov or telephoning the government agency.**
+
 Note: Even if you have previously registered with the FAO for another childcare centre you will still need to contact the FAO again to provide the specific details of your child’s enrolment. You may also need to provide updated information relating to the previous financial year.
 
-##### All fees are to be paid in accordance with the Terms and Conditions of Enrolment, Fee Schedule and our Fee Policy.
+### All fees are to be paid in accordance with the Terms and Conditions of Enrolment, Fee Schedule and our Fee Policy.
 
 The following information is general information regarding payment of centre fees.
 

@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 
 import JoinBanner from '../components/JoinBanner'
-import StandardsBanner from '../components/StandardsBanner'
 import FamilyHandbookSection from '../components/FamilyHandbookSection'
 import ExceedBanner from '../components/ExceedBanner'
 import './Footer.css'
@@ -35,7 +34,7 @@ export default ({
 
           <div className="section thin">
             <div className="container">
-              <ExceedBanner long={showExceedBannerLong} />
+              <ExceedBanner footerSettings={footerSettings} />
             </div>
           </div>
         </Fragment>

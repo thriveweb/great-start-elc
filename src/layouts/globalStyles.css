@@ -123,6 +123,7 @@ h3,
 h4,
 .h4 {
   font-size: 2.8rem;
+  display: inline-block;
 }
 h4:after,
 .h4:after {
@@ -270,11 +271,16 @@ blockquote {
   padding: 0;
 }
 
-.section.dots-left, .section.dots-right {
+.section.dots-left, 
+.section.dots-right, 
+.DefaultPage {
   position: relative;
 }
 
-.section.dots-left:before, .section.dots-right:before {
+.section.dots-left:before, 
+.section.dots-right:before, 
+.DefaultPage.background-dots:before,
+.background-clouds:before {
   content: '';
   position: absolute;
   bottom: -3rem;
@@ -294,6 +300,23 @@ blockquote {
   bottom: -20rem;
   width: 50rem;
   height: 60rem;
+}
+
+.DefaultPage.background-dots:before {
+  right: 0;
+  left: auto;
+  bottom: auto;
+  top: 30%;
+  width: 35rem;
+  height: 45rem;
+}
+
+.background-clouds:before {
+  background-image: url(../../public/images/uploads/background-clouds.png);
+  left: 0;
+  bottom: 50rem;
+  width: 25rem;
+  height: 30rem;
 }
 
 .container {

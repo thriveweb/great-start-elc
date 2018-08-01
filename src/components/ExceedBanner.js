@@ -3,8 +3,8 @@ import React from 'react'
 import PopoutBanner from './PopoutBanner'
 import './ExceedBanner.css'
 
-export default props => {
-  const { exceedLogo, exceedText, exceedTextLong, long } = props
+export default ({ footerSettings }) => {
+  const { exceedLogo, exceedText, exceedTextLong, long } = footerSettings
 
   return long ? (
     <PopoutBanner image={exceedLogo} title={exceedTextLong} />

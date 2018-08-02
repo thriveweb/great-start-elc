@@ -1,0 +1,85 @@
+.member-popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(84,87,95,0.9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: -1;
+	opacity: 0;
+	transition: all ease-in-out .2s;
+}
+
+.member-popup .container {
+	background-color: white;
+	position: relative;
+	box-shadow: 8px 10px 0 var(--col2-trans);
+	transform: scale(0);
+	transition: all ease-in-out .2s;
+}
+
+.member-popup .popup-close {
+	border: .2rem solid var(--secondary);
+	position: absolute;
+	top: -5rem;
+	right: -5rem;
+	height: 4rem;
+	width: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.member-popup svg {
+	height: 2rem;
+	width: 2rem;
+}
+
+.member-popup svg * {
+	fill: white;
+}
+
+.member-popup .popup-header {
+	display: flex;
+}
+
+.popup-header .member-info, .popup-header .BackgroundImage {
+	flex: 1;
+	position: relative;
+}
+
+.popup-header .member-info {
+	background-color: var(--secondary);
+	top: 0;
+	transform: none;
+	opacity: 1;
+	padding: 8rem 4rem;
+	text-align: left;
+}
+
+.popup-header .member-info h4:after {
+	right: auto;
+	margin: 1rem 0 0;
+}
+
+.popup-header .member-info .title {
+	font-weight: 600;
+}
+
+.member-popup .Content {
+	padding: 6rem 4rem;
+	text-align: left;
+}
+
+.member-popup.active {
+	opacity: 1;
+	z-index: 2;
+}
+
+.member-popup.active .container {
+	transform: scale(1);
+}

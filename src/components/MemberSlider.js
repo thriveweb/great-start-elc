@@ -4,10 +4,26 @@ import Slider from 'react-slick/dist/react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import { ChevronLeft, ChevronRight } from 'react-feather'
 import Image from './Image'
+import Content from './Content'
+import MemberPopup from './MemberPopup'
 import './MemberSlider.css'
 
 class MemberSlider extends Component {
+
+	state = {
+		popupActive: null
+	}
+
+	handlePopup = (index = null) => {
+		this.setState({
+			popupActive: index
+		})
+
+		document.body.style.overflow = index ? 'hidden' : 'auto'
+		document.documentElement.style.overflow = index ? 'hidden' : 'auto'
+	}
 
   	render() {
 		const settings = {
@@ -19,8 +35,9 @@ class MemberSlider extends Component {
 		  slidesToScroll: 1,
 		  autoplay: true,
 		  speed: 1500,
-		  autoplaySpeed: 2000,
-		  arrows: true
+		  autoplaySpeed: 4000,
+		  arrows: true,
+		  dots: true
 		};
 
 	    const { members = [] } = this.props
@@ -29,18 +46,41 @@ class MemberSlider extends Component {
 
 		return <section className='TeamMember--slider'>
 			<Slider {...settings}>
-				{members.map(({name, title, image}) => {
-					
-					return <div className='slide member'>
-						{image && <Image background src={image} />}
-						<div className='member-info'>
-							{name && <h4>{name}</h4>}
-							{title && <p>{title}</p>}
-							<p className='readmore button'>Read Full Bio</p>
-						</div>
-					</div>
+				{members && members.map(( member, index ) => {
+					const {name, title, image, excerpt, description} = member
+
+					return (
+						<div 
+							key={`member-${index}`}
+							className='slide member hasShadowHover'
+							onClick={() => this.handlePopup(index)}
+						>
+							{image && <Image background src={image} />}
+							<div className='member-info'>
+								{name && <h4>{name}</h4>}
+								{title && <p>{title}</p>}
+								<p className='readmore Button'>Read Full Bio</p>
+							</div>
+						</div>	
+					)
 				})}
 			</Slider>
+			{members && members.map(( member, index ) => {
+				const {name, title, image, excerpt, description} = member
+
+				return (
+					<MemberPopup
+						key={`service-popup-${index}`}
+						image={image}
+						title={title} 
+						name={name}
+						excerpt={excerpt}
+						description={description}
+						active={this.state.popupActive === index}
+						handlePopup={() => this.handlePopup()}
+					/>
+				)
+			})}
 	    </section>
 	}
 }

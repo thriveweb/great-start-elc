@@ -5,7 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import MemberSlider from '../components/MemberSlider'
 import PopoutBanner from '../components/PopoutBanner'
-import './DefaultPage.css'
+import './TeamMembers.css'
 
 // Export Template for use in CMS preview
 export const TeamMembersTemplate = ({ title, popoutBanner, members, body }) => {

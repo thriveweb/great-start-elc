@@ -27,9 +27,28 @@ members:
     excerpt: >-
       Short description goes here ed ut perspiciatis unde omnis iste natus sit
       voluptatem accusantium doloremque laudantium,
-    image: /images/uploads/baby.jpg
+    image: /images/uploads/member-2.jpg
+    name: Mary Wilson
+    title: Teacher at East Malvern Centre
+  - excerpt: >-
+      Short description goes here ed ut perspiciatis unde omnis iste natus sit
+      voluptatem accusantium doloremque laudantium,
+    image: /images/uploads/member-1.jpg
+    name: Name Here
+    title: Principle
+  - excerpt: >-
+      Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+      suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+    image: /images/uploads/member-3.jpg
     name: Maude Watkins
     title: Teacher at East Malvern Centre
+  - excerpt: >-
+      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+      fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
+      sequi nesciunt.
+    image: /images/uploads/baby.jpg
+    name: Baby Name
+    title: sits and is cute
 ---
 ## Role of Teachers and Educators
 

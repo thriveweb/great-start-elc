@@ -1,3 +1,9 @@
-.slide.member {
+.member {
 	position: relative;
+	height: 40rem;
+	width: 40rem !important;
+	margin-right: 2rem;
+	border: .4rem solid var(--col2);
 }
+
+

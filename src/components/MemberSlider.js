@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import Image from './Image'
+import './MemberSlider.css'
 
 class MemberSlider extends Component {
 
@@ -19,7 +20,7 @@ class MemberSlider extends Component {
 		  autoplay: true,
 		  speed: 1500,
 		  autoplaySpeed: 2000,
-		  arrows: false
+		  arrows: true
 		};
 
 	    const { members = [] } = this.props
@@ -31,7 +32,7 @@ class MemberSlider extends Component {
 				{members.map(({name, title, image}) => {
 					
 					return <div className='slide member'>
-						{image && <Image background src={image.absolutePath} />}
+						{image && <Image background src={image} />}
 						<div className='member-info'>
 							{name && <h4>{name}</h4>}
 							{title && <p>{title}</p>}

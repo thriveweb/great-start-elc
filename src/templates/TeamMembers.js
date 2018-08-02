@@ -55,7 +55,7 @@ export const pageQuery = graphql`
           name
           title
           image {
-            absolutePath
+            ...SmallImage
           }
         }
       }

@@ -101,6 +101,7 @@ accordion:
       them the head start for their primary schooling.
     title: Kindergarten Education and Care
 infoSection:
+  title: 
   description: These are just some of the educational programs included in our curriculum.
   infoListing:
     - content: >-

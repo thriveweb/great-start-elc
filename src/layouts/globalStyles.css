@@ -71,7 +71,7 @@ ul li {
   list-style: none;
   position: relative;
   padding: 0 0 0 2rem;
-  margin-bottom: .6rem;
+  margin-bottom: 0;
 }
 ul li:before {
   content: '';

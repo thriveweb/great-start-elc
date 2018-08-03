@@ -4,7 +4,8 @@ import Image from './Image'
 import Button from './Button'
 import './DownloadBanner.css'
 
-export default ({ file, title, preview }) => {
+export default ({ downloadBanner }) => {
+  const { file, title, preview } = downloadBanner
   if (!file || !title || !preview) return null
   return (
     <div className="section col6">

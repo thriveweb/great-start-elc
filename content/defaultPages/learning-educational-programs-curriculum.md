@@ -100,6 +100,104 @@ accordion:
       provides information about your child learning and development to give
       them the head start for their primary schooling.
     title: Kindergarten Education and Care
+infoSection:
+  description: These are just some of the educational programs included in our curriculum.
+  infoListing:
+    - content: >-
+        Our School Readiness Program commences when your child enrols,
+        regardless of their age, and represents a systematic and continuous
+        approach to preparing each child for primary school.
+
+
+        Teachers and Educators have developed an extensive school readiness
+        program that ensures that the transition to your child’s school of
+        choice will be a smooth and happy one. Our curriculum encourages
+        independent learning - we provide experiences and activities that are
+        driven by the interests of the children, focusing on their skills and
+        development and assisting them to achieve realistic goals. 
+
+
+        We believe that children should be transitioned into school settings by
+        giving them the opportunity to experience a school atmosphere prior to
+        attending a school setting. The specific school-related goals and
+        objectives our program consists of:
+
+
+        Can recognise own name in written format
+
+
+        Can write own name
+
+
+        Begins to recognise sounds of the alphabet
+
+
+        Begins to print a few letters from the alphabet
+
+
+        Begins to recognise and print a few numbers
+
+
+        Draws pictures with detail
+
+
+        Sorts objects according to category
+
+
+        Demonstrates the concept of opposites
+
+
+        Hold writing implements using correct grip
+
+
+        Uses scissors with safety and control
+
+
+        Recognises shapes and colours
+
+
+        Can finish a task and tidy up afterwards
+
+
+        Participates in imaginative play
+
+
+        Understands sequence of events
+
+
+        An awareness of road safety and stranger danger.
+
+
+        Packing their own bag
+
+
+        Following through on instructions without constant supervision
+
+
+        Eating out of a lunch box (unwrapping food, eating whole pieces of fruit
+        etc)
+
+
+        Forming letters on a line going from left to right
+
+
+        Putting shoes and socks on without help
+
+
+        Health, hygiene and safety, including road safety, car safety, stranger
+        danger, sun-protective behaviours, dental and oral hygiene, etc
+
+
+        Interacting positively and politely with adults
+
+
+        Working in small and large group situations
+
+
+        Note, the above are not essential criteria in determining if a child is
+        ready for school, as every child is different.
+      title: School Readiness Program
+  title: Our Curriculum Inclusions
 ---
 ### We understand the importance of education and believe that childhood is a unique time of life which should be valued and enjoyed.
 
@@ -118,43 +216,13 @@ We recognise that early childhood is a time when foundations are laid for future
 
 ### In a Reggio Emilia learning environment, children learn meaningful skills that support them through their future education and life. Our unique curriculum supports children throughout the early years as follows:
 
-# Our Curriculum Inclusions
+# 
 
-These are just some of the educational programs included in our curriculum.
 
-1. #### School Readiness Program
 
-Our School Readiness Program commences when your child enrols, regardless of their age, and represents a systematic and continuous approach to preparing each child for primary school.
+1. #### 
 
-Teachers and Educators have developed an extensive school readiness program that ensures that the transition to your child’s school of choice will be a smooth and happy one. Our curriculum encourages independent learning - we provide experiences and activities that are driven by the interests of the children, focusing on their skills and development and assisting them to achieve realistic goals. 
 
-We believe that children should be transitioned into school settings by giving them the opportunity to experience a school atmosphere prior to attending a school setting. The specific school-related goals and objectives our program consists of:
-
-* Can recognise own name in written format
-* Can write own name
-* Begins to recognise sounds of the alphabet
-* Begins to print a few letters from the alphabet
-* Begins to recognise and print a few numbers
-* Draws pictures with detail
-* Sorts objects according to category
-* Demonstrates the concept of opposites
-* Hold writing implements using correct grip
-* Uses scissors with safety and control
-* Recognises shapes and colours
-* Can finish a task and tidy up afterwards
-* Participates in imaginative play
-* Understands sequence of events
-* An awareness of road safety and stranger danger.
-* Packing their own bag
-* Following through on instructions without constant supervision
-* Eating out of a lunch box (unwrapping food, eating whole pieces of fruit etc)
-* Forming letters on a line going from left to right 
-* Putting shoes and socks on without help
-* Health, hygiene and safety, including road safety, car safety, stranger danger, sun-protective behaviours, dental and oral hygiene, etc
-* Interacting positively and politely with adults
-* Working in small and large group situations
-
-Note, the above are not essential criteria in determining if a child is ready for school, as every child is different.
 
 2. #### Literacy and Phonics Program
 
@@ -178,7 +246,7 @@ The Wellbeing Classroom provides a framework to assist in developing long term p
 
 We see early childhood as a critical period to involve children in sustainability and environment education so they develop lifelong practices that respect and help protect our planet. For children to do this, it is important for them to develop a sense of wonder, belonging to and love of the natural environment, living things and animals.
 
-![](/images/uploads/eco-transperent-1-300x300.png)
+![null](/images/uploads/eco-transperent-1-300x300.png)
 
 5. #### Creative Arts Program
 
@@ -191,6 +259,6 @@ To enhance and enrich each child’s ;earning we incorporate additional extra - 
 We will conduct excursions as an adjunct to in-class learning. Parents will receive a written itinerary for any excursions. Parental help with children may be necessary and your assistance and/or permission will be sought in advance.
 
 7. #### Cultural Celebrations
-The curriculum incorporates activities, stories, rhymes, music and food that acknowledge the many important cultural and religious events celebrated by children attending our centre and in the wider community. 
+   The curriculum incorporates activities, stories, rhymes, music and food that acknowledge the many important cultural and religious events celebrated by children attending our centre and in the wider community. 
 
 We encourage children to participate in special celebrations.  Any celebration being planned for the centre will be detailed in the Centre Calendar or by way of notice.

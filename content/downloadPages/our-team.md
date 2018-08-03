@@ -1,7 +1,7 @@
 ---
 template: DownloadPages
 slug: ''
-title: Our Team
+title: Our Teaching Frameworks
 content: >-
   ## ‘Belonging, Being and Becoming’, is central the Early Years Learning
   Framework (EYLF) and key component of the National Quality Framework (NQF).

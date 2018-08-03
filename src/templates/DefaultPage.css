@@ -1,2 +1,7 @@
-.DefaultPage {
+.DefaultPage .Content h6 strong {
+	color: var(--col4);
+}
+
+.DefaultPage .Content h6:first-of-type {
+	margin-top: 6rem;
 }

@@ -1,5 +1,6 @@
 .about-team {
 	margin: 6rem 0 10rem;
+	position: relative;
 }
 
 .about-team .container {
@@ -91,6 +92,9 @@
 .slick-arrow {
 	top: 55%;
 	transform: translateY(-50%);
+	border: .3rem solid var(--secondary);
+	height: 4rem;
+	width: 4rem;
 }
 
 .slick-arrow.slick-prev {
@@ -103,14 +107,15 @@
 
 .slick-arrow:before {
 	color: var(--secondary);
-	content: '\27E9';
-	border: .1rem solid var(--secondary);
-	padding: .2rem 1.2rem .7rem;
-	font-weight: 600;
+	content: '>';
+	font-weight: 800;
+	opacity: 1;
+	height: auto;
+	line-height: 0;
 }
 
 .slick-arrow.slick-prev:before {
-	content: '\27E8';
+	content: '<';
 }
 
 
@@ -118,13 +123,13 @@
 
 .slick-dots {
 	left: 0;
-	bottom: -30px;
+	bottom: -5rem;
 }
 
 .slick-dots li button {
-	height: 1rem;
-	width: 1rem;
-	border: .1rem solid var(--secondary);
+	height: 1.5rem;
+	width: 1.5rem;
+	border: .2rem solid var(--secondary);
 }
 
 .slick-dots .slick-active button {

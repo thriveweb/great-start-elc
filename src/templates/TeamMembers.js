@@ -10,8 +10,6 @@ import './TeamMembers.css'
 // Export Template for use in CMS preview
 export const TeamMembersTemplate = ({ title, popoutBanner, members, body }) => {
 
-  console.log(body)
-
   return (
     <main className="TeamMembers background-dots">
       <Helmet>

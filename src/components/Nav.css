@@ -1,9 +1,11 @@
 .Nav {
   background: white;
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
   z-index: 2;
   font-size: 1rem;
+  box-shadow: 0 0 3rem 0 rgba(0,0,0,0.1);
 }
 
 .Nav--Container {

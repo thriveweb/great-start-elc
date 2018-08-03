@@ -38,6 +38,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+main {
+  margin-top: 10rem;
+}
+
 a {
   color: var(--col1);
   text-decoration: none;
@@ -273,13 +277,14 @@ blockquote {
 
 .section.dots-left, 
 .section.dots-right, 
-.DefaultPage {
+.DefaultPage,
+.TeamMembers {
   position: relative;
 }
 
 .section.dots-left:before, 
 .section.dots-right:before, 
-.DefaultPage.background-dots:before,
+.background-dots:before,
 .background-clouds:before {
   content: '';
   position: absolute;
@@ -302,7 +307,7 @@ blockquote {
   height: 60rem;
 }
 
-.DefaultPage.background-dots:before {
+.background-dots:before {
   right: 0;
   left: auto;
   bottom: auto;
@@ -318,6 +323,13 @@ blockquote {
   width: 25rem;
   height: 30rem;
 }
+
+.about-team.background-clouds:before {
+  bottom: -4rem;
+  height: 35rem;
+  width: 30rem;
+}
+
 
 .container {
   max-width: 1400px;

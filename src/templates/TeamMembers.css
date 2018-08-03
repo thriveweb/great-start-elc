@@ -1,3 +1,29 @@
+.TeamMembers .Content h2 {
+	font-size: 4.6rem;
+	margin-bottom: 5rem;
+}
+
 .TeamMembers .Content h4 {
 	color: var(--col4);
+}
+
+.TeamMembers .Content ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.TeamMembers .Content li {
+	padding: 0;
+	flex: 0 0 48%;
+	margin-bottom: 8rem;
+}
+
+.TeamMembers .Content li:before {
+	display: none;
+}
+
+.TeamMembers .Content li:last-of-type {
+	flex: 0 0 100%;
+	margin-bottom: 0;
 }

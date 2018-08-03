@@ -286,4 +286,4 @@ We recognise that early childhood is a time when foundations are laid for future
 
 ![null](/images/uploads/girl-drawing.jpg)
 
-### In a Reggio Emilia learning environment, children learn meaningful skills that support them through their future education and life. Our unique curriculum supports children throughout the early years as follows:
+##### In a Reggio Emilia learning environment, children learn meaningful skills that support them through their future education and life. Our unique curriculum supports children throughout the early years as follows:

@@ -1,6 +1,6 @@
 ---
 template: DownloadPages
-slug: ''
+slug: 'our-teaching-frameworks'
 title: Our Team
 content: >-
   ## ‘Belonging, Being and Becoming’, is central the Early Years Learning

@@ -1,4 +1,6 @@
 ---
+template: TeamMembers
+slug: 'about/team'
 title: Our Team
 members:
   - description: >-

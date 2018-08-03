@@ -6,7 +6,10 @@ import './InfoListing.css'
 
 export default ({ description, infoListing }) => {
 
-	return <div className='info-section'>
+	if(!infoListing.length) {
+		return null
+	} else {
+		return <div className='info-section'>
 	      <div className='container content'>
 	        {description && 
 	          <div className='info-section-heading'>
@@ -23,5 +26,6 @@ export default ({ description, infoListing }) => {
 	          </div>
 	        })}
 	      </div>
-	    </div>  
+	    </div> 
+	} 
 }

@@ -1,6 +1,6 @@
 ---
 template: DownloadPages
-slug: ''
+slug: 'great-start-early-learning'
 title: Early Years Learning Framework (EYLF)
 content: >-
   ### Our curriculum supports the Early Years Learning Framework (EYLF) and the

@@ -4,16 +4,16 @@ import Content from '../components/Content'
 import Image from '../components/Image'
 import './InfoListing.css'
 
-export default ({ infoSection }) => {
+export default ({ description, infoListing }) => {
 
 	return <div className='info-section'>
 	      <div className='container content'>
-	        {infoSection.description && 
+	        {description && 
 	          <div className='info-section-heading'>
-	            <Content src={infoSection.description} />
+	            <Content src={description} />
 	          </div>
 	        }
-	        {infoSection.infoListing && infoSection.infoListing.map(({ icon, title, content }) => {
+	        {infoListing && infoListing.map(({ icon, title, content }) => {
 	          return <div className='icon-list-item'>
 	            <Image src={icon} />
 	            <div className=''>

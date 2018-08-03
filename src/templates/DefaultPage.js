@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
+import _get from 'lodash/get'
 
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
@@ -22,6 +23,9 @@ export const DefaultPageTemplate = ({
   body
 }) => {
 
+  const description = _get(infoSection, 'description') || ''
+  const infoListing = _get(infoSection, 'infoListing') || []
+
   return (
     <main className="DefaultPage background-dots">
       <Helmet>
@@ -42,7 +46,7 @@ export const DefaultPageTemplate = ({
             <Accordion items={accordion} />
           </div>
         )}
-        <InfoListing infoSection={infoSection} />        
+        <InfoListing description={description} infoListing={infoListing} />        
       </section>
 
       {popoutBanner && (
@@ -75,15 +79,15 @@ export const pageQuery = graphql`
           }
           title
         }
-        # downloadBanner {
-        #   file {
-        #     publicURL
-        #   }
-        #   title
-        #   preview {
-        #     ...SmallImage
-        #   }
-        # }
+        downloadBanner {
+          file {
+            publicURL
+          }
+          title
+          preview {
+            ...SmallImage
+          }
+        }
         accordion {
           title
           content

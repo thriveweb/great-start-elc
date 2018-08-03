@@ -4,6 +4,7 @@ import './cms-utils'
 
 import { HomePageTemplate } from '../templates/HomePage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
+import { DownloadPagesTemplate } from '../templates/DownloadPages'
 import { TeamMembersTemplate } from '../templates/TeamMembers'
 import { CentreTemplate } from '../templates/Centre'
 import { HealthInfoPageTemplate } from '../templates/HealthInfoPage'
@@ -16,6 +17,9 @@ CMS.registerPreviewTemplate('home-page', ({ entry }) => (
 ))
 CMS.registerPreviewTemplate('defaultPages', ({ entry }) => (
   <DefaultPageTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('defaultPages', ({ entry }) => (
+  <DownloadPagesTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('team-members', ({ entry }) => (
   <TeamMembersTemplate {...entry.toJS().data} />

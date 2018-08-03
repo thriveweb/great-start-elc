@@ -33,4 +33,4 @@ We review each child’s achievement against the Early Years Learning outcomes. 
 
 Our centres have a Calendar of Events; including social functions and excursions designed to be informative and enjoyable. You will be provided a copy upon enrolment.
 
-###### **If at any time you would like to discuss any aspect of the centre, please arrange a meeting with the Centre Director.**
+**If at any time you would like to discuss any aspect of the centre, please arrange a meeting with the Centre Director.**

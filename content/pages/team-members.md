@@ -139,7 +139,7 @@ members:
     name: Baby Name
     title: Sits and is Cute
 ---
-Role of Teachers and Educators
+## Role of Teachers and Educators
 
 * #### 1. Be a co-learner
 In the Reggio approach, the Educator is considered a co-learner and collaborator with the child and not just an instructor. Educators are encouraged to facilitate the child's learning by planning experiences and lessons based on the child's interests, asking questions to further understanding and actively engaging in the activities alongside the child.

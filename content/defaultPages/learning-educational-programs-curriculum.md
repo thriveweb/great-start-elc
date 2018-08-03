@@ -191,9 +191,6 @@ infoSection:
         Jolly Phonics:
 
 
-        ![Jolly Phonics](/images/uploads/jolly-phonics-1073x644.png)
-
-
         * Learning the letter sounds: Children are taught the 42 main letter
         sounds. This includes alphabet sounds as well as digraphs.
 
@@ -202,6 +199,9 @@ infoSection:
 
         * Blending: Children are taught how to blend the sounds together to read
         and write new words.
+
+
+        ![Jolly Phonics Logo](/images/uploads/jolly-phonics-1073x644.png)
       icon: /images/uploads/book.svg
       title: Literacy and Phonics Program
     - content: >-

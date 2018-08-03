@@ -7,7 +7,7 @@ import Content from '../components/Content'
 import DownloadBox from '../components/DownloadBox'
 import DownloadBanner from '../components/DownloadBanner'
 
-import './DefaultPage.css'
+import './DefaultPages.css'
 
 // Export Template for use in CMS preview
 export const DownloadTemplate = ({

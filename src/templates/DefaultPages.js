@@ -15,7 +15,6 @@ export const DefaultPageTemplate = ({
   title,
   subtitle,
   featuredImage,
-  downloadBanner,
   popoutBanner,
   accordion,
   downloadableForms,
@@ -78,15 +77,6 @@ export const pageQuery = graphql`
             publicURL
           }
           title
-        }
-        downloadBanner {
-          file {
-            publicURL
-          }
-          title
-          preview {
-            ...SmallImage
-          }
         }
         accordion {
           title

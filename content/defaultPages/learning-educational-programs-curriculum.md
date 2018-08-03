@@ -101,7 +101,10 @@ accordion:
       them the head start for their primary schooling.
     title: Kindergarten Education and Care
 infoSection:
-  description: These are just some of the educational programs included in our curriculum.
+  description: |-
+    ### Our Curriculum Inclusions
+
+    These are just some of the educational programs included in our curriculum.
   infoListing:
     - content: >-
         Our School Readiness Program commences when your child enrols,
@@ -267,7 +270,6 @@ infoSection:
         Calendar or by way of notice.
       icon: /images/uploads/globe.svg
       title: Cultural Celebrations
-  title: Our Curriculum Inclusions
 ---
 ### We understand the importance of education and believe that childhood is a unique time of life which should be valued and enjoyed.
 

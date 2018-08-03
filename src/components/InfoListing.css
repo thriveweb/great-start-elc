@@ -1,0 +1,34 @@
+.info-section {
+	padding: 6rem 0;
+}
+
+.info-section-heading {
+	margin-bottom: 6rem;
+}
+
+.info-section-heading h3 {
+	font-size: 4.6rem;
+	margin-bottom: 1rem;
+}
+
+.icon-list-item {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 6rem;
+}
+
+.icon-list-item .Image {
+	margin-right: 2rem;
+}
+
+.icon-list-item h3 {
+	font-size: 3.2rem;
+	color: var(--col4);
+}
+
+.icon-list-item .Content--Image {
+	float: none;
+	width: auto;
+	max-height: 20rem;
+	max-width: 20rem;
+} 

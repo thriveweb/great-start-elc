@@ -6,6 +6,7 @@ import Content from '../components/Content'
 import Accordion from '../components/Accordion'
 import PopoutBanner from '../components/PopoutBanner'
 import DownloadBox from '../components/DownloadBox'
+import InfoListing from '../components/InfoListing'
 import './DefaultPage.css'
 
 // Export Template for use in CMS preview
@@ -17,8 +18,10 @@ export const DefaultPageTemplate = ({
   popoutBanner,
   accordion,
   downloadableForms,
+  infoSection,
   body
 }) => {
+
   return (
     <main className="DefaultPage background-dots">
       <Helmet>
@@ -39,6 +42,7 @@ export const DefaultPageTemplate = ({
             <Accordion items={accordion} />
           </div>
         )}
+        <InfoListing infoSection={infoSection} />        
       </section>
 
       {popoutBanner && (
@@ -83,6 +87,16 @@ export const pageQuery = graphql`
         accordion {
           title
           content
+        }
+        infoSection {
+          description
+          infoListing {
+            icon {
+              ...SmallImage
+            }
+            title
+            content
+          }
         }
       }
     }

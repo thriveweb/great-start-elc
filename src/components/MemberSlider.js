@@ -55,7 +55,7 @@ class MemberSlider extends Component {
 							className='slide member hasShadowHover'
 							onClick={() => this.handlePopup(index)}
 						>
-							{image && <Image background src={image} />}
+							{image && <Image background src={image} alt='profile image'/>}
 							<div className='member-info'>
 								{name && <h4>{name}</h4>}
 								{title && <p>{title}</p>}

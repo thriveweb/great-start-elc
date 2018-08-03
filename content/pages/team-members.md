@@ -1,4 +1,6 @@
 ---
+template: TeamMembers
+slug: 'about/team'
 title: Our Team
 content: >-
   ## Role of Teachers and Educators

@@ -11,7 +11,7 @@ export default ({ title, name, excerpt, description, image, active, handlePopup 
 				<ICONClose />
 			</div>	
 			<div className='popup-header'>
-				{image && <Image background src={image} />}
+				{image && <Image background src={image} alt='profile image' />}
 				<div className='member-info'>
 					{name && <h4>{name}</h4>}
 					{title && <p className='title'>{title}</p>}

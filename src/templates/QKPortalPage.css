@@ -1,2 +1,63 @@
-.QKPortalPage {
+.QKPortalPage .header-columns {
+	position: relative;
+	min-height: 70rem;
+
 }
+
+.QKPortalPage .header-columns .Image {
+	height: 67rem;
+	width: 81rem;
+	position: absolute !important;
+}
+
+.QKPortalPage .header-columns .BreakoutBox {
+	width: 50%;
+	margin: 0 0 0 auto;
+	position: relative;
+	z-index: 1;
+	padding: 6rem;
+}
+
+
+.QKPortalPage .features h3 {
+	text-align: center;
+	margin-bottom: 8rem;
+}
+
+.QKPortalPage .features-list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.QKPortalPage .features-item {
+	flex: 0 0 48%;
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 4rem;
+}
+
+.QKPortalPage .features-item .features-icon {
+	width: 8rem;
+	height: 8rem;
+	margin-right: 2rem;
+	background-color: var(--col1);
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0 0 8rem;
+
+}
+
+.QKPortalPage .features-item .features-icon .Image {
+	max-height: 5rem;
+	max-width: 5rem;
+}
+
+
+
+
+
+
+

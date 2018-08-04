@@ -2,38 +2,68 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import PageHeader from '../components/PageHeader'
-import Content from '../components/Content.js'
+import Image from '../components/Image'
+import Content from '../components/Content'
+import BreakoutBox from '../components/BreakoutBox'
+import JoinBanner from '../components/JoinBanner'
+import ExceedBanner from '../components/ExceedBanner'
 import './QKPortalPage.css'
 
 // Export Template for use in CMS preview
-export const QKPortalPageTemplate = ({
-  title,
-  subtitle,
-  featuredImage,
-  downloadBanner,
-  rawMarkdownBody
-}) => (
-  // downloadBanner={downloadBanner}
+export const QKPortalPageTemplate = ({ title, subtitle, image, boxTitle, boxContent, features, rawMarkdownBody, footerSettings }) => {
 
-  <main className="QKPortalPage">
-    <Helmet>
-      <title>{title}</title>
-    </Helmet>
+  return <main className="QKPortalPage">
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
 
-    <PageHeader title={title} subtitle={subtitle} />
+      <PageHeader title={title} subtitle={subtitle} />
 
-    <div className="section">
-      <div className="container content">
-        <Content source={rawMarkdownBody} />
+      <div className="section">
+        <div className='header-columns background-dots'>
+          {image && <Image src={image} alt='featured image' />}
+          <div className="container content">
+            <BreakoutBox title={boxTitle}>
+              {boxContent && <Content src={boxContent} />}
+            </BreakoutBox>
+          </div>
+        </div>
+        <div className='features'>
+          <div className='container content'>
+            {features.title && <h3>{features.title}</h3>}
+            <div className='features-list'>
+              {features.featuresItem.map(( item, index ) => {
+                const { icon, description } = item
+                return <div className='features-item' key={index}>
+                  {icon && 
+                    <div className='features-icon'>
+                      <Image src={icon} alt='features icon' />
+                    </div>
+                  }
+                  {description && <Content src={description} />}
+                </div>
+              })}
+            </div>  
+          </div>
+        </div> 
       </div>
-    </div>
-  </main>
-)
+      <div className="section thin JoinBannerSection">
+        <div className="container">
+          <JoinBanner linkTo="/" />
+        </div>
+      </div>
+      <div className="section thin">
+        <div className="container">
+          <ExceedBanner footerSettings={footerSettings} />
+        </div>
+      </div>
+    </main>
+}
 
 const QKPortalPage = ({ data }) => {
-  const { markdownRemark: page } = data
+  const { markdownRemark: page, footerSettings } = data
 
-  return <QKPortalPageTemplate {...page} {...page.frontmatter} />
+  return <QKPortalPageTemplate {...page} {...page.frontmatter} footerSettings={footerSettings} />
 }
 
 export default QKPortalPage
@@ -48,19 +78,26 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subtitle
-        featuredImage {
-          ...LargeImage
+        image {
+          ...MediumImage
         }
-        downloadBanner {
+        boxTitle
+        boxContent
+        features {
           title
-          file {
-            publicURL
-          }
-          preview {
-            ...LargeImage
+          featuresItem {
+            description
+            icon {
+              ...SmallImage
+            }
           }
         }
       }
+    }
+    footerSettings: settingsYaml(id: { regex: "/footer.yml/" }) {
+      exceedText
+      exceedTextLong
+      exceedLogo
     }
   }
 `

@@ -1,4 +1,6 @@
 ---
+template: QKPortalPage
+slug: parents/qk-curriculum-portal
 title: QK Journeys Curriculum Portal
 image: /images/uploads/portal-image.png
 boxTitle: QK Journeys Curriculum Portal

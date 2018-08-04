@@ -11,6 +11,47 @@ centreIntro: >-
   East Malvern Early Learning Centre is a beautiful cottage with lots of charm
   and character. We are in the Malvern East community, close to buses and
   Darlington Train Station
+contentColumns:
+  - content: ''
+    image: /images/uploads/img_0772.jpg
+  - content: >-
+      #### Diet
+
+
+      Our cook freshly prepares and serves warm meals and snacks on the
+      premises, taking into consideration any special dietary requirements.
+
+
+      #### Environment
+
+
+      Our qualified and trained educators implement an educational program that
+      enhances and challenges each child's individual learning and promotes a
+      safe and happy environment.
+
+
+      #### Centre
+
+
+      We are open every day from Monday to Friday, except for public holidays.
+      Educators attend regular professional development and training to allow
+      them to deliver best practice educational programs for your children.
+    image: /images/uploads/centreimg2.jpg
+  - content: >-
+      - - -
+
+
+      A major focus for our centre is how working with the broader community can
+      help us enrich the children’s learning experience. Through visits to the
+      centre as well as excursions and participation in community events, we are
+      able to deepen the relationship between the centre and the community,
+      while teaching the children about being a contributing and active member
+      of society.
+
+
+      We invite you to come and take a look at our fabulous early learning
+      centre and see why we are Exceeding the National Quality Standard in all
+      seven areas.
 classroomsSection:
   items:
     - icon: /images/uploads/baby.svg
@@ -80,33 +121,3 @@ We pride ourselves on having the best curriculum and education programs which is
 We understand the importance of education and believe that childhood is a unique time of life which should be valued and enjoyed. We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing. We use a Reggio Emilia inspired approach to meet the objectives outlined in the National and Victorian Early Years Learning and Development Frameworks; including emphasis on literacy, numeracy, music and movement and social development.
 
 At East Malvern Early Learning Centre, we provide an environment where both children and families feel safe, secure and supported. A place where partnerships and friendships can be formed and maintained, where trust and credibility can be built upon and upheld, and lines of communication are always open and valued.
-
-![centre frontyard](/images/uploads/img_0772.jpg)
-
-#### Outdoor
-
-Our outdoor play space stimulates children's imagination, creativity, exploration, discovery, engagement and a sense of wonder. We have created sensory gardens, mud kitchens, herb and vegetable gardens, natural materials and magical play spaces. We have carefully designed and planned spaces to encourage a stronger understanding of the environment and sustainability – while giving children the scope to explore, play and let their imaginations roam.
-
-#### Team
-
-We believe that we are only as great as our people. Our team of educators are well trained, knowledgeable, trust worthy and above all else, their level of commitment to the wellbeing of children is second to none. All our educator’s hold formal qualifications; including bachelor degrees, advance diplomas, diplomas and certificate III in early childhood. All our educators hold Working With Children Checks and have current first aid and CPR certificates.
-
-![null](/images/uploads/centreimg2.jpg)
-
-#### Diet
-
-Our cook freshly prepares and serves warm meals and snacks on the premises, taking into consideration any special dietary requirements.
-
-#### Environment
-
-Our qualified and trained educators implement an educational program that enhances and challenges each child's individual learning and promotes a safe and happy environment.
-
-#### Centre
-
-We are open every day from Monday to Friday, except for public holidays. Educators attend regular professional development and training to allow them to deliver best practice educational programs for your children.
-
-- - -
-
-A major focus for our centre is how working with the broader community can help us enrich the children’s learning experience. Through visits to the centre as well as excursions and participation in community events, we are able to deepen the relationship between the centre and the community, while teaching the children about being a contributing and active member of society.
-
-We invite you to come and take a look at our fabulous early learning centre and see why we are Exceeding the National Quality Standard in all seven areas.

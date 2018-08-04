@@ -4,7 +4,7 @@
 - [x] HomePage
 - [ ] OurVisionPage
 - [x] TeamPage
-- [ ] QKPortalPage
+- [x] QKPortalPage
 - [x] Centre
 - [ ] EnrolmentPage
 - [ ] TourPage

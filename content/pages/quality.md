@@ -1,5 +1,5 @@
 ---
-template: nationalQuality
+template: NationalQuality
 slug: parents/national-quality-framework
 title: National Quality Framework
 content: >-

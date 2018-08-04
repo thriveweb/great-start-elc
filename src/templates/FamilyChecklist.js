@@ -50,7 +50,7 @@ export const FamilyChecklistTemplate = ({
           </div>
         </Fragment>
       )}
-      <DownloadBanner {...checklistDownload} />
+      <DownloadBanner downloadBanner={checklistDownload} />
     </section>
   </main>
 )

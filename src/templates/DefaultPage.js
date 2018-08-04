@@ -8,6 +8,8 @@ import Accordion from '../components/Accordion'
 import PopoutBanner from '../components/PopoutBanner'
 import DownloadBox from '../components/DownloadBox'
 import InfoListing from '../components/InfoListing'
+import JoinBanner from '../components/JoinBanner'
+import ExceedBanner from '../components/ExceedBanner'
 import './DefaultPage.css'
 
 // Export Template for use in CMS preview
@@ -20,6 +22,7 @@ export const DefaultPageTemplate = ({
   accordion,
   downloadableForms,
   infoSection,
+  footerSettings,
   body
 }) => {
 
@@ -52,12 +55,22 @@ export const DefaultPageTemplate = ({
       {popoutBanner && (
         <PopoutBanner image={popoutBanner.image} title={popoutBanner.title} />
       )}
+      <div className="section thin JoinBannerSection">
+        <div className="container">
+          <JoinBanner linkTo="/" />
+        </div>
+      </div>
+      <div className="section thin">
+        <div className="container">
+          <ExceedBanner footerSettings={footerSettings} />
+        </div>
+      </div>
     </main>
   )
 }
 
-const DefaultPage = ({ data: { page } }) => (
-  <DefaultPageTemplate {...page} {...page.frontmatter} body={page.html} />
+const DefaultPage = ({ data: { page, footerSettings } }) => (
+  <DefaultPageTemplate {...page} {...page.frontmatter} body={page.html} footerSettings={footerSettings} />
 )
 
 export default DefaultPage
@@ -103,6 +116,11 @@ export const pageQuery = graphql`
           }
         }
       }
+    }
+    footerSettings: settingsYaml(id: { regex: "/footer.yml/" }) {
+      exceedText
+      exceedTextLong
+      exceedLogo
     }
   }
 `

@@ -5,18 +5,16 @@ import Button from './Button'
 import './DownloadBanner.css'
 
 export default ({ downloadBanner }) => {
-
-  console.log(downloadBanner)
-  
   const { file, title, preview } = downloadBanner
+  
   if (!file || !title || !preview) return null
   return (
-    <div className="section col6">
-      <div className="container skinny DownloadBanner--Container">
+    <div className="section col6 downloadBanner">
+      <div className="container content DownloadBanner--Container">
         {preview &&
           file && (
             <a className="DownloadBanner--Image" href={file.publicURL}>
-              <Image src={preview} alt={title} />
+              <img src={preview.publicURL} alt={title} />
             </a>
           )}
         <div className="DownloadBanner--Content">

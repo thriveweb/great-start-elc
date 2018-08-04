@@ -1,13 +1,18 @@
+.downloadBanner {
+	margin-top: 6rem;
+	padding: 5rem 0 !important;
+}
+
 .DownloadBanner--Container {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .DownloadBanner--Image {
-  margin-right: 4rem;
+  margin-right: 8rem;
   display: block;
-  flex-shrink: 0;
-  width: auto;
+  flex: 1;
 }
 
 .DownloadBanner--Button {

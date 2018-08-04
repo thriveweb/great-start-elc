@@ -19,11 +19,6 @@ export default ({
     <Fragment>
       {!simple && (
         <Fragment>
-          <div className="section thin JoinBannerSection">
-            <div className="container">
-              <JoinBanner linkTo="/" />
-            </div>
-          </div>
           {showHandbook &&
             footerSettings && (
               <FamilyHandbookSection
@@ -31,12 +26,6 @@ export default ({
                 file={footerSettings.handbookFile}
               />
             )}
-
-          <div className="section thin">
-            <div className="container">
-              <ExceedBanner footerSettings={footerSettings} />
-            </div>
-          </div>
         </Fragment>
       )}
 

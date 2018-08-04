@@ -5,6 +5,8 @@ import PageHeader from '../components/PageHeader'
 import Wave from '../components/Wave'
 import Image from '../components/Image'
 import Content from '../components/Content'
+import JoinBanner from '../components/JoinBanner'
+import ExceedBanner from '../components/ExceedBanner'
 import Button from '../components/Button'
 
 import './HomePage.css'
@@ -17,7 +19,8 @@ export const HomePageTemplate = ({
   homeSection1,
   homeSection2,
   homeSection3,
-  homeSection4
+  homeSection4,
+  footerSettings
 }) => (
   // showHandbook
   <main className="Home">
@@ -140,12 +143,22 @@ export const HomePageTemplate = ({
         </div>
       </div>
     )}
+    <div className="section thin JoinBannerSection">
+      <div className="container">
+        <JoinBanner linkTo="/" />
+      </div>
+    </div>
+    <div className="section thin">
+      <div className="container">
+        <ExceedBanner footerSettings={footerSettings} />
+      </div>
+    </div>
   </main>
 )
 
 // Export Default HomePage for front-end
-const HomePage = ({ data: { markdownRemark } }) => (
-  <HomePageTemplate {...markdownRemark.frontmatter} />
+const HomePage = ({ data: { markdownRemark, footerSettings } }) => (
+  <HomePageTemplate {...markdownRemark.frontmatter} footerSettings={footerSettings} />
 )
 export default HomePage
 
@@ -202,6 +215,11 @@ export const pageQuery = graphql`
           }
         }
       }
+    }
+    footerSettings: settingsYaml(id: { regex: "/footer.yml/" }) {
+      exceedText
+      exceedTextLong
+      exceedLogo
     }
   }
 `

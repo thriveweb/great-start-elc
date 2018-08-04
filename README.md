@@ -3,7 +3,7 @@
 - [x] DefaultPage
 - [x] HomePage
 - [ ] OurVisionPage
-- [ ] TeamPage
+- [x] TeamPage
 - [ ] QKPortalPage
 - [x] Centre
 - [ ] EnrolmentPage

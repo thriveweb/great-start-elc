@@ -14,9 +14,11 @@ checklist:
   - cell1: Have you been introduced to educators?
   - cell1: Enrolment Form and Direct Debit Authority Form completed?
 checklistDownload:
-  file: ''
-  preview: ''
-  title: ''
+  file: /images/uploads/blank.pdf
+  preview: /images/uploads/family-checklist.jpg
+  title: >-
+    Download our printable family checklist to get you and your child ready to
+    start at one of our centres.
 meta:
   canonicalLink: ''
   description: ''

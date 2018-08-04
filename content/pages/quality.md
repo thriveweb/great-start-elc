@@ -26,4 +26,7 @@ Centres are assessed and rated against seven quality areas of the NQS. The stand
 We are constantly seeking ways to improve our programs to ensure we deliver a quality of education that exceeds the standards and sets a benchmark for the industry.
 
 You can find more information about the NQF [here](http://google.com).
+<<<<<<< HEAD
 
+=======
+>>>>>>> 88f680a036081a5b32b02f7cc26d2ebed6dfbf08

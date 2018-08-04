@@ -4,7 +4,7 @@ slug: learning/our-teaching-frameworks
 title: Our Teaching Frameworks
 downloadBanner:
   file: /images/uploads/digital_greatstart_handbook_eastmalvern.pdf
-  preview: /images/uploads/being becoming book.png
+  preview: /images/uploads/being-becoming-book.png
   title: >-
     You can download the Belonging, Being and Becoming - The Early Years    
     Learning Framework Guide

@@ -1,4 +1,6 @@
 ---
+template: nationalQuality
+slug: parents/national-quality-framework
 title: National Quality Framework
 content: >-
   ### The National Quality Framework (NQF) encourages services to provide a high

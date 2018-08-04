@@ -42,7 +42,7 @@ export const CentreTemplate = ({
       <Meta {...meta} />
       <PageHeader title={title} subtitle={subtitle} />
 
-      <section className="section Centre--Intro">
+      <section className="section Centre--Intro background-dots">
         <div className="container content">
           <Image className="Centre--Intro--Logo" src={logo} alt={title} />
           <h5 className="Centre--Intro--Title">{centreIntro}</h5>

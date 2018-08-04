@@ -22,6 +22,7 @@ export const CentreTemplate = ({
   logo,
   centreIntro,
   centreDetails,
+  contentColumns,
   classroomsSection,
   testimonials,
   directorStatement,
@@ -49,7 +50,7 @@ export const CentreTemplate = ({
         </div>
       </section>
 
-      <section className="section Centre--MainSection">
+      <section className="section Centre--MainSection background-clouds">
         <div className="container content">
           <BreakoutBox className="Centre--Details" title="Centre Details">
             {openingHours && (
@@ -78,6 +79,18 @@ export const CentreTemplate = ({
             <Button to={'/'}>Enrol Now</Button>
           </BreakoutBox>
           <Content source={body} />
+          {contentColumns && 
+            <div className='column-section'>
+              {contentColumns.map((column, index) => {
+                const { image, content } = column
+
+                return <div className='column-content'>   
+                    {image && <Image src={image} alt={image} />}
+                    {content && <Content src={content} />}
+                  </div>
+              })}
+            </div>
+          }
         </div>
       </section>
 
@@ -198,6 +211,12 @@ export const pageQuery = graphql`
           location
           phone
           email
+        }
+        contentColumns {
+          content
+          image {
+            ...MediumImage
+          }
         }
         classroomsSection {
           title

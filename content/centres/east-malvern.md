@@ -73,7 +73,6 @@ additionalInfoBoxes:
       Office on 13 61 50 or see their website.
     title: Childcare Subsidies
 ---
-
 We only have a maximum of 50 children attending the centre each day across four classrooms; this provides opportunities for educators, parents and children to develop close relationships. We offer care to all age groups from as young as six weeks up to school age. We are open every day from Monday to Friday, except for public holidays.
 
 We pride ourselves on having the best curriculum and education programs which is supported by having experienced and knowledgeable early childhood professional educators. We offer an Approved Kindergarten Program delivered by a teacher with a bachelor’s degree. We have received the highest rating and recognition for our Educational Programs – Exceeding NQS in all seven quality areas.
@@ -81,6 +80,8 @@ We pride ourselves on having the best curriculum and education programs which is
 We understand the importance of education and believe that childhood is a unique time of life which should be valued and enjoyed. We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing. We use a Reggio Emilia inspired approach to meet the objectives outlined in the National and Victorian Early Years Learning and Development Frameworks; including emphasis on literacy, numeracy, music and movement and social development.
 
 At East Malvern Early Learning Centre, we provide an environment where both children and families feel safe, secure and supported. A place where partnerships and friendships can be formed and maintained, where trust and credibility can be built upon and upheld, and lines of communication are always open and valued.
+
+![centre frontyard](/images/uploads/img_0772.jpg)
 
 #### Outdoor
 
@@ -102,7 +103,9 @@ Our qualified and trained educators implement an educational program that enhanc
 
 We are open every day from Monday to Friday, except for public holidays. Educators attend regular professional development and training to allow them to deliver best practice educational programs for your children.
 
----
+![centre playground](/images/uploads/centreimg2.jpg)
+
+- - -
 
 A major focus for our centre is how working with the broader community can help us enrich the children’s learning experience. Through visits to the centre as well as excursions and participation in community events, we are able to deepen the relationship between the centre and the community, while teaching the children about being a contributing and active member of society.
 

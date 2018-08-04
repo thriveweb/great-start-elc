@@ -13,7 +13,7 @@ downloadBanner:
 
 We follow the Victorian and National Early Years Learning Framework (EYLF) and the National Quality Framework. Incorporating these frameworks with Reggio Emilia is the best early childhood approach to offer and provides a solid foundation for life success in early childhood education.
 
-##### EYLF embodies the idea of ‘Belonging, Being and Becoming’:
+### EYLF embodies the idea of ‘Belonging, Being and Becoming’:
 
 #### Belonging
 ‘Belonging’ is all about children’s relationships with the people and communities around them. Children belong first to a family, a cultural group, a neighbourhood and wider community. This sense of belonging forms the basis of a child’s sense of identity. This requires our Educators to recognise and integrate the uniqueness of each community into the centre’s daily practices. It also means working with families to ensure children’s needs are met.

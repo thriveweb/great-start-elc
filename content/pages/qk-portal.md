@@ -40,6 +40,4 @@ features:
       icon: /images/uploads/scroll.svg
   title: 'QK Journeys has the following features:'
 ---
-### QK Journeys Curriculum Portal
-
 We use QK Journeys Curriculum Portal to create and share learning with parents. QK Journeys is accessed via the My Family Lounge account which is created at enrolment of your child. QK Journeys allows educators to plan, set goals, prepare learning documentation and create Child Learning Portfolio’s. Through the My Family Lounge App and website it allows parents to feel more part of their child’s days through providing information on their learning and experiences.

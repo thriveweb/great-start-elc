@@ -9,7 +9,7 @@ downloadBanner:
     You can download the Victorian Early Years Learning and Development
     Framework
 ---
-## Our curriculum supports the Early Years Learning Framework (EYLF) and the Victorian Early Years Learning and Development Framework (VEYLDF).
+### Our curriculum supports the Early Years Learning Framework (EYLF) and the Victorian Early Years Learning and Development Framework (VEYLDF).
 
 EYLF and VEYLDF describes the principles, practices, and outcomes essential to support and enhance young children’s learning from birth to five years of age, as well as their transition to school.
 

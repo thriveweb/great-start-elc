@@ -7,7 +7,7 @@ import Button from '../components/Button'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import BreakoutBox from '../components/BreakoutBox'
-import ExceedBanner from '../components/ExceedBanner'
+import PopoutBanner from '../components/PopoutBanner'
 import Testimonials from '../components/Testimonials'
 import Gallery from '../components/Gallery'
 
@@ -33,7 +33,6 @@ export const CentreTemplate = ({
 }) => {
   const { openingHours, location, phone, email } = centreDetails
 
-  // downloadBanner={downloadBanner}
   return (
     <main className="Centre">
       <Helmet>
@@ -82,7 +81,7 @@ export const CentreTemplate = ({
         </div>
       </section>
 
-      {footerSettings && <ExceedBanner long {...footerSettings} />}
+      {footerSettings && <PopoutBanner image={footerSettings.exceedLogo} title={footerSettings.exceedTextLong} />}
 
       {classroomsSection && (
         <section className="section secondary Centre--ClassroomsSection">

@@ -4,7 +4,7 @@ slug: learning/great-start-early-learning
 title: Early Years Learning Framework (EYLF)
 downloadBanner:
   file: /images/uploads/blank.pdf
-  preview: /images/uploads/victorian early years learning.png
+  preview: /images/uploads/victorian-early-years-learning.png
   title: >-
     You can download the Victorian Early Years Learning and Development
     Framework

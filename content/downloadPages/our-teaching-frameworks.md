@@ -1,4 +1,6 @@
 ---
+template: DownloadPages
+slug: 'learning/our-teaching-frameworks'
 title: Our Teaching Frameworks
 downloadBanner:
   file: /images/uploads/digital_greatstart_handbook_eastmalvern.pdf

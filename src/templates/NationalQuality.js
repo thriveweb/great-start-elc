@@ -11,9 +11,8 @@ import './DefaultPage.css'
 export const NationalQualityTemplate = ({
   title,
   subtitle,
-  popoutBanner,
   footerSettings,
-  body
+  body,
 }) => {
 
   return (
@@ -30,9 +29,7 @@ export const NationalQualityTemplate = ({
         </div>       
       </section>
 
-      {popoutBanner && (
-        <PopoutBanner image={popoutBanner.image} title={popoutBanner.title} />
-      )}
+      {footerSettings && <PopoutBanner image={footerSettings.exceedLogo} title={footerSettings.exceedTextLong} />}
     </main>
   )
 }

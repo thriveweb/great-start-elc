@@ -6,6 +6,8 @@
   display: flex;
   align-items: center;
   padding: 5rem 7%;
+  position: relative;
+  z-index: 1;
 }
 
 .PopoutBanner--Image {

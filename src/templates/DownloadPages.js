@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
+import DownloadBanner from '../components/DownloadBanner'
 import './DefaultPage.css'
 
 // Export Template for use in CMS preview
@@ -24,7 +25,8 @@ export const DownloadPagesTemplate = ({
       <section className="section">
         <div className="container content">
           <Content source={body} />
-        </div>      
+        </div>  
+        <DownloadBanner downloadBanner={downloadBanner} />    
       </section>
     </main>
   )

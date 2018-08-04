@@ -1,7 +1,7 @@
 ---
 template: DownloadPages
 <<<<<<< HEAD
-slug: 'our-teaching-frameworks'
+slug: 'learning/our-teaching-frameworks'
 title: Our Teaching Frameworks
 =======
 slug: ''

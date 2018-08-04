@@ -91,6 +91,8 @@ Our outdoor play space stimulates children's imagination, creativity, exploratio
 
 We believe that we are only as great as our people. Our team of educators are well trained, knowledgeable, trust worthy and above all else, their level of commitment to the wellbeing of children is second to none. All our educator’s hold formal qualifications; including bachelor degrees, advance diplomas, diplomas and certificate III in early childhood. All our educators hold Working With Children Checks and have current first aid and CPR certificates.
 
+![null](/images/uploads/centreimg2.jpg)
+
 #### Diet
 
 Our cook freshly prepares and serves warm meals and snacks on the premises, taking into consideration any special dietary requirements.
@@ -102,8 +104,6 @@ Our qualified and trained educators implement an educational program that enhanc
 #### Centre
 
 We are open every day from Monday to Friday, except for public holidays. Educators attend regular professional development and training to allow them to deliver best practice educational programs for your children.
-
-![centre playground](/images/uploads/centreimg2.jpg)
 
 - - -
 

@@ -6,13 +6,6 @@
 .Testimonials--Slider--Item {
   background: white;
   padding: 5rem 7rem;
-  display: none;
-}
-
-.Testimonials--Slider--Item.active {
-  background: white;
-  padding: 5rem 7rem;
-  display: block;
 }
 
 .Testimonials--Slider--Quote {
@@ -21,6 +14,8 @@
   bottom: calc(100% - 5rem);
   width: 5rem;
   left: 50%;
+  z-index: 1;
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

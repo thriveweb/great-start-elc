@@ -4,7 +4,6 @@ import Slider from 'react-slick/dist/react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { ChevronLeft, ChevronRight } from 'react-feather'
 import Image from './Image'
 import Content from './Content'
 import MemberPopup from './MemberPopup'

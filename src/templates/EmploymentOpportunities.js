@@ -4,6 +4,7 @@ import _get from 'lodash/get'
 
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
+import ApplicationForm from '../components/ApplicationForm'
 import JoinBanner from '../components/JoinBanner'
 import ExceedBanner from '../components/ExceedBanner'
 import './DefaultPage.css'
@@ -16,9 +17,6 @@ export const EmploymentOpportunitiesTemplate = ({
   body
 }) => {
 
-  const description = _get(infoSection, 'description') || ''
-  const infoListing = _get(infoSection, 'infoListing') || []
-
   return (
     <main className="EmploymentOpportunities background-dots">
       <Helmet>
@@ -30,6 +28,7 @@ export const EmploymentOpportunitiesTemplate = ({
       <section className="section">
         <div className="container content">
           <Content source={body} />
+          <ApplicationForm />
         </div>    
       </section>
       <div className="section thin JoinBannerSection">

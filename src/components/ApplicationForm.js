@@ -2,7 +2,6 @@ import React from 'react'
 import { serialize } from 'dom-form-serializer'
 
 import './EnquiryForm.css'
-import '../views/JoinUs.css'
 
 // const fetch = window.fetch
 
@@ -42,7 +41,7 @@ class Form extends React.Component {
 
     if (!data['bodyshot']) {
       return this.setState({
-        alert: 'Please attach both headshot & bodyshot'
+        alert: 'Please attach Resume'
       })
     } else {
       this.setState({ 
@@ -83,7 +82,6 @@ class Form extends React.Component {
             required
             disabled={this.state.disabled ? 'disabled' : ''}
           />
-          <LineGroup />
         </label>
         <label className='EnquiryForm--Label'>
           <input
@@ -96,7 +94,6 @@ class Form extends React.Component {
             required
             disabled={this.state.disabled ? 'disabled' : ''}
           />
-          <LineGroup />
         </label>
         <label className='EnquiryForm--Label'>
           <textarea
@@ -109,7 +106,6 @@ class Form extends React.Component {
             required
             disabled={this.state.disabled ? 'disabled' : ''}
           />
-          <LineGroup />
         </label>
         <input
           className='EnquiryForm--Input'
@@ -137,14 +133,12 @@ class Form extends React.Component {
               <input
                 className='EnquiryForm--Input'
                 type='file'
-                accept='image/*'
                 placeholder='Resume and Cover Letter'
                 name='resume'
                 onChange={event => this.handleUpload(event)}
               />
               Resume and Cover Letter
             </label>
-            {this.state && <p>{this.state}</p>}
           </div>
         </div>
 

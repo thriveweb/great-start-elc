@@ -1,4 +1,6 @@
 ---
+template: EmploymentOpportunities
+slug: careers
 title: Employment Opportunities
 ---
 ### Join a team of early childhood professionals who are dedicated to the wellbeing and learning of every child.

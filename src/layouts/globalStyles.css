@@ -75,7 +75,7 @@ ul li {
 }
 ul li:before {
   content: '';
-  background-image: url(/images/tri.svg);
+  /*background-image: url(/images/tri.svg);*/
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -142,7 +142,7 @@ h4:after,
   width: 10rem;
   background-repeat: repeat-x;
   background-position: center;
-  background-image: url(/images/waves-col1.svg);
+  /*background-image: url(/images/waves-col1.svg);*/
 }
 h5,
 .h5 {
@@ -296,14 +296,14 @@ blockquote {
   left: 0;
   height: 50rem;
   width: 40rem;
-  background-image: url(../../public/images/uploads/background-dots.png);
+  /*background-image: url(../../public/images/uploads/background-dots.png);*/
   background-size: contain;
   background-position: bottom left;
   background-repeat: no-repeat;
 }
 
 .section.dots-right:before {
-  background-image: url(../../public/images/uploads/black-background-dots.png);
+  /*background-image: url(../../public/images/uploads/black-background-dots.png);*/
   left: auto;
   right: 0;
   bottom: -20rem;
@@ -321,7 +321,7 @@ blockquote {
 }
 
 .background-clouds:before {
-  background-image: url(../../public/images/uploads/background-clouds.png);
+  /*background-image: url(../../public/images/uploads/background-clouds.png);*/
   left: 0;
   bottom: 50rem;
   width: 25rem;

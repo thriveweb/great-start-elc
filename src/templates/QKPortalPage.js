@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import _get from 'lodash/get'
 
 import PageHeader from '../components/PageHeader'
 import Image from '../components/Image'
@@ -10,7 +11,8 @@ import ExceedBanner from '../components/ExceedBanner'
 import './QKPortalPage.css'
 
 // Export Template for use in CMS preview
-export const QKPortalPageTemplate = ({ title, subtitle, image, boxTitle, boxContent, features, rawMarkdownBody, footerSettings }) => {
+export const QKPortalPageTemplate = ({ title, subtitle, image, boxTitle, boxContent, features = [], rawMarkdownBody, footerSettings }) => {
+
 
   return <main className="QKPortalPage">
       <Helmet>

@@ -22,7 +22,7 @@ export const ContactPageTemplate = ({
       </div>
 
       <div className="container Contact--Centres">
-        {centres && centres.map(({ title, centreDetails }) => (
+        {centres && centres.map(({ title, centreDetails = {} }) => (
           <BreakoutBox title={title} key={title}>
             {centreDetails.openingHours && (
               <p>

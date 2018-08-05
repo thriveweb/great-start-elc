@@ -11,8 +11,7 @@ import ExceedBanner from '../components/ExceedBanner'
 import './QKPortalPage.css'
 
 // Export Template for use in CMS preview
-export const QKPortalPageTemplate = ({ title, subtitle, image, boxTitle, boxContent, features = [], rawMarkdownBody, footerSettings }) => {
-
+export const QKPortalPageTemplate = ({ title, subtitle, image, boxTitle, boxContent, features, rawMarkdownBody, footerSettings }) => {
 
   return <main className="QKPortalPage">
       <Helmet>
@@ -32,9 +31,9 @@ export const QKPortalPageTemplate = ({ title, subtitle, image, boxTitle, boxCont
         </div>
         <div className='features'>
           <div className='container content'>
-            {features.title && <h3>{features.title}</h3>}
+            {features && <h3>{features.title}</h3>}
             <div className='features-list'>
-              {features.featuresItem.map(( item, index ) => {
+              {features && features.featuresItem.map(( item, index ) => {
                 const { icon, description } = item
                 return <div className='features-item' key={index}>
                   {icon && 

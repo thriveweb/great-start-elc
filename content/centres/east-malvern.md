@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-=======
+
 ---
+template: Centre
 title: East Malvern Early Learning Centre
 logo: /images/uploads/east-malvern.svg
 centreDetails:
@@ -20,4 +20,4 @@ We pride ourselves on having the best curriculum and education programs which is
 We understand the importance of education and believe that childhood is a unique time of life which should be valued and enjoyed. We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing. We use a Reggio Emilia inspired approach to meet the objectives outlined in the National and Victorian Early Years Learning and Development Frameworks; including emphasis on literacy, numeracy, music and movement and social development.
 
 At East Malvern Early Learning Centre, we provide an environment where both children and families feel safe, secure and supported. A place where partnerships and friendships can be formed and maintained, where trust and credibility can be built upon and upheld, and lines of communication are always open and valued.
->>>>>>> 60c48735d2395ef4521f30ffee1cadd190082d3d
+

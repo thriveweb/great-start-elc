@@ -243,7 +243,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Content, name: body, widget: markdown}
       - label: Download Banner
         name: downloadBanner
-        required: false
         widget: "object"
         fields:
           - {label: Title, name: title, widget: string, required: false}
@@ -310,7 +309,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Content, name: body, widget: markdown}
       - label: Centre Details
         name: centreDetails
-        required: false
         widget: "object"
         fields:
           - {label: Opening Hours, name: openingHours, widget: string, required: false}
@@ -325,7 +323,6 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Image, name: image, widget: image, required: false}
           - {label: Content, name: content, widget: markdown, required: false}
-      - {label: Centre Intro, name: centreIntro, widget: text}
       - label: Classrooms Section
         name: classroomsSection
         required: false

@@ -133,7 +133,7 @@ export const CentreTemplate = ({
 
       {directorStatement && (
         <section className="section Centre--DirectorStatement">
-          <div className="container">
+          <div className="container content">
             <h5 className="Centre--DirectorStatement--Title">
               {directorStatement.title}
             </h5>
@@ -151,7 +151,7 @@ export const CentreTemplate = ({
 
       {gallery.length && (
         <section className="section thin Centre--Gallery">
-          <div className="container taCenter">
+          <div className="container taCenter content">
             <h3 className="Centre--Gallery--Title">Centre Gallery</h3>
             <Gallery images={gallery.map(item => item.image)} />
           </div>
@@ -159,7 +159,7 @@ export const CentreTemplate = ({
       )}
 
       <section className="section thin Centre--InfoBoxes">
-        <div className="container">
+        <div className="container content">
           {additionalInfoBoxes.map((box, index) => {
             const cols = [3, 4, 5]
             const color = cols[index % cols.length]

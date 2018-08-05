@@ -18,7 +18,6 @@ export default class Nav extends Component {
     menuItemActive: false
   }
 
-
   toggleActive = () =>
     this.setState({ 
       active: !this.state.active

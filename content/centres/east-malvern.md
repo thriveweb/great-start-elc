@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 template: Centre
-=======
->>>>>>> e1e8c339e7448a0993dde8a631fe024912d0e790
 title: East Malvern Early Learning Centre
 logo: /images/uploads/east-malvern.svg
 centreDetails:

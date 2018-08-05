@@ -1,6 +1,6 @@
 ---
 template: DefaultPage
-slug: learning/national-quality-framework
+slug: delete-me
 title: National Quality Framework
 ---
 

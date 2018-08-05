@@ -2,7 +2,7 @@
 title: title
 logo: /images/uploads/action-child-children.jpg
 centreDetails:
-  openingHours: test
+  openingHours: ''
 centreIntro: mate
 ---
 content

@@ -2,6 +2,8 @@
 template: DefaultPage
 slug: about/vision
 title: Our Vision & Philosophy
+downloadBanner:
+  title: test
 accordion:
   - content: >-
       We view children as active learners who are involved in their own

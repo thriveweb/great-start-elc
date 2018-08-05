@@ -24,7 +24,7 @@ export const ContactPageTemplate = ({
       <div className="container Contact--Centres">
         {centres && centres.map(({ title, centreDetails = {} }) => {
            
-           !centreDetails && return <p>shit didnt work</p>
+           if(!centreDetails) return null
 
            return <BreakoutBox title={title} key={title}>
               {centreDetails.openingHours && (

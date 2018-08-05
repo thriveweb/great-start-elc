@@ -12,9 +12,7 @@ centreIntro: >-
   being convenient for all families in the community. We offer care to all age
   groups from as young as six weeks up to school age. We are open every day from
   Monday to Friday, except for public holidays.
-contentColumns:
-  - content: test
-    image: /images/uploads/action-child-children.jpg
+contentColumns: []
 classroomsSection:
   items:
     - icon: /images/uploads/baby.svg

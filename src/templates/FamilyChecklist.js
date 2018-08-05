@@ -18,7 +18,7 @@ export const FamilyChecklistTemplate = ({
   lowerSection,
   checklist
 }) => (
-  <main className="FamilyChecklist">
+  <main className="FamilyChecklist background-dots">
     <Helmet>
       <title>{title}</title>
     </Helmet>
@@ -37,7 +37,7 @@ export const FamilyChecklistTemplate = ({
       </div>
     </section>
 
-    <section className="section">
+    <section className="section lower-section">
       <div className="container content">
         <Content source={lowerSection} />
       </div>

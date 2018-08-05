@@ -5,6 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Accordion from '../components/Accordion'
 import Table from '../components/Table'
+import ExceedBanner from '../components/ExceedBanner'
 import './HealthInfoPage.css'
 
 // Export Template for use in CMS preview
@@ -17,9 +18,10 @@ export const HealthInfoPageTemplate = ({
   accordion,
   body,
   lowerSection,
-  table
+  table,
+  footerSettings
 }) => (
-  <main className="HealthInfoPage">
+  <main className="HealthInfoPage background-dots">
     <Helmet>
       <title>{title}</title>
     </Helmet>
@@ -41,7 +43,7 @@ export const HealthInfoPageTemplate = ({
       </div>
     </section>
 
-    <section className="section">
+    <section className="section background-clouds">
       <div className="container content">
         <Content source={lowerSection} />
       </div>
@@ -55,14 +57,19 @@ export const HealthInfoPageTemplate = ({
         </Fragment>
       )}
     </section>
+    <div className="section thin">
+      <div className="container">
+        <ExceedBanner footerSettings={footerSettings} />
+      </div>
+    </div>
   </main>
 )
 
 const HealthInfoPage = ({ data }) => {
-  const { markdownRemark: page } = data
+  const { markdownRemark: page, footerSettings } = data
 
   return (
-    <HealthInfoPageTemplate {...page} {...page.frontmatter} body={page.html} />
+    <HealthInfoPageTemplate {...page} {...page.frontmatter} body={page.html} footerSettings={footerSettings} />
   )
 }
 
@@ -90,6 +97,11 @@ export const pageQuery = graphql`
           content
         }
       }
+    }
+    footerSettings: settingsYaml(id: { regex: "/footer.yml/" }) {
+      exceedText
+      exceedTextLong
+      exceedLogo
     }
   }
 `

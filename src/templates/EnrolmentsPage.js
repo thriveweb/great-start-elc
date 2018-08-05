@@ -63,7 +63,7 @@ export const EnrolmentsPageTemplate = ({
             enrolmentsSection2.steps &&
             enrolmentsSection2.steps.map((step, index) => (
               <div key={step.title} className="EnrolmentsPage--Section2--Step">
-                <h4>
+                <h4 className='Button hasShadow'>
                   Step {index + 1}: &emsp; {step.title}
                 </h4>
                 <Content src={step.content} />

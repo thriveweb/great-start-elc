@@ -375,3 +375,7 @@ blockquote {
 .m-t-2 {
   margin-top: 2rem;
 }
+
+.lower-section {
+  padding-bottom: 0;
+}

@@ -1,5 +1,7 @@
 .Table {
   background: white;
+  position: relative;
+  z-index: 1;
 }
 
 .Table--Headings {
@@ -37,6 +39,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.Table--Cell .Content {
+  max-width: 90%;
 }
 
 .Table--Input {

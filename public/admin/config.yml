@@ -179,7 +179,7 @@ collections: # A list of collections the CMS should be able to edit
 
       - file: "content/pages/team-members.md"
         label: "Team Members"
-        name: "teamMembers"
+        name: "teamMembers" 
         fields:
           - {name: template, label: Template, widget: hidden, default: 'TeamMembers'}
           - {name: slug, label: Slug, widget: hidden, default: ''}

@@ -177,6 +177,55 @@ collections: # A list of collections the CMS should be able to edit
                   - {name: description, label: Description, widget: text, required: false}
                   - {name: linkTo, label: Link To, widget: string, required: false}
 
+      - file: "content/pages/team-members.md"
+        label: "Team Members"
+        name: "teamMembers"
+        fields:
+          - {name: template, label: Template, widget: hidden, default: 'TeamMembers'}
+          - {name: slug, label: Slug, widget: hidden, default: ''}
+          - {name: title, label: Title, widget: string, required: false}
+          - {name: content, label: Content, widget: markdown, required: false}
+          - name: members
+            label: Members
+            widget: list
+            fields:
+              - {name: image, label: Image, widget: image}
+              - {name: name, label: Name, widget: string}
+              - {name: title, label: Title, widget: string, required: false}
+              - {name: excerpt, label: Excerpt, widget: text}
+              - {name: description, label: Description, widget: markdown} 
+
+      - file: "content/pages/quality.md"
+        label: "National Quality"
+        name: "nationalQuality"
+        fields:
+          - {name: template, label: Template, widget: hidden, default: 'NationalQuality'}
+          - {name: slug, label: Slug, widget: hidden, default: ''}
+          - {name: title, label: Title, widget: string, required: false}
+          - {name: body, label: Content, widget: markdown, required: false}
+
+      - file: "content/pages/qk-portal.md"
+        label: "QK Portal"
+        name: "qkPortal"
+        fields:
+          - {name: template, label: Template, widget: hidden, default: 'QKPortalPage'}
+          - {name: slug, label: Slug, widget: hidden, default: ''}
+          - {name: title, label: Title, widget: string, required: false}
+          - {name: image, label: Image, widget: image, required: false}
+          - {name: boxTitle, label: Box Title, widget: string, required: false}
+          - {name: boxContent, label: Box Content, widget: markdown, required: false}
+          - name: features
+            label: Features
+            widget: object
+            required: false
+            fields:
+              - {name: title, label: Title, widget: string}
+              - name: featuresItem
+                label: Features Item
+                widget: list
+                fields:
+                  - {name: icon, label: icon, widget: image}
+                  - {name: description, label: Description, widget: markdown} 
 
   - name: defaultPages
     label: Default Page
@@ -224,6 +273,27 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
           - {label: Noindex, name: noindex, widget: boolean, required: false}
 
+  - name: downloadPages
+    label: Download Pages
+    editor:
+      preview: true
+    folder: content/downloadPages
+    slug: "{{slug}}"
+    delete: true
+    create: true
+    fields:
+      - {name: template, label: Template, widget: hidden, default: 'DownloadPages'}
+      - {name: slug, label: Slug, widget: hidden, default: ''}
+      - {name: title, label: Title, widget: string, required: false}
+      - {name: body, label: Content, widget: markdown, required: false}
+      - label: Download Banner
+        name: downloadBanner
+        required: false
+        widget: "object"
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: File, name: file, widget: file, required: false}
+          - {label: Preview Image, name: preview, widget: image, required: false}
 
   - name: centres
     label: Centre
@@ -247,6 +317,14 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Location, name: location, widget: string, required: false}
           - {label: Phone, name: phone, widget: string, required: false}
           - {label: Email, name: email, widget: string, required: false}
+      - {label: Centre Intro, name: centreIntro, widget: text}
+      - label: Content Columns
+        name: contentColumns
+        required: false
+        widget: "list"
+        fields:
+          - {label: Image, name: image, widget: image, required: false}
+          - {label: Content, name: content, widget: markdown, required: false}
       - {label: Centre Intro, name: centreIntro, widget: text}
       - label: Classrooms Section
         name: classroomsSection

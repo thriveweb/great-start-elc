@@ -22,34 +22,39 @@ export const ContactPageTemplate = ({
       </div>
 
       <div className="container Contact--Centres">
-        {centres && centres.map(({ title, centreDetails = {} }) => (
-          <BreakoutBox title={title} key={title}>
-            {centreDetails.openingHours && (
-              <p>
-                <strong>Open Hours</strong>
-                <br />
-                {centreDetails.openingHours}
-              </p>
-            )}
-            {centreDetails.location && (
-              <p>
-                <strong>Centre Location</strong>
-                <br />
-                {centreDetails.location}
-              </p>
-            )}
-            {(centreDetails.email || centreDetails.phone) && (
-              <div>
-                <strong>Contact Info</strong>
-                <br />
-                {centreDetails.phone && <div>T: {centreDetails.phone}</div>}
-                {centreDetails.email && <div>E: {centreDetails.email}</div>}
-              </div>
-            )}
-            <br />
-            <Button to={'/'}>Enrol Now</Button>
-          </BreakoutBox>
-        ))}
+        {centres && centres.map(({ title, centreDetails = {} }) => {
+           
+           !centreDetails && return <p>shit didnt work</p>
+
+           return <BreakoutBox title={title} key={title}>
+              {centreDetails.openingHours && (
+                <p>
+                  <strong>Open Hours</strong>
+                  <br />
+                  {centreDetails.openingHours}
+                </p>
+              )}
+              {centreDetails.location && (
+                <p>
+                  <strong>Centre Location</strong>
+                  <br />
+                  {centreDetails.location}
+                </p>
+              )}
+              {(centreDetails.email || centreDetails.phone) && (
+                <div>
+                  <strong>Contact Info</strong>
+                  <br />
+                  {centreDetails.phone && <div>T: {centreDetails.phone}</div>}
+                  {centreDetails.email && <div>E: {centreDetails.email}</div>}
+                </div>
+              )}
+              <br />
+              <Button to={'/'}>Enrol Now</Button>
+            </BreakoutBox>
+          }
+
+        )}
       </div>
     </div>
   </main>

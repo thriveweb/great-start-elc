@@ -1,4 +1,5 @@
 ---
+slug: centres/east-malvern-early-learning-centre
 title: East Malvern Early Learning Centre
 logo: /images/uploads/east-malvern.svg
 centreDetails:

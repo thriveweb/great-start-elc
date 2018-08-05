@@ -1,6 +1,6 @@
 ---
 template: DefaultPage
-slug: enrolments/Enrolling
+slug: delete-me-too
 title: Enrolling at a Great Start Early Learning Centre
 downloadBanner:
   title: test

@@ -15,11 +15,34 @@ contentColumns:
   - content: >-
       #### Outdoor
 
+<<<<<<< HEAD
       Our outdoor play space stimulates children's imagination, creativity, exploration, discovery, engagement and a sense of wonder. We have created sensory gardens, mud kitchens, herb and vegetable gardens, natural materials and magical play spaces. We have carefully designed and planned spaces to encourage a stronger understanding of the environment and sustainability – while giving children the scope to explore, play and let their imaginations roam.
 
       #### Team
       
       We believe that we are only as great as our people. Our team of educators are well trained, knowledgeable, trust worthy and above all else, their level of commitment to the wellbeing of children is second to none. All our educator’s hold formal qualifications; including bachelor degrees, advance diplomas, diplomas and certificate III in early childhood. All our educators hold Working With Children Checks and have current first aid and CPR certificates.
+=======
+
+      Our outdoor play space stimulates children's imagination, creativity,
+      exploration, discovery, engagement and a sense of wonder. We have created
+      sensory gardens, mud kitchens, herb and vegetable gardens, natural
+      materials and magical play spaces. We have carefully designed and planned
+      spaces to encourage a stronger understanding of the environment and
+      sustainability – while giving children the scope to explore, play and let
+      their imaginations roam.
+
+
+      #### Team
+
+
+      We believe that we are only as great as our people. Our team of educators
+      are well trained, knowledgeable, trust worthy and above all else, their
+      level of commitment to the wellbeing of children is second to none. All
+      our educator’s hold formal qualifications; including bachelor degrees,
+      advance diplomas, diplomas and certificate III in early childhood. All our
+      educators hold Working With Children Checks and have current first aid and
+      CPR certificates.
+>>>>>>> b8bb43fe2f4aefd491d327e36072306f347dcde3
     image: /images/uploads/img_0772.jpg
   - content: >-
       #### Diet

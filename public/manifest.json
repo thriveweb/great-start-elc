@@ -1,0 +1,17 @@
+{
+  "cms.css": "styles.css",
+  "cms.js": "bundle-for-css.js",
+  "main.css": "styles.css",
+  "main.js": "bundle-for-css.js",
+  "static/background-dots.png": "static/background-dots.58c262d2.png",
+  "static/bannerimg-left.png": "static/bannerimg-left.3b69b75b.png",
+  "static/black-background-dots.png": "static/black-background-dots.b326411c.png",
+  "static/header-main.png": "static/header-main.6d2a7491.png",
+  "static/header.png": "static/header.bd9a1023.png",
+  "static/homeimg-left.png": "static/homeimg-left.9da94c4a.png",
+  "static/homeimg-right.png": "static/homeimg-right.e09e4386.png",
+  "static/logo.svg": "static/logo.d1ec98d0.svg",
+  "static/slick.eot": "static/slick.ced611da.eot",
+  "static/slick.ttf": "static/slick.d41f55a7.ttf",
+  "static/slick.woff": "static/slick.b7c9e1e4.woff"
+}

@@ -8,6 +8,7 @@ import Accordion from '../components/Accordion.js'
 import Image from '../components/Image.js'
 import BreakoutBox from '../components/BreakoutBox.js'
 import JoinBanner from '../components/JoinBanner.js'
+import ExceedBanner from '../components/ExceedBanner.js'
 import './EnrolmentsPage.css'
 
 // Export Template for use in CMS preview
@@ -20,11 +21,12 @@ export const EnrolmentsPageTemplate = ({
   enrolmentsSection2,
   enrolBanner,
   enrolmentsSection3,
-  accordion
+  accordion,
+  footerSettings
 }) => {
   // showHandbook
   return (
-    <main className="EnrolmentsPage">
+    <main className="EnrolmentsPage background-dots">
       <Helmet>
         <title>{title}</title>
       </Helmet>
@@ -86,14 +88,19 @@ export const EnrolmentsPageTemplate = ({
           <Accordion items={accordion} />
         </div>
       </section>
+      <div className="section thin">
+        <div className="container">
+          <ExceedBanner footerSettings={footerSettings} />
+        </div>
+      </div>
     </main>
   )
 }
 
 const EnrolmentsPage = ({ data }) => {
-  const { markdownRemark: page } = data
+  const { markdownRemark: page, footerSettings } = data
 
-  return <EnrolmentsPageTemplate {...page} {...page.frontmatter} />
+  return <EnrolmentsPageTemplate {...page} {...page.frontmatter} footerSettings={footerSettings} />
 }
 
 export default EnrolmentsPage
@@ -132,6 +139,11 @@ export const pageQuery = graphql`
           content
         }
       }
+    }
+    footerSettings: settingsYaml(id: { regex: "/footer.yml/" }) {
+      exceedText
+      exceedTextLong
+      exceedLogo
     }
   }
 `

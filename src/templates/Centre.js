@@ -34,8 +34,6 @@ export const CentreTemplate = ({
 }) => {
   const { openingHours, location, phone, email } = centreDetails
 
-  console.log(testimonials)
-
   return (
     <main className="Centre">
       <Helmet>

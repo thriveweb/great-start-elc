@@ -1,5 +1,8 @@
 ---
+<<<<<<< HEAD
 template: Centre
+=======
+>>>>>>> e1e8c339e7448a0993dde8a631fe024912d0e790
 title: East Malvern Early Learning Centre
 logo: /images/uploads/east-malvern.svg
 centreDetails:
@@ -81,6 +84,11 @@ classroomsSection:
       title: Kindergarten Classroom
   subtitle: Our education programs cater for each individual child’s needs.
   title: 'We provide early learning and care to children in the following classrooms:'
+testimonials:
+  - name: Jane Doe
+    testimonial: "Childhood Education.\LI am very passionate about the Reggio Emilia Approach. We tailor our curriculum to encourage learning and lay down strong foundations which are so vital in the early years. Our curriculum is designed to address the children’s interests and to develop their skills. Our programming format is unique and is designed to address key learning areas including social skills, language, maths, investigation, creative pursuits, fine and gross motor skills, sensory experiences, cultural experiences and environmental understanding. In addition to this it addresses the Outcomes as outlined in the Early Years Learning Frameworks."
+  - name: John Doe
+    testimonial: "Childhood Education.\LI am very passionate about the Reggio Emilia Approach. We tailor our curriculum to encourage learning and lay down strong foundations which are so vital in the early years. Our curriculum is designed to address the children’s interests and to develop their skills. Our programming format is unique and is designed to address key learning areas including social skills, language, maths, investigation, creative pursuits, fine and gross motor skills, sensory experiences, cultural experiences and environmental understanding. In addition to this it addresses the Outcomes as outlined in the Early Years Learning Frameworks."
 directorStatement:
   content: "I have been in the early learning and child care industry since 19XX and I have an Advanced Diploma in Early Childhood Education.\LI am very passionate about the Reggio Emilia Approach. We tailor our curriculum to encourage learning and lay down strong foundations which are so vital in the early years. Our curriculum is designed to address the children’s interests and to develop their skills. Our programming format is unique and is designed to address key learning areas including social skills, language, maths, investigation, creative pursuits, fine and gross motor skills, sensory experiences, cultural experiences and environmental understanding. In addition to this it addresses the Outcomes as outlined in the Early Years Learning Frameworks.\n\nI believe that each child is unique and learns and explores in his or her own way. Therefore, we encourage building on their own interests and strengths through scaffolding, mentoring and facilitating their learning and development.\_I believe that our centre truly captivates this and we ignite the endless possibilities of  learning by embracing challenges and rejoicing in accomplishments through our various spaces, open-ended resources and our vibrant atmosphere.\_\n\nThe team I am fortunate to work with shares my passion for seeing children meet their potential. They are dedicated, professional, experienced and highly qualified."
   image: /images/uploads/shutterstock_58596811.jpg

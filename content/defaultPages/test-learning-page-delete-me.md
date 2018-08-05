@@ -3,7 +3,7 @@ template: DefaultPage
 slug: enrolments/Enrolling
 title: Enrolling at a Great Start Early Learning Centre
 downloadBanner:
-  title: test
+  title: ''
 accordion:
   - content: >-
       If court order, parent plans or orders apply, a copy must be provided to

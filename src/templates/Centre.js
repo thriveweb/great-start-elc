@@ -24,7 +24,6 @@ export const CentreTemplate = ({
   centreDetails,
   contentColumns,
   classroomsSection,
-  testimonials,
   directorStatement,
   gallery = [],
   additionalInfoBoxes = [],
@@ -130,7 +129,7 @@ export const CentreTemplate = ({
         </section>
       )}
 
-      {testimonials && <Testimonials items={testimonials} />}
+      {/*testimonials && <Testimonials items={testimonials} /> */}
 
       {directorStatement && (
         <section className="section Centre--DirectorStatement">
@@ -228,10 +227,6 @@ export const pageQuery = graphql`
             title
             subtitle
           }
-        }
-        testimonials {
-          name
-          testimonial
         }
         directorStatement {
           image {

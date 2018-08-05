@@ -5,10 +5,12 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import MemberSlider from '../components/MemberSlider'
 import PopoutBanner from '../components/PopoutBanner'
+import JoinBanner from '../components/JoinBanner'
+import ExceedBanner from '../components/ExceedBanner'
 import './TeamMembers.css'
 
 // Export Template for use in CMS preview
-export const TeamMembersTemplate = ({ title, popoutBanner, members, body }) => {
+export const TeamMembersTemplate = ({ title, popoutBanner, members, body, footerSettings }) => {
 
   return (
     <main className="TeamMembers background-dots">
@@ -32,12 +34,22 @@ export const TeamMembersTemplate = ({ title, popoutBanner, members, body }) => {
       {popoutBanner && (
         <PopoutBanner image={popoutBanner.image} title={popoutBanner.title} />
       )}
+      <div className="section thin JoinBannerSection">
+        <div className="container">
+          <JoinBanner linkTo="/" />
+        </div>
+      </div>
+      <div className="section thin">
+        <div className="container">
+          <ExceedBanner footerSettings={footerSettings} />
+        </div>
+      </div>
     </main>
   )
 }
 
-const TeamMembers = ({ data: { page } }) => (
-  <TeamMembersTemplate {...page} {...page.frontmatter} body={page.html} />
+const TeamMembers = ({ data: { page, footerSettings } }) => (
+  <TeamMembersTemplate {...page} {...page.frontmatter} body={page.html} footerSettings={footerSettings} />
 )
 
 export default TeamMembers
@@ -59,6 +71,11 @@ export const pageQuery = graphql`
           }
         }
       }
+    }
+    footerSettings: settingsYaml(id: { regex: "/footer.yml/" }) {
+      exceedText
+      exceedTextLong
+      exceedLogo
     }
   }
 `

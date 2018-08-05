@@ -11,7 +11,7 @@
   left: 0;
   width: 20rem;
   height: 100%;
-  /*background-image: url(../../public/images/uploads/bannerimg-left.png);*/
+  background-image: url(/images/uploads/bannerimg-left.png);
   background-position: top left;
   background-size: contain;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
   right: 0;
   width: 17.45rem;
   height: 100%;
-  /*background-image: url(../../public/images/uploads/bannerimg-right.png);*/
+  background-image: url(/images/uploads/bannerimg-right.png);
   background-position: top left;
   background-size: contain;
   background-repeat: no-repeat;
@@ -39,11 +39,11 @@
 }
 
 .PageHeader-large:before {
-  /*background-image: url(../../public/images/uploads/homeimg-left.png);*/
+  background-image: url(/images/uploads/homeimg-left.png);
 }
 
 .PageHeader-large:after {
-  /*background-image: url(../../public/images/uploads/homeimg-right.png);*/
+  background-image: url(/images/uploads/homeimg-right.png);
   width: 62.2rem;
 }
 

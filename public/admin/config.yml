@@ -226,6 +226,15 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {name: icon, label: icon, widget: image}
                   - {name: description, label: Description, widget: markdown} 
+                  
+      - file: "content/pages/employment-opportunities.md"
+        label: "Employment Opportunities"
+        name: "employmentOpportunities"
+        fields:
+          - {label: Template, name: template, widget: hidden, default: EmploymentOpportunities}
+          - {label: Slug, name: slug, widget: hidden, default: ''}
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: body, widget: markdown}
 
   - name: defaultPages
     label: Default Page

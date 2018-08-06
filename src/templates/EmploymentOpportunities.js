@@ -5,7 +5,6 @@ import _get from 'lodash/get'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import ApplicationForm from '../components/ApplicationForm'
-import JoinBanner from '../components/JoinBanner'
 import ExceedBanner from '../components/ExceedBanner'
 import './DefaultPage.css'
 
@@ -25,17 +24,12 @@ export const EmploymentOpportunitiesTemplate = ({
 
       <PageHeader title={title} subtitle={subtitle} />
 
-      <section className="section">
+      <section className="section background-clouds">
         <div className="container content">
           <Content source={body} />
           <ApplicationForm />
         </div>    
       </section>
-      <div className="section thin JoinBannerSection">
-        <div className="container">
-          <JoinBanner linkTo="/" />
-        </div>
-      </div>
       <div className="section thin">
         <div className="container">
           <ExceedBanner footerSettings={footerSettings} />

@@ -1,6 +1,7 @@
 import React from 'react'
 import { serialize } from 'dom-form-serializer'
 
+import { ICONUpload } from './Icons'
 import './EnquiryForm.css'
 
 // const fetch = window.fetch
@@ -22,12 +23,16 @@ class Form extends React.Component {
   }
 
   handleUpload = (event, target) => {
-    const file = event.target.files[0]
-      ? event.target.files[0].name
+    const fileNames = []
+
+    const file = event.target.files
+      ? Array.from(event.target.files).forEach(file => {
+        fileNames.push(file.name)
+      })
       : this.state[target]
 
     this.setState({
-      [target]: file
+      [target]: !!fileNames.length ? fileNames.join(', ') : file
     })
   }
 
@@ -39,7 +44,7 @@ class Form extends React.Component {
     const form = e.target
     const data = serialize(form)
 
-    if (!data['bodyshot']) {
+    if (!data['resume']) {
       return this.setState({
         alert: 'Please attach Resume'
       })
@@ -56,9 +61,10 @@ class Form extends React.Component {
     const { name, subject, action, hidden } = this.props
     const { filesUploading } = this.state
 
+
     return (
       <form
-        className='EnquiryForm EnquiryForm-controlled'
+        className='ApplicationForm EnquiryForm-controlled'
         name={this.state['form-name']}
         ref={form => {
           this.form = form
@@ -71,40 +77,87 @@ class Form extends React.Component {
         {this.state.alert && (
           <div className='EnquiryForm--Alert'>{this.state.alert}</div>
         )}
-        <label className='EnquiryForm--Label'>
+        <label className="EnquiryForm--Label">
           <input
-            className='EnquiryForm--Input'
-            value={this.state.name}
-            onChange={this.handleChange}
-            type='text'
-            placeholder='Your Name'
-            name='name'
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Your Name"
+            name="name"
             required
-            disabled={this.state.disabled ? 'disabled' : ''}
           />
         </label>
-        <label className='EnquiryForm--Label'>
+        <label className="EnquiryForm--Label">
           <input
-            className='EnquiryForm--Input'
-            value={this.state.email}
-            onChange={this.handleChange}
-            type='email'
-            placeholder='Your Email'
-            name='email'
-            required
-            disabled={this.state.disabled ? 'disabled' : ''}
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Phone"
+            name="phone"
           />
         </label>
-        <label className='EnquiryForm--Label'>
-          <textarea
-            className='EnquiryForm--Input EnquiryForm--Textarea'
-            value={this.state.message}
-            onChange={this.handleChange}
-            placeholder='Message'
-            name='message'
-            rows='10'
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="email"
+            placeholder="Email"
+            name="email"
             required
-            disabled={this.state.disabled ? 'disabled' : ''}
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Preferred Role"
+            name="role"
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label has-arrow">
+          <select
+            className="EnquiryForm--Input EnquiryForm--Select"
+            name="type"
+            defaultValue="Preferred Centre"
+            required
+          >
+            <option disabled hidden>
+              Preferred Centre
+            </option>
+            <option>Mildura Early Learning Centre</option>
+            <option>Mildura Central Early Learning Centre</option>
+            <option>East Malvern Learning Centre</option>
+          </select>
+        </label>
+        <label className="EnquiryForm--Label has-arrow">
+          <select
+            className="EnquiryForm--Input EnquiryForm--Select"
+            name="type"
+            defaultValue="Joining as"
+            required
+          >
+            <option disabled hidden>
+              Joining as
+            </option>
+            <option>option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+          </select>
+        </label>
+        <label className="EnquiryForm--Label full-width">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Qualifications"
+            name="qualifications"
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label full-width">
+          <input
+            className="EnquiryForm--Input EnquiryForm--Textarea"
+            placeholder="Why do you want to work for Great Start?"
+            name="message"
+            rows="10"
+            required
           />
         </label>
         <input
@@ -135,10 +188,12 @@ class Form extends React.Component {
                 type='file'
                 placeholder='Resume and Cover Letter'
                 name='resume'
-                onChange={event => this.handleUpload(event)}
+                onChange={event => this.handleUpload(event, 'resume')}
+                multiple
               />
-              Resume and Cover Letter
+              Resume and Cover Letter <ICONUpload/>
             </label>
+            {this.state.resume && <p className='results'>{this.state.resume}</p>}
           </div>
         </div>
 
@@ -168,7 +223,7 @@ class Form extends React.Component {
           {!!subject && <input type='hidden' name='subject' value={subject} />}
           <input type='hidden' name='form-name' value={name} />
           <input
-            className='button EnquiryForm--SubmitButton'
+            className='Button hasShadowHover EnquiryForm--SubmitButton'
             type='submit'
             value={!filesUploading ? 'Apply Now' : 'Uploading Files...'}
           />

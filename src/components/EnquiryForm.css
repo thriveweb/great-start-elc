@@ -7,16 +7,26 @@
   margin: 2.5rem 0;
 }
 
+.ApplicationForm {
+  padding: 4rem;
+  border: .4rem solid var(--secondary);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
 .EnquiryForm > * + * {
   margin-top: 2rem;
 }
 
 .EnquiryForm--Label {
-  width: 100%;
+  width: 48%;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   position: relative;
+  margin-bottom: 5rem;
 }
 
 .EnquiryForm--Input {
@@ -25,23 +35,30 @@
   box-sizing: border-box;
   display: block;
   margin: 0;
-  border: 1px solid #bababa;
-  padding: 1.5rem 2rem;
-  border-radius: var(--borderRadius);
+  border: none;
+  outline: none;
+  border-bottom: .2rem solid var(--secondary);
+  padding: 1rem 0;
   line-height: 1.25em;
   transition: border-color 0.2s;
   resize: none;
+  color: var(--secondary);
 }
 
 .EnquiryForm--Select {
   background: none;
   appearance: none;
+  border-radius: 0;
+}
+
+.EnquiryForm--Label.full-width {
+  width: 100%;
 }
 
 .EnquiryForm--Label.has-arrow:after {
   content: '';
   position: absolute;
-  right: 2.5rem;
+  right: 1.5rem;
   top: 50%;
   border-right: 1px solid;
   border-bottom: 1px solid;
@@ -69,6 +86,7 @@
 
 .EnquiryForm--Input::placeholder {
   text-transform: none;
+  color: var(--secondary);
 }
 
 .EnquiryForm--Alert {
@@ -76,4 +94,41 @@
   width: 100%;
   text-align: center;
   padding: 2rem;
+}
+
+.file-download {
+  flex: 0 0 50%;
+}
+
+.file-download .EnquiryForm--Label {
+  background-color: white;
+  border-bottom: 0.2rem solid var(--secondary);
+  padding: 1rem 0;
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.file-download .EnquiryForm--Label span {
+  margin: 0 auto 0.7rem;
+  color: var(--secondary);
+}
+
+.file-download .EnquiryForm--Input {
+  display: none;
+}
+
+.file-download .EnquiryForm--Select {
+  border-radius: 0;
+  background: none;
+  appearance: none;
+}
+
+.form--footer {
+  flex: 0 0 50%;
+  text-align: right;
+  align-self: center;
 }

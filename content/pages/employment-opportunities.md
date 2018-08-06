@@ -30,4 +30,4 @@ Your application should include:
 * Current Working With Children Check
 * Three referees with contact details
 
-## Thank you for your interest in working with Great Start Early Learning Centres team!
+### Thank you for your interest in working with Great Start Early Learning Centres team!

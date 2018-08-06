@@ -1,6 +1,6 @@
 ---
 template: DefaultPage
-slug: careers
+slug: delete-me-4
 title: Employment Opportunities
 ---
 ### Join a team of early childhood professionals who are dedicated to the wellbeing and learning of every child.

@@ -236,6 +236,15 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Content, name: body, widget: markdown}
 
+      - file: "content/pages/book-page.md"
+        label: "Book Page"
+        name: "bookPage"
+        fields:
+          - {label: Template, name: template, widget: hidden, default: BookPage}
+          - {label: Slug, name: slug, widget: hidden, default: ''}
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: body, widget: markdown}
+
   - name: defaultPages
     label: Default Page
     editor:

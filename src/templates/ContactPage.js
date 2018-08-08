@@ -4,6 +4,8 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import BreakoutBox from '../components/BreakoutBox'
 import Button from '../components/Button'
+import DownloadForm from '../components/DownloadForm'
+import ExceedBanner from '../components/ExceedBanner'
 import './ContactPage.css'
 
 // Export Template for use in CMS preview
@@ -11,7 +13,8 @@ export const ContactPageTemplate = ({
   body,
   title,
   featuredImage,
-  centres = []
+  centres = [],
+  footerSettings
 }) => (
   <main className="Contact">
     <PageHeader title={title} backgroundImage={featuredImage} />
@@ -53,15 +56,20 @@ export const ContactPageTemplate = ({
               <Button to={'/'}>Enrol Now</Button>
             </BreakoutBox>
           }
-
         )}
+      </div>
+      <DownloadForm />
+      <div className="section thin">
+        <div className="container">
+          <ExceedBanner footerSettings={footerSettings} />
+        </div>
       </div>
     </div>
   </main>
 )
 
 const ContactPage = ({ data }) => {
-  const { page } = data
+  const { page, footerSettings } = data
   return (
     <ContactPageTemplate
       body={page.html}
@@ -70,6 +78,7 @@ const ContactPage = ({ data }) => {
         ...edge.node,
         ...edge.node.frontmatter
       }))}
+      footerSettings={footerSettings}
     />
   )
 }
@@ -103,6 +112,11 @@ export const pageQuery = graphql`
           }
         }
       }
+    }
+    footerSettings: settingsYaml(id: { regex: "/footer.yml/" }) {
+      exceedText
+      exceedTextLong
+      exceedLogo
     }
   }
 `

@@ -237,7 +237,48 @@
   flex: 0 0 100%;
 }
 
+.home-download .DownloadForm {
+  background-color: var(--col2);
+  padding: 6rem 0;
+}
 
+.home-download .DownloadForm .EnquiryForm--Label {
+  flex: 0 0 100%;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.home-download .DownloadForm .container {
+  background-color: white;
+  padding: 4rem;
+  max-width: 60%;
+}
+
+.home-download .DownloadForm h3 {
+  font-size: 4.6rem;
+}
+
+.home-download .DownloadForm .form-description {
+  margin-bottom: 2rem;
+}
+
+.home-download .DownloadForm .Image {
+  align-self: flex-start;
+}
+
+.home-download .DownloadForm .EnquiryForm--Label p {
+  flex: 0 0 100%;
+  margin-bottom: 2rem;
+}
+
+.home-download .DownloadForm .checkbox-container:first-of-type {
+  margin-left: 0;
+}
+
+.home-download .DownloadForm .Button {
+  float: right;
+  display: inline-block;
+}
 
 
 

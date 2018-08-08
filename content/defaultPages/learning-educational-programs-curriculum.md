@@ -102,46 +102,9 @@ accordion:
     title: Kindergarten Education and Care
 infoSection:
   description: |-
-    Our School Readiness Program commences when your child enrols,
-            regardless of their age, and represents a systematic and continuous
-            approach to preparing each child for primary school.
-             Teachers and Educators have developed an extensive school readiness
-            program that ensures that the transition to your child’s school of
-            choice will be a smooth and happy one. Our curriculum encourages
-            independent learning - we provide experiences and activities that are
-            driven by the interests of the children, focusing on their skills and
-            development and assisting them to achieve realistic goals. 
-             We believe that children should be transitioned into school settings by
-            giving them the opportunity to experience a school atmosphere prior to
-            attending a school setting. The specific school-related goals and
-            objectives our program consists of:
-             * Can recognise own name in written format
-             * Can write own name
-             * Begins to recognise sounds of the alphabet
-             * Begins to print a few letters from the alphabet
-             * Begins to recognise and print a few numbers
-             * Draws pictures with detail
-             * Sorts objects according to category
-             * Demonstrates the concept of opposites
-             * Hold writing implements using correct grip
-             * Uses scissors with safety and control
-             * Recognises shapes and colours
-             * Can finish a task and tidy up afterwards
-             * Participates in imaginative play
-             * Understands sequence of events
-             * An awareness of road safety and stranger danger.
-             * Packing their own bag
-             * Following through on instructions without constant supervision
-             * Eating out of a lunch box (unwrapping food, eating whole pieces of
-            fruit etc)
-             * Forming letters on a line going from left to right
-             * Putting shoes and socks on without help
-             * Health, hygiene and safety, including road safety, car safety,
-            stranger danger, sun-protective behaviours, dental and oral hygiene, etc
-             * Interacting positively and politely with adults
-             * Working in small and large group situations
-             Note, the above are not essential criteria in determining if a child is
-            ready for school, as every child is different.
+    ## Our Curriculum Inclusions
+
+    These are just some of the educational programs included in our curriculum.
   infoListing:
     - content: >-
         Our School Readiness Program commences when your child enrols,
@@ -236,6 +199,67 @@ infoSection:
         ![Jolly Phonics logo](/images/uploads/jolly-phonics-1073x644.png)
       icon: /images/uploads/book.svg
       title: Literacy and Phonics Program
+    - content: >-
+        The Wellbeing Classroom provides a framework to assist in developing
+        long term pedagogy in relation to the wellbeing and social and emotional
+        learning development of children. As part of the Wellbeing Classroom we
+        deliver the Kimochis Educational Program - social and emotional
+        learning. The program teaches children real life skills such as
+        communication, self-control, problem solving and responsibility. Kimochi
+        means “feelings” in Japanese. Kimochis are plush, educational toys
+        designed to help kids identify, understand and manage their feelings in
+        a fun, comfortable way. They are a vital part of The Wellbeing
+        Classroom. You can learn more about Kimochis® by visiting their website
+        www.kimochis.com.
+
+
+        ![wellbeing classroom logo](/images/uploads/download.png)
+
+
+        ![kimochis logo](/images/uploads/logo-large.jpg)
+      icon: /images/uploads/baby-red.svg
+      title: Wellbeing Classroom Program
+    - content: >-
+        We see early childhood as a critical period to involve children in
+        sustainability and environment education so they develop lifelong
+        practices that respect and help protect our planet. For children to do
+        this, it is important for them to develop a sense of wonder, belonging
+        to and love of the natural environment, living things and animals.
+      icon: /images/uploads/leaf.svg
+      title: Sustainability and Environmental Program
+    - content: >-
+        Encouraging self-expression through art, music and movement is paramount
+        and each child is encouraged to express their creativity. Children are
+        encouraged to explore the materials and are also taught about music and
+        movement. Creative Arts are about enjoyment just as much as
+        participation. See our exhibition of artworks from children of all ages
+        throughout the centre.
+      icon: /images/uploads/pencils.svg
+      title: Creative Arts Program
+    - content: >-
+        To enhance and enrich each child’s ;earning we incorporate additional
+        extra - curricular experiences into our curriculum. Experiences may
+        include puppet shows, indigenous performers, musical performances, magic
+        shows, animal farms, etc.
+
+
+        We will conduct excursions as an adjunct to in-class learning. Parents
+        will receive a written itinerary for any excursions. Parental help with
+        children may be necessary and your assistance and/or permission will be
+        sought in advance.
+      icon: /images/uploads/bunny-hat.svg
+      title: Excursions and Enlistment Programs
+    - content: >-
+        The curriculum incorporates activities, stories, rhymes, music and food
+        that acknowledge the many important cultural and religious events
+        celebrated by children attending our centre and in the wider community. 
+
+
+        We encourage children to participate in special celebrations.  Any
+        celebration being planned for the centre will be detailed in the Centre
+        Calendar or by way of notice.
+      icon: /images/uploads/globe.svg
+      title: Cultural Celebrations
 ---
 ### We understand the importance of education and believe that childhood is a unique time of life which should be valued and enjoyed.
 

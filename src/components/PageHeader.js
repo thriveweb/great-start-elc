@@ -3,6 +3,8 @@ import React from 'react'
 import Image from './Image'
 import Content from './Content'
 import Button from './Button'
+import Link from "gatsby-link"
+import { ICONEye } from './Icons'
 import headerMain from '../images/header-main.png'
 import header from '../images/header.png'
 import './PageHeader.css'
@@ -24,6 +26,7 @@ const PageHeader = ({ title, subtitle, backgroundImage, large, button, className
         backgroundImage && (
           <Image src={backgroundImage} />
       )}
+        <Link className='fixed-button' to='/enrolments/book/'><ICONEye/>Book a Tour</Link>
     </div>
   )
 }

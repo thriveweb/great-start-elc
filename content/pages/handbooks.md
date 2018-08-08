@@ -1,4 +1,6 @@
 ---
+template: Handbooks
+slug: parents/centre-forms-handbooks
 title: Centre Forms and Handbooks
 downloadableForms:
   - file: >-

@@ -1,4 +1,6 @@
 ---
+template: Faqs
+slug: parents/faqs
 title: FAQs
 accordionSection:
   - accordion:

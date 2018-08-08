@@ -78,3 +78,37 @@
   font-size: 2.4rem;
   margin-bottom: 3rem;
 }
+
+.fixed-button {
+  position: fixed;
+  right: -6.4rem;
+  top: 20rem;
+  background-color: var(--col1);
+  z-index: 1;
+  color: white;
+  padding: 1rem 2rem;
+  transform: rotate(90deg);
+  border-radius: 0 0 1rem 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all ease-in-out .2s;
+}
+
+.fixed-button svg {
+  transform: rotate(90deg);
+  margin-right: 1.5rem;
+}
+
+.fixed-button:hover {
+  background-color: var(--col2);
+}
+
+
+
+
+
+
+
+

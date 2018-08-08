@@ -439,6 +439,8 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Opening Hours, name: openingHours, widget: string, required: false}
           - {label: Location, name: location, widget: string, required: false}
+          - {label: Latitude, name: latitude, widget: string, required: false}
+          - {label: Longitude, name: longitude, widget: string, required: false}
           - {label: Phone, name: phone, widget: string, required: false}
           - {label: Email, name: email, widget: string, required: false}
       - {label: Centre Intro, name: centreIntro, widget: text}
@@ -518,13 +520,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Site Title, name: siteTitle, widget: string}
           - {label: Site Url, name: siteUrl, widget: string, required: false}
           - {label: Site Description, name: siteDescription, widget: text, required: false}
-          - label: "Centre Location"
-            name: "centreLocation"
-            required: false
-            widget: "list"
-            fields:
-              - {label: Latitude, name: latitude, widget: text, required: false}
-              - {label: Longitude, name: longitude, widget: text, required: false}
           - label: Social Media Card
             name: socialMediaCard
             widget: object

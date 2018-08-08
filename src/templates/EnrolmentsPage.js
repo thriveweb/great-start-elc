@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
+import { ICONDownload } from '../components/Icons.js'
 import Button from '../components/Button.js'
 import Accordion from '../components/Accordion.js'
 import Image from '../components/Image.js'
@@ -23,6 +24,8 @@ export const EnrolmentsPageTemplate = ({
   enrolBanner,
   enrolmentsSection3,
   accordion,
+  downloadFile,
+  downloadFileText,
   footerSettings
 }) => {
   // showHandbook
@@ -47,8 +50,7 @@ export const EnrolmentsPageTemplate = ({
             </div>
           }
           <div className='EnrolmentsPage--Section1-Content'>
-            <h5>{enrolmentsSection1.title}</h5>
-            <Button to="#">Book a Tour</Button>
+            <Content src={enrolmentsSection1.title}/>
           </div>
         </div>
       </section>
@@ -93,6 +95,17 @@ export const EnrolmentsPageTemplate = ({
       <section className="section">
         <div className="container content">
           <Content src={enrolmentsSection3} />
+          {downloadFile && 
+            <section className='download-file'>
+              <ICONDownload/>
+              <a 
+                href={downloadFile.publicURL}
+                target="_blank"
+              >
+                {downloadFileText}
+              </a>
+            </section>
+          }
           <Accordion items={accordion} />
         </div> 
       </section>
@@ -142,6 +155,10 @@ export const pageQuery = graphql`
           buttonTitle
           buttonLinkTo
         }
+        downloadFile {
+          publicURL
+        }
+        downloadFileText
         enrolmentsSection3
         accordion {
           title

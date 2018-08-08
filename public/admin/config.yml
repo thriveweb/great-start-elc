@@ -518,6 +518,13 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Site Title, name: siteTitle, widget: string}
           - {label: Site Url, name: siteUrl, widget: string, required: false}
           - {label: Site Description, name: siteDescription, widget: text, required: false}
+          - label: "Centre Location"
+            name: "centreLocation"
+            required: false
+            widget: "list"
+            fields:
+              - {label: Latitude, name: latitude, widget: text, required: false}
+              - {label: Longitude, name: longitude, widget: text, required: false}
           - label: Social Media Card
             name: socialMediaCard
             widget: object
@@ -533,8 +540,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Exceed Banner Text, name: exceedText, widget: string, required: false}
           - {label: Exceed Banner Text (Long), name: exceedTextLong, widget: text, required: false}
           - {label: Exceed Banner Logo, name: exceedLogo, widget: image, required: false}
-      - {label: Handbook Image, name: handbookImage, widget: image, required: false}
-      - {label: Handbook File, name: handbookFile, widget: file, required: false}
+          - {label: Handbook Image, name: handbookImage, widget: image, required: false}
+          - {label: Handbook File, name: handbookFile, widget: file, required: false}
 
 
 

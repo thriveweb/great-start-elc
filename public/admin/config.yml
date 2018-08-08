@@ -281,6 +281,20 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string, required: false}
           - {label: Content, name: content, widget: markdown, required: false}
+      - label: Info Section
+        name: infoSection
+        required: false
+        widget: object
+        fields:
+          - {label: Description, name: description, widget: markdown, required: false}
+          - label: Info Listing
+            name: infoListing
+            required: false
+            widget: list
+            fields:
+              - {label: Icon, name: icon, widget: image, required: false}
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Content, name: content, widget: markdown, required: false}
       - label: "Meta"
         required: false
         name: "meta"

@@ -33,11 +33,11 @@ accordion:
     title: Initial Fees to Secure Enrolment
   - content: >-
       Families taking annual leave will be entitled to a holiday discount in
-      accordance with the fee schedule of the centre, provided two weeks’ notice
+      accordance with the fee schedule of the centre, provided two weeks notice
       in writing is given of intended dates of absence. Holiday discounts will
       only apply to a whole week of holidays taken at a time, and only for two
-      weeks in the year.  Any holidays taken as part weeks or single days will
-      not attract a discount.  Discounts will only be applied to parent accounts
+      weeks in the year. Any holidays taken as part weeks or single days will
+      not attract a discount. Discounts will only be applied to parent accounts
       that are up to date and where appropriate written notice has been given.
     title: Holidays
   - content: >-
@@ -119,10 +119,10 @@ accordion:
       809.
     title: Immunisation Compliance
   - content: >-
-      Two weeks’ notice of cancellation of your booking in writing is required. 
-      Parents should be aware that non-attendance during the two-week notice
-      period will result in ineligibility for childcare subsidies, hence full
-      fees will be payable in the event of non-attendance.
+      Two weeks written notice of cancellation of your booking is required for
+      withdrawal. Parents should be aware that non-attendance during the
+      two-week notice period will result in ineligibility for childcare
+      subsidies, hence full fees will be payable in the event of non-attendance.
     title: Withdrawal of Children from the Centre
   - content: >-
       Two weeks written notice is required if you need to change or cancel your
@@ -149,8 +149,8 @@ The Australian Government may provide financial assistance towards the cost of c
 
 Registering can be completed through:\
 In person: [at Medicare offices or Centrelink offices](https://findus.humanservices.gov.au/)\
- Internet: [www.familyassist.gov.au](http://www.familyassist.gov.au)
-Phone: \[13 61 50](tel:13 61 50)
+ Internet: [www.familyassist.gov.au](http://www.familyassist.gov.au)\
+Phone: [13 61 50](<tel:13 61 50>)
 
 We also require you to register at myGov at https://my.gov.au. MyGov is a simple and secure government online service providing information on:
 
@@ -166,17 +166,17 @@ Note: Even if you have previously registered with the FAO for another childcare 
 
 ### All fees are to be paid in accordance with the Terms and Conditions of Enrolment, Fee Schedule and our Fee Policy.
 
-The following information is general information regarding payment of centre fees.
+The following information is general information regarding payment of centre's fees:
 
+* The daily fee is inclusive of freshly prepared meals, sunscreen, nappies and wipes.
+* To secure child’s enrolment, an initial fee of two weeks fees is required to be paid on enrolment of your child or $100 (whichever is greater). The initial fee is not refundable under any circumstances. Once your child commences at the centres, the amount equal to the initial fee will be credited to your account and offset against the attendance fees charged.
 * Your child’s attendance is booked and charged on a daily basis (not a part day basis).
-* An initial booking fee is due when your position is confirmed to secure your child’s enrolment. The initial fee is non-refundable if your child does not attend as booked.
-* Two weeks advance payment (current week plus 2 weeks) of full fees is required before your child starts and must be maintained during your child’s attendance.
-* Fees will apply for booked days that your child does not attend due to illness, holidays or public holidays.
+* Two weeks advance payment (current week plus 2 weeks) of full fees is required before your child commences. Fees will apply for booked days that your child does not attend due to illness, holidays or public holidays.
 * We provide Statements weekly via email and these can also be requested at any time from your Centre Director at the administration office.
-* Late Pick-up Fees: We understand that sometimes families may run late and collect their child after our early learning program ends. Please see our fee schedule for additional costs of continuing to provide care after the operating hours. This will be charged to your account accordingly. If late pick-up occurs regularly the centre reserves the right to cancel child’s enrolment.
-* If your account falls in arrears, your Centre Director will work with you to plan your payments to bring your account back to two weeks in advance. Failure to comply with the terms and conditions of enrolment may result in child’s enrolment being terminated.
-* If your account is referred to our debt collectors, recovery costs of 25% of the outstanding account balance will be added to your account.
-* If an account goes into credit due to the application or backdating of CCB entitlement, that credit will remain on the customer’s account to be set against subsequent fee statements. If an account is in credit when a child leaves the Centre, after all fees owing have been paid, then the source of the balance will be reviewed to determine whether the money should be returned to the parent or refunded to the Federal Government as an overpayment of Child Care Subsidy.
+* We understand that sometimes families may run late and collect their child after our early learning program ends. Please see our fee schedule for additional costs of continuing to provide care after the operating hours. This will be charged to your account accordingly. If late pick-up occurs regularly the centre reserves the right to cancel child’s enrolment.
+* Enrolment may be terminated if fees are outstanding. If your account is referred to our debt collectors, recovery costs of 25% of the outstanding account balance will be added to your account.
+* Our method of payment is via direct debit either from your nominated bank account or credit card.
+* If an account goes into credit due to the application or backdating of subsidy entitlement, that credit will remain on the customer’s account to be set against subsequent fee statements. If an account is in credit when a child leaves the Centre, after all fees owing have been paid, then the source of the balance will be reviewed to determine whether the money should be returned to the parent or refunded to the Federal Government as an overpayment of Child Care Subsidy.
 
 Our method of payment is via direct debit either from your nominated bank account or credit card. Once your completed direct debit form has been received at the centre your fees will be debited and automatically applied to your childcare account.
 

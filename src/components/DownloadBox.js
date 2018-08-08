@@ -1,5 +1,6 @@
 import React from 'react'
 import { File } from 'react-feather'
+import _get from 'lodash/get'
 
 import './DownloadBox.css'
 
@@ -8,8 +9,12 @@ export default ({ listItems = [] }) => (
     <h5 className="DownloadBox--Title">Downloadable Forms</h5>
     {listItems.map(item => {
 
-    if(!!item.file.length) return null
-     return <a
+      if(!!item.length) return null
+
+      const file = _get(item, 'file') || []
+      const publicURL = _get(file, 'publicURL') || ''
+
+      return <a
         key={item.title}
         target="_blank"
         href={item.file.publicURL}

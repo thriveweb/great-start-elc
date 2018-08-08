@@ -50,7 +50,7 @@ export const EnrolmentsPageTemplate = ({
         </div>
       </section>
 
-      <section className="">
+      <section>
         <div className="container content">
           <BreakoutBox title={breakoutBox.title}>
             <Content src={breakoutBox.content} />
@@ -64,16 +64,17 @@ export const EnrolmentsPageTemplate = ({
             enrolmentsSection2.steps &&
             enrolmentsSection2.steps.map((step, index) => (
               <div key={step.title} className="EnrolmentsPage--Section2--Step">
-                <h4 className='Button hasShadow'>
-                  Step {index + 1}: &emsp; {step.title}
-                </h4>
-                <Content src={step.content} />
+                <span className='Button hasShadow'>Step {index + 1}</span>
+                <div>
+                  <h4>{step.title}</h4>
+                  <Content src={step.content} />
+                </div>
               </div>
             ))}
         </div>
       </section>
 
-      <section className="EnrolmentsPage--EnrolBanner">
+      <section className="EnrolmentsPage--EnrolBanner background-clouds">
         <div className="container">
           <JoinBanner
             title={enrolBanner.title}

@@ -1,6 +1,6 @@
 ---
 template: EnrolmentsPage
-slug: enrolment
+slug: enrolments
 title: Enrolling at a Great Start Early Learning Centre
 featuredImage: /images/uploads/istock-529400494_super_crop.jpg
 enrolmentsSection1:

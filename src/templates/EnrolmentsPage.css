@@ -1,4 +1,5 @@
-.EnrolmentsPage {
+.EnrolmentsPage.background-dots:before {
+	top: 15%;
 }
 
 .EnrolmentsPage--Section1 {
@@ -16,4 +17,20 @@
 
 .EnrolmentsPage--Section2--Step + .EnrolmentsPage--Section2--Step {
   margin-top: 4rem;
+}
+
+.EnrolmentsPage--Section2--Step {
+	display: flex;
+	align-items: flex-start;
+}
+
+.EnrolmentsPage--Section2--Step .Button {
+	flex: 0 0 15%;
+	margin-right: 4rem;
+	text-align: center;
+}
+
+.EnrolmentsPage--EnrolBanner.background-clouds:before {
+	bottom: 10rem;
+	z-index: 2;
 }

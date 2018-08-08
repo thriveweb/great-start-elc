@@ -318,20 +318,19 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Slug, name: slug, widget: string, default: ''}
       - {label: Title, name: title, widget: string}
       - {label: Featured Image, name: featuredImage, widget: image, required: false}
-      - {label: Content, name: body, widget: markdown}
       - name: enrolmentsSection1
         label: Section 1
         widget: object
         required: true
         fields:
           - {name: title, label: Title, widget: string}
-          - name: breakoutBox
-            label: Breakout Box
-            widget: object
-            required: false
-            fields:
-              - {name: title, label: Title, widget: string}
-              - {name: content, label: Content, widget: markdown}
+      - name: breakoutBox
+        label: Breakout Box
+        widget: object
+        required: false
+        fields:
+          - {name: title, label: Title, widget: string}
+          - {name: content, label: Content, widget: markdown}
       - name: enrolmentsSection2
         label: Section 2
         widget: object

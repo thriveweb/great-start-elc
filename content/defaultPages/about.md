@@ -1,6 +1,6 @@
 ---
 template: DefaultPage
-slug: about
+slug: about/welcome
 title: Welcome
 ---
 ![](/images/uploads/learn.jpg)

@@ -305,6 +305,62 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
           - {label: Noindex, name: noindex, widget: boolean, required: false}
 
+  - name: enrolmentsPages
+    label: Enrolments Pages
+    editor:
+      preview: true
+    folder: content/enrolmentsPages
+    slug: "{{slug}}"
+    delete: true
+    create: true
+    fields:
+      - {label: Template, name: template, widget: hidden, default: EnrolmentsPage}
+      - {label: Slug, name: slug, widget: string, default: ''}
+      - {label: Title, name: title, widget: string}
+      - {label: Featured Image, name: featuredImage, widget: image, required: false}
+      - {label: Content, name: body, widget: markdown}
+      - name: enrolmentsSection1
+        label: Section 1
+        widget: object
+        required: true
+        fields:
+          - {name: title, label: Title, widget: string}
+          - name: breakoutBox
+            label: Breakout Box
+            widget: object
+            required: false
+            fields:
+              - {name: title, label: Title, widget: string}
+              - {name: content, label: Content, widget: markdown}
+      - name: enrolmentsSection2
+        label: Section 2
+        widget: object
+        required: true
+        fields:
+          - name: steps
+            label: Steps
+            widget: list
+            required: false
+            fields:
+              - {name: title, label: Title, widget: string}
+              - {name: content, label: Content, widget: markdown}
+      - name: enrolBanner
+        label: Enrol Banner
+        widget: object
+        required: true
+        fields:
+          - {name: title, label: Title, widget: string}
+          - {name: buttonLinkTo, label: Button Link, widget: string}
+          - {name: buttonTitle, label: Button Title, widget: string}
+      - {name: enrolmentsSection3, label: Enrolments Section 3, widget: markdown}
+      - label: Accordion
+        name: accordion
+        required: false
+        widget: list
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Content, name: content, widget: markdown, required: false}
+
   - name: downloadPages
     label: Download Pages
     editor:

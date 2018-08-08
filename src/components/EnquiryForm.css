@@ -196,8 +196,6 @@
 
 /*Download Form*/
 
-
-
 .download-banner {
   display: flex;
   margin-top: 7.5rem;
@@ -216,8 +214,8 @@
   flex: 1;
 }
 
-.DownloadForm .Image {
-  flex: 1;
+.download-banner .Image {
+  max-height: 50rem;
 }
 
 .DownloadForm h3 {
@@ -262,8 +260,8 @@
   margin-bottom: 2rem;
 }
 
-.home-download .DownloadForm .Image {
-  align-self: flex-start;
+.home-download.download-banner .Image {
+  max-height: 77rem;
 }
 
 .home-download .DownloadForm .EnquiryForm--Label p {

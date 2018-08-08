@@ -5,6 +5,8 @@ import Button from './Button'
 import './DownloadBanner.css'
 
 export default ({ downloadBanner }) => {
+
+  if(!downloadBanner) return null
   const { file, title, preview } = downloadBanner
   
   if (!file || !title || !preview) return null

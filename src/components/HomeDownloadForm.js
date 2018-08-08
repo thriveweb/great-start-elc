@@ -83,7 +83,7 @@ class Form extends React.Component {
               <div className="EnquiryForm--Alert">{this.state.alert}</div>
             )}
             <h3 className='form-title'>Download Our Family Handbook</h3>
-            <p className='form-description'>Fill out the form and download our family  handbook or contact us <a href='/'>123 456 789</a></p>
+            <p className='form-description'>Fill out the form and download our family handbook or contact us <a href='/'>123 456 789</a></p>
             <label className="EnquiryForm--Label">
               <input
                 className="EnquiryForm--Input"

@@ -20,6 +20,9 @@ export default class Accordion extends React.Component {
 
   render() {
     const { items, className } = this.props
+
+    if(!items) return null
+
     return (
       <div className={`Accordion ${className}`}>
         {items.map((item, index) => {

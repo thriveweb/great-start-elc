@@ -63,7 +63,7 @@ export const CentreTemplate = ({
               </p>
             )}
             {location && (
-              <div>
+              <div className='location'>
                 <p>
                   <strong>Centre Location</strong>
                  <br />

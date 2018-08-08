@@ -6,7 +6,7 @@ subtitle: >-
   We strive for all children to achieve their full potential by offering the
   education, care and nurturing they need to grow and have a great start in
   life.
-featuredImage: /images/uploads/home-foregroundimg.png
+featuredImage: /images/uploads/istock-841015602.png
 homeSection1:
   centres:
     - description: >-
@@ -28,7 +28,7 @@ homeSection2:
     delivery of high quality early years curriculum.  Our pedagogy promotes
     school readiness and achievement of learning outcomes by applying our
     knowledge and experience of how children learn and play.
-  image: /images/uploads/kids-girl-pencil-drawing.jpg
+  image: /images/uploads/istock-178590721_super_crop.jpg
   linkTo: /
   title: We strive to create a foundation for your child's future
   subtitle: >-
@@ -59,8 +59,8 @@ homeSection3:
         education and have considerable early learning experience.
   title: Why Choose Us?
 homeSection4:
-  image1: /images/uploads/kids-2.jpg
-  image2: /images/uploads/evan-kirby.jpg
+  image1: /images/uploads/istock-516621014_supe_crop.jpg
+  image2: /images/uploads/istock-529400494_super_crop.jpg
   items:
     - description: >-
         Our adaptation of the Reggio Emilia Approach to childhood learning suits

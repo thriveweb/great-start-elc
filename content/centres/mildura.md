@@ -14,7 +14,7 @@ centreIntro: >-
   their full potential.
 contentColumns:
   - content: testing
-    image: /images/uploads/529400494-2048x2048-copy.jpg
+    image: /images/uploads/istock-529400494_super_crop.jpg
 classroomsSection:
   items:
     - icon: /images/uploads/baby.svg
@@ -33,11 +33,43 @@ classroomsSection:
   title: 'We provide early learning and care to children in the following classrooms:'
 testimonials: []
 directorStatement:
-  content: "I have an Advanced Diploma of Children's Services and I\_have extensive experience working across all age groups and within the many facets of the early learning sector.\L\LThe most enjoyable part of my job is to meet and interact with families and children. I\_am fortunate to work with a highly qualified and experienced team, whose passion for early childhood and their roles therein is matched by a commitment to giving the children the highest quality learning experiences.\n\nEverything we do at Mildura Early Learning Centre is about the children; delivering the highest quality in early learning as well as health and wellbeing. These focuses are at the heart of our centre philosophy. It is our job to make sure every child has a great start to life and is given access to the highest quality care and education.\n\nThe wonderful families, children and educators that I interact with on a daily basis are what makes Mildura Early Learning Centre such a fantastic place.\n\nCome in and say hello! I would love to show you and your family what we can offer your child."
+  content: >-
+    **Megan Gooding – Centre Director**
+
+
+    I am very passionate about the Reggio Emilia Approach. We tailor our
+    curriculum to encourage learning and lay down strong foundations which are
+    so vital in the early years. Our curriculum is designed to address the
+    children’s interests and to develop their skills. Our programming format is
+    unique and is designed to address key learning areas including social
+    skills, language, maths, investigation, creative pursuits, fine and gross
+    motor skills, sensory experiences, cultural experiences and environmental
+    understanding. In addition to this it addresses the Outcomes as outlined in
+    the Early Years Learning Frameworks.
+
+
+    I believe that each child is unique and learns and explores in his or her
+    own way. Therefore, we encourage building on their own interests and
+    strengths through scaffolding, mentoring and facilitating their learning and
+    development. I believe that our centre truly captivates this and we ignite
+    the endless possibilities of learning by embracing challenges and rejoicing
+    in accomplishments through our various spaces, open-ended resources and our
+    vibrant atmosphere. 
+
+
+    The team I am fortunate to work with shares my passion for seeing children
+    meet their potential. They are dedicated, professional, experienced and
+    highly qualified.
+
+
+    We invite you to come and visit our centre to meet our team and to see for
+    yourself our commitment to your child’s early learning journey.
   image: /images/uploads/shutterstock_58596811.jpg
   title: >-
-    Hello, my name is Megan Gooding and I am the Centre Director and Nominated
-    Supervisor at Mildura Early Learning Centre.
+    Hello, my name is Megan Gooding and I have been the Centre Director since
+    2017 and Nominated Supervisor at Mildura Early Learning Centre since 2007. I
+    have been in the early learning and child care industry since 2004 and I
+    have an Advanced Diploma in Early Childhood Education.
 gallery:
   - image: /images/uploads/centre.jpg
   - image: /images/uploads/tim-marshall-155597.jpg

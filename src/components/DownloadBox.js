@@ -17,7 +17,7 @@ export default ({ listItems = [] }) => (
       return <a
         key={item.title}
         target="_blank"
-        href={item.file.publicURL}
+        href={publicURL}
         className="DownloadBox--Item"
       >
         <File /> {item.title}

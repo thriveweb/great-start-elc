@@ -180,7 +180,7 @@ class Form extends React.Component {
           name='form-name'
           value={this.state['form-name']}
         />
-        <div className='file-download'>
+        {/*<div className='file-download'>
           <div className='file-download-item'>
             <label className='EnquiryForm--Label title'>
               <input
@@ -195,7 +195,7 @@ class Form extends React.Component {
             </label>
             {this.state.resume && <p className='results'>{this.state.resume}</p>}
           </div>
-        </div>
+        </div>*/}
 
         {this.state.alert && (
           <div className='EnquiryForm--Alert'>

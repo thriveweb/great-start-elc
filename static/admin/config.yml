@@ -323,7 +323,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: object
         required: true
         fields:
-          - {name: title, label: Title, widget: string}
+          - {name: title, label: Title, widget: markdown}
       - name: breakoutBox
         label: Breakout Box
         widget: object
@@ -334,7 +334,7 @@ collections: # A list of collections the CMS should be able to edit
       - name: enrolmentsSection2
         label: Section 2
         widget: object
-        required: true
+        required: false
         fields:
           - name: steps
             label: Steps
@@ -346,7 +346,7 @@ collections: # A list of collections the CMS should be able to edit
       - name: enrolBanner
         label: Enrol Banner
         widget: object
-        required: true
+        required: false
         fields:
           - {name: title, label: Title, widget: string}
           - {name: buttonLinkTo, label: Button Link, widget: string}
@@ -359,6 +359,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string, required: false}
           - {label: Content, name: content, widget: markdown, required: false}
+      - {label: Download File, name: downloadFile, widget: file, required: false}
 
   - name: downloadPages
     label: Download Pages

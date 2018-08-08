@@ -102,7 +102,7 @@ Enter QK Enrol in the My Family Lounge. Under Booking Requests, click ‘New Req
 
 ###### If there are no vacancies at the centre, please complete the waitlisting form using the QK Enrol portal. We regularly review the waitlist and we will contact you if a place becomes available.
 
-To finalise the enrolment an initial fee must be paid. The initial fee is calculated as the greater of amounts: $100 or two weeks fees – your centre director will advise the initial fee amount. On your child’s commencement, the initial fee amount will be credited to your account and offset against the amount due for the two weeks fees due in advance. Please note, if your child does not commence as booked, the initial fee is non-refundable.
+To finalise the enrolment an initial fee must be paid. The initial fee is calculated as the greater of amounts: $100 or two weeks fees. Your centre director will advise the initial fee amount. On your child’s commencement, the initial fee amount will be credited to your account and offset against the amount due for the two weeks fees due in advance. Please note, if your child does not commence as booked, the initial fee is non-refundable.
 
 We’ve made payment easy for you and have direct debit implemented via bank account or credit card on a weekly basis. A direct debit authority form is required to be completed and signed upon enrolment. Please complete a new form if any of your information changes.
 

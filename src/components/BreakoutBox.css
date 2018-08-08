@@ -1,6 +1,8 @@
 .BreakoutBox {
   padding: 4rem;
-  display: flex;
+  display: flex;	
+  position: relative;
+  z-index: 9;
 }
 
 .BreakoutBox--Content {

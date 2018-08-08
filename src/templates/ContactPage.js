@@ -4,6 +4,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import BreakoutBox from '../components/BreakoutBox'
 import Button from '../components/Button'
+import GoogleMaps from '../components/GoogleMaps'
 import DownloadForm from '../components/DownloadForm'
 import ExceedBanner from '../components/ExceedBanner'
 import './ContactPage.css'
@@ -38,11 +39,14 @@ export const ContactPageTemplate = ({
                 </p>
               )}
               {centreDetails.location && (
-                <p>
-                  <strong>Centre Location</strong>
-                  <br />
-                  {centreDetails.location}
-                </p>
+                <div>
+                  <p>
+                    <strong>Centre Location</strong>
+                    <br />
+                    {centreDetails.location}
+                  </p>
+                  <GoogleMaps lat={parseFloat(centreDetails.latitude)} lng={parseFloat(centreDetails.longitude)} styles={'[{"featureType": "all", "elementType": "labels", "stylers": [{"visibility": "off"}]},{"featureType": "administrative", "elementType": "all", "stylers": [{"visibility": "off"},{"color": "#efebe2"}]},{"featureType": "landscape", "elementType": "all", "stylers": [{"color": "#efebe2"}]},{"featureType": "poi", "elementType": "all", "stylers": [{"color": "#efebe2"}]},{"featureType": "poi.attraction", "elementType": "all", "stylers": [{"color": "#efebe2"}]},{"featureType": "poi.business", "elementType": "all", "stylers": [{"color": "#efebe2"}]},{"featureType": "poi.government", "elementType": "all", "stylers": [{"color": "#dfdcd5"}]},{"featureType": "poi.medical", "elementType": "all", "stylers": [{"color": "#D9CBAA"}]},{"featureType": "poi.park", "elementType": "all", "stylers": [{"color": "#f1f1f1"}]},{"featureType": "poi.place_of_worship", "elementType": "all", "stylers": [{"color": "#efebe2"}]},{"featureType": "poi.school", "elementType": "all", "stylers": [{"color": "#efebe2"}]},{"featureType": "poi.sports_complex", "elementType": "all", "stylers": [{"color": "#efebe2"}]},{"featureType": "road.highway", "elementType": "geometry.fill", "stylers": [{"color": "#ffffff"}]},{"featureType": "road.highway", "elementType": "geometry.stroke", "stylers": [{"visibility": "off"}]},{"featureType": "road.arterial", "elementType": "geometry.fill", "stylers": [{"color": "#ffffff"}]},{"featureType": "road.arterial", "elementType": "geometry.stroke", "stylers": [{"visibility": "off"}]},{"featureType": "road.local", "elementType": "geometry.fill", "stylers": [{"color": "#fbfbfb"}]},{"featureType": "road.local", "elementType": "geometry.stroke", "stylers": [{"visibility": "off"}]},{"featureType": "transit", "elementType": "all", "stylers": [{"visibility": "off"}]},{"featureType": "water", "elementType": "all", "stylers": [{"color": "#a5d7e0"}]}]'} />
+                </div>
               )}
               {(centreDetails.email || centreDetails.phone) && (
                 <div>
@@ -106,6 +110,8 @@ export const pageQuery = graphql`
             centreDetails {
               email
               location
+              latitude
+              longitude
               openingHours
               phone
             }

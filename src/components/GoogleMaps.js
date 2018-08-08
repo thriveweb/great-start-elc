@@ -2,14 +2,14 @@ import React, { Component } from 'react'
 import Helmet from 'react-helmet'
 import _debounce from 'lodash/debounce'
 
-import './GoogleMap.css'
+import './GoogleMaps.css'
 
 export default class GoogleMap extends Component {
   static defaultProps = {
-    apiKey: '',
+    apiKey: 'AIzaSyARcDElAI3_4wBfjMmPIU_pXmzOlKobLHE',
     lat: -28.078287,
     lng: 153.444221,
-    zoom: 17,
+    zoom: 15,
     disableDefaultUI: false,
     icon: '',
     styles: '{}'

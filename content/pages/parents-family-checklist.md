@@ -12,7 +12,17 @@ checklist:
       Have you been informed of the centre’s rating and assessment status and
       our quality improvement plan?
   - cell1: Have you been introduced to educators?
-  - cell1: Enrolment Form and Direct Debit Authority Form completed?
+  - cell1: 'Enrolment Form, CWA and Direct Debit Authority Form completed?'
+  - cell1: "Have you been informed of the centre policies and procedures including; Open-\rDoor Policy, Sun Safety Policy, Emergency Management Plan, Immunisation\r Policy, and Medical Conditions Policy and Procedures?"
+  - cell1: "Advised of hours of operation, fee policy and schedule; including charges for\r public holidays, sick days and absent days?"
+  - cell1: "Have you been informed of the Immunisation Policy and the need to maintain\r your child Immunisation Record in QK Enrol?"
+  - cell1: "Completed Medication Conditions Form and uploaded onto QK Enrol? (if\r applicable)"
+  - cell1: "Have you been informed about the various Educator-Parent communication\r methods used within the centre?"
+  - cell1: "You have access to the My Family Lounge: QK Enrol and QK Journeys?\r (Downloaded the My Family Lounge App.)"
+  - cell1: "Discussed the curriculum and the features of our educational programs?\r Completed the All About Me form and your Child’s Learning Plan?"
+  - cell1: Been shown the sign in and out Kiosk?
+  - cell1: Reviewed the recommendations for what your child needs to bring?
+  - cell1: Been provided a centre calendar of events and discussed upcoming events?
 checklistDownload:
   file: /images/uploads/blank.pdf
   preview: /images/uploads/family-checklist.jpg

@@ -90,7 +90,7 @@ Note: Before applying for a placement at the centre, it is important that you ha
 
 #### Register For My Family Lounge
 
-For families who have an existing My Family Lounge account, skip the registration process and go to the next step. If you do not have an existing account, click the “Enrol Now” button below or click here. The email address you enter will be the user name and also the email address from which you receive correspondence going forward. During the registration process, you will be sent an email from My Family Lounge. Once you receive this email, click the ‘Complete Registration’ button to enter a password and also review and agree to the terms and conditions of enrolment. On completion of My Family Lounge registration, enter QK Enrol to add your contact information.
+For families who have an existing My Family Lounge account, skip the registration process and go to the next step. If you do not have an existing account, click the “Enrol Now” button below or [click here](https://great-start-elc.thdi.net/enrol). The email address you enter will be the user name and also the email address from which you receive correspondence going forward. During the registration process, you will be sent an email from My Family Lounge. Once you receive this email, click the ‘Complete Registration’ button to enter a password and also review and agree to the terms and conditions of enrolment. On completion of My Family Lounge registration, enter QK Enrol to add your contact information.
 
 #### Add Your Child To The Waitlist
 

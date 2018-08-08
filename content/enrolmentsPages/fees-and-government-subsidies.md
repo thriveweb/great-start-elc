@@ -33,7 +33,7 @@ enrolmentsSection1:
     fees owing, leaving a gap fee which is the amount families pay to the
     Centre, meaning less out of pocket expense.**
 breakoutBox:
-  content: "Registering can be completed through:\\\nIn person: [at Medicare offices or Centrelink offices](https://findus.humanservices.gov.au/)\\\n\LInternet:\_[www.familyassist.gov.au](http://www.familyassist.gov.au)\nPhone: \\[13 61 50](tel:13 61 50)"
+  content: "Registering can be completed through:\nIn person: [at Medicare offices or Centrelink offices](https://findus.humanservices.gov.au/)\n\LInternet:\_[www.familyassist.gov.au](http://www.familyassist.gov.au)\nPhone: [123 456 789](123456789)"
   title: Registering for Child Care Subsidies
 enrolmentsSection2:
   steps: []
@@ -173,6 +173,7 @@ accordion:
       available. If unavailable, your request for additional days can be added
       to your centre’s waiting list using QK Enrol portal.
     title: Changes to your Child’s Regular Booked Days
+downloadFileText: Download Terms and Conditions
 downloadFile: /images/uploads/blank.pdf
 ---
 

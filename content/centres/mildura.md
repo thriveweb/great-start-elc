@@ -12,9 +12,7 @@ centreIntro: >-
   Reggio Emilia. We have created a learning environment enriched with creative
   and sensory experiences as avenues for growth, allowing every child to reach
   their full potential.
-contentColumns:
-  - content: testing
-    image: /images/uploads/istock-529400494_super_crop.jpg
+contentColumns: []
 classroomsSection:
   items:
     - icon: /images/uploads/baby.svg

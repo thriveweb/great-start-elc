@@ -37,7 +37,7 @@ export const DefaultPageTemplate = ({
 
       <PageHeader title={title} subtitle={subtitle} />
 
-      <section className="section">
+      <section className="section background-clouds">
         <div className="container content">
           <Content source={body} />
         </div>
@@ -45,7 +45,7 @@ export const DefaultPageTemplate = ({
           {downloadableForms && <DownloadBox listItems={downloadableForms} />}
         </div>
         {accordion && (
-          <div className="container content m-t-2 background-clouds">
+          <div className="container content m-t-2">
             <Accordion items={accordion} />
           </div>
         )}

@@ -26,6 +26,7 @@ export const EnrolmentsPageTemplate = ({
   footerSettings
 }) => {
   // showHandbook
+
   return (
     <main className="EnrolmentsPage background-dots">
       <Helmet>
@@ -36,14 +37,16 @@ export const EnrolmentsPageTemplate = ({
 
       <section className="section EnrolmentsPage--Section1">
         <div className="container content">
-          <div className="relative">
-            <Image
-              background
-              src={featuredImage}
-              alt={enrolmentsSection1.title}
-            />
-          </div>
-          <div>
+          {featuredImage && 
+            <div className="relative EnrolmentsPage--Section1-Image">
+              <Image
+                background
+                src={featuredImage}
+                alt={enrolmentsSection1.title}
+              />
+            </div>
+          }
+          <div className='EnrolmentsPage--Section1-Content'>
             <h5>{enrolmentsSection1.title}</h5>
             <Button to="#">Book a Tour</Button>
           </div>
@@ -58,31 +61,34 @@ export const EnrolmentsPageTemplate = ({
         </div>
       </section>
 
-      <section className="section">
-        <div className="container content">
-          {enrolmentsSection2 &&
-            enrolmentsSection2.steps &&
-            enrolmentsSection2.steps.map((step, index) => (
-              <div key={step.title} className="EnrolmentsPage--Section2--Step">
-                <span className='Button hasShadow'>Step {index + 1}</span>
-                <div>
-                  <h4>{step.title}</h4>
-                  <Content src={step.content} />
+      {!!enrolmentsSection2.steps.length &&
+        <section className="section">
+          <div className="container content">
+              {enrolmentsSection2.steps &&
+              enrolmentsSection2.steps.map((step, index) => (
+                <div key={step.title} className="EnrolmentsPage--Section2--Step">
+                  <span className='Button hasShadow'>Step {index + 1}</span>
+                  <div>
+                    <h4>{step.title}</h4>
+                    <Content src={step.content} />
+                  </div>
                 </div>
-              </div>
-            ))}
-        </div>
-      </section>
+              ))}
+          </div>
+        </section>
+      }
 
-      <section className="EnrolmentsPage--EnrolBanner background-clouds">
-        <div className="container">
-          <JoinBanner
-            title={enrolBanner.title}
-            buttonLinkTo={enrolBanner.buttonLinkTo}
-            buttonTitle={enrolBanner.buttonTitle}
-          />
-        </div>
-      </section>
+      {enrolBanner.title && 
+        <section className="EnrolmentsPage--EnrolBanner background-clouds">
+          <div className="container">
+            <JoinBanner
+              title={enrolBanner.title}
+              buttonLinkTo={enrolBanner.buttonLinkTo}
+              buttonTitle={enrolBanner.buttonTitle}
+            />
+          </div>
+        </section>
+      }
 
       <section className="section">
         <div className="container content">

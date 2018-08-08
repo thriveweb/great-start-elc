@@ -281,8 +281,7 @@ blockquote {
 
 .section.dots-left, 
 .section.dots-right, 
-.DefaultPage,
-.TeamMembers,
+.background-dots,
 .background-clouds {
   position: relative;
 }

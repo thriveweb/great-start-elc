@@ -1,4 +1,6 @@
 ---
+template: EmploymentOpportunities
+slug: enrolments/book
 title: Book a Tour of our Centres
 ---
 ![](/images/uploads/action-child-children.jpg)

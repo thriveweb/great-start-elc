@@ -52,6 +52,18 @@ class Form extends React.Component {
       })
   }
 
+  renderOption = (name, value) => {
+    return <label className="checkbox-container">
+      <input 
+        className="EnquiryForm--Input" 
+        type="radio" 
+        name={name}
+      /> 
+      {value}
+      <span className='checkbox'></span>
+    </label>
+  }
+
   render() {
     const { name, subject, action } = this.props
 
@@ -62,7 +74,7 @@ class Form extends React.Component {
         action={action}
         onSubmit={this.handleSubmit}
         data-netlify=""
-        data-netlify-honeypot="_gotcha"
+        data-netlify-honeypot="email"
       >
         {this.state.alert && (
           <div className="EnquiryForm--Alert">{this.state.alert}</div>
@@ -90,7 +102,7 @@ class Form extends React.Component {
             className="EnquiryForm--Input"
             type="email"
             placeholder="Email"
-            name="email"
+            name="e-mail"
             required
           />
         </label>
@@ -104,7 +116,7 @@ class Form extends React.Component {
           />
         </label>
         <label className="EnquiryForm--Label label-text">
-          Child's Date of Birth:
+          <p>Child's Date of Birth:</p>
           <input
             className="EnquiryForm--Input"
             type="text"
@@ -113,14 +125,16 @@ class Form extends React.Component {
             required
           />
         </label>
+        <div className='EnquiryForm--Label label-text'>
+          <p>Choose Centre:</p>
+          {[ 
+            this.renderOption('centre', 'East Malvern'),
+            this.renderOption('centre', 'Mildura'),
+            this.renderOption('centre', 'Mildura Central')
+          ]}
+        </div>
         <label className="EnquiryForm--Label label-text">
-        Choose Centre:
-          <input className="EnquiryForm--Input" name="checkbox" placeholder="East Malvern"/>
-          <input className="EnquiryForm--Input" name="checkbox" placeholder="Mildura"/>
-          <input className="EnquiryForm--Input" name="checkbox" placeholder="Mildura Central"/>
-        </label>
-        <label className="EnquiryForm--Label label-text">
-          Preferred Start Date:
+          <p>Preferred Start Date:</p>
           <input
             className="EnquiryForm--Input"
             type="text"
@@ -140,13 +154,15 @@ class Form extends React.Component {
         {!!subject && <input type="hidden" name="subject" value={subject} />}
         <input type="hidden" name="form-name" value={name} />
         <input
-          className="Button .hasShadow EnquiryForm--SubmitButton"
+          className="Button hasShadowHover EnquiryForm--SubmitButton"
           type="submit"
           value="Book Now"
           disabled={this.state.disabled}
         />
         <div className='privacy-check'>
-          <input className="EnquiryForm--Input" name="checkbox" /><p>Yes, I have read and agree to the Great Start <a href="/">Privacy Policy</a></p>
+          <input className="EnquiryForm--Input" type="checkbox" name="privacy" />
+          <span className='checkbox'></span>
+          <p>Yes, I have read and agree to the Great Start <a href="/">Privacy Policy</a></p>
         </div>
       </form>
     )

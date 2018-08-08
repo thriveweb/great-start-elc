@@ -7,15 +7,6 @@
   margin: 2.5rem 0;
 }
 
-.ApplicationForm {
-  padding: 4rem;
-  border: .4rem solid var(--secondary);
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 4rem;
-}
-
 .EnquiryForm > * + * {
   margin-top: 2rem;
 }
@@ -132,3 +123,126 @@
   text-align: right;
   align-self: center;
 }
+
+/*Application Form*/
+
+.ApplicationForm, .BookTour {
+  padding: 4rem;
+  border: .4rem solid var(--secondary);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+/*Book Tour Form*/
+
+.BookTour .label-text .EnquiryForm--Input {
+  margin-left: 1rem;
+}
+
+.BookTour .privacy-check {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 4rem;
+}
+
+.BookTour .label-text p, .BookTour .privacy-check p {
+  margin: 0;
+  font-weight: 400;
+}
+
+.BookTour .privacy-check .EnquiryForm--Input {
+  flex: 0 0 3%;
+}
+
+.checkbox-container, .privacy-check {
+  position: relative;
+  padding-left: 2rem;
+  margin-left: 2rem;
+}
+
+.checkbox {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: .2rem solid var(--secondary);
+}
+
+.checkbox-container {
+  user-select: none;
+}
+
+.checkbox-container .EnquiryForm--Input, .privacy-check .EnquiryForm--Input {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+  opacity: 0;
+  margin: 0 !important;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.checkbox-container .EnquiryForm--Input:checked + .checkbox, .privacy-check .EnquiryForm--Input:checked + .checkbox {
+  background-color: var(--secondary);
+}
+
+/*Download Form*/
+
+
+
+.download-banner {
+  display: flex;
+  margin-top: 7.5rem;
+}
+
+.DownloadForm {
+  flex: 0 0 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.DownloadForm {
+  background-color: var(--col6);
+  padding: 6rem;
+  flex: 1;
+}
+
+.DownloadForm .Image {
+  flex: 1;
+}
+
+.DownloadForm h3 {
+  font-size: 3.2rem;
+  flex: 0 0 100%;
+}
+
+.DownloadForm p {
+  margin: 0;
+}
+
+.DownloadForm .EnquiryForm--Input {
+  background-color: transparent;
+}
+
+.DownloadForm .EnquiryForm--Label.label-text {
+  flex: 0 0 100%;
+}
+
+
+
+
+
+
+
+
+
+

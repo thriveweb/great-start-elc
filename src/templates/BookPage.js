@@ -3,10 +3,13 @@ import Helmet from 'react-helmet'
 
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
-import BookForm from '../components/BookForm'
+import BookTourForm from '../components/BookTourForm'
+import DownloadForm from '../components/DownloadForm'
+import JoinBanner from '../components/JoinBanner'
+import ExceedBanner from '../components/ExceedBanner'
 import './BookPage.css'
 
-export const BookPageTemplate = ({ title, subtitle, featuredImage, body }) => {
+export const BookPageTemplate = ({ title, subtitle, featuredImage, body, footerSettings }) => {
   // showHandbook
   return (
     <main className="BookPage">
@@ -19,8 +22,18 @@ export const BookPageTemplate = ({ title, subtitle, featuredImage, body }) => {
       <div className="section">
         <div className="container content">
           <Content source={body} />
-
-          <BookForm />
+          <BookTourForm />
+        </div>
+        <DownloadForm />
+      </div>
+      <div className="section thin JoinBannerSection">
+        <div className="container">
+          <JoinBanner linkTo="/" />
+        </div>
+      </div>
+      <div className="section thin">
+        <div className="container">
+          <ExceedBanner footerSettings={footerSettings} />
         </div>
       </div>
     </main>
@@ -28,9 +41,9 @@ export const BookPageTemplate = ({ title, subtitle, featuredImage, body }) => {
 }
 
 const BookPage = ({ data }) => {
-  const { markdownRemark: page } = data
+  const { markdownRemark: page, footerSettings } = data
 
-  return <BookPageTemplate {...page} {...page.frontmatter} body={page.html} />
+  return <BookPageTemplate {...page} {...page.frontmatter} body={page.html} footerSettings={footerSettings} />
 }
 
 export default BookPage
@@ -49,6 +62,11 @@ export const pageQuery = graphql`
           ...LargeImage
         }
       }
+    }
+    footerSettings: settingsYaml(id: { regex: "/footer.yml/" }) {
+      exceedText
+      exceedTextLong
+      exceedLogo
     }
   }
 `

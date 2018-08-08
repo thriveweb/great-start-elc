@@ -21,13 +21,13 @@ export const DefaultPageTemplate = ({
   popoutBanner,
   accordion,
   downloadableForms,
-  // infoSection,
+  infoSection,
   footerSettings,
   body
 }) => {
 
-  // const description = _get(infoSection, 'description') || ''
-  // const infoListing = _get(infoSection, 'infoListing') || []
+  const description = _get(infoSection, 'description') || ''
+  const infoListing = _get(infoSection, 'infoListing') || []
 
   return (
     <main className="DefaultPage background-dots">
@@ -49,7 +49,7 @@ export const DefaultPageTemplate = ({
             <Accordion items={accordion} />
           </div>
         )}
-        {/*<InfoListing description={description} infoListing={infoListing} />*/}        
+        <InfoListing description={description} infoListing={infoListing} />        
       </section>
 
       {popoutBanner && (
@@ -104,6 +104,16 @@ export const pageQuery = graphql`
         accordion {
           title
           content
+        }
+        infoSection {
+          description
+          infoListing {
+            icon {
+              ...SmallImage
+            }
+            title
+            content
+          }
         }
       }
     }

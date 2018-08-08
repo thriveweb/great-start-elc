@@ -41,6 +41,12 @@ downloadableForms:
     title: Medication Authority Form & Record (PDF)
   - file: /images/uploads/notification-of-cessation-of-care_08.18.2.pdf
     title: Notification of Cessation of Care (PDF)
+  - file: /images/uploads/digital_greatstart_handbook_eastmalvern.pdf
+    title: Greatstart handbook - Eastmalvern (PDF)
+  - file: /images/uploads/digital_greatstart_handbook_mildura.pdf
+    title: Greatstart handbook - Mildura (PDF)
+  - file: /images/uploads/greatstart_handbook_milduracentral.pdf
+    title: Greatstart handbook - Milduracentral (PDF)
 ---
 #### Here are some important downloads
 

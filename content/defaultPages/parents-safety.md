@@ -3,7 +3,7 @@ template: DefaultPage
 slug: parents/safety-security
 title: Safety and Security
 ---
-![null](/images/uploads/istock-516621014_supe_crop.jpg)
+![Kids playing](/images/uploads/istock-516621014_supe_crop.jpg)
 
 ### Our priority is providing your child with a safe, clean and nurturing environment. All our centres are only accessible via single-entry security keypad access and there are no external entry points to the playground or outdoor areas.
 

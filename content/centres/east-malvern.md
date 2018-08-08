@@ -87,12 +87,44 @@ testimonials:
   - name: John Doe
     testimonial: "Childhood Education.\LI am very passionate about the Reggio Emilia Approach. We tailor our curriculum to encourage learning and lay down strong foundations which are so vital in the early years. Our curriculum is designed to address the children’s interests and to develop their skills. Our programming format is unique and is designed to address key learning areas including social skills, language, maths, investigation, creative pursuits, fine and gross motor skills, sensory experiences, cultural experiences and environmental understanding. In addition to this it addresses the Outcomes as outlined in the Early Years Learning Frameworks."
 directorStatement:
-  content: "I have been in the early learning and child care industry since 19XX and I have an Advanced Diploma in Early Childhood Education.\LI am very passionate about the Reggio Emilia Approach. We tailor our curriculum to encourage learning and lay down strong foundations which are so vital in the early years. Our curriculum is designed to address the children’s interests and to develop their skills. Our programming format is unique and is designed to address key learning areas including social skills, language, maths, investigation, creative pursuits, fine and gross motor skills, sensory experiences, cultural experiences and environmental understanding. In addition to this it addresses the Outcomes as outlined in the Early Years Learning Frameworks.\n\nI believe that each child is unique and learns and explores in his or her own way. Therefore, we encourage building on their own interests and strengths through scaffolding, mentoring and facilitating their learning and development.\_I believe that our centre truly captivates this and we ignite the endless possibilities of  learning by embracing challenges and rejoicing in accomplishments through our various spaces, open-ended resources and our vibrant atmosphere.\_\n\nThe team I am fortunate to work with shares my passion for seeing children meet their potential. They are dedicated, professional, experienced and highly qualified."
+  content: >-
+    **Liz Cosier – Centre Director**
+
+
+    I am very passionate about the Reggio Emilia Approach. We tailor our
+    curriculum to nurture a child’s intellectual growth and creativity, and lay
+    down strong foundations which are so vital in the early years. Our
+    curriculum is designed to build upon the children’s interests and to develop
+    their skills. Our programming format is unique and is designed to address
+    key learning areas including social skills, language, numeracy,
+    investigation, creative pursuits, fine and gross motor skills, sensory
+    experiences, cultural experiences and environmental understanding. In
+    addition to this it addresses the Outcomes as outlined in the Early Years
+    Learning Frameworks.
+
+
+    I believe that each child is unique and learns and explores in his or her
+    own way. Therefore, we encourage building on their own interests and
+    strengths through scaffolding, mentoring and facilitating their learning and
+    development. I believe that our centre truly captivates this and we ignite
+    the endless possibilities of learning by embracing challenges and rejoicing
+    in accomplishments through our various spaces, open-ended resources and our
+    vibrant atmosphere. 
+
+
+    The team I am fortunate to work with shares my passion for seeing children
+    meet their potential. They are dedicated, professional, experienced and
+    highly qualified.
+
+
+    We invite you to come and visit our centre to meet our team and to see for
+    yourself our commitment to your child’s early learning journey.
   image: /images/uploads/shutterstock_58596811.jpg
   title: >-
     Hello, my name is Liz Cosier and I have been the Centre Director and
-    Nominated Supervisor at East Malvern Early Learning Centre since XXXX
-    (Year).
+    Nominated Supervisor at East Malvern Early Learning Centre since 2006. I
+    have been in the early learning and child care industry since 1989 and I
+    have an Advanced Diploma in Early Childhood Education.
 gallery:
   - image: /images/uploads/isabella juskova.jpg
   - image: /images/uploads/unsplash4.jpg

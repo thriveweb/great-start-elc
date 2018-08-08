@@ -59,6 +59,7 @@ class Form extends React.Component {
         className="EnquiryForm--Input" 
         type="radio" 
         name={name}
+        value={value}
       /> 
       {value}
       <span className='checkbox'></span>
@@ -112,12 +113,12 @@ class Form extends React.Component {
           <input type="text" name="_gotcha" style={{ display: 'none' }} />
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
-          <input
-            className="Button hasShadowHover EnquiryForm--SubmitButton"
-            type="submit"
-            value="Download"
-            disabled={this.state.disabled}
-          />
+            <input
+              className="Button hasShadowHover EnquiryForm--SubmitButton"
+              type="submit"
+              value="Download"
+              disabled={this.state.disabled}
+            />
         </form>
       </section>  
     )

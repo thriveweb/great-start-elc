@@ -1,6 +1,6 @@
 ---
 template: DefaultPage
-slug: parents/faqs
+slug: delete-me
 title: FAQs
 accordion:
   - content: >-

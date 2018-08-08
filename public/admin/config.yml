@@ -245,6 +245,43 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Content, name: body, widget: markdown}
 
+      - file: "content/pages/faqs.md"
+        label: "FAQS"
+        name: "faqs"
+        fields:
+          - {label: Template, name: template, widget: hidden, default: Faqs}
+          - {label: Slug, name: slug, widget: hidden, default: ''}
+          - {label: Title, name: title, widget: string}
+          - label: Accordion Section
+            name: accordionSection
+            required: false
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - label: Accordion
+                name: accordion
+                required: false
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string, required: false}
+                  - {label: Content, name: content, widget: markdown, required: false}
+
+      - file: "content/pages/handbooks.md"
+        label: "Centre Forms and Handbooks"
+        name: "handBooks"
+        fields:
+          - {label: Template, name: template, widget: hidden, default: Handbooks}
+          - {label: Slug, name: slug, widget: hidden, default: ''}
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: body, widget: markdown}
+          - label: Downloadable Forms
+            name: downloadableForms
+            required: false
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: File, name: file, widget: file, required: false}
+
   - name: defaultPages
     label: Default Page
     editor:

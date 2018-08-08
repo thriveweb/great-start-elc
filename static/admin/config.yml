@@ -535,3 +535,12 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Exceed Banner Logo, name: exceedLogo, widget: image, required: false}
           - {label: Handbook Image, name: handbookImage, widget: image, required: false}
           - {label: Handbook File, name: handbookFile, widget: file, required: false}
+      - {label: Handbook File Download, name: handbookFileDownload, widget: file}
+
+
+
+
+
+
+
+

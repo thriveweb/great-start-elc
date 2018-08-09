@@ -38,25 +38,58 @@ class Form extends React.Component {
     })
   }
 
+  // handleSubmit = e => {
+  //   e.preventDefault()
+  //   const formTarget = e.target
+
+  //   if (this.state.disabled) return
+  //   const form = e.target
+  //   const data = serialize(form)
+
+  //   if (!data['resume']) {
+  //     return this.setState({
+  //       alert: 'Please attach Resume'
+  //     })
+  //   } else {
+  //     this.setState({ 
+  //       filesUploading: true 
+  //     }, () => {
+  //       formTarget.submit()
+  //     })
+  //   }
+  // }
+
   handleSubmit = e => {
     e.preventDefault()
-    const formTarget = e.target
-
     if (this.state.disabled) return
+
     const form = e.target
     const data = serialize(form)
-
-    if (!data['resume']) {
-      return this.setState({
-        alert: 'Please attach Resume'
+    this.setState({ disabled: true })
+    fetch(form.action + '?' + stringify(data), {
+      method: 'POST'
+    })
+      .then(res => {
+        if (res.ok) {
+          return res
+        } else {
+          throw new Error('Network error')
+        }
       })
-    } else {
-      this.setState({ 
-        filesUploading: true 
-      }, () => {
-        formTarget.submit()
+      .then(() => {
+        form.reset()
+        this.setState({
+          alert: this.props.successMessage,
+          disabled: false
+        })
       })
-    }
+      .catch(err => {
+        console.error(err)
+        this.setState({
+          disabled: false,
+          alert: this.props.errorMessage
+        })
+      })
   }
 
   render () {

@@ -4,11 +4,11 @@ slug: enrolments/fees
 title: Fees and Government Subsidies
 enrolmentsSection1:
   title: >-
-    Great Start Early Learning Centres is registered as a provider of “Approved
-    Care” under the Child Care Management System (“CCMS”). Under CCMS, the
-    Federal Government provides us with each family’s approval details directly,
-    which is why each family must be registered with the Family Assistance
-    Office (FAO).
+    ### Great Start Early Learning Centres is registered as a provider of
+    “Approved Care” under the Child Care Management System (“CCMS”). Under CCMS,
+    the Federal Government provides us with each family’s approval details
+    directly, which is why each family must be registered with the Family
+    Assistance Office (FAO).
 
 
     The Australian Government may provide financial assistance towards the cost

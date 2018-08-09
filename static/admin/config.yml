@@ -282,6 +282,15 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Title, name: title, widget: string, required: false}
               - {label: File, name: file, widget: file, required: false}
 
+      - file: "content/pages/refer-friend.md"
+        label: "Refer a Friend"
+        name: "referFriend"
+        fields:
+          - {label: Template, name: template, widget: hidden, default: ReferFriend}
+          - {label: Slug, name: slug, widget: hidden, default: ''}
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: body, widget: markdown}
+
   - name: defaultPages
     label: Default Page
     editor:

@@ -129,7 +129,7 @@ export const CentreTemplate = ({
             )}
             <div className="Centre--ClassroomsSection--Subtitle">
               {classroomsSection.subtitle}
-              <Button to="/">Enrol Now</Button>
+              <Button to="/enrolments/enrolling-great-start-early-learing-centre/">Enrol Now</Button>
             </div>
           </div>
         </section>

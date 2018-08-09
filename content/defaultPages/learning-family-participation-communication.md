@@ -13,7 +13,7 @@ downloadableForms:
 
 Please keep in touch with what is going on at the centre through reading the QK Journeys Curriculum Portal, noticeboards and our emails. Please participate in your child’s curriculum by completing curriculum input forms. We value your feedback and the unique experiences and culture of your family. Sharing this information with your child’s class will provide opportunities for your child to share their culture and create new topics for learning.
 
-###### **Communication between parents and educators occurs in many ways:**
+##### **Communication between parents and educators occurs in many ways:**
 
 - QK Journeys Curriculum Portal; daily communication about what the children have learned and experienced via their online learning portfolio.
 - Educational Programs are displayed within your child’s classroom and in QK Journeys. These explain the activities your child has participated in and specific experiences they have enjoyed.

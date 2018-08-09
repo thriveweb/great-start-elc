@@ -36,3 +36,14 @@ meta:
   title: ''
 ---
 ### We aim to ensure that parents have all the necessary information so your children feel settled and excited to start at our centre.
+
+Having complete the orientation sessions we find that parents and children are familiar with the environment and educators and it does not take long for children to settle.
+
+There are some important things you need to make sure you have completed before the first day. Please use New Family Checklist to remind you of task needing to be completed. 
+
+We also recommend you reading to the Parent Information section of the website to review the following:
+
+* [Settling Tips](/parents/settling-tips/)
+* [Frequently Asked Questions?](/parents/faqs/)
+* [FAQ: What should my child wear to the centre?](/parents/faqs/)
+* [FAQ: What to Pack in Your Child’s Bag?](/parents/faqs/)

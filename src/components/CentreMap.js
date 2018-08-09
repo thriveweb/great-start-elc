@@ -2,14 +2,14 @@ import React, { Component } from 'react'
 import Helmet from 'react-helmet'
 import _debounce from 'lodash/debounce'
 
-import './GoogleMaps.css'
+// import './GoogleMap.css'
 
-export default class GoogleMap extends Component {
+export default class CentreGoogleMap extends Component {
   static defaultProps = {
-    apiKey: 'AIzaSyARcDElAI3_4wBfjMmPIU_pXmzOlKobLHE',
+    apiKey: '',
     lat: -28.078287,
     lng: 153.444221,
-    zoom: 15,
+    zoom: 14,
     disableDefaultUI: false,
     icon: '',
     styles: '{}'
@@ -18,29 +18,10 @@ export default class GoogleMap extends Component {
   mapElement = null
   map = null
 
-  state = {}
-
   componentDidMount () {
     window.initMap = this.initMap
-    if (window.google) {
-      this.initMap()
-      this.addListeners()
-    }
-
-    setTimeout(() => {
-      this.setState({
-        test: true
-      })
-    }, 500)
-  }
-
-  componentDidUpdate() {  
-    if(!this.state.mapSet) {
-      window.initMap = this.initMap
-
-      this.initMap()
-      this.addListeners()
-    }
+    if (window.google) this.initMap()
+    this.addListeners()
   }
 
   addListeners = () => {
@@ -53,7 +34,13 @@ export default class GoogleMap extends Component {
     const { lat, lng } = this.props
     const center = { lat, lng }
     this.map.setCenter(center)
+    // this.panMapOffset()
   }
+
+  // panMapOffset = () => {
+  //   if (!this.map || window.innerWidth <= 1000) return false
+  //   this.map.panBy(window.innerWidth / 5, 0)
+  // }
 
   initMap = () => {
     const google = window.google
@@ -80,14 +67,20 @@ export default class GoogleMap extends Component {
     this.map = map
     this.setMapCenter()
     this.addListeners()
-    this.setState({
-      mapSet: true
-    })
   }
 
   render () {
     return (
       <div className='GoogleMap--Wrap'>
+        <Helmet>
+          <script
+            async
+            defer
+            src={`https://maps.googleapis.com/maps/api/js?key=${
+              this.props.apiKey
+            }&callback=initMap`}
+          />
+        </Helmet>
         <div
           className='GoogleMap'
           ref={el => {

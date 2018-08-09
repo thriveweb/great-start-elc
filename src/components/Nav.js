@@ -92,7 +92,7 @@ export default class Nav extends Component {
               <User />
               Login
             </NavLink>
-            <Button to="/enrol">Enrol Now</Button>
+            <Button to="/enrolments/enrolling-great-start-early-learing-centre/">Enrol Now</Button>
           </div>
         </div>
       </nav>

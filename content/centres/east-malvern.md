@@ -160,4 +160,4 @@ We understand the importance of education and believe that childhood is a unique
 
 
 
-At East Malvern Early Learning Centre, we provide an environment where both children and families feel safe, secure and supported. A place where partnerships and friendships can be formed and maintained, where trust and credibility can be built upon and upheld, and lines of communication are always open and valued.
+**At East Malvern Early Learning Centre, we provide an environment where both children and families feel safe, secure and supported. A place where partnerships and friendships can be formed and maintained, where trust and credibility can be built upon and upheld, and lines of communication are always open and valued.**

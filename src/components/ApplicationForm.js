@@ -6,6 +6,8 @@ import './EnquiryForm.css'
 
 // const fetch = window.fetch
 
+import Select from './Select'
+
 class Form extends React.Component {
   static defaultProps = {
     name: 'Application Form',
@@ -112,7 +114,20 @@ class Form extends React.Component {
             required
           />
         </label>
-        <label className="EnquiryForm--Label has-arrow">
+
+        <Select
+          name='type'
+          options={[
+            'Preferred Centre',
+            'Mildura Early Learning Centre',
+            'Mildura Central Early Learning Centre',
+            'East Malvern Learning Centre'
+          ]}
+        />
+
+
+
+        <label className="EnquiryForm--Label has-arrow custom-select">
           <select
             className="EnquiryForm--Input EnquiryForm--Select"
             name="type"
@@ -127,7 +142,7 @@ class Form extends React.Component {
             <option>East Malvern Learning Centre</option>
           </select>
         </label>
-        <label className="EnquiryForm--Label has-arrow">
+        <label className="EnquiryForm--Label has-arrow custom-select">
           <select
             className="EnquiryForm--Input EnquiryForm--Select"
             name="type"
@@ -180,7 +195,7 @@ class Form extends React.Component {
           name='form-name'
           value={this.state['form-name']}
         />
-        {/*<div className='file-download'>
+        <div className='file-download'>
           <div className='file-download-item'>
             <label className='EnquiryForm--Label title'>
               <input
@@ -195,7 +210,7 @@ class Form extends React.Component {
             </label>
             {this.state.resume && <p className='results'>{this.state.resume}</p>}
           </div>
-        </div>*/}
+        </div>
 
         {this.state.alert && (
           <div className='EnquiryForm--Alert'>

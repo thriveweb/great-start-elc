@@ -68,6 +68,7 @@ export const ContactPageTemplate = ({
               )}
               <br />
               <Button to={'/'}>Enrol Now</Button>
+              <Button to={'/enrolments/book/'}>Book Tour</Button>
             </BreakoutBox>
           }
         )}

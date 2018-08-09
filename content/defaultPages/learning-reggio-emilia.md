@@ -24,4 +24,4 @@ Educators capture individual children’s learning journeys using a variety of m
 ###### **5. The 100 Languages of Children**
 We believe children have the right to express their ideas, thoughts, emotions and learning in a variety of ways. Educators offer a variety of rich opportunities for children to express themselves through art, dramatic play, music, and dance along with the ‘typical’ ways of communicating such as re-telling, creating stories, discussions and negotiations.
 
-**To find out more about how the Reggio Emilia approach is incorporated into everyday life at our early learnings centres, visit one of our beautiful centres or [contact us](/contact/) for further information.**
+###### To find out more about how the Reggio Emilia approach is incorporated into everyday life at our early learnings centres, visit one of our beautiful centres or [contact us](/contact/) for further information.

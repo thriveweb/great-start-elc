@@ -135,7 +135,7 @@ export const CentreTemplate = ({
         </section>
       )}
 
-      {/*testimonials && <Testimonials items={testimonials} />*/}
+      {testimonials.length && <Testimonials items={testimonials} />}
 
       {directorStatement && (
         <section className="section Centre--DirectorStatement">

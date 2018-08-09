@@ -3,6 +3,9 @@ import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
 import Image from './Image'
 
+import Select from './Select'
+import { ICONUpload } from './Icons'
+
 import './EnquiryForm.css'
 
 class Form extends React.Component {
@@ -70,8 +73,7 @@ class Form extends React.Component {
     const { name, subject, action } = this.props
 
     return (
-      <section className='download-banner'>
-        <Image src='/images/uploads/handbook.jpg' alt='image of handbook' />
+      <section>
         <form
           className="ApplicationForm"
           name={name}
@@ -83,33 +85,139 @@ class Form extends React.Component {
           {this.state.alert && (
             <div className="EnquiryForm--Alert">{this.state.alert}</div>
           )}
-          <h3 className='form-description'>Download our Family Handbook for all you need to know about enroling your child at one of our centres.</h3>
-          <label className="EnquiryForm--Label">
-            <input
-              className="EnquiryForm--Input"
-              type="text"
-              placeholder="Your Name"
-              name="name"
-              required
-            />
-          </label>
-          <label className="EnquiryForm--Label">
-            <input
-              className="EnquiryForm--Input"
-              type="email"
-              placeholder="Email"
-              name="e-mail"
-              required
-            />
-          </label>
-          <div className='EnquiryForm--Label label-text'>
-            <p>Choose Centre:</p>
-            {[ 
-              this.renderOption('centre', 'East Malvern'),
-              this.renderOption('centre', 'Mildura'),
-              this.renderOption('centre', 'Mildura Central')
-            ]}
+
+
+        
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Your Name"
+            name="name"
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Phone"
+            name="phone"
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="email"
+            placeholder="Email"
+            name="email"
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Preferred Role"
+            name="role"
+            required
+          />
+        </label>
+        <Select
+          placeholder='Preferred Centre'
+          name='type'
+          options={[
+            'Mildura Early Learning Centre',
+            'Mildura Central Early Learning Centre',
+            'East Malvern Learning Centre'
+          ]}
+        />
+        <Select
+        placeholder='Joining as'
+          name='type'
+          options={[
+            'option 1',
+            'option 2',
+            'option 3'
+          ]}
+        />
+        <label className="EnquiryForm--Label full-width">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Qualifications"
+            name="qualifications"
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label full-width">
+          <input
+            className="EnquiryForm--Input EnquiryForm--Textarea"
+            placeholder="Why do you want to work for Great Start?"
+            name="message"
+            rows="10"
+            required
+          />
+        </label>
+        <input
+          className='EnquiryForm--Input'
+          type='text'
+          name='_gotcha'
+          style={{ display: 'none' }}
+          value={this.state._gotcha}
+          onChange={this.handleChange}
+        />
+        <input
+          className='EnquiryForm--Input'
+          type='hidden'
+          name='subject'
+          value={this.state.subject}
+        />
+        <input
+          className='EnquiryForm--Input'
+          type='hidden'
+          name='form-name'
+          value={this.state['form-name']}
+        />
+        <div className='file-download'>
+          <div className='file-download-item'>
+            <label className='EnquiryForm--Label title'>
+              <input
+                className='EnquiryForm--Input'
+                type='file'
+                placeholder='Resume and Cover Letter'
+                name='resume'
+                onChange={event => this.handleUpload(event, 'resume')}
+                multiple
+              />
+              Resume and Cover Letter <ICONUpload/>
+            </label>
+            {this.state.resume && <p className='results'>{this.state.resume}</p>}
           </div>
+        </div>
+
+        {this.state.alert && (
+          <div className='EnquiryForm--Alert'>
+            <svg
+              width='24'
+              height='24'
+              viewBox='0 0 24 24'
+              fill='none'
+              stroke='currentColor'
+              strokeWidth='2'
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              className='feather feather-alert-triangle'
+            >
+              <path d='M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z' />
+              <line x1='12' y1='9' x2='12' y2='13' />
+              <line x1='12' y1='17' x2='12' y2='17' />
+            </svg>
+            {this.state.alert}
+          </div>
+        )}
+
+
           <input type="text" name="_gotcha" style={{ display: 'none' }} />
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />

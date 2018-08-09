@@ -15,6 +15,10 @@
 	flex: 1;
 }
 
+.EnrolmentsPage--Section1-Image {
+	margin-right: 2rem;
+}
+
 .EnrolmentsPage--Section1 .container > * {
   width: calc(50% - 2rem);
 }

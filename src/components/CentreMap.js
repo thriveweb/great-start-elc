@@ -4,9 +4,14 @@ import _debounce from 'lodash/debounce'
 
 // import './GoogleMap.css'
 
+let mapkey = ''
+if (process.env.NETLIFY_MAP_KEY) {
+  mapkey = process.env.NETLIFY_MAP_KEY
+}
+
 export default class CentreGoogleMap extends Component {
   static defaultProps = {
-    apiKey: '',
+    apiKey: mapkey,
     lat: -28.078287,
     lng: 153.444221,
     zoom: 14,

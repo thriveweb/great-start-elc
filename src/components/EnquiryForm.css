@@ -319,6 +319,12 @@
   font-weight: 400;
 }
 
+.SubscribeForm .EnquiryForm--Alert {
+  text-align: left;
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
 
 
 

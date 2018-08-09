@@ -30,27 +30,27 @@ class Form extends React.Component {
     fetch(form.action + '?' + stringify(data), {
       method: 'POST'
     })
-      .then(res => {
-        if (res.ok) {
-          return res
-        } else {
-          throw new Error('Network error')
-        }
+    .then(res => {
+      if (res.ok) {
+        return res
+      } else {
+        throw new Error('Network error')
+      }
+    })
+    .then(() => {
+      form.reset()
+      this.setState({
+        alert: this.props.successMessage,
+        disabled: false
       })
-      .then(() => {
-        form.reset()
-        this.setState({
-          alert: this.props.successMessage,
-          disabled: false
-        })
+    })
+    .catch(err => {
+      console.error(err)
+      this.setState({
+        disabled: false,
+        alert: this.props.errorMessage
       })
-      .catch(err => {
-        console.error(err)
-        this.setState({
-          disabled: false,
-          alert: this.props.errorMessage
-        })
-      })
+    })
   }
 
   renderOption = (name, value) => {

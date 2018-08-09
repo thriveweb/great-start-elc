@@ -1,5 +1,6 @@
 ---
 template: DefaultPage
-slug: 'parents'
+slug: parents/refer-friend
 title: Refer A Friend
 ---
+content

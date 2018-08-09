@@ -23,15 +23,3 @@ export default ({ footerSettings }) => {
     </div>
   )
 }
-
-// query={graphql`
-//   query ExceedBannerQuery {
-//     globalSettings: settingsYaml {
-//       footer {
-//         exceedText
-//         exceedLogo
-//         exceedTextLong
-//       }
-//     }
-//   }
-// `}

@@ -5,7 +5,7 @@ title: Enrolling at a Great Start Early Learning Centre
 featuredImage: /images/uploads/istock-529400494_super_crop.jpg
 enrolmentsSection1:
   title: >-
-    ###We would love to find your child a place at our centre. A centre tour is
+    ### We would love to find your child a place at our centre. A centre tour is
     a great way for you and your child to meet the educators, understand our
     curriculum and learning programs and see our environment first hand.
 breakoutBox:

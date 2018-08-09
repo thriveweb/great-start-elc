@@ -5,18 +5,6 @@ title: FAQs
 accordionSection:
   - accordion:
       - content: >-
-          Yes, we have a funded four-year-old kindergarten program and employ a
-          kindergarten teacher who holds a Bachelor of Education. Our
-          Kindergarten programs are the same as at council run kindergartens and
-          private schools. The difference is we operate from 7am to 6pm Monday
-          to Friday and are open 52 weeks a year and open all school holidays;
-          catering to all family and work situations.
-        title: >-
-          Do you have a funded four-year-old kindergarten program at your
-          centres with a qualified Kindergarten Teacher?
-      - content: "Our curriculums are play-based, emergent learning curriculums and embrace the philosophy of Reggio Emilia. Our educators are constantly updating their programs based on the children’s interests. \_We also embrace the Victorian and National Early Years Learning Frameworks."
-        title: What is your centre’s curriculum based on?
-      - content: >-
           We do not have a minimum number of days to attend. But we do recommend
           a minimum two-day enrolment per child. Attending for two days or more
           per week allows your child to settle in quickly, build strong
@@ -24,23 +12,11 @@ accordionSection:
           get the most benefit from our curriculum and programs.
         title: Is there a minimum number of days of attendance?
       - content: >-
-          All educators require a minimum of Certificate III in Children’s
-          Services. Each room has a Leading Educator who holds a Diploma in
-          Children’s Services or higher. All educators have successfully gained
-          a Working with Children’s Check and all hold formal certification in
-          First Aid and Asthma & Anaphylaxis.
-        title: >-
-          What are the staff qualifications and are they police checked for
-          working with children?
-      - content: "The ratios of educators to children are regulated by the Victorian Government. We always ensure these ratios are met or exceeded.\L0-3 year old’s - 1:4\L3-5 year old’s - 1:11"
-        title: What are the staff to child ratios?
-      - content: >-
-          We use a positive approach in behaviour management and guiding
-          children’s behaviours. We encourage children towards positive and
-          responsible behaviour, and give children the opportunity to become
-          self-reliant and to develop their self-esteem. Please see our
-          Behavioural Guidance Policy.
-        title: How do the educators guide and support children’s behaviours?
+          Our curriculums are play-based, emergent learning curriculums and
+          embrace the philosophy of Reggio Emilia. Our educators are constantly
+          updating their programs based on the children’s interests.  We also
+          embrace the Victorian and National Early Years Learning Frameworks.
+        title: What is your centre’s curriculum based on?
       - content: >-
           Prior to using the app, you will need to complete the registration
           process for your My Family Lounge account. The free app is available
@@ -59,13 +35,25 @@ accordionSection:
         title: >-
           Do you have a funded four-year-old kindergarten program at your
           centres with a qualified Kindergarten Teacher?
+      - content: "The ratios of educators to children are regulated by the Victorian Government. We always ensure these ratios are met or exceeded.\L0-3 year old’s - 1:4\L3-5 year old’s - 1:11"
+        title: What are the staff to child ratios?
       - content: >-
-          Our curriculums are play-based, emergent learning curriculums and
-          embrace the philosophy of Reggio Emilia. Our educators are constantly
-          updating their programs based on the children’s interests.  We also
-          embrace the Victorian and National Early Years Learning Frameworks.
-        title: What is your centre’s curriculum based on?
-    title: Careers
+          All educators require a minimum of Certificate III in Children’s
+          Services. Each room has a Leading Educator who holds a Diploma in
+          Children’s Services or higher. All educators have successfully gained
+          a Working with Children’s Check and all hold formal certification in
+          First Aid and Asthma & Anaphylaxis.
+        title: >-
+          What are the staff qualifications and are they police checked for
+          working with children?
+      - content: >-
+          We use a positive approach in behaviour management and guiding
+          children’s behaviours. We encourage children towards positive and
+          responsible behaviour, and give children the opportunity to become
+          self-reliant and to develop their self-esteem. Please see our
+          Behavioural Guidance Policy.
+        title: How do the educators guide and support children’s behaviours?
+    title: About our Staff
   - accordion:
       - content: >-
           The earlier the better, as sometimes we have a considerable waitlist.

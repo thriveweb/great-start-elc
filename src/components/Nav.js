@@ -48,9 +48,9 @@ export default class Nav extends Component {
 
     const NavLinkGroup = ({ to, title, dropdown, ...props }) => (
       <div className={`NavLinkGroup ${menuItemActive === dropdown ? 'menu-active' : ''}`}>
-        <NavLink to={to} {...props}>
+        <li className='NavLink' to={to} {...props}>
           {title}
-        </NavLink>
+        </li>
         {renderChildPageLinks(to)}
         <span 
         className={`MenuToggle`}

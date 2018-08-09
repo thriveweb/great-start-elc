@@ -1,6 +1,6 @@
 ---
 template: EmploymentOpportunities
-slug: careers
+slug: careers/employment-opportunities
 title: Employment Opportunities
 ---
 ### Join a team of early childhood professionals who are dedicated to the wellbeing and learning of every child.

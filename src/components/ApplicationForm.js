@@ -114,49 +114,24 @@ class Form extends React.Component {
             required
           />
         </label>
-
         <Select
+          placeholder='Preferred Centre'
           name='type'
           options={[
-            'Preferred Centre',
             'Mildura Early Learning Centre',
             'Mildura Central Early Learning Centre',
             'East Malvern Learning Centre'
           ]}
         />
-
-
-
-        <label className="EnquiryForm--Label has-arrow custom-select">
-          <select
-            className="EnquiryForm--Input EnquiryForm--Select"
-            name="type"
-            defaultValue="Preferred Centre"
-            required
-          >
-            <option disabled hidden>
-              Preferred Centre
-            </option>
-            <option>Mildura Early Learning Centre</option>
-            <option>Mildura Central Early Learning Centre</option>
-            <option>East Malvern Learning Centre</option>
-          </select>
-        </label>
-        <label className="EnquiryForm--Label has-arrow custom-select">
-          <select
-            className="EnquiryForm--Input EnquiryForm--Select"
-            name="type"
-            defaultValue="Joining as"
-            required
-          >
-            <option disabled hidden>
-              Joining as
-            </option>
-            <option>option 1</option>
-            <option>option 2</option>
-            <option>option 3</option>
-          </select>
-        </label>
+        <Select
+        placeholder='Joining as'
+          name='type'
+          options={[
+            'option 1',
+            'option 2',
+            'option 3'
+          ]}
+        />
         <label className="EnquiryForm--Label full-width">
           <input
             className="EnquiryForm--Input"

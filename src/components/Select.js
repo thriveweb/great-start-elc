@@ -1,31 +1,40 @@
 import React, { Component } from 'react'
-
+import { ICONArrowDown } from './Icons'
+import './Select.css'
 
 class Select extends Component {
   state = {}
 
   render() {
-    const { name, options } = this.props
-    const { active } = this.state
+    const { name, options, placeholder } = this.props
+    const { active, activeDropdown = false } = this.state
 
-    return <label>
+    console.log(placeholder)
+
+    return <label className={`EnquiryForm--Label`}>
       <select style={{display: 'none'}}>
         {options.map(option => 
-          <option value={option} selected={option === active ? true : false}>
+          <option key={option} value={option} selected={option === active ? true : false}>
             {option}
           </option>
         )}
       </select>
-      <ul>
-        {options.map(option => 
-          <li 
-            onClick={() => this.setState({ active: option })}
-            className={option === active ? 'active' : ''}
-          >
-            {option}
-          </li>
-        )}
-      </ul>
+      <div className={`select-dropdown ${activeDropdown ? 'active' : ''}`}>
+        <p className='EnquiryForm--Input has-arrow' onClick={() => this.setState({ activeDropdown: !activeDropdown })}>
+          {active ? active : placeholder} <ICONArrowDown />
+        </p>
+        <ul>
+          {options.map(option => 
+            <li 
+              key={option}
+              onClick={() => this.setState({ active: option, activeDropdown: false })}
+              className={option === active ? 'active' : ''}
+            >
+              {option}
+            </li>
+          )}
+        </ul>
+      </div>
     </label>
   }
 }

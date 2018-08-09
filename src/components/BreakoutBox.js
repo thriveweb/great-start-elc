@@ -20,7 +20,7 @@ export default ({
     <div className="BreakoutBox--Content">
       {title && (
         <Fragment>
-          <h5>{title}</h5>
+          <h3>{title}</h3>
           <Wave short />
           <br />
         </Fragment>

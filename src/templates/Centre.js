@@ -48,7 +48,7 @@ export const CentreTemplate = ({
       <section className="section Centre--Intro background-dots">
         <div className="container content">
           <Image className="Centre--Intro--Logo" src={logo} alt={title} />
-          <h5 className="Centre--Intro--Title">{centreIntro}</h5>
+          <h3 className="Centre--Intro--Title">{centreIntro}</h3>
         </div>
       </section>
 
@@ -84,13 +84,13 @@ export const CentreTemplate = ({
             <Button to={'/'}>Enrol Now</Button>
           </BreakoutBox>
           <Content source={body} />
-          {contentColumns && 
+          {contentColumns.length && 
             <div className='column-section'>
               {contentColumns.map((column, index) => {
                 const { image, content } = column
 
                 return <div className='column-content'>   
-                    {image && <Image src={image} alt='test' />}
+                    {image && <Image src={image} alt='centre image' />}
                     {content && <Content src={content} />}
                   </div>
               })}
@@ -135,7 +135,7 @@ export const CentreTemplate = ({
         </section>
       )}
 
-      {testimonials && <Testimonials items={testimonials} />}
+      {/*testimonials && <Testimonials items={testimonials} />*/}
 
       {directorStatement && (
         <section className="section Centre--DirectorStatement">

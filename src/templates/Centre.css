@@ -2,7 +2,7 @@
 }
 
 .Centre--Intro {
-  padding-bottom: 0;
+  padding-bottom: 0 !important;
 }
 
 .Centre--Intro .container {
@@ -15,11 +15,12 @@
 }
 
 .Centre--Intro--Logo {
-  width: 12rem;
+  width: 18rem;
 }
 
 .Centre--Intro--Title {
   margin-bottom: 0;
+  font-size: 3.2rem;
 }
 
 .Centre--MainSection {
@@ -111,7 +112,23 @@
   width: 100%;
 }
 
+.Centre--ClassroomsSection--Item--Title {
+  font-weight: 600;
+  color: var(--col1);
+}
 
+.Centre--ClassroomsSection--Subtitle {
+  font-weight: 600;
+}
 
+.Centre .BreakoutBox h5 {
+  font-size: 4rem;
+}
 
+.Centre--ClassroomsSection--Items {
+  justify-content: space-between;
+}
 
+.Centre--ClassroomsSection--Item {
+  flex: 0 0 17%;
+}

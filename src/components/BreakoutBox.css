@@ -14,3 +14,7 @@
 .BreakoutBox--Content > *:last-child {
   margin-top: auto;
 }
+
+.BreakoutBox h3 {
+	font-size: 3.2rem;
+}

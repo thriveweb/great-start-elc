@@ -16,7 +16,7 @@ export default ({ downloadBanner }) => {
         {preview &&
           file && (
             <a className="DownloadBanner--Image" href={file.publicURL}>
-              <img src={preview.publicURL} alt={title} />
+              <img className='hasShadow' src={preview.publicURL} alt={title} />
             </a>
           )}
         <div className="DownloadBanner--Content">

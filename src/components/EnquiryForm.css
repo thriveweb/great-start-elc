@@ -129,13 +129,16 @@
 
 /*Application Form*/
 
-.ApplicationForm, .BookTour {
+.ApplicationForm, .BookTour, .ReferFriend {
   padding: 4rem;
   border: .4rem solid var(--secondary);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 4rem;
+  position: relative;
+  z-index: 2;
+  background-color: white;
 }
 
 /*Book Tour Form*/
@@ -324,5 +327,9 @@
   padding: 1rem 0;
   font-size: 1.6rem;
   margin-bottom: 0;
+}
+
+.ReferFriend .Button {
+  align-self: flex-start;
 }
 

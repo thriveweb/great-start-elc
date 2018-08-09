@@ -4,17 +4,18 @@ import Helmet from 'react-helmet'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import ReferFriendForm from '../components/ReferFriendForm'
-// import './DownloadPage.css'
+import ExceedBanner from '../components/ExceedBanner'
 
 // Export Template for use in CMS preview
 export const ReferFriendTemplate = ({
   title,
   subtitle,
+  footerSettings,
   body
 }) => {
 
   return (
-    <main className="DownloadPage background-dots">
+    <main className="ReferFriendForm background-dots">
       <Helmet>
         <title>{title}</title>
       </Helmet>
@@ -24,15 +25,20 @@ export const ReferFriendTemplate = ({
       <section className="section">
         <div className="container content">
           <Content source={body} />
-        </div>  
-        <ReferFriendForm />    
+          <ReferFriendForm />  
+        </div>    
       </section>
+      <div className="section thin">
+        <div className="container">
+          <ExceedBanner footerSettings={footerSettings} />
+        </div>
+      </div>
     </main>
   )
 }
 
-const ReferFriend = ({ data: { page } }) => (
-  <ReferFriendTemplate {...page} {...page.frontmatter} body={page.html} />
+const ReferFriend = ({ data: { page, footerSettings } }) => (
+  <ReferFriendTemplate {...page} {...page.frontmatter} body={page.html} footerSettings={footerSettings} />
 )
 
 export default ReferFriend
@@ -46,6 +52,11 @@ export const pageQuery = graphql`
         title
         subtitle
       }
+    }
+    footerSettings: settingsYaml(id: { regex: "/footer.yml/" }) {
+      exceedText
+      exceedTextLong
+      exceedLogo
     }
   }
 `

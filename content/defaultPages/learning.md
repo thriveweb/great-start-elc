@@ -1,6 +1,6 @@
 ---
 template: DefaultPage
-slug: learning
+slug: learning/learning-great-start-early-learning-centres
 title: Learning at Great Start Early Learning Centres
 ---
 

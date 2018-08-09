@@ -12,7 +12,7 @@ Each day has structure and a flexible routine and includes time for play, projec
 
 ---
 
-###### **Our curriculum supports:**
+##### **Our curriculum supports:**
 
 - Having a play based emergent curriculum;
 - Numeracy, literacy, music and movement, science and social development;

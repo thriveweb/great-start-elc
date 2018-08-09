@@ -65,22 +65,22 @@ homeSection4:
     - description: >-
         Our adaptation of the Reggio Emilia Approach to childhood learning suits
         Australian culture, climate and educational expectations of families.
-      linkTo: /
+      linkTo: /learning/reggio-emilia/
       title: Learning Approach
     - description: >-
         Our curriculum is built in order to meet the needs of each child while
         instilling life-long learning into their early childhood.
-      linkTo: /
+      linkTo: /learning/educational-programs-and-curriculum/
       title: Educational Programs
     - description: >-
         View or print our new family checklist to help you and your children
         have all the necessary information to start at our centre.
-      linkTo: /
+      linkTo: /parents/family-checklist/
       title: New Family Checklist
     - description: >-
         View our step-by-step guide to enrolling your child in one of our
         beautiful early learning centres.
-      linkTo: /
+      linkTo: /enrolments/enrolling-great-start-early-learing-centre/
       title: How to Enrol?
 ---
 

@@ -23,6 +23,7 @@ class Form extends React.Component {
     disabled: false
   }
 
+
   handleSubmit = e => {
     e.preventDefault()
     if (this.state.disabled) return
@@ -187,7 +188,7 @@ class Form extends React.Component {
                 type='file'
                 placeholder='Resume and Cover Letter'
                 name='resume'
-                onChange={event => this.handleUpload(event, 'resume')}
+                // onChange={event => this.handleUpload(event, 'resume')}
                 multiple
               />
               Resume and Cover Letter <ICONUpload/>

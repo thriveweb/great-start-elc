@@ -31,9 +31,16 @@ lowerSection: >-
 
   2  Complete the relevant forms:
 
-      - ASCIA Action Plan for Anaphylaxis Reactions form (Found at ASCIA - www.allergy.org.au); or
-      - Complete an ASCIA Action Plan for Allergic Reactions form (Found at ASCIA - www.allergy.org.au); or
-      - Complete an Asthma Australia Asthma Care Plan for Education and Care Centre form (Found at Asthma Australia - www.asthmaaustralia.org.au)
+
+  *  ASCIA Action Plan for Anaphylaxis Reactions form (Found at ASCIA -
+  www.allergy.org.au); or
+
+  * Complete an ASCIA Action Plan for Allergic Reactions form (Found at ASCIA -
+  www.allergy.org.au); or
+
+  * Complete an Asthma Australia Asthma Care Plan for Education and Care Centre
+  form (Found at Asthma Australia - www.asthmaaustralia.org.au)
+
 
   3  Have the forms signed by your child's doctor.
 

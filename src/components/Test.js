@@ -86,7 +86,7 @@ class Form extends React.Component {
           <input
             className="EnquiryForm--Input"
             type="text"
-            placeholder="Your Name"
+            placeholder="Your Full Name"
             name="name"
             required
           />

@@ -80,18 +80,18 @@ class Application extends React.Component {
         <label className="EnquiryForm--Label">
           <input
             className="EnquiryForm--Input"
-            type="email"
-            placeholder="Your Email"
-            name="e-mail"
+            type="text"
+            placeholder="Phone"
+            name="phone"
             required
           />
         </label>
         <label className="EnquiryForm--Label">
           <input
             className="EnquiryForm--Input"
-            type="text"
-            placeholder="Your Phone"
-            name="phone"
+            type="email"
+            placeholder="Email"
+            name="e-mail"
             required
           />
         </label>
@@ -110,6 +110,15 @@ class Application extends React.Component {
             type="text"
             placeholder="Qualifications"
             name="qualifications"
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Why do you want to work for Great Start?"
+            name="message"
             required
           />
         </label>
@@ -141,7 +150,7 @@ class Application extends React.Component {
           />
         </label>
         <Select
-          placeholder='Which Centre does your child attend?'
+          placeholder='Preferred Centre'
           name='type'
           options={[
             'Mildura Early Learning Centre',

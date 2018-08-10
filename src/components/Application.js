@@ -90,6 +90,33 @@ class Application extends React.Component {
           <input
             className="EnquiryForm--Input"
             type="text"
+            placeholder="Your Phone"
+            name="phone"
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Preferred Role"
+            name="role"
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Qualifications"
+            name="qualifications"
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
             placeholder="Your Friend's Name"
             name="child-name"
             required

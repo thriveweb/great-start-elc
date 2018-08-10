@@ -28,7 +28,7 @@ export const EmploymentOpportunitiesTemplate = ({
       <section className="section background-clouds">
         <div className="container content">
           <Content source={body} />
-          <Test />
+          <ApplicationForm />
         </div>    
       </section>
       <div className="section thin">

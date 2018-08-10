@@ -1,15 +1,16 @@
 import React from 'react'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
+import Select from './Select'
 
 import './EnquiryForm.css'
 
-class TestingForm extends React.Component {
+class Application extends React.Component {
   static defaultProps = {
-    name: 'New',
+    name: 'Application',
     subject: '', // optional subject of the notification email
     action: '',
-    successMessage: 'Thanks for your enquiry, we will get back to you soon',
+    successMessage: 'Thanks for your submission, we will get back to you soon',
     errorMessage:
       'There is a problem, your message has not been sent, please try contacting us via email'
   }
@@ -52,25 +53,12 @@ class TestingForm extends React.Component {
       })
   }
 
-  renderOption = (name, value) => {
-    return <label className="checkbox-container">
-      <input 
-        className="EnquiryForm--Input" 
-        type="radio" 
-        name={name}
-        value={value}
-      /> 
-      {value}
-      <span className='checkbox'></span>
-    </label>
-  }
-
   render() {
     const { name, subject, action } = this.props
 
     return (
       <form
-        className="ApplicationForm"
+        className="Application"
         name={name}
         action={action}
         onSubmit={this.handleSubmit}
@@ -92,59 +80,60 @@ class TestingForm extends React.Component {
         <label className="EnquiryForm--Label">
           <input
             className="EnquiryForm--Input"
+            type="email"
+            placeholder="Your Email"
+            name="e-mail"
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
             type="text"
-            placeholder="Phone"
+            placeholder="Your Friend's Name"
+            name="child-name"
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Your Friend's Contact Number"
             name="phone"
+            required
           />
         </label>
         <label className="EnquiryForm--Label">
           <input
             className="EnquiryForm--Input"
             type="email"
-            placeholder="Email"
-            name="email"
+            placeholder="Your Friend's Email"
+            name="friend-email"
             required
           />
         </label>
-        <label className="EnquiryForm--Label">
-          <input
-            className="EnquiryForm--Input"
-            type="text"
-            placeholder="Preferred Role"
-            name="role"
-            required
-          />
-        </label>
-        <label className="EnquiryForm--Label full-width">
-          <input
-            className="EnquiryForm--Input"
-            type="text"
-            placeholder="Qualifications"
-            name="qualifications"
-            required
-          />
-        </label>
-        <label className="EnquiryForm--Label full-width">
-          <input
-            className="EnquiryForm--Input EnquiryForm--Textarea"
-            placeholder="Why do you want to work for Great Start?"
-            name="message"
-            rows="10"
-            required
-          />
-        </label>
+        <Select
+          placeholder='Which Centre does your child attend?'
+          name='type'
+          options={[
+            'Mildura Early Learning Centre',
+            'Mildura Central Early Learning Centre',
+            'East Malvern Learning Centre'
+          ]}
+        />
         <input type="text" name="_gotcha" style={{ display: 'none' }} />
         {!!subject && <input type="hidden" name="subject" value={subject} />}
         <input type="hidden" name="form-name" value={name} />
-          <input
-            className="Button hasShadowHover EnquiryForm--SubmitButton"
-            type="submit"
-            value="Download"
-            disabled={this.state.disabled}
-          />
-      </form>  
+        <input
+          className="Button hasShadowHover EnquiryForm--SubmitButton"
+          type="submit"
+          value="Submit"
+          disabled={this.state.disabled}
+        />
+      </form>
     )
   }
 }
 
-export default TestingForm
+export default Application

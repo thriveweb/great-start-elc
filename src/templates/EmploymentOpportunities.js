@@ -4,8 +4,7 @@ import _get from 'lodash/get'
 
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
-import ApplicationForm from '../components/ApplicationForm'
-import TestingForm from '../components/TestingForm'
+import Application from '../components/Application'
 import ExceedBanner from '../components/ExceedBanner'
 import './DefaultPage.css'
 
@@ -28,7 +27,7 @@ export const EmploymentOpportunitiesTemplate = ({
       <section className="section background-clouds">
         <div className="container content">
           <Content source={body} />
-          <TestingForm />
+          <Application />
         </div>    
       </section>
       <div className="section thin">

@@ -9,7 +9,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 20rem;
+  width: 21rem;
   height: 100%;
   background-image: url(/images/uploads/bannerimg-left.png);
   background-position: top left;
@@ -22,7 +22,7 @@
   position: absolute;
   top: 0;
   right: -1px;
-  width: 17.45rem;
+  width: 22.7rem;
   height: 100%;
   background-image: url(/images/uploads/bannerimg-right.png);
   background-position: top left;
@@ -127,7 +127,7 @@
     font-size: 1.6rem;
   }
 
-  .PageHeader--Inner {
+  .PageHeader-large .PageHeader--Inner {
     max-width: 600px;
   }
 
@@ -144,6 +144,10 @@
   .PageHeader-large .Image {
     width: 40rem;
     bottom: -8rem;
+  }
+
+  .PageHeader--Title {
+    font-size: 3.8rem;
   }
 
   .PageHeader-large .PageHeader--Title {
@@ -173,7 +177,7 @@
     font-size: 4.2rem;
   }
 
-  .PageHeader--Inner {
+  .PageHeader-large .PageHeader--Inner {
     max-width: 500px;
   }
 
@@ -196,7 +200,7 @@
     background-image: url(/images/uploads/homebannerimg-mobile-left.png);
   }
 
-  .PageHeader--Inner {
+  .PageHeader-large .PageHeader--Inner {
     max-width: 600px;
   }
 }

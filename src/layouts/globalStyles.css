@@ -380,6 +380,12 @@ blockquote {
   padding-bottom: 0;
 }
 
+@media only screen and (max-width: 930px) {
+  main {
+    margin-top: 5rem;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .Button {
     padding: 0.5em 2em !important;

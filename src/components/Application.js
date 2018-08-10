@@ -58,7 +58,7 @@ class Application extends React.Component {
 
     return (
       <form
-        className="Application"
+        className="ApplicationForm"
         name={name}
         action={action}
         onSubmit={this.handleSubmit}
@@ -122,7 +122,7 @@ class Application extends React.Component {
             'option 3'
           ]}
         />
-        <label className="EnquiryForm--Label">
+        <label className="EnquiryForm--Label full-width">
           <input
             className="EnquiryForm--Input"
             type="text"
@@ -131,7 +131,7 @@ class Application extends React.Component {
             required
           />
         </label>
-        <label className="EnquiryForm--Label">
+        <label className="EnquiryForm--Label full-width">
           <input
             className="EnquiryForm--Input"
             type="text"

@@ -10,7 +10,7 @@ class Select extends Component {
     const { active, activeDropdown = false } = this.state
 
     return <label className={`EnquiryForm--Label`}>
-      <select style={{display: 'none'}}>
+      <select style={{display: 'none'}} name={name}>
         {options.map((option, index) => 
           <option key={option} value={option} selected={option === active ? true : null}>
             {option}

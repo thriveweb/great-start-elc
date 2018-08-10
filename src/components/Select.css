@@ -26,10 +26,6 @@
 	visibility: visible;
 }
 
-select {
-	display: block !important;
-} 
-
 .select-dropdown option {
 	display: block !important;
 }

@@ -5,7 +5,7 @@ import Image from './Image'
 
 import './EnquiryForm.css'
 
-class Form extends React.Component {
+class TestingForm extends React.Component {
   static defaultProps = {
     name: 'New',
     subject: '', // optional subject of the notification email
@@ -125,4 +125,4 @@ class Form extends React.Component {
   }
 }
 
-export default Form
+export default TestingForm

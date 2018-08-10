@@ -21,7 +21,7 @@
   content: '';
   position: absolute;
   top: 0;
-  right: 0;
+  right: -1px;
   width: 17.45rem;
   height: 100%;
   background-image: url(/images/uploads/bannerimg-right.png);
@@ -106,8 +106,32 @@
 }
 
 
+@media only screen and (max-width: 1450px) {
+  .PageHeader-large .Image {
+    right: 0;
+    width: 50rem;
+  }
 
+  .PageHeader-large .PageHeader--Title {
+    font-size: 5rem;
+  }
 
+  .PageHeader--Subtitle {
+    font-size: 1.6rem;
+  }
+
+  .PageHeader--Inner {
+    max-width: 600px;
+  }
+
+  .PageHeader-large:after {
+    width: 55.4rem;
+  }
+}
+
+@media only screen and (max-width: 1275px) {
+  
+}
 
 
 

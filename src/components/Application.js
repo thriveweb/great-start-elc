@@ -21,6 +21,20 @@ class Application extends React.Component {
     disabled: false
   }
 
+  handleUpload = (event, target) => {
+    const fileNames = []
+
+    const file = event.target.files
+      ? Array.from(event.target.files).forEach(file => {
+        fileNames.push(file.name)
+      })
+      : this.state[target]
+
+    this.setState({
+      [target]: !!fileNames.length ? fileNames.join(', ') : file
+    })
+  }
+
   handleSubmit = e => {
     e.preventDefault()
     if (this.state.disabled) return
@@ -31,31 +45,44 @@ class Application extends React.Component {
     fetch(form.action + '?' + stringify(data), {
       method: 'POST'
     })
-      .then(res => {
-        if (res.ok) {
-          return res
-        } else {
-          throw new Error('Network error')
-        }
+    .then(res => {
+      if (res.ok) {
+        return res
+      } else {
+        throw new Error('Network error')
+      }
+    })
+    .then(() => {
+      form.reset()
+      this.setState({
+        alert: this.props.successMessage,
+        disabled: false
       })
-      .then(() => {
-        form.reset()
-        this.setState({
-          alert: this.props.successMessage,
-          disabled: false
-        })
+    })
+    .catch(err => {
+      console.error(err)
+      this.setState({
+        disabled: false,
+        alert: this.props.errorMessage
       })
-      .catch(err => {
-        console.error(err)
-        this.setState({
-          disabled: false,
-          alert: this.props.errorMessage
-        })
+    })
+
+    if (!data['resume']) {
+      return this.setState({
+        alert: 'Please attach Resume'
       })
+    } else {
+      this.setState({ 
+        filesUploading: true 
+      }, () => {
+        formTarget.submit()
+      })
+    }
   }
 
   render() {
     const { name, subject, action } = this.props
+    const { filesUploading } = this.state
 
     return (
       <form
@@ -163,7 +190,7 @@ class Application extends React.Component {
         <input
           className="Button hasShadowHover EnquiryForm--SubmitButton"
           type="submit"
-          value="Submit"
+          value={!filesUploading ? 'Apply Now' : 'Uploading Files...'}
           disabled={this.state.disabled}
         />
       </form>

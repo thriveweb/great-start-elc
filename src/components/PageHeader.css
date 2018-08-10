@@ -2,6 +2,7 @@
   background: var(--col2-light);
   padding: 6rem 0;
   position: relative;
+  overflow: hidden;
 }
 
 .PageHeader:before {
@@ -22,8 +23,8 @@
   position: absolute;
   top: 0;
   right: -1px;
-  width: 22.7rem;
-  height: 100%;
+  width: 20.7rem;
+  height: 120%;
   background-image: url(/images/uploads/bannerimg-right.png);
   background-position: top left;
   background-size: contain;
@@ -219,7 +220,8 @@
   }
 
   .PageHeader:before {
-    background-image: url(/images/uploads/bannerimg-mobile.png);
+    background-image: url(/images/uploads/bannerimg-moblie.png);
+    height: 150%;
   }
 }
 
@@ -234,6 +236,14 @@
 
   .PageHeader-large:after {
     width: 14.3rem;
+  }
+
+  .PageHeader--Title {
+    font-size: 3.2rem;
+  }
+
+  .PageHeader:after {
+    width: 19.2rem;
   }
 }
 

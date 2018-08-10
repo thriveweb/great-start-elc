@@ -112,10 +112,3 @@
 .homeSection4--grid--item--button {
   margin-top: auto;
 }
-
-
-@media only screen and (max-width: 1450px) {
-  .PageHeader-large .Image {
-    right: 0;
-  }
-}

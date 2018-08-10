@@ -379,3 +379,30 @@ blockquote {
 .lower-section {
   padding-bottom: 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .Button {
+    padding: 0.5em 2em !important;
+    font-size: 1.4rem !important;
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+  .fixed-button {
+    font-size: 1.4rem;
+    padding: .5rem 1rem;
+    right: -5.1rem;
+  }
+
+  .fixed-button svg {
+    height: 20px;
+    margin-right: 1rem !important;
+  }
+}
+
+
+
+
+
+

@@ -104,6 +104,24 @@ class Application extends React.Component {
             required
           />
         </label>
+        <Select
+          placeholder='Preferred Centre'
+          name='centre'
+          options={[
+            'Mildura Early Learning Centre',
+            'Mildura Central Early Learning Centre',
+            'East Malvern Learning Centre'
+          ]}
+        />
+        <Select
+          placeholder='Joining as'
+          name='type'
+          options={[
+            'option 1',
+            'option 2',
+            'option 3'
+          ]}
+        />
         <label className="EnquiryForm--Label">
           <input
             className="EnquiryForm--Input"
@@ -122,42 +140,6 @@ class Application extends React.Component {
             required
           />
         </label>
-        <label className="EnquiryForm--Label">
-          <input
-            className="EnquiryForm--Input"
-            type="text"
-            placeholder="Your Friend's Name"
-            name="child-name"
-            required
-          />
-        </label>
-        <label className="EnquiryForm--Label">
-          <input
-            className="EnquiryForm--Input"
-            type="text"
-            placeholder="Your Friend's Contact Number"
-            name="phone"
-            required
-          />
-        </label>
-        <label className="EnquiryForm--Label">
-          <input
-            className="EnquiryForm--Input"
-            type="email"
-            placeholder="Your Friend's Email"
-            name="friend-email"
-            required
-          />
-        </label>
-        <Select
-          placeholder='Preferred Centre'
-          name='type'
-          options={[
-            'Mildura Early Learning Centre',
-            'Mildura Central Early Learning Centre',
-            'East Malvern Learning Centre'
-          ]}
-        />
         <input type="text" name="_gotcha" style={{ display: 'none' }} />
         {!!subject && <input type="hidden" name="subject" value={subject} />}
         <input type="hidden" name="form-name" value={name} />

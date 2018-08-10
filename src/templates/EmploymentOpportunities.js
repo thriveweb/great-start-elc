@@ -28,7 +28,6 @@ export const EmploymentOpportunitiesTemplate = ({
       <section className="section background-clouds">
         <div className="container content">
           <Content source={body} />
-          <ApplicationForm />
           <Test />
         </div>    
       </section>

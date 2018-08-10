@@ -1,12 +1,12 @@
 import React from 'react'
 import { serialize } from 'dom-form-serializer'
 
+import Select from './Select'
 import { ICONUpload } from './Icons'
 import './EnquiryForm.css'
 
 // const fetch = window.fetch
 
-import Select from './Select'
 
 class Form extends React.Component {
   static defaultProps = {
@@ -79,10 +79,6 @@ class Form extends React.Component {
         {this.state.alert && (
           <div className='EnquiryForm--Alert'>{this.state.alert}</div>
         )}
-
-
-
-
 
         <label className="EnquiryForm--Label">
           <input
@@ -171,27 +167,6 @@ class Form extends React.Component {
             {this.state.resume && <p className='results'>{this.state.resume}</p>}
           </div>
         </div>
-
-        {this.state.alert && (
-          <div className='EnquiryForm--Alert'>
-            <svg
-              width='24'
-              height='24'
-              viewBox='0 0 24 24'
-              fill='none'
-              stroke='currentColor'
-              strokeWidth='2'
-              strokeLinecap='round'
-              strokeLinejoin='round'
-              className='feather feather-alert-triangle'
-            >
-              <path d='M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z' />
-              <line x1='12' y1='9' x2='12' y2='13' />
-              <line x1='12' y1='17' x2='12' y2='17' />
-            </svg>
-            {this.state.alert}
-          </div>
-        )}
 
         <div className='form--footer'>
           <input type='text' name='_gotcha' style={{ display: 'none' }} />

@@ -2,6 +2,7 @@ import React from 'react'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
 import Select from './Select'
+import { ICONUpload } from './Icons'
 
 import './EnquiryForm.css'
 
@@ -140,6 +141,22 @@ class Application extends React.Component {
             required
           />
         </label>
+        <div className='file-download'>
+          <div className='file-download-item'>
+            <label className='EnquiryForm--Label title'>
+              <input
+                className='EnquiryForm--Input'
+                type='file'
+                placeholder='Resume and Cover Letter'
+                name='resume'
+                onChange={event => this.handleUpload(event, 'resume')}
+                multiple
+              />
+              Resume and Cover Letter <ICONUpload/>
+            </label>
+            {this.state.resume && <p className='results'>{this.state.resume}</p>}
+          </div>
+        </div>
         <input type="text" name="_gotcha" style={{ display: 'none' }} />
         {!!subject && <input type="hidden" name="subject" value={subject} />}
         <input type="hidden" name="form-name" value={name} />

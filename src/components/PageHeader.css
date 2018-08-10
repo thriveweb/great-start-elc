@@ -109,6 +109,10 @@
 
 
 @media only screen and (max-width: 1450px) {
+  .PageHeader .container {
+    margin-left: 22rem;
+  }
+
   .PageHeader-large {
     padding: 10rem 0;
   }
@@ -158,6 +162,10 @@
     max-width: 520px;
   }
 
+  .PageHeader:after {
+    width: 20.5rem;
+  }
+
   .PageHeader-large:after {
     width: 40.5rem;
   }
@@ -202,6 +210,16 @@
 
   .PageHeader-large .PageHeader--Inner {
     max-width: 600px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .PageHeader .container {
+    margin-left: auto;
+  }
+
+  .PageHeader:before {
+    background-image: url(/images/uploads/bannerimg-mobile.png);
   }
 }
 

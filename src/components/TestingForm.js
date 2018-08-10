@@ -1,7 +1,6 @@
 import React from 'react'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
-import Image from './Image'
 
 import './EnquiryForm.css'
 
@@ -70,57 +69,80 @@ class TestingForm extends React.Component {
     const { name, subject, action } = this.props
 
     return (
-      <section className='download-banner'>
-        <Image src='/images/uploads/handbook.jpg' alt='image of handbook' />
-        <form
-          className="DownloadForm"
-          name={name}
-          action={action}
-          onSubmit={this.handleSubmit}
-          data-netlify=""
-          data-netlify-honeypot="email"
-        >
-          {this.state.alert && (
-            <div className="EnquiryForm--Alert">{this.state.alert}</div>
-          )}
-          <h3 className='form-description'>Download our Family Handbook for all you need to know about enroling your child at one of our centres.</h3>
-          <label className="EnquiryForm--Label">
-            <input
-              className="EnquiryForm--Input"
-              type="text"
-              placeholder="Your Name"
-              name="name"
-              required
-            />
-          </label>
-          <label className="EnquiryForm--Label">
-            <input
-              className="EnquiryForm--Input"
-              type="email"
-              placeholder="Email"
-              name="e-mail"
-              required
-            />
-          </label>
-          <div className='EnquiryForm--Label label-text'>
-            <p>Choose Centre:</p>
-            {[ 
-              this.renderOption('centre', 'East Malvern'),
-              this.renderOption('centre', 'Mildura'),
-              this.renderOption('centre', 'Mildura Central')
-            ]}
-          </div>
-          <input type="text" name="_gotcha" style={{ display: 'none' }} />
-          {!!subject && <input type="hidden" name="subject" value={subject} />}
-          <input type="hidden" name="form-name" value={name} />
-            <input
-              className="Button hasShadowHover EnquiryForm--SubmitButton"
-              type="submit"
-              value="Download"
-              disabled={this.state.disabled}
-            />
-        </form>
-      </section>  
+      <form
+        className="ApplicationForm"
+        name={name}
+        action={action}
+        onSubmit={this.handleSubmit}
+        data-netlify=""
+        data-netlify-honeypot="email"
+      >
+        {this.state.alert && (
+          <div className="EnquiryForm--Alert">{this.state.alert}</div>
+        )}
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Your Name"
+            name="name"
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Phone"
+            name="phone"
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="email"
+            placeholder="Email"
+            name="email"
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Preferred Role"
+            name="role"
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label full-width">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Qualifications"
+            name="qualifications"
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label full-width">
+          <input
+            className="EnquiryForm--Input EnquiryForm--Textarea"
+            placeholder="Why do you want to work for Great Start?"
+            name="message"
+            rows="10"
+            required
+          />
+        </label>
+        <input type="text" name="_gotcha" style={{ display: 'none' }} />
+        {!!subject && <input type="hidden" name="subject" value={subject} />}
+        <input type="hidden" name="form-name" value={name} />
+          <input
+            className="Button hasShadowHover EnquiryForm--SubmitButton"
+            type="submit"
+            value="Download"
+            disabled={this.state.disabled}
+          />
+      </form>  
     )
   }
 }

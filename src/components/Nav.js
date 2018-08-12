@@ -38,7 +38,7 @@ export default class Nav extends Component {
       return (
         <div className={`SubNav SubNav-${_kebabCase(parentSlug)}`}>
           {getChildPages(parentSlug).map(page => (
-            <NavLink key={page.fields.slug} to={page.fields.slug} exact>
+            <NavLink key={page.fields.slug} to={page.fields.slug} exact onClick={this.toggleActive}>
               {page.frontmatter.title}
             </NavLink>
           ))}

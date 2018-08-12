@@ -15,9 +15,14 @@ class Form extends React.Component {
       'There is a problem, your message has not been sent, please try contacting us via email'
   }
 
-  state = {
-    alert: '',
-    disabled: false
+  constructor(props) {
+    super(props);
+    this.myRef = React.createRef();
+
+    this.state = {
+      alert: '',
+      disabled: false
+    }
   }
 
   handleSubmit = e => {
@@ -45,7 +50,6 @@ class Form extends React.Component {
       })
     })
     .catch(err => {
-      console.error(err)
       this.setState({
         disabled: false,
         alert: this.props.errorMessage
@@ -54,11 +58,12 @@ class Form extends React.Component {
   }
 
   renderOption = (name, value) => {
-    return <label className="checkbox-container">
+    return <label className="checkbox-container" key={value}>
       <input 
         className="EnquiryForm--Input" 
         type="radio" 
         name={name}
+        value={value}
       /> 
       {value}
       <span className='checkbox'></span>
@@ -129,6 +134,7 @@ class Form extends React.Component {
               disabled={this.state.disabled}
             />
           </div>
+          <a href='/somefile.txt' download ref={this.myRef}></a>
         </form>
         <Image background src='/images/uploads/handbook.jpg' alt='image of handbook' />
       </section>  

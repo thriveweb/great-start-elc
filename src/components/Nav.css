@@ -69,9 +69,13 @@
   margin-left: auto;
 }
 
+.NavLinkGroup, .NavLink {
+  font-size: 1.4rem;
+}
+
 @media (max-width: 1250px) {
   .NavLinkGroup, .NavLink {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .Nav .Logo {

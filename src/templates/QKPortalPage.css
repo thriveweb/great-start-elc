@@ -1,7 +1,6 @@
 .QKPortalPage .header-columns {
 	position: relative;
-	min-height: 70rem;
-
+	padding-bottom: 15rem;
 }
 
 .QKPortalPage .header-columns .Image {
@@ -70,12 +69,6 @@
 	}
 }
 
-@media only screen and (max-width: 1200px) {
-	.QKPortalPage .header-columns {
-		min-height: 75rem !important;
-	}
-}
-
 @media only screen and (max-width: 1150px) {
 	.QKPortalPage .features-item .features-icon {
 		max-height: 6rem;
@@ -97,17 +90,15 @@
 	}
 
 	.QKPortalPage .header-columns .Image {
-		/*top: 52rem;*/
-		/*top: 30rem;*/
-		display: none;
+		top: 52rem;
 	}
 
 	.QKPortalPage .header-columns .Image img {
 		width: 80rem !important;
 	}
 
-	.header-columns {
-		padding-bottom: 75vw; 
+	.QKPortalPage .header-columns {
+		padding-bottom: 80rem;
 	}
 }
 
@@ -116,18 +107,18 @@
 		flex: 0 0 100%;
 	}
 
-	.header-columns {
-		padding-bottom: 90vw;
-	}
-
 	.QKPortalPage .header-columns .Image {
-		top: 65rem;
+		top: 58rem;
 	}
 }
 
 @media only screen and (max-width: 850px) {
 	.QKPortalPage .header-columns .Image img {
 		width: 80vw !important;
+	}
+
+	.QKPortalPage .header-columns {
+		padding-bottom: 90vw;
 	}
 }
 
@@ -157,7 +148,7 @@
 		display: none;
 	}
 
-	.header-columns {
+	.QKPortalPage .header-columns {
 		padding-bottom: 4rem;
 	}
 

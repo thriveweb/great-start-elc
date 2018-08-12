@@ -334,6 +334,10 @@ blockquote {
   height: 30rem;
 }
 
+.DefaultPage .background-clouds:before {
+  bottom: 0;
+}
+
 .about-team.background-clouds:before {
   bottom: -4rem;
   height: 35rem;

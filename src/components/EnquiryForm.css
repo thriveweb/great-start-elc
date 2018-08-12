@@ -511,7 +511,7 @@
   }
 
   .SubscribeForm .EnquiryForm--Label {
-    width: 80%;
+    width: 80% !important;
   }
 
   .SubscribeForm .EnquiryForm--Input {

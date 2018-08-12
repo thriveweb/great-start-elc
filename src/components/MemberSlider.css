@@ -130,6 +130,7 @@
 .slick-dots {
 	left: 0;
 	bottom: -5rem;
+	display: block;
 }
 
 .slick-dots li button {

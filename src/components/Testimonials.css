@@ -32,4 +32,12 @@
   .Centre--DirectorStatement--Title {
     font-size: 1.8rem;
   }
+
+  .Testimonials--Slider--Item {
+    padding: 5rem 3rem;
+  }
+
+  .Testimonials {
+    padding-bottom: 10rem;
+  }
 }

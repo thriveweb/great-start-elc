@@ -42,31 +42,32 @@ class Application extends React.Component {
 
     const form = e.target
     const data = serialize(form)
-    this.setState({ disabled: true })
-    fetch(form.action + '?' + stringify(data), {
-      method: 'POST'
-    })
-    .then(res => {
-      if (res.ok) {
-        return res
-      } else {
-        throw new Error('Network error')
-      }
-    })
-    .then(() => {
-      form.reset()
-      this.setState({
-        alert: this.props.successMessage,
-        disabled: false
-      })
-    })
-    .catch(err => {
-      console.error(err)
-      this.setState({
-        disabled: false,
-        alert: this.props.errorMessage
-      })
-    })
+    console.log(data)
+    // this.setState({ disabled: true })
+    // fetch(form.action + '?' + stringify(data), {
+    //   method: 'POST'
+    // })
+    // .then(res => {
+    //   if (res.ok) {
+    //     return res
+    //   } else {
+    //     throw new Error('Network error')
+    //   }
+    // })
+    // .then(() => {
+    //   form.reset()
+    //   this.setState({
+    //     alert: this.props.successMessage,
+    //     disabled: false
+    //   })
+    // })
+    // .catch(err => {
+    //   console.error(err)
+    //   this.setState({
+    //     disabled: false,
+    //     alert: this.props.errorMessage
+    //   })
+    // })
   }
 
   render() {
@@ -80,6 +81,7 @@ class Application extends React.Component {
         onSubmit={this.handleSubmit}
         data-netlify=""
         data-netlify-honeypot="email"
+        encType='multipart/form-data'
       >
         {this.state.alert && (
           <div className="EnquiryForm--Alert">{this.state.alert}</div>

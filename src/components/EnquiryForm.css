@@ -27,7 +27,7 @@
   display: block;
   margin: 0;
   border: none;
-  border-radius: 0;
+  -webkit-appearance: none;
   outline: none;
   border-bottom: .2rem solid var(--secondary);
   padding: 1rem 0;

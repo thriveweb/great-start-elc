@@ -98,7 +98,8 @@
 
 	.QKPortalPage .header-columns .Image {
 		/*top: 52rem;*/
-		top: 30rem;
+		/*top: 30rem;*/
+		display: none;
 	}
 
 	.QKPortalPage .header-columns .Image img {

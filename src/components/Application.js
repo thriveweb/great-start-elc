@@ -74,11 +74,9 @@ class Application extends React.Component {
   // }
 
 
-   handleSubmit = e => {
+  handleSubmit = e => {
     e.preventDefault()
     const formTarget = e.target
-
-    console.log('eeee')
 
     if (this.state.disabled) return
     const form = e.target

@@ -8,14 +8,12 @@
 	z-index: -1;
 	opacity: 0;
 	transition: all ease-in-out .2s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .member-popup .container {
-	position: absolute;
-	top: 10%;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
 	background-color: white;
 	max-width: 80rem;
 	max-height: 80%;

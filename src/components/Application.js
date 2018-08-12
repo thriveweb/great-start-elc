@@ -3,6 +3,8 @@ import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
 import Select from './Select'
 import { ICONUpload } from './Icons'
+import { withRouter } from 'react-router'
+
 
 import './EnquiryForm.css'
 
@@ -92,6 +94,8 @@ class Application extends React.Component {
   render() {
     const { name, subject, action } = this.props
 
+    console.log(this.props.location.search)
+
     return (
       <form
         className="ApplicationForm"
@@ -102,7 +106,6 @@ class Application extends React.Component {
         data-netlify=""
         data-netlify-honeypot="email"
         encType='multipart/form-data'
-        netlify
       >
         {this.state.alert && (
           <div className="EnquiryForm--Alert">{this.state.alert}</div>
@@ -187,6 +190,7 @@ class Application extends React.Component {
                 type='file'
                 placeholder='Resume and Cover Letter'
                 name='resume'
+                multiple
                 onChange={event => this.handleUpload(event, 'resume')}
               />
               Resume and Cover Letter <ICONUpload/>
@@ -208,4 +212,4 @@ class Application extends React.Component {
   }
 }
 
-export default Application
+export default withRouter(Application)

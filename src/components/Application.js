@@ -36,40 +36,58 @@ class Application extends React.Component {
   }
 
 
-  handleSubmit = e => {
-    e.preventDefault()
-    if (this.state.disabled) return
+  // handleSubmit = e => {
+  //   e.preventDefault()
+  //   if (this.state.disabled) return
 
+  //   const form = e.target
+  //   const data = serialize(form)
+
+  //   console.log('new one')
+  //   console.log(data)
+
+  //   this.setState({ disabled: true })
+  //   fetch(form.action + '?' + stringify(data), {
+  //     method: 'POST'
+  //   })
+  //   .then(res => {
+  //     if (res.ok) {
+  //       return res
+  //     } else {
+  //       throw new Error('Network error')
+  //     }
+  //   })
+  //   .then(() => {
+  //     form.reset()
+  //     this.setState({
+  //       alert: this.props.successMessage,
+  //       disabled: false
+  //     })
+  //   })
+  //   .catch(err => {
+  //     console.error(err)
+  //     this.setState({
+  //       disabled: false,
+  //       alert: this.props.errorMessage
+  //     })
+  //   })
+  // }
+
+
+   handleSubmit = e => {
+    e.preventDefault()
+    const formTarget = e.target
+
+    console.log('eeee')
+
+    if (this.state.disabled) return
     const form = e.target
     const data = serialize(form)
 
-    console.log('new one')
-    console.log(data)
-
-    this.setState({ disabled: true })
-    fetch(form.action + '?' + stringify(data), {
-      method: 'POST'
-    })
-    .then(res => {
-      if (res.ok) {
-        return res
-      } else {
-        throw new Error('Network error')
-      }
-    })
-    .then(() => {
-      form.reset()
-      this.setState({
-        alert: this.props.successMessage,
-        disabled: false
-      })
-    })
-    .catch(err => {
-      console.error(err)
-      this.setState({
-        disabled: false,
-        alert: this.props.errorMessage
-      })
+    this.setState({ 
+      filesUploading: true 
+    }, () => {
+      formTarget.submit()
     })
   }
 
@@ -81,10 +99,12 @@ class Application extends React.Component {
         className="ApplicationForm"
         name={name}
         action={action}
+        method='post'
         onSubmit={this.handleSubmit}
         data-netlify=""
         data-netlify-honeypot="email"
         encType='multipart/form-data'
+        netlify
       >
         {this.state.alert && (
           <div className="EnquiryForm--Alert">{this.state.alert}</div>

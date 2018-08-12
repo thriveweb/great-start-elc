@@ -97,7 +97,8 @@
 	}
 
 	.QKPortalPage .header-columns .Image {
-		top: 52rem;
+		/*top: 52rem;*/
+		top: 30rem;
 	}
 
 	.QKPortalPage .header-columns .Image img {
@@ -105,8 +106,7 @@
 	}
 
 	.header-columns {
-		/*padding-bottom: 75vw; */
-		padding-bottom: 0;
+		padding-bottom: 75vw; 
 	}
 }
 

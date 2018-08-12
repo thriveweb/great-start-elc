@@ -102,6 +102,11 @@
 .Centre--InfoBox {
   width: calc(50% - 2rem);
   margin-bottom: 4rem;
+  display: block;
+}
+
+.Centre--InfoBox p {
+  max-width: 100% !important;
 }
 
 .Centre .column-section {

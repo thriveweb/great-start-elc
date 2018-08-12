@@ -510,8 +510,17 @@
     padding: 1rem 0;
   }
 
+  .SubscribeForm .EnquiryForm--Label {
+    width: 80%;
+  }
+
+  .SubscribeForm .EnquiryForm--Input {
+    max-width: 100%;
+  }
+
   .SubscribeForm .EnquiryForm--SubmitButton {
-    flex: 1;
+    position: relative;
+    z-index: 1;
   }
 }
 

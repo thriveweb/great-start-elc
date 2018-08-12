@@ -43,6 +43,7 @@ class Form extends React.Component {
       }
     })
     .then(() => {
+      this.myRef.current.click()
       form.reset()
       this.setState({
         alert: this.props.successMessage,

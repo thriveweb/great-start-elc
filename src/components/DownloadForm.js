@@ -25,8 +25,6 @@ class Form extends React.Component {
     }
   }
 
-
-
   handleSubmit = e => {
     e.preventDefault()
     if (this.state.disabled) return
@@ -37,29 +35,28 @@ class Form extends React.Component {
     fetch(form.action + '?' + stringify(data), {
       method: 'POST'
     })
-      .then(res => {
-        if (res.ok) {
-          return res
-        } else {
-          throw new Error('Network error')
-        }
+    .then(res => {
+      if (res.ok) {
+        return res
+      } else {
+        throw new Error('Network error')
+      }
+    })
+    .then(() => {
+      form.reset()
+      this.setState({
+        alert: this.props.successMessage,
+        disabled: false
+      }, () => {
+        this.myRef.current.click()
       })
-      .then(() => {
-        form.reset()
-        this.setState({
-          alert: this.props.successMessage,
-          disabled: false
-        }, () => {
-          console.log(this.myRef.current)
-          this.myRef.current.click()
-        })
+    })
+    .catch(err => {
+      this.setState({
+        disabled: false,
+        alert: this.props.errorMessage
       })
-      .catch(err => {
-        this.setState({
-          disabled: false,
-          alert: this.props.errorMessage
-        })
-      })
+    })
   }
 
   renderOption = (name, value) => {

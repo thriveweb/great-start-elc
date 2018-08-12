@@ -3,6 +3,7 @@
   margin: 2rem;
   background: white;
   color: inherit;
+  border-color: #222f50;
   border: 1px solid var(--lightGrey);
   border-radius: var(--borderRadius);
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);

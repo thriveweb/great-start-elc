@@ -68,6 +68,7 @@
 
 .Centre--ClassroomsSection--Item--Title {
   font-weight: 600;
+  color: #f16668;
   color: var(--col1);
 }
 

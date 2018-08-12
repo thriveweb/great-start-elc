@@ -144,6 +144,7 @@
   }
 
   .NavLinkGroup .MenuToggle:hover svg {
+    color: #9fc9eb;
     color: var(--col2);
   }
 

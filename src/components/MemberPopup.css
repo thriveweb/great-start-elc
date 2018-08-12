@@ -18,6 +18,7 @@
 	max-width: 80rem;
 	max-height: 80%;
 	overflow: scroll;
+	box-shadow: 8px 10px 0 rgba(158, 200, 235, 0.95);
 	box-shadow: 8px 10px 0 var(--col2-trans);
 	transform: scale(0);
 	transition: all ease-in-out .2s;
@@ -30,6 +31,7 @@
 }
 
 .member-popup .popup-close {
+	border-color: #222f50;
 	border: .2rem solid var(--secondary);
 	position: absolute;
 	top: 5rem;
@@ -60,6 +62,7 @@
 }
 
 .popup-header .member-info {
+	background-color: #222f50;
 	background-color: var(--secondary);
 	top: 0;
 	transform: none;

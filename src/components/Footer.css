@@ -1,5 +1,6 @@
 .Footer {
   padding: 5rem 0 2rem;
+  background: #ede9e0;
   background: var(--lightGrey);
   position: relative;
   z-index: 1;
@@ -7,6 +8,7 @@
 
 .Footer--upper {
   margin-bottom: 2rem;
+  background: #ede9e0;
   background: var(--lightGrey);
 }
 
@@ -38,6 +40,7 @@
 
 .Footer--lower {
   padding-top: 2rem;
+  border-color: #cacaca;
   border-top: 1px solid var(--midGrey);
 }
 

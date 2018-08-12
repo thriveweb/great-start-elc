@@ -31,6 +31,7 @@ body {
   min-height: 100%;
   position: relative;
   background: white;
+  color: #222f50;
   color: var(--secondary);
   font-size: 1.6em;
   font-weight: 300;
@@ -45,6 +46,7 @@ main {
 }
 
 a {
+  color: #f16668;
   color: var(--col1);
   text-decoration: none;
 }
@@ -98,6 +100,7 @@ ol {
 }
 ol li {
   font-weight: 700;
+  color: #5dbf88;
   color: var(--col4);
 }
 
@@ -191,7 +194,7 @@ blockquote {
   line-height: 1.1;
   font-size: 1em;
   font-style: italic;
-  border-left: 2px solid var(--col1);
+  border-left: 2px solid #f16668;
 }
 
 /*.Content {
@@ -218,32 +221,40 @@ blockquote {
   color: white;
 }
 .col1 {
+  background-color: #f16668;
   background-color: var(--col1);
 }
 .col2 {
+  background-color: #9fc9eb;
   background-color: var(--col2);
 }
 .col2-light {
   background-color: var(--col2-light);
 }
 .col3 {
+  background-color: #dbebf9;
   background-color: var(--col3);
 }
 .col4 {
+  background-color: #5dbf88;
   background-color: var(--col4);
 }
 .col5 {
+  background-color: #faed87;
   background-color: var(--col5);
 }
 .col6 {
+  background-color: #c8e8e5;
   background-color: var(--col6);
 }
 
 .primary {
+  color: #5dbf88;
   color: var(--col4);
 }
 
 .secondary {
+  background-color: #222f50;
   background-color: var(--secondary);
   color: white;
 }
@@ -369,7 +380,7 @@ blockquote {
 }
 
 .hasBorder {
-  border: 3px solid var(--secondary);
+  border: 3px solid #222f50;
 }
 
 .hasShadow {

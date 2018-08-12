@@ -53,6 +53,7 @@
 
 
 .Contact .BreakoutBox--Content .Button:last-of-type {
+  background-color: #222f50;
   background-color: var(--secondary);
   color: white;
   border-color: transparent;

@@ -29,11 +29,12 @@
   border: none;
   -webkit-appearance: none;
   outline: none;
-  border-bottom: .2rem solid var(--secondary);
+  border-bottom: .2rem solid #9fc9eb;
   padding: 1rem 0;
   line-height: 1.25em;
   transition: border-color 0.2s;
   resize: none;
+  color: #222f50;
   color: var(--secondary);
   font-weight: 400;
 }
@@ -79,6 +80,7 @@
 
 .EnquiryForm--Input::placeholder {
   text-transform: none;
+  color: #222f50;
   color: var(--secondary);
 }
 
@@ -89,6 +91,7 @@
   font-size: 2rem;
   margin-bottom: 2rem;
   font-weight: 600;
+  color: #f16668;
   color: var(--col1);
 }
 
@@ -98,7 +101,7 @@
 
 .file-download .EnquiryForm--Label {
   background-color: white;
-  border-bottom: 0.2rem solid var(--secondary);
+  border-bottom: 0.2rem solid #222f50;
   padding: 1rem 0;
   font-size: 1.6rem;
   font-weight:  400;
@@ -111,6 +114,7 @@
 
 .file-download .EnquiryForm--Label span {
   margin: 0 auto 0.7rem;
+  color: #222f50;
   color: var(--secondary);
 }
 
@@ -134,7 +138,7 @@
 
 .ApplicationForm, .BookTour, .ReferFriend {
   padding: 4rem;
-  border: .4rem solid var(--secondary);
+  border: .4rem solid #222f50;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -179,7 +183,7 @@
   left: 0;
   width: 1.5rem;
   height: 1.5rem;
-  border: .2rem solid var(--secondary);
+  border: .2rem solid #222f50;
 }
 
 .checkbox-container {
@@ -200,6 +204,7 @@
 }
 
 .checkbox-container .EnquiryForm--Input:checked + .checkbox, .privacy-check .EnquiryForm--Input:checked + .checkbox {
+  background-color: #222f50;
   background-color: var(--secondary);
 }
 
@@ -218,6 +223,7 @@
 }
 
 .DownloadForm {
+  background-color: #c8e8e5;
   background-color: var(--col6);
   padding: 6rem;
   flex: 0 0 100%;
@@ -259,6 +265,7 @@
 }
 
 .home-download .DownloadForm {
+  background-color: #9fc9eb;
   background-color: var(--col2);
   padding: 6rem 0;
 }

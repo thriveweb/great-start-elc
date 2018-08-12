@@ -11,7 +11,7 @@
   background: white;
   padding: 1.5rem;
   padding: 3rem;
-  border: 3px solid var(--lightGrey);
+  border: 3px solid #ede9e0;
   transform: translateY(0px);
 }
 
@@ -28,6 +28,7 @@
 .Accordion--item h2:after {
   content: '+';
   font-size: 4rem;
+  color: #cacaca;
   color: var(--midGrey);
   line-height: 1;
   font-weight: 300;
@@ -36,7 +37,7 @@
 
 .Accordion--item.active {
   border-color: currentColor;
-  box-shadow: 8px 10px 0 var(--col4);
+  box-shadow: 8px 10px 0 #5dbf88;
 }
 
 .Accordion--item.active h2 {
@@ -46,6 +47,7 @@
   content: '-';
   float: right;
   font-size: 4rem;
+  color: #272727;
   color: var(--darkGrey);
   line-height: 1;
   font-weight: 300;

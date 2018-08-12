@@ -5,6 +5,7 @@
 }
 
 .Table--Headings {
+  background: #222f50;
   background: var(--secondary);
   color: white;
   text-align: center;
@@ -18,10 +19,12 @@
 }
 
 .Table--Body > * + * {
+  border-color: #cacaca;
   border-top: 1px solid var(--midGrey);
 }
 
 .Table--Body .Table--Cell + .Table--Cell {
+  border-color: #cacaca;
   border-left: 1px solid var(--midGrey);
 }
 

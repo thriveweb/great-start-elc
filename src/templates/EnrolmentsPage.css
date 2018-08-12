@@ -51,6 +51,7 @@
 }
 
 .EnrolmentsPage .download-file a {
+	color: #222f50;
 	color: var(--secondary);
 	margin-left: 1rem;
 	font-weight: 600;

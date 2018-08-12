@@ -4,6 +4,7 @@
 }
 
 .TeamMembers .Content h4 {
+	color: #5dbf88;
 	color: var(--col4);
 }
 

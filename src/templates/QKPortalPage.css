@@ -39,6 +39,7 @@
 	width: 8rem;
 	height: 8rem;
 	margin-right: 2rem;
+	background-color: #f16668;
 	background-color: var(--col1);
 	border-radius: 100%;
 	display: flex;

@@ -1,5 +1,6 @@
 .Button {
   background: white;
+  color: #222f50;
   color: var(--secondary);
   text-decoration: none;
   font-weight: 600;
@@ -24,6 +25,7 @@
 .Button.Button-inverted {
   background: white;
   border-color: white;
+  color: #f16668;
   color: var(--col1);
 }
 

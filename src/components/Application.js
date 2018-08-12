@@ -42,32 +42,32 @@ class Application extends React.Component {
 
     const form = e.target
     const data = serialize(form)
-    console.log(data)
-    // this.setState({ disabled: true })
-    // fetch(form.action + '?' + stringify(data), {
-    //   method: 'POST'
-    // })
-    // .then(res => {
-    //   if (res.ok) {
-    //     return res
-    //   } else {
-    //     throw new Error('Network error')
-    //   }
-    // })
-    // .then(() => {
-    //   form.reset()
-    //   this.setState({
-    //     alert: this.props.successMessage,
-    //     disabled: false
-    //   })
-    // })
-    // .catch(err => {
-    //   console.error(err)
-    //   this.setState({
-    //     disabled: false,
-    //     alert: this.props.errorMessage
-    //   })
-    // })
+
+    this.setState({ disabled: true })
+    fetch(form.action + '?' + stringify(data), {
+      method: 'POST'
+    })
+    .then(res => {
+      if (res.ok) {
+        return res
+      } else {
+        throw new Error('Network error')
+      }
+    })
+    .then(() => {
+      form.reset()
+      this.setState({
+        alert: this.props.successMessage,
+        disabled: false
+      })
+    })
+    .catch(err => {
+      console.error(err)
+      this.setState({
+        disabled: false,
+        alert: this.props.errorMessage
+      })
+    })
   }
 
   render() {

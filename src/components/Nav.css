@@ -83,6 +83,7 @@
   .Nav--Container {
     display: flex;
     height: auto;
+    overflow: scroll;
   }
 
   .Nav .Logo {

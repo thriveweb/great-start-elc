@@ -296,6 +296,10 @@
     margin: 0;
     width: 100%;
   }
+
+  .homeSection2.dots-left:before {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 320px) {

@@ -5,7 +5,7 @@ title: Welcome
 ---
 ![](/images/uploads/learn.jpg)
 
-# Welcome to Great Start Early Learning Centre
+## Welcome to Great Start Early Learning Centre
 
 ##### **We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing.**
 

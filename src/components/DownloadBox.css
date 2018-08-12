@@ -33,3 +33,13 @@
 		flex: 0 0 5%;
 	}
 }
+
+@media only screen and (max-width: 320px) {
+  .DownloadBox {
+    padding: 2rem;
+  }
+
+  .DownloadBox--Item {
+    font-size: 1.4rem;
+  }
+}

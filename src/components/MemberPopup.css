@@ -16,7 +16,8 @@
 .member-popup .container {
 	background-color: white;
 	max-width: 80rem;
-	position: relative;
+	max-height: 80%;
+	overflow: scroll;
 	box-shadow: 8px 10px 0 var(--col2-trans);
 	transform: scale(0);
 	transition: all ease-in-out .2s;
@@ -25,14 +26,13 @@
 .member-popup .popup-close {
 	border: .2rem solid var(--secondary);
 	position: absolute;
-	top: -5rem;
-	right: -5rem;
+	top: 5rem;
+	right: 5rem;
 	height: 4rem;
 	width: 4rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 }
 
 .member-popup svg {
@@ -71,6 +71,10 @@
 	font-weight: 600;
 }
 
+.member-popup .member-info p {
+	color: white;
+}
+
 .member-popup .Content {
 	padding: 6rem 4rem;
 	text-align: left;
@@ -84,3 +88,60 @@
 .member-popup.active .container {
 	transform: scale(1);
 }
+
+@media only screen and (max-width: 900px) {
+	.member-popup .popup-close {
+		right: 2rem;
+		top: 2rem;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.popup-header .member-info {
+		padding: 4rem 3rem;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.popup-header .BackgroundImage {
+		height: 70vw;
+		flex: 0 0 100%;	
+	}
+
+	.member-popup .popup-header {
+		flex-wrap: wrap;
+	}
+
+	.member-popup .member-info {
+		max-width: 100%;
+		flex: 0 0 100%;
+		background-color: white;
+		padding-bottom: 0;
+	}
+
+	.member-popup .member-info p {
+		color: var(--secondary);
+	}
+
+	.member-popup .Content {
+		padding: 2rem 3rem;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.member-popup .popup-close {
+		top: 1rem;
+		right: 1rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

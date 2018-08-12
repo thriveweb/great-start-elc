@@ -6,10 +6,10 @@ import './MemberPopup.css'
 
 export default ({ title, name, excerpt, description, image, active, handlePopup }) => 
 	<div className={`member-popup ${active ? 'active' : ''}`}>
+		<div className='popup-close' onClick={handlePopup}>
+			<ICONClose />
+		</div>	
 		<div className='container skinny'>
-			<div className='popup-close' onClick={handlePopup}>
-				<ICONClose />
-			</div>	
 			<div className='popup-header'>
 				{image && <Image background src={image} alt='profile image' />}
 				<div className='member-info'>

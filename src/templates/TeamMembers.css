@@ -35,6 +35,13 @@
 	}
 }
 
+@media only screen and (max-width: 770px) {
+	.TeamMembers .Content h2 {
+		font-size: 3.6rem;
+		margin-bottom: 3rem;
+	}
+}
+
 @media only screen and (max-width: 600px) {
 	.TeamMembers .Content h2 {
 		font-size: 3.8rem;
@@ -48,3 +55,21 @@
 		padding-bottom: 0;
 	}
 }
+
+@media only screen and (max-width: 600px) {
+	.TeamMembers .Content h2 {
+		font-size: 2.8rem;
+	}
+
+	.TeamMembers .Content li h4 {
+		font-size: 2.4rem;
+	}
+}
+
+
+
+
+
+
+
+

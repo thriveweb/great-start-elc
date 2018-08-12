@@ -13,9 +13,18 @@
 	}
 }
 
-
 @media only screen and (max-width: 420px) {
-	.DefaultPage .Content h3, .DefaultPage .Content h4, .DefaultPage .Content h5 strong {
+	.DefaultPage .Content h3, .DefaultPage .Content h4, .DefaultPage .Content h5 strong, .NationalQuality .Content h3 {
 		font-size: 2rem;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.DefaultPage .Content h2 {
+		font-size: 2.6rem;
+	}
+
+	.DefaultPage .Content h5 {
+		font-size: 1.8rem;
 	}
 }

@@ -21,6 +21,8 @@
 .Centre--Intro--Title {
   margin-bottom: 0;
   font-size: 3.2rem;
+  position: relative;
+  z-index: 1;
 }
 
 .Centre--MainSection {
@@ -189,6 +191,11 @@
   .Centre--Intro--Title {
     font-size: 2rem;
   }
+
+  .Centre .BreakoutBox {
+    float: none;
+    margin: 0 0 4rem;
+  }
 }
 
 
@@ -199,6 +206,17 @@
 
   .Centre--InfoBoxes .BreakoutBox--Content {
     flex: 0 0 100%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .Centre--Gallery--Title {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .Centre--DirectorStatement {
+    padding-bottom: 0;
   }
 }
 

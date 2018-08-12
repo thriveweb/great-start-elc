@@ -188,7 +188,13 @@
 @media only screen and (max-width: 700px) {
 	.member {
 		height: 56vw;
-		width: 90% !important;
+		width: 95% !important;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.member {
+		height: 66vw;
 	}
 }
 

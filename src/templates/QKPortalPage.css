@@ -105,7 +105,7 @@
 	}
 
 	.header-columns {
-		padding-bottom: 80vw;
+		padding-bottom: 75vw;
 	}
 }
 
@@ -158,6 +158,10 @@
 	.header-columns {
 		padding-bottom: 4rem;
 	}
+
+	.QKPortalPage .header-columns .BreakoutBox {
+		padding: 4rem;
+	}
 }
 
 @media only screen and (max-width: 400px) {
@@ -177,6 +181,24 @@
 
 	.QKPortalPage .features-item h5 {
 		font-size: 1.8rem;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.QKPortalPage .BreakoutBox h3 {
+		font-size: 2.4rem;
+	}	
+
+	.QKPortalPage .BreakoutBox p {
+		font-size: 1.4rem;
+	}
+
+	.QKPortalPage .header-columns .BreakoutBox {
+		padding: 2rem;
+	}
+
+	.QKPortalPage .header-columns {
+		min-height: 54rem !important;
 	}
 }
 

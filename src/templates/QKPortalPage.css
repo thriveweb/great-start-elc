@@ -105,7 +105,8 @@
 	}
 
 	.header-columns {
-		padding-bottom: 75vw; 
+		/*padding-bottom: 75vw; */
+		padding-bottom: 0;
 	}
 }
 

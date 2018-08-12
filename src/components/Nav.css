@@ -83,7 +83,6 @@
   .Nav--Container {
     display: flex;
     height: auto;
-    overflow: scroll;
   }
 
   .Nav .Logo {
@@ -99,6 +98,7 @@
     right: 0;
     bottom: 0;
     background: white;
+    overflow-y: scroll;
   }
 
   .NavLinkGroup, .NavLink {

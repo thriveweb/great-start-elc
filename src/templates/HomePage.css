@@ -23,6 +23,10 @@
   margin-bottom: 3rem;
 }
 
+.homeSection1--box--description {
+  max-width: 100%;
+}
+
 .homeSection2--container {
   display: flex;
   align-items: stretch;
@@ -72,7 +76,11 @@
 .homeSection3--item--icon {
   flex: 0 0 15%;
   margin-right: 2rem;
+  display: flex;
+  justify-content: center;
 }
+
+
 
 .homeSection3--item--title {
   font-weight: 700;
@@ -106,8 +114,13 @@
   z-index: 2;
 }
 
+.homeSection4--grid--item--title {
+  max-width: 100%;
+}
+
 .homeSection4--grid--item--description {
   margin: 4rem auto;
+  max-width: 100%;
 }
 
 .homeSection4--grid--item--button {

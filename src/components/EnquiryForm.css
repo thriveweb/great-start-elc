@@ -509,6 +509,10 @@
   .word-wrap .EnquiryForm--Input {
     padding: 1rem 0;
   }
+
+  .SubscribeForm .EnquiryForm--SubmitButton {
+    flex: 1;
+  }
 }
 
 @media only screen and (max-width: 320px) {

@@ -90,11 +90,12 @@ export const HomePageTemplate = ({
             <div className="homeSection3--items">
               {homeSection3.items.map(item => (
                 <div className="homeSection3--item" key={item.title}>
-                  <Image
-                    src={item.icon}
-                    className="homeSection3--item--icon"
-                    alt={item.title}
-                  />
+                  <div className="homeSection3--item--icon">
+                    <Image
+                      src={item.icon}
+                      alt={item.title}
+                    />
+                  </div>  
                   <div>
                     <div className="homeSection3--item--title">
                       {item.title}

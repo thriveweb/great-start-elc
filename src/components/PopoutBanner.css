@@ -12,8 +12,12 @@
 
 .PopoutBanner--Image {
   margin-right: 4rem;
-  width: 20%;
+  width: 60%;
   height: auto;
+}
+
+.PopoutBanner--Image img {
+  max-width: 100%;
 }
 
 .PopoutBanner--Button {

@@ -16,6 +16,7 @@
 
 .Centre--Intro--Logo {
   width: 18rem;
+  flex: 0 0 auto;
 }
 
 .Centre--Intro--Title {
@@ -23,6 +24,7 @@
   font-size: 3.2rem;
   position: relative;
   z-index: 1;
+  flex: 1;
 }
 
 .Centre--MainSection {
@@ -52,6 +54,12 @@
   height: 5rem;
   width: auto;
   margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.Centre--ClassroomsSection--Item--Icon img {
+  max-height: 100%;
 }
 
 .Centre--ClassroomsSection--Subtitle .Button {

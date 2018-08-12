@@ -114,11 +114,12 @@ export const CentreTemplate = ({
                     className="Centre--ClassroomsSection--Item"
                     key={item.title}
                   >
-                    <Image
-                      className="Centre--ClassroomsSection--Item--Icon"
-                      src={item.icon}
-                      alt={item.title}
-                    />
+                    <div  className="Centre--ClassroomsSection--Item--Icon">
+                      <Image
+                        src={item.icon}
+                        alt={item.title}
+                      />
+                    </div>  
                     <h6 className="Centre--ClassroomsSection--Item--Title">
                       {item.title}
                     </h6>

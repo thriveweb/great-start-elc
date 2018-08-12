@@ -79,7 +79,6 @@ class Application extends React.Component {
 
     const queryString = qs.parse(this.props.location.search, { ignoreQueryPrefix: true })
 
-
     return (
       <form
         className="ApplicationForm"
@@ -168,18 +167,35 @@ class Application extends React.Component {
           />
         </label>
         <div className='file-download'>
-          <div className='file-download-item'>
-            <label className='EnquiryForm--Label title'>
-              <input
-                className='EnquiryForm--Input'
-                type='file'
-                placeholder='Resume and Cover Letter'
-                name='resume'
-                onChange={event => this.handleUpload(event, 'resume')}
-              />
-              Resume and Cover Letter <ICONUpload/>
-            </label>
-            {this.state.resume && <p className='results'>{this.state.resume}</p>}
+          <div className='file-download-items'>
+            <div className='file-download-item'>
+              <label className='EnquiryForm--Label title'>
+                <input
+                  className='EnquiryForm--Input'
+                  type='file'
+                  placeholder='Resume'
+                  name='resume'
+                  onChange={event => this.handleUpload(event, 'resume')}
+                  required
+                />
+                Resume <ICONUpload/>
+              </label>
+              {this.state.resume && <p className='results'>{this.state.resume}</p>}
+            </div>
+            <div className='file-download-item'>
+              <label className='EnquiryForm--Label title'>
+                <input
+                  className='EnquiryForm--Input'
+                  type='file'
+                  placeholder='Cover Letter'
+                  name='coverLetter'
+                  onChange={event => this.handleUpload(event, 'coverLetter')}
+                  required
+                />
+                Cover Letter <ICONUpload/>
+              </label>
+              {this.state.coverLetter && <p className='results'>{this.state.coverLetter}</p>}
+            </div>
           </div>
         </div>
         <input type="text" name="_gotcha" style={{ display: 'none' }} />

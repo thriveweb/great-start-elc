@@ -33,10 +33,8 @@ export default class GoogleMap extends Component {
     }
 
     setTimeout(() => {
-      this.setState({
-        test: true
-      })
-    }, 500)
+      this.forceUpdate()
+    }, 1000)
   }
 
   componentDidUpdate() {  
@@ -69,7 +67,7 @@ export default class GoogleMap extends Component {
     if(!google) {
       return null
     }
-    
+
     const map = new google.maps.Map(this.mapElement, {
       zoom,
       disableDefaultUI,

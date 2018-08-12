@@ -96,7 +96,7 @@
 }
 
 .file-download {
-  flex: 0 0 50%;
+  flex: 0 0 60%;
 }
 
 .file-download .EnquiryForm--Label {
@@ -110,12 +110,22 @@
   cursor: pointer;
   position: relative;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .file-download .EnquiryForm--Label span {
   margin: 0 auto 0.7rem;
   color: #222f50;
   color: var(--secondary);
+}
+
+.file-download-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.file-download-item {
+  flex: 0 0 47%;
 }
 
 .file-download .EnquiryForm--Input {
@@ -146,6 +156,10 @@
   position: relative;
   z-index: 2;
   background-color: white;
+}
+
+.ApplicationForm .Button {
+  align-self: flex-end !important;
 }
 
 /*Book Tour Form*/
@@ -456,6 +470,21 @@
 
   .home-download .DownloadForm h3 {
     font-size: 2.6rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .file-download-items {
+    display: block;
+  }
+
+  .file-download-item {
+    flex: 0 0 100%;
+    margin-bottom: 5rem;
+  }
+
+  .file-download-item:last-of-type {
+    margin-bottom: 0 !important;
   }
 }
 

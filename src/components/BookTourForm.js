@@ -53,7 +53,7 @@ class Form extends React.Component {
   }
 
   renderOption = (name, value) => {
-    return <label className="checkbox-container">
+    return <label className="checkbox-container" key={value}>
       <input 
         className="EnquiryForm--Input" 
         type="radio" 

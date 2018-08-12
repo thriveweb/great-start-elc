@@ -108,11 +108,20 @@
 	}
 }
 
+@media only screen and (max-width: 375px) {
+	.EnrolmentsPage .download-banner {
+		margin-top: 1rem;
+	}
+}
+
 @media only screen and (max-width: 320px) {
 	.EnrolmentsPage .BreakoutBox h3 {
 		font-size: 2.2rem;
 	}
 
+	.EnrolmentsPage .download-file {
+		font-size: 1.4rem;
+	}
 }
 
 

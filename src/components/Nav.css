@@ -70,7 +70,7 @@
 
 @media (min-width: 1100px) {
   .Nav {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .Nav .Logo {
@@ -90,10 +90,8 @@
 
   .Nav--Container--Links {
     display: none;
-    /*align-items: center;*/
     flex-direction: column;
     position: fixed;
-    /*justify-content: center;*/
     top: 5rem;
     left: 0;
     right: 0;
@@ -181,5 +179,12 @@
   .Nav--MenuButton {
     display: block;
     z-index: 1;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .NavLinkGroup, .NavLink {
+    font-size: 1.4rem;
   }
 }

@@ -243,6 +243,10 @@
     width: 16rem;
     margin: 0 auto 2rem !important;
   }
+
+  .Centre--Intro--Title {
+    flex: 0 0 100%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -267,6 +271,10 @@
   .Centre--ClassroomsSection--Item {
     flex: 0 0 80%;
     margin: 2rem auto 2rem;
+  }
+
+  .Testimonials--Slider--Item {
+    padding: 5rem 3rem;
   }
 }
 

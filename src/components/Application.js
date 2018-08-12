@@ -4,9 +4,10 @@ import { serialize } from 'dom-form-serializer'
 import Select from './Select'
 import { ICONUpload } from './Icons'
 import { withRouter } from 'react-router'
-
+import qs from 'qs'
 
 import './EnquiryForm.css'
+
 
 class Application extends React.Component {
   static defaultProps = {
@@ -18,10 +19,30 @@ class Application extends React.Component {
       'There is a problem, your message has not been sent, please try contacting us via email'
   }
 
-  state = {
-    alert: '',
-    disabled: false
+  constructor(props) {
+    super(props)
+    this.formRef = React.createRef();
+
+    this.state = {
+      alert: '',
+      disabled: false
+    }
   }
+
+  componentDidMount = () => {
+    const queryString = qs.parse(this.props.location.search, { ignoreQueryPrefix: true })
+
+    if(queryString.submit) {
+
+      setTimeout(() => {
+        window.scrollTo({
+            top: this.formRef.current.offsetTop
+        });
+      }, 100)
+      
+    }
+  }
+  
 
   handleUpload = (event, target) => {
     const fileNames = []
@@ -36,44 +57,6 @@ class Application extends React.Component {
       [target]: !!fileNames.length ? fileNames.join(', ') : file
     })
   }
-
-
-  // handleSubmit = e => {
-  //   e.preventDefault()
-  //   if (this.state.disabled) return
-
-  //   const form = e.target
-  //   const data = serialize(form)
-
-  //   console.log('new one')
-  //   console.log(data)
-
-  //   this.setState({ disabled: true })
-  //   fetch(form.action + '?' + stringify(data), {
-  //     method: 'POST'
-  //   })
-  //   .then(res => {
-  //     if (res.ok) {
-  //       return res
-  //     } else {
-  //       throw new Error('Network error')
-  //     }
-  //   })
-  //   .then(() => {
-  //     form.reset()
-  //     this.setState({
-  //       alert: this.props.successMessage,
-  //       disabled: false
-  //     })
-  //   })
-  //   .catch(err => {
-  //     console.error(err)
-  //     this.setState({
-  //       disabled: false,
-  //       alert: this.props.errorMessage
-  //     })
-  //   })
-  // }
 
 
   handleSubmit = e => {
@@ -94,21 +77,23 @@ class Application extends React.Component {
   render() {
     const { name, subject, action } = this.props
 
-    console.log(this.props.location.search)
+    const queryString = qs.parse(this.props.location.search, { ignoreQueryPrefix: true })
+
 
     return (
       <form
         className="ApplicationForm"
         name={name}
-        action={action}
+        action='/?Submit=true'
         method='post'
         onSubmit={this.handleSubmit}
         data-netlify=""
         data-netlify-honeypot="email"
         encType='multipart/form-data'
+        ref={this.formRef}
       >
-        {this.state.alert && (
-          <div className="EnquiryForm--Alert">{this.state.alert}</div>
+        {queryString.submit && (
+          <div className="EnquiryForm--Alert">Thanks for your submission, we will get back to you soon</div>
         )}
         <label className="EnquiryForm--Label">
           <input
@@ -190,7 +175,6 @@ class Application extends React.Component {
                 type='file'
                 placeholder='Resume and Cover Letter'
                 name='resume'
-                multiple
                 onChange={event => this.handleUpload(event, 'resume')}
               />
               Resume and Cover Letter <ICONUpload/>

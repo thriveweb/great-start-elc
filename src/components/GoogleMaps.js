@@ -65,6 +65,11 @@ export default class GoogleMap extends Component {
     const { lat, lng, zoom, disableDefaultUI } = this.props
     const styles = JSON.parse(this.props.styles)
     const center = { lat, lng }
+
+    if(!google) {
+      return null
+    }
+    
     const map = new google.maps.Map(this.mapElement, {
       zoom,
       disableDefaultUI,

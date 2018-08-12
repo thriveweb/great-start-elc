@@ -84,7 +84,7 @@ class Application extends React.Component {
       <form
         className="ApplicationForm"
         name={name}
-        action='/?Submit=true'
+        action='?submit=true'
         method='post'
         onSubmit={this.handleSubmit}
         data-netlify=""

@@ -43,6 +43,9 @@ class Application extends React.Component {
     const form = e.target
     const data = serialize(form)
 
+    console.log('new one')
+    console.log(data)
+
     this.setState({ disabled: true })
     fetch(form.action + '?' + stringify(data), {
       method: 'POST'
@@ -167,7 +170,6 @@ class Application extends React.Component {
                 placeholder='Resume and Cover Letter'
                 name='resume'
                 onChange={event => this.handleUpload(event, 'resume')}
-                multiple
               />
               Resume and Cover Letter <ICONUpload/>
             </label>

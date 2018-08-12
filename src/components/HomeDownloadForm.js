@@ -130,7 +130,7 @@ class Form extends React.Component {
             />
           </div>
         </form>
-        <Image src='/images/uploads/handbook.jpg' alt='image of handbook' />
+        <Image background src='/images/uploads/handbook.jpg' alt='image of handbook' />
       </section>  
     )
   }

@@ -23,6 +23,7 @@ html {
   font-size: 62.5%;
   min-height: 100%;
   background: var(--lightGrey);
+  overflow-x: hidden;
 }
 
 body {
@@ -36,6 +37,7 @@ body {
   letter-spacing: 0.01em;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 main {
@@ -188,6 +190,10 @@ blockquote {
   border-left: 2px solid var(--col1);
 }
 
+/*.Content {
+  z-index: 11 !important;
+}*/
+
 /* Utility Classes */
 .light {
   background-color: var(--lightGrey);
@@ -338,7 +344,6 @@ blockquote {
   top: 10%;
 }
 
-
 .container {
   max-width: 1400px;
   width: 90%;
@@ -380,32 +385,69 @@ blockquote {
   padding-bottom: 0;
 }
 
+@media only screen and (max-width: 1500px) {
+  .background-dots:before {
+    width: 23rem;
+    height: 28rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  h2 {
+    font-size: 4.8rem;
+  }
+}
+
+
 @media only screen and (max-width: 930px) {
   main {
     margin-top: 5rem;
   }
+
+  h3 {
+    font-size: 3rem;
+  }
 }
+
 
 @media only screen and (max-width: 600px) {
   .Button {
     padding: 0.5em 2em !important;
     font-size: 1.4rem !important;
   }
-}
 
+  .hasShadow {
+    box-shadow: 6px 6px 0 var(--col2-trans) !important;
+  }
 
-@media only screen and (max-width: 420px) {
-  .fixed-button {
+  .background-dots:before {
+    display: none;
+  }
+
+  .container.content {
+    width: 90%;
+  }
+
+  .section {
+    padding: 4rem 0;
+  }
+
+  h2 {
+    font-size: 3.4rem;
+  }
+
+  p, li {
     font-size: 1.4rem;
-    padding: .5rem 1rem;
-    right: -5.1rem;
-  }
-
-  .fixed-button svg {
-    height: 20px;
-    margin-right: 1rem !important;
   }
 }
+
+
+@media only screen and (max-width: 400px) {
+  h3 {
+    font-size: 2.4rem;
+  }
+}
+
 
 
 

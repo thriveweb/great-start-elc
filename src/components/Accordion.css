@@ -77,3 +77,25 @@
     transform: translateY(-1px);
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .Accordion--item {
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+
+  .Accordion--item h2 {
+    font-size: 1.2rem;
+  }
+
+  .Accordion--item h2:after {
+    font-size: 3rem;
+    top: -.5rem;
+  }
+}
+
+
+
+
+
+

@@ -34,6 +34,7 @@
   transition: border-color 0.2s;
   resize: none;
   color: var(--secondary);
+  font-weight: 400;
 }
 
 .EnquiryForm--Select {
@@ -98,7 +99,8 @@
   background-color: white;
   border-bottom: 0.2rem solid var(--secondary);
   padding: 1rem 0;
-  font-size: 1em;
+  font-size: 1.6rem;
+  font-weight:  400;
   display: flex;
   justify-content: space-between;
   cursor: pointer;
@@ -205,23 +207,37 @@
 .download-banner {
   display: flex;
   margin-top: 7.5rem;
+  position: relative;
+  align-items: flex-start;
+  padding-left: 33%;
 }
 
-.DownloadForm {
-  flex: 0 0 70%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.home-download {
+  padding-left: 0;
 }
 
 .DownloadForm {
   background-color: var(--col6);
   padding: 6rem;
-  flex: 1;
+  flex: 0 0 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-self: stretch;
 }
 
-.download-banner .Image {
-  max-height: 52rem;
+.download-banner .BackgroundImage {
+  width: 33%;
+}
+
+.home-download .DownloadForm {
+  flex: 0 0 50%;
+}
+
+.home-download .BackgroundImage {
+  width: 50%;
+  right: 0;
+  left: auto;
 }
 
 .DownloadForm h3 {
@@ -280,7 +296,6 @@
 }
 
 .home-download .DownloadForm .Button {
-  float: right;
   display: inline-block;
 }
 
@@ -332,4 +347,192 @@
 .ReferFriend .Button {
   align-self: flex-start;
 }
+
+@media only screen and (max-width: 1575px) {
+  .home-download .DownloadForm .container {
+    max-width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .checkbox-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .home-download .DownloadForm h3 {
+    font-size: 3.4rem;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .download-banner .DownloadForm .checkbox-container {
+    width: auto;
+    margin-left: 2rem;
+  }
+
+  .home-download .DownloadForm .checkbox-container {
+    width: 100%;
+    margin-left: 0;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .download-banner {
+    padding-left: 0;
+  }
+
+  .download-banner .BackgroundImage {
+    display: none;
+  }
+
+  .home-download .BackgroundImage {
+    display: block;
+  }
+
+  .DownloadForm h3 {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .home-download .DownloadForm .container {
+    max-width: 80%;
+  }
+
+  .BookTour .label-text .EnquiryForm--Input {
+    flex: 0 0 100%;
+    margin-left: 0;
+  }
+
+  .BookTour .EnquiryForm--Label {
+    align-items: flex-end;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .home-download {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .EnquiryForm--Label {
+    width: 100%;
+  }
+
+  .home-download .DownloadForm {
+    flex: 0 0 100%;
+  }
+
+  .home-download .BackgroundImage {
+    display: none;
+  }
+
+  .BookTour .checkbox-container {
+    width: auto;
+    margin-left: 2rem;
+  }
+
+  .BookTour .privacy-check {
+    flex: 0 0 100%;
+    margin: 2rem 0 0;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .home-download .DownloadForm .container {
+    max-width: 100%;
+  }
+
+  .home-download .DownloadForm h3 {
+    font-size: 2.6rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .BookTour .checkbox-container {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .file-download {
+    flex: 0 0 100%;
+    margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .download-banner .DownloadForm .checkbox-container {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  form {
+    padding: 3rem 2rem !important;
+  }
+
+  .EnquiryForm--Input, .file-download .EnquiryForm--Label {
+    padding: 1rem 0 .5rem;
+  }
+
+  .EnquiryForm--Label {
+    margin-bottom: 4rem;
+  }
+
+  .EnquiryForm--Input, .file-download .EnquiryForm--Label {
+    font-size: 1.4rem;
+  }
+
+  .file-download .EnquiryForm--Label svg {
+    height: 1.5rem;
+    width: 2rem;
+  }
+
+  .download-banner .DownloadForm h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .word-wrap ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    white-space: pre-line;  
+    position: relative;
+    top: -1.2rem; 
+  }
+
+  .word-wrap .EnquiryForm--Input {
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .home-download .DownloadForm .container {
+    padding: 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

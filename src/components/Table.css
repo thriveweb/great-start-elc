@@ -30,6 +30,10 @@
   align-items: center;
 }
 
+.HealthInfoPage .Table--Row {
+  align-items: stretch;
+}
+
 .Table--Row > * {
   width: 100%;
 }
@@ -49,3 +53,36 @@
   margin-left: 2rem;
   cursor: pointer;
 }
+
+.FamilyChecklist .Table {
+  z-index: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .FamilyChecklist .pretty {
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .FamilyChecklist .Table--Cell {
+    padding: 1rem;
+  }
+
+  .HealthInfoPage .Table--Cell {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .HealthInfoPage .Table--Cell p {
+    font-size: 1.2rem;
+  }
+
+  .HealthInfoPage .Table--Headings--Item {
+    padding: 2rem;
+  }
+}
+
+
+
+

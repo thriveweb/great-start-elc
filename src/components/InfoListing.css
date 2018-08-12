@@ -32,3 +32,33 @@
 	max-height: 20rem;
 	max-width: 20rem;
 } 
+
+@media only screen and (max-width: 1000px) {
+	.icon-list-item .Content--Image {
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.icon-list-item {
+		display: block;
+	}
+
+	.icon-list-item .Image {
+		margin: 0 0 2rem;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.info-section {
+		padding: 4rem 0 0;
+	}
+
+	.icon-list-item .Content--Image {
+		max-height: 15rem;
+		max-width: 15rem;
+	} 
+}
+
+
+

@@ -33,7 +33,7 @@ export const HomePageTemplate = ({
       backgroundImage={featuredImage}
     />
     {homeSection1 && (
-      <div className="section">
+      <div className="section homeSection1">
         <div className="container taCenter">
           <h2>{homeSection1.title}</h2>
           {homeSection1.centres && (
@@ -62,7 +62,7 @@ export const HomePageTemplate = ({
       </div>
     )}
     {homeSection2 && (
-      <div className="section dots-left light">
+      <div className="section dots-left light homeSection2">
         <div className="container homeSection2--container">
           <div className="relative">
             <Image

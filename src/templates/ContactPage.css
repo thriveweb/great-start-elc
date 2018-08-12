@@ -1,24 +1,51 @@
 .Contact {
 }
 
+.BreakoutBox--Content {
+  max-width: 100%;
+}
+
 .Contact--Centres {
   display: block;
 }
 
-.Contact--Centres > * {
+/*.Contact--Centres > * {
   margin: 2rem auto;
   width: 90%;
-}
+}*/
 
 .Contact--Section1 {
   padding-bottom: 0;
+}
+
+.Contact--Section1 .Contact--Centres {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.Contact--Section1 .BreakoutBox {
+  flex: 0 0 32%;
+  width: auto;
+  z-index: 0;
 }
 
 .Contact .BreakoutBox--Content .Button {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: auto;
 }
+
+.Contact--Section1 .BreakoutBox p {
+  margin-bottom: 0;
+}
+
+.Contact--Section1 .BreakoutBox .location {
+  margin: 1rem 0;
+}
+
 
 .Contact .BreakoutBox--Content .Button:last-of-type {
   background-color: var(--secondary);
@@ -27,7 +54,53 @@
   margin-top: 2rem;
 }
 
-@media (min-width: 750px) {
+@media only screen and (max-width: 1350px) {
+  .Contact--Section1 .Contact--Centres h3 {
+    font-size: 2.4rem;
+  }
+
+  .Contact--Section1 .BreakoutBox p {
+    font-size: 1.4rem;
+  }
+
+  .Contact--Section1 .BreakoutBox p strong {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .Contact--Section1 .BreakoutBox {
+    flex: 0 0 48%;
+    margin-bottom: 5rem;
+  }
+
+  .Contact--Section1 .BreakoutBox:first-of-type {
+    margin-right: 4%;
+  }
+
+  .Contact--Section1 .Contact--Centres {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .Contact--Section1 .BreakoutBox {
+    flex: 0 0 90%;
+    margin-bottom: 5rem;
+  }
+
+  .Contact--Section1 .BreakoutBox:first-of-type {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Contact--Section1 .BreakoutBox {
+    flex: 0 0 100%;
+  }
+}
+
+/*@media (min-width: 750px) {
   .Contact--Centres {
     display: flex;
     justify-content: space-between;
@@ -39,4 +112,4 @@
     margin: 2rem;
     width: 100%;
   }
-}
+}*/

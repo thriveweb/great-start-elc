@@ -12,12 +12,23 @@
 
 .Footer--upper--container {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-centres {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-centres .Footer--column {
+  margin-right: 4rem;
 }
 
 .Footer--column {
   display: flex;
   flex-direction: column;
-  flex: 1 1 auto;
+  flex: 0 0 auto;
 }
 
 .Footer--column--title {
@@ -41,3 +52,76 @@
 .JoinBannerSection + .section {
   padding-top: 0;
 }
+
+
+@media only screen and (max-width: 1020px) {
+  .footer-centres {
+    flex: 0 0 100%;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+  }
+
+  .Footer--upper--container {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .footer-centres .Footer--column {
+    margin-right: 0;
+  }
+
+  .SubscribeForm .EnquiryForm--Label {
+    width: 100%;
+  }
+
+  .SubscribeForm .checkbox-container {
+    margin-left: 2rem;
+    text-align: left;
+    width: auto;
+  }
+
+  .SubscribeForm .checkbox-container:first-of-type {
+    margin-left: 0;
+  }
+
+  .SubscribeForm .Button {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .SubscribeForm .Button {
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .footer-centres .Footer--column {
+    flex: 0 0 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .SubscribeForm {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .SubscribeForm .checkbox-container {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .Footer--column--title {
+    font-size: 1.8rem;
+  }
+}
+
+
+
+
+

@@ -1,8 +1,11 @@
 .PageHeader {
   background: var(--col2-light);
   padding: 6rem 0;
+  min-height: 24rem;
   position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .PageHeader:before {
@@ -10,8 +13,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 21rem;
-  height: 100%;
+  width: 22rem;
+  height: 120%;
   background-image: url(/images/uploads/bannerimg-left.png);
   background-position: top left;
   background-size: contain;
@@ -23,8 +26,8 @@
   position: absolute;
   top: 0;
   right: -1px;
-  width: 20.7rem;
-  height: 120%;
+  width: 28.7rem;
+  height: 150%;
   background-image: url(/images/uploads/bannerimg-right.png);
   background-position: top left;
   background-size: contain;
@@ -46,13 +49,14 @@
 .PageHeader-large:after {
   background-image: url(/images/uploads/homeimg-right.png);
   width: 62.2rem;
+  height: 100%;
 }
 
 .PageHeader-large .Image {
   height: auto;
   width: 55rem;
   position: absolute !important;
-  bottom: -15rem;
+  bottom: -34rem;
   right: 15rem;
   z-index: 1;
   
@@ -85,9 +89,9 @@
 .fixed-button {
   position: fixed;
   right: -6.4rem;
-  top: 20rem;
+  top: 27rem;
   background-color: var(--col1);
-  z-index: 1;
+  z-index: 9;
   color: white;
   padding: 1rem 2rem;
   transform: rotate(90deg);
@@ -114,6 +118,10 @@
     margin-left: 22rem;
   }
 
+  .PageHeader-large .container {
+    margin-left: auto !important;
+  }
+
   .PageHeader-large {
     padding: 10rem 0;
   }
@@ -121,7 +129,7 @@
   .PageHeader-large .Image {
     right: 0;
     width: 42rem;
-    bottom: -10rem;
+    bottom: -25rem;
   }
 
   .PageHeader-large .PageHeader--Title {
@@ -148,7 +156,7 @@
 
   .PageHeader-large .Image {
     width: 40rem;
-    bottom: -8rem;
+    bottom: -22rem;
   }
 
   .PageHeader--Title {
@@ -160,11 +168,15 @@
   }
 
   .PageHeader--Inner {
-    max-width: 520px;
+    max-width: 520px !important;
+  }
+
+  .PageHeader {
+    min-height: auto;
   }
 
   .PageHeader:after {
-    width: 20.5rem;
+    width: 24.5rem;
   }
 
   .PageHeader-large:after {
@@ -179,7 +191,7 @@
 
   .PageHeader-large .Image {
     width: 37rem;
-    bottom: -7rem;
+    bottom: -21rem;
   }
 
   .PageHeader-large .PageHeader--Title {
@@ -234,10 +246,6 @@
     font-size: 1.5rem;
   }
 
-  .PageHeader-large:after {
-    width: 14.3rem;
-  }
-
   .PageHeader--Title {
     font-size: 3.2rem;
   }
@@ -245,10 +253,37 @@
   .PageHeader:after {
     width: 19.2rem;
   }
+
+  .PageHeader-large:after {
+    width: 14.3rem;
+  }
+
+  .fixed-button {
+    font-size: 1.4rem;
+    padding: .5rem 1rem;
+    right: -5.1rem;
+  }
+
+  .fixed-button svg {
+    height: 20px;
+    margin-right: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .PageHeader--Title {
+    font-size: 2.8rem;
+  }
 }
 
 
 @media only screen and (max-width: 420px) {
+
+  .PageHeader--Title {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
   .PageHeader-large {
     padding: 5rem 0;
   }

@@ -2,7 +2,7 @@
   padding: 4rem;
   display: flex;	
   position: relative;
-  z-index: 9;
+  z-index: 1;
 }
 
 .BreakoutBox--Content {
@@ -17,4 +17,28 @@
 
 .BreakoutBox h3 {
 	font-size: 3.2rem;
+}
+
+@media only screen and (max-width: 950px) {
+	.BreakoutBox {
+		justify-content: center;
+	}
+
+	.BreakoutBox--Content {
+		flex: 0 0 80%;
+		text-align: center;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.BreakoutBox--Content {
+		flex: 0 0 100%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.BreakoutBox {
+		padding: 3rem;
+	}
 }

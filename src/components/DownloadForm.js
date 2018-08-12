@@ -71,7 +71,7 @@ class Form extends React.Component {
 
     return (
       <section className='download-banner'>
-        <Image src='/images/uploads/handbook.jpg' alt='image of handbook' />
+        <Image background src='/images/uploads/handbook.jpg' alt='image of handbook' />
         <form
           className="DownloadForm"
           name={name}

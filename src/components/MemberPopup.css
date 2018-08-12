@@ -78,7 +78,7 @@
 
 .member-popup.active {
 	opacity: 1;
-	z-index: 99;
+	z-index: 999;
 }
 
 .member-popup.active .container {

@@ -1,11 +1,10 @@
 .about-team {
-	margin: 6rem 0 10rem;
+	margin: 0 0 10rem;
 	position: relative;
 }
 
 .about-team .container {
 	text-align: center;
-	position: relative;
 }
 
 .about-team h3 {
@@ -16,7 +15,7 @@
 .TeamMember--slider {
 	max-width: 90%;
 	margin: 0 auto;
-	position: static;
+	position: relative;
 }
 
 .slick-slider {
@@ -55,6 +54,7 @@
 	z-index: 1;
 	opacity: 0;
 	transition: all ease-in-out .3s;
+	max-width: 90%;
 }
 
 .member-info h4 {
@@ -90,7 +90,7 @@
 /*Prev Next Arrows*/
 
 .slick-arrow {
-	top: 55%;
+	top: 50%;
 	transform: translateY(-50%);
 	border: .3rem solid var(--secondary);
 	height: 4rem;
@@ -98,11 +98,11 @@
 }
 
 .slick-arrow.slick-prev {
-	left: -2rem;
+	left: -6%;
 }
 
 .slick-arrow.slick-next {
-	right: -1rem;
+	right: -6%;
 }
 
 .slick-arrow:before {
@@ -145,3 +145,65 @@
 .slick-dots li:before {
 	display: none;
 }
+
+@media only screen and (max-width: 1500px) {
+	.member {
+		height: 26vw;
+		width: 26vw !important;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	.member-info h4 {
+		font-size: 2.2rem;
+	}
+
+	.member-info p {
+		font-size: 1.5rem;
+	}
+
+	.member-info .Button {
+		padding: 1rem 2rem;
+		font-size: 1.2rem;
+	}
+}
+
+@media only screen and (max-width: 1025px) {
+	.member-info {
+		opacity: 1;
+	}
+
+	.member:before {
+		opacity: 1;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.member {
+		height: 36vw;
+		width: 90% !important;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.member {
+		height: 56vw;
+		width: 90% !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

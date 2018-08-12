@@ -5,3 +5,17 @@
 .DefaultPage .Content h6:first-of-type {
 	margin-top: 6rem;
 }
+
+
+@media only screen and (max-width: 1024px) {
+	.DefaultPage .Content h3 {
+		font-size: 3rem;
+	}
+}
+
+
+@media only screen and (max-width: 420px) {
+	.DefaultPage .Content h3, .DefaultPage .Content h4, .DefaultPage .Content h5 strong {
+		font-size: 2rem;
+	}
+}

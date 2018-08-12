@@ -36,7 +36,28 @@ class MemberSlider extends Component {
 		  speed: 1500,
 		  autoplaySpeed: 4000,
 		  arrows: true,
-		  dots: true
+		  dots: true,
+		  responsive: [
+	        {
+	          breakpoint: 1000,
+	          settings: {
+	            slidesToShow: 2,
+	          }
+	        },
+	        {
+	          breakpoint: 700,
+	          settings: {
+	            slidesToShow: 1,
+	          }
+	        },
+	        {
+	          breakpoint: 500,
+	          settings: {
+	          	slidesToShow: 1,
+	           	arrows: false,
+	          }
+	        }
+	      ]
 		};
 
 	    const { members = [] } = this.props

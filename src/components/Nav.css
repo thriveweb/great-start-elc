@@ -42,7 +42,7 @@
   position: absolute;
   background: white;
   border: 3px solid currentColor;
-  top: 0;
+  top: 100%;
   text-align: left;
   width: 300px;
   padding: 1rem;
@@ -68,9 +68,9 @@
   margin-left: auto;
 }
 
-@media (min-width: 1100px) {
-  .Nav {
-    font-size: 1.4rem;
+@media (max-width: 1250px) {
+  .NavLinkGroup, .NavLink {
+    font-size: 1.1rem;
   }
 
   .Nav .Logo {
@@ -78,7 +78,7 @@
   }
 }
 
-@media (max-width: 930px) {
+@media (max-width: 1000px) {
   .Nav--Container {
     display: flex;
     height: auto;
@@ -143,6 +143,7 @@
   .SubNav {
     position: relative;
     border: none;
+    top: 0;
     padding: 0;
     max-height: 0;
     opacity: 0;

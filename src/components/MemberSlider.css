@@ -57,6 +57,12 @@
 	max-width: 90%;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.member-info {
+		margin: 0;
+	}
+}
+
 .member-info h4 {
 	color: var(--col1);
 }

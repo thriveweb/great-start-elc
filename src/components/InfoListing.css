@@ -17,10 +17,16 @@
 	margin-bottom: 6rem;
 }
 
-.icon-list-item .Image {
+.icon-list-item-image {
 	margin-right: 2rem;
 	position: relative;
 	z-index: 1;
+	flex: 0 0 5%;
+}
+
+.icon-list-item-image img {
+	width: 5rem;
+	height: auto;
 }
 
 .icon-list-item h3 {

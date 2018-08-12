@@ -18,7 +18,7 @@ export default ({ description, infoListing }) => {
 	        }
 	        {infoListing && infoListing.map(({ icon, title, content }) => {
 	          return <div className='icon-list-item'>
-	            <Image src={icon} />
+	            <div className='icon-list-item-image'><Image src={icon} /></div>
 	            <div className=''>
 	              {title && <h3>{title}</h3>}
 	              {content && <Content src={content} />}

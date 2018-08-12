@@ -37,6 +37,7 @@
 	margin-right: 4rem;
 	text-align: center;
 	display: block;
+	min-height: 5.5rem;
 }
 
 .EnrolmentsPage--EnrolBanner.background-clouds:before {
@@ -106,6 +107,10 @@
 
 	.EnrolmentsPage--Section2--Step h4 {
 		font-size: 2rem;
+	}
+
+	.EnrolmentsPage--Section2--Step .Button {
+		min-height: 4.2rem;
 	}
 }
 

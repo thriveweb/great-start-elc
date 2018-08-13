@@ -35,7 +35,7 @@ contentColumns:
       advance diplomas, diplomas and certificate III in early childhood. All our
       educators hold Working With Children Checks and have current first aid and
       CPR certificates. 
-    image: /images/uploads/img_0772.jpg
+    image: /images/uploads/istock-641585018.jpg
   - content: >-
       #### Diet 
 
@@ -55,7 +55,7 @@ contentColumns:
       We are open every day from Monday to Friday, except for public holidays.
       Educators attend regular professional development and training to allow
       them to deliver best practice educational programs for your children.
-    image: /images/uploads/centreimg2.jpg
+    image: /images/uploads/istock-529400494_super_crop.jpg
   - content: >-
       A major focus for our centre is how working with the broader community can
       help us enrich the children’s learning experience. Through visits to the
@@ -128,10 +128,8 @@ directorStatement:
     have been in the early learning and child care industry since 1989 and I
     have an Advanced Diploma in Early Childhood Education.
 gallery:
-  - image: /images/uploads/isabella juskova.jpg
-  - image: /images/uploads/unsplash4.jpg
-  - image: /images/uploads/tim-marshall-155597.jpg
-  - image: /images/uploads/vyouw5byhlc.jpeg
+  - image: /images/uploads/istock-921101386.jpg
+  - image: /images/uploads/shutterstock_570751849.jpg
 additionalInfoBoxes:
   - buttonLinkTo: /
     buttonTitle: Read More

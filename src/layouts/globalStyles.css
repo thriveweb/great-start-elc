@@ -158,10 +158,6 @@ h6,
   font-size: 2rem;
 }
 
-img {
-  transition: none !important;
-}
-
 pre {
   background: var(--lightGrey);
   line-height: 1.45;

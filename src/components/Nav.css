@@ -61,7 +61,7 @@
 
 .Nav .Logo {
   margin-right: auto;
-  width: 15rem;
+  width: 20rem;
 }
 
 .Nav--MenuButton {
@@ -188,6 +188,10 @@
   .Nav--MenuButton {
     display: block;
     z-index: 1;
+  }
+
+  .Nav--Container--Links .Button {
+    font-size: 1.3rem;
   }
 }
 

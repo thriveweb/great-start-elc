@@ -84,13 +84,13 @@ export default class Nav extends Component {
 
             <div className="Nav--Container--Sep" />
             <NavLink
-              href="/"
+              href="https://www.qkenhanced.com.au/webui/Account/LogOn"
               target="_blank"
               rel="nofollow"
               className="primary"
             >
               <User />
-              Login
+              QK Login
             </NavLink>
             <Button to="/enrolments/enrolling-great-start-early-learing-centre/">Enrol Now</Button>
           </div>

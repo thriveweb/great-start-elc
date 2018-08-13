@@ -84,7 +84,7 @@ export const CentreTemplate = ({
             <Button to={'/'}>Enrol Now</Button>
           </BreakoutBox>
           <Content source={body} />
-          {contentColumns.length && 
+          {!!contentColumns.length && 
             <div className='column-section'>
               {contentColumns.map((column, index) => {
                 const { image, content } = column

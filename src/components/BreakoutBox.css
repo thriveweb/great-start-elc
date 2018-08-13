@@ -24,6 +24,10 @@
 	font-size: 3.2rem;
 }
 
+.Centre--Details {
+	z-index: 11;
+}
+
 @media only screen and (max-width: 950px) {
 	.BreakoutBox {
 		justify-content: center;

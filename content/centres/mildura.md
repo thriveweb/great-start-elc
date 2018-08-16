@@ -68,42 +68,27 @@ classroomsSection:
 testimonials: []
 directorStatement:
   content: >-
-    **Megan Gooding – Centre Director**
+    I hold an Advanced Diploma of Early Childhood and I have been in the early
+    childhood profession for the past 13 years. I am extremely passionate about
+    early childhood education working as a Qualified Educator, Educational
+    Leader and Centre Director.
 
 
-    I am very passionate about the Reggio Emilia Approach. We tailor our
-    curriculum to encourage learning and lay down strong foundations which are
-    so vital in the early years. Our curriculum is designed to address the
-    children’s interests and to develop their skills. Our programming format is
-    unique and is designed to address key learning areas including social
-    skills, language, maths, investigation, creative pursuits, fine and gross
-    motor skills, sensory experiences, cultural experiences and environmental
-    understanding. In addition to this it addresses the Outcomes as outlined in
-    the Early Years Learning Frameworks.
+    Having worked with all age groups and having been involved in all aspects of
+    child development, I believe that childhood is a special time of life and
+    that the first five years are so very important not only for the child but
+    also for the family. It is a privilege to be a part of a child’s fundamental
+    growth and development and I’m sure that you would agree that there is
+    something very rewarding in seeing children reach their true potential
+    during this formative and important period of time.
 
 
-    I believe that each child is unique and learns and explores in his or her
-    own way. Therefore, we encourage building on their own interests and
-    strengths through scaffolding, mentoring and facilitating their learning and
-    development. I believe that our centre truly captivates this and we ignite
-    the endless possibilities of learning by embracing challenges and rejoicing
-    in accomplishments through our various spaces, open-ended resources and our
-    vibrant atmosphere. 
-
-
-    The team I am fortunate to work with shares my passion for seeing children
-    meet their potential. They are dedicated, professional, experienced and
-    highly qualified.
-
-
-    We invite you to come and visit our centre to meet our team and to see for
-    yourself our commitment to your child’s early learning journey.
+    I look forward to meeting and working with you and your family within our
+    centre community.
   image: /images/uploads/shutterstock_58596811.jpg
   title: >-
-    Hello, my name is Megan Gooding and I have been the Centre Director since
-    2017 and Nominated Supervisor at Mildura Early Learning Centre since 2007. I
-    have been in the early learning and child care industry since 2004 and I
-    have an Advanced Diploma in Early Childhood Education.
+    Hello, my name is Ainslee Sullivan and I am the Centre Director here at
+    Mildura Central Early Learning Centre.
 gallery:
   - image: /images/uploads/img_0772.jpg
   - image: /images/uploads/img_0775.jpg

@@ -230,6 +230,7 @@
   position: relative;
   align-items: flex-start;
   padding-left: 33%;
+  flex-wrap: wrap;
 }
 
 .home-download {

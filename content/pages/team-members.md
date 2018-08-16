@@ -118,5 +118,39 @@ members:
     image: /images/uploads/baby.jpg
     name: Bree Harding
     title: Assistent Centre Director
+  - description: >-
+      During this time I have had the opportunity to work with children of all
+      ages from 0-5 years, therefore in each of the rooms at the centre. I
+      continue to learn and be inspired in my role, and have had, and continue
+      to work with many great educators that bring with them a lot of experience
+      in working with children.
+
+
+      My Personal Philosophy is, I believe that each child is a unique
+      individual, and that all children develop through their own pattern of
+      growth and development. That supporting children’s self-confidence and
+      self-esteem is important in helping them reach their developmental
+      milestones.
+
+
+      I believe in the Reggio Emilia Approach, providing a quality curriculum
+      and environment where children are encouraged to learn, create, imagine,
+      discover, problem solve and play.
+
+
+      Inclusion and cultural understanding is an important part of the
+      curriculum, as a result family involvement is important and encouraged, as
+      such families are well informed and welcomed participates in all
+      activities at our centre. Ongoing communication with families is necessary
+      to continue to meet the needs of children in our care. 
+
+
+      I look forward to meeting you and your children.
+    excerpt: >-
+      I am the Assistant Centre Director and Educational Leader in the Toddler
+      room. I have worked at East Malvern Early Learning Centre since 2007.
+    image: /images/uploads/istock-178590721_super_crop.jpg
+    name: ' Sarah Bennett'
+    title: ' Assistant Centre Director'
 ---
 

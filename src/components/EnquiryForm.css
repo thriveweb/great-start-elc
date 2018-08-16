@@ -248,6 +248,14 @@
   align-self: stretch;
 }
 
+.download-banner-form {
+  display: none;
+}
+
+.download-banner-form.active {
+  display: flex;
+}
+
 .download-banner .BackgroundImage {
   width: 33%;
 }

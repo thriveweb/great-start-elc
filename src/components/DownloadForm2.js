@@ -60,10 +60,10 @@ class Form extends React.Component {
   }
 
   render() {
-    const { name, subject, action, emailaddress, yourname, formName } = this.props
+    const { name, subject, action, emailaddress, yourname, formName, active } = this.props
 
     return <form
-        className="DownloadForm"
+        className={`DownloadForm download-banner-form ${active ? 'active' : ''}`}
         name={formName}
         action={action}
         onSubmit={this.handleSubmit}

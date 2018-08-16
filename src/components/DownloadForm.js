@@ -33,16 +33,14 @@ class DownloadBanner extends React.Component {
     return (
       <section className='download-banner'>
         <Image background src='/images/uploads/handbook.jpg' alt='image of handbook' />
-        {centres.map(centre => {
-            return activeCentre === centre 
-              ? <Form
-                formName={centre}
-                handleChange={e => this.setState({ [e.target.name]: e.target.value })}
-                yourname={yourname}
-                emailaddress={emailaddress}
-              /> 
-              : null
-          }
+        {centres.map(centre => 
+          <Form
+            active={activeCentre === centre}
+            formName={centre}
+            handleChange={e => this.setState({ [e.target.name]: e.target.value })}
+            yourname={yourname}
+            emailaddress={emailaddress}
+          /> 
         )}
         <div className='EnquiryForm--Label label-text'>
           <p>Choose Centre:</p>

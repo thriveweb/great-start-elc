@@ -59,6 +59,7 @@ class Form extends React.Component {
         type="radio" 
         name={name}
         value={value}
+        onChange={e => this.setState({ centre: e.target.value})}
       /> 
       {value}
       <span className='checkbox'></span>
@@ -67,11 +68,14 @@ class Form extends React.Component {
 
   render() {
     const { name, subject, action } = this.props
+    const formName = this.state.centre || name
+
+    console.log(formName)
 
     return (
       <form
         className="BookTour"
-        name={name}
+        name={formName}
         action={action}
         onSubmit={this.handleSubmit}
         data-netlify=""

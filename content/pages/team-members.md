@@ -1,155 +1,122 @@
 ---
 template: TeamMembers
-slug: 'about/team'
+slug: about/team
 title: Our Team
 members:
   - description: >-
-      ##### About
 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-      fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-      sequi nesciunt. Neque porro quisquam est, qui dolorem.
+      I am very passionate about the Reggio Emilia Approach. We tailor our
+      curriculum to nurture a child’s intellectual growth and creativity, and
+      lay down strong foundations which are so vital in the early years. Our
+      curriculum is designed to build upon the children’s interests and to
+      develop their skills. Our programming format is unique and is designed to
+      address key learning areas including social skills, language, numeracy,
+      investigation, creative pursuits, fine and gross motor skills, sensory
+      experiences, cultural experiences and environmental understanding. In
+      addition to this it addresses the Outcomes as outlined in the Early Years
+      Learning Frameworks.
 
 
-      ##### Experience / Education
+      I believe that each child is unique and learns and explores in his or her
+      own way. Therefore, we encourage building on their own interests and
+      strengths through scaffolding, mentoring and facilitating their learning
+      and development. I believe that our centre truly captivates this and we
+      ignite the endless possibilities of learning by embracing challenges and
+      rejoicing in accomplishments through our various spaces, open-ended
+      resources and our vibrant atmosphere.
 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-      fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-      sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-      amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
 
-      Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-      suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Sed ut
-      perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-      fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-      sequi nesciunt.
+      The team I am fortunate to work with shares my passion for seeing children
+      meet their potential. They are dedicated, professional, experienced and
+      highly qualified.
+
+
+      We invite you to come and visit our centre to meet our team and to see for
+      yourself our commitment to your child’s early learning journey.
     excerpt: >-
-      Short description goes here ed ut perspiciatis unde omnis iste natus sit
-      voluptatem accusantium doloremque laudantium,
+      Hello, my name is Liz Cosier and I have been the Centre Director and
+      Nominated Supervisor at East Malvern Early Learning Centre since 2006. I
+      have been in the early learning and child care industry since 1989 and I
+      have an Advanced Diploma in Early Childhood Education.
     image: /images/uploads/member-3.jpg
-    name: Maude Watkins
-    title: Teacher at East Malvern Centre
+    name: Liz Cosier
+    title: Centre Director
   - description: >-
-      ##### About
 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-      fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-      sequi nesciunt. Neque porro quisquam est, qui dolorem.
+      I am very passionate about the Reggio Emilia Approach. We tailor our
+      curriculum to encourage learning and lay down strong foundations which are
+      so vital in the early years. Our curriculum is designed to address the
+      children’s interests and to develop their skills. Our programming format
+      is unique and is designed to address key learning areas including social
+      skills, language, maths, investigation, creative pursuits, fine and gross
+      motor skills, sensory experiences, cultural experiences and environmental
+      understanding. In addition to this it addresses the Outcomes as outlined
+      in the Early Years Learning Frameworks.
 
 
-      ##### Experience / Education
+      I believe that each child is unique and learns and explores in his or her
+      own way. Therefore, we encourage building on their own interests and
+      strengths through scaffolding, mentoring and facilitating their learning
+      and development. I believe that our centre truly captivates this and we
+      ignite the endless possibilities of learning by embracing challenges and
+      rejoicing in accomplishments through our various spaces, open-ended
+      resources and our vibrant atmosphere.
 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-      fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-      sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-      amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
-      minima veniam, quis nostrum exercitationem ullam corporis suscipit
-      laboriosam, nisi ut aliquid ex ea commodi consequatur. Sed ut perspiciatis
-      unde omnis iste natus error sit voluptatem accusantium doloremque
-      laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-      et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-      voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-      consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+
+      The team I am fortunate to work with shares my passion for seeing children
+      meet their potential. They are dedicated, professional, experienced and
+      highly qualified.
+
+
+      We invite you to come and visit our centre to meet our team and to see for
+      yourself our commitment to your child’s early learning journey.
     excerpt: >-
-      Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-      nesciunt. Neque porro quisquam est, qui dolorem
-    image: /images/uploads/member-1.jpg
-    name: Name Here
-    title: Principle
-  - description: >-
-      ##### About 
-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-      fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-      sequi nesciunt. Neque porro quisquam est, qui dolorem.
-
-
-      ##### Experience / Education 
-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-      fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-      sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-      amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
-      minima veniam, quis nostrum exercitationem ullam corporis suscipit
-      laboriosam, nisi ut aliquid ex ea commodi consequatur. Sed ut perspiciatis
-      unde omnis iste natus error sit voluptatem accusantium doloremque
-      laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-      et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-      voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-      consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-    excerpt: >-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-      inventore
+      Hello, my name is Megan Gooding and I have been the Centre Director since
+      2017 and Nominated Supervisor at Mildura Early Learning Centre since 2007.
+      I have been in the early learning and child care industry since 2004 and I
+      have an Advanced Diploma in Early Childhood Education.
     image: /images/uploads/member-2.jpg
-    name: Mary Smith
-    title: Teacher at East Malvern Centre
+    name: Megan Gooding
+    title: Centre Director
   - description: >-
-      ##### About 
-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-      fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-      sequi nesciunt. Neque porro quisquam est, qui dolorem.
+      I hold an Advanced Diploma of Early Childhood and I have been in the early
+      childhood profession for the past 13 years. I am extremely passionate
+      about early childhood education working as a Qualified Educator,
+      Educational Leader and Centre Director.
 
 
-      ##### Experience / Education 
+      Having worked with all age groups and having been involved in all aspects
+      of child development, I believe that childhood is a special time of life
+      and that the first five years are so very important not only for the child
+      but also for the family. It is a privilege to be a part of a child’s
+      fundamental growth and development and I’m sure that you would agree that
+      there is something very rewarding in seeing children reach their true
+      potential during this formative and important period of time.
 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-      fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-      sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-      amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
-      minima veniam, quis nostrum exercitationem ullam corporis suscipit
-      laboriosam, nisi ut aliquid ex ea commodi consequatur. Sed ut perspiciatis
-      unde omnis iste natus error sit voluptatem accusantium doloremque
-      laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-      et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-      voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-      consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-    excerpt: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit
+
+      I look forward to meeting and working with you and your family within our
+      centre community.
+    excerpt: >-
+      Hello, my name is Ainslee Sullivan and I am the Centre Director here at
+      Mildura Central Early Learning Centre.
+    image: /images/uploads/member-1.jpg
+    name: Ainslee Sullivan
+    title: Centre Director
+  - description: >-
+      I have been working in Early childhood for 6 years here at Mildura Central
+      Early Learning and hold a Diploma of Early Childhood. My Strong passion
+      and excitement for the Early Years is supported through the Victorian
+      Early Years Learning Framework and many Professional Developments. I have
+      explored learning and development with all age groups as Educational
+      Leader with inspiration from Reggio Emilia and our local community.
+
+
+      I look forward to meeting and working with you and your family.
+    excerpt: >-
+      Hello, my name is Bree Harding and I am the Assistant Director at Mildura
+      Central Early Learning Centre.
     image: /images/uploads/baby.jpg
-    name: Baby Name
-    title: Sits and is Cute
+    name: Bree Harding
+    title: Assistent Centre Director
 ---
-## Role of Teachers and Educators
 
-* #### 1. Be a co-learner
-In the Reggio approach, the Educator is considered a co-learner and collaborator with the child and not just an instructor. Educators are encouraged to facilitate the child's learning by planning experiences and lessons based on the child's interests, asking questions to further understanding and actively engaging in the activities alongside the child.
-* #### 2. Engage children in play
-Our dedicated Teachers and Educators recognise pedagogy that actively engages children in play as one of the main ways in which children learn and develop. They use a holistic approach when planning for the whole child’s development. They pay attention to the children’s physical, personal, social, emotional and wellbeing as well as cognitive aspects of their learning.
-* #### 3. Contributing to learning
-Our Educators are invaluable; their personalities and beliefs contribute to making a successful learning environment. They have a range of early childhood teaching qualifications including Bachelor of Early Childhood, Advanced Diploma in Early Childhood, Diploma in Early Childhood or a Certificate 3 in Early Childhood.
-* #### 4. Protecting and caring
-We ensure that working with children checks are carried out on all Educators before they are employed and all employees follow the ethical code of conduct. Educators are aware of their obligations with regard to child protection and mandatory reporting and follow the services child protection policy and regulations.
-* #### 5. Educational leader
-We have a Head Educational Leader to support the Educators with education programming and the implementation of the Reggio Emilia Approach. In each of the classroom there is an Educator Leader. The Educator Leader is the room leader and is responsible for preparing the educational program and curriculum. Our Head Educational Leader and Educational Leaders devise strategies to ensure the ongoing development of the educators thereby creating the best possible learning environments. All educators in classroom are involved in preparing and participating in the educational programs using our online curriculum software - Qk Journeys. Educational Leaders are allocated child-free time each week to plan curriculum and plan and evaluate each child’s learning. This time is essential for the delivery of a high-quality curriculum. Additional Assistant Educators may work at the Centre when children with additional needs attend (additional government funding is required to be approved for the appointment of additional educators). Please read Educator profile to provide you with background information and an outline of their qualifications and experience.

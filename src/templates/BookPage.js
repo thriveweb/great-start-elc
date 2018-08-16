@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import BookTourForm from '../components/BookTourForm'
-import DownloadForm from '../components/DownloadForm'
+import DownloadBanner from '../components/DownloadBanner'
 import JoinBanner from '../components/JoinBanner'
 import ExceedBanner from '../components/ExceedBanner'
 import './BookPage.css'
@@ -24,7 +24,7 @@ export const BookPageTemplate = ({ title, subtitle, featuredImage, body, footerS
           <Content source={body} />
           <BookTourForm />
         </div>
-        <DownloadForm />
+        <DownloadBanner />
       </div>
       <div className="section thin JoinBannerSection">
         <div className="container">

@@ -6,7 +6,7 @@ import './globalStyles.css'
 import Meta from '../components/Meta'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
-import DownloadBanner from '../components/DownloadBanner'
+import FamilyHandbookBanner from '../components/FamilyHandbookBanner'
 
 export default ({ children, data }) => {
   const { footerSettings, globalSettings } = data
@@ -36,7 +36,7 @@ export default ({ children, data }) => {
       <Fragment>{children()}</Fragment>
 
       {downloadBanner && (
-        <DownloadBanner
+        <FamilyHandbookBanner
           file={downloadBanner.file}
           title={downloadBanner.title}
           preview={downloadBanner.preview}

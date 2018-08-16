@@ -5,7 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Accordion from '../components/Accordion'
 import Table from '../components/Table'
-import DownloadBanner from '../components/DownloadBanner'
+import FamilyHandbookBanner from '../components/FamilyHandbookBanner'
 
 export const FamilyChecklistTemplate = ({
   title,
@@ -50,7 +50,7 @@ export const FamilyChecklistTemplate = ({
           </div>
         </Fragment>
       )}
-      <DownloadBanner downloadBanner={checklistDownload} />
+      <FamilyHandbookBanner downloadBanner={checklistDownload} />
     </section>
   </main>
 )

@@ -8,7 +8,7 @@ import Button from '../components/Button.js'
 import Accordion from '../components/Accordion.js'
 import Image from '../components/Image.js'
 import BreakoutBox from '../components/BreakoutBox.js'
-import DownloadForm from '../components/DownloadForm.js'
+import DownloadBanner from '../components/DownloadBanner.js'
 import JoinBanner from '../components/JoinBanner.js'
 import ExceedBanner from '../components/ExceedBanner.js'
 import './EnrolmentsPage.css'
@@ -109,7 +109,7 @@ export const EnrolmentsPageTemplate = ({
           <Accordion items={accordion} />
         </div> 
       </section>
-      <DownloadForm />
+      <DownloadBanner />
       <div className="section thin">
         <div className="container">
           <ExceedBanner footerSettings={footerSettings} />

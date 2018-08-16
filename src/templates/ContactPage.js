@@ -5,7 +5,7 @@ import Content from '../components/Content'
 import BreakoutBox from '../components/BreakoutBox'
 import Button from '../components/Button'
 import GoogleMaps from '../components/GoogleMaps'
-import DownloadForm from '../components/DownloadForm'
+import DownloadBanner from '../components/DownloadBanner'
 import ExceedBanner from '../components/ExceedBanner'
 import './ContactPage.css'
 
@@ -73,7 +73,7 @@ export const ContactPageTemplate = ({
           }
         )}
       </div>
-      <DownloadForm />
+      <DownloadBanner />
       <div className="section thin">
         <div className="container">
           <ExceedBanner footerSettings={footerSettings} />

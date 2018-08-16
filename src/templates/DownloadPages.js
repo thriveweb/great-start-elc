@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
-import DownloadBanner from '../components/DownloadBanner'
+import FamilyHandbookBanner from '../components/FamilyHandbookBanner'
 import './DownloadPage.css'
 
 // Export Template for use in CMS preview
@@ -26,7 +26,7 @@ export const DownloadPagesTemplate = ({
         <div className="container content">
           <Content source={body} />
         </div>  
-        <DownloadBanner downloadBanner={downloadBanner} />    
+        <FamilyHandbookBanner downloadBanner={downloadBanner} />    
       </section>
     </main>
   )

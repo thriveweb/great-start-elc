@@ -5,7 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Wave from '../components/Wave'
 import Image from '../components/Image'
 import Content from '../components/Content'
-import HomeDownloadForm from '../components/HomeDownloadForm'
+import HomeDownloadBanner from '../components/HomeDownloadBanner'
 import JoinBanner from '../components/JoinBanner'
 import ExceedBanner from '../components/ExceedBanner'
 import Button from '../components/Button'
@@ -150,7 +150,7 @@ export const HomePageTemplate = ({
         <JoinBanner linkTo="/" />
       </div>
     </div>
-    <HomeDownloadForm />
+    <HomeDownloadBanner />
     <div className="section thin">
       <div className="container">
         <ExceedBanner footerSettings={footerSettings} />

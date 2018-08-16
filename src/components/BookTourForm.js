@@ -29,27 +29,27 @@ class Form extends React.Component {
     fetch(form.action + '?' + stringify(data), {
       method: 'POST'
     })
-      .then(res => {
-        if (res.ok) {
-          return res
-        } else {
-          throw new Error('Network error')
-        }
+    .then(res => {
+      if (res.ok) {
+        return res
+      } else {
+        throw new Error('Network error')
+      }
+    })
+    .then(() => {
+      form.reset()
+      this.setState({
+        alert: this.props.successMessage,
+        disabled: false
       })
-      .then(() => {
-        form.reset()
-        this.setState({
-          alert: this.props.successMessage,
-          disabled: false
-        })
+    })
+    .catch(err => {
+      console.error(err)
+      this.setState({
+        disabled: false,
+        alert: this.props.errorMessage
       })
-      .catch(err => {
-        console.error(err)
-        this.setState({
-          disabled: false,
-          alert: this.props.errorMessage
-        })
-      })
+    })
   }
 
   renderOption = (name, value) => {
@@ -66,9 +66,23 @@ class Form extends React.Component {
     </label>
   }
 
+  handleChange = e => {
+    e.persist()
+    this.setState(prevState => {
+      return {
+        fields: {
+          ...prevState.fields,
+          [e.target.name]: e.target.value
+        }
+      }
+    })
+  }
+
   render() {
     const { name, subject, action } = this.props
-    const formName = this.state.centre || name
+    const formName = this.state.centre + ' Tour Form' || name
+
+    const centres = ['East Malvern', 'Mildura', 'Mildura Central']
 
     console.log(formName)
 
@@ -157,7 +171,7 @@ class Form extends React.Component {
         </label>
         <input type="text" name="_gotcha" style={{ display: 'none' }} />
         {!!subject && <input type="hidden" name="subject" value={subject} />}
-        <input type="hidden" name="form-name" value={name} />
+        <input type="hidden" name="form-name" value={formName} />
         <input
           className="Button hasShadowHover EnquiryForm--SubmitButton"
           type="submit"

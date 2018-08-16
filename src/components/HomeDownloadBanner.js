@@ -3,11 +3,11 @@ import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
 import Image from './Image'
 
-import './DownloadForm.css'
-
 import Form from './DownloadForm'
 
-class DownloadBanner extends React.Component {
+import './DownloadForm.css'
+
+class HomeForm extends React.Component {
   state = {}
 
   handleChange = e => {
@@ -30,37 +30,27 @@ class DownloadBanner extends React.Component {
     const { fields = { centre: centres[0] } } = this.state
     const { centre } = fields
 
-    const title = ''
-    const description = 'Download our Family Handbook for all you need to know about enroling your child at one of our centres.'
+    const title = 'Download Our Family Handbook'
+    const description = 'Fill out the form and download our family handbook or contact us 123 456 789'
 
     return (
-      <section className='download-banner'>
+      <section className='download-banner home-download'>
+        <div className='container'>
+          {centres.map(centreItem => 
+            <Form
+              active={centre === centreItem}
+              formName={centreItem}
+              fields={fields}
+              handleChange={this.handleChange}
+              title={title}
+              description={description}
+            /> 
+          )}
+        </div>  
         <Image background src='/images/uploads/handbook.jpg' alt='image of handbook' />
-        {centres.map(centreItem => 
-          <Form
-            active={centre === centreItem}
-            formName={`${centreItem} Download Form`}
-            fields={fields}
-            handleChange={this.handleChange}
-            title={title}
-            description={description}
-          /> 
-        )}
       </section>  
     )
   }
 }
 
-export default DownloadBanner
-
-
-
-
-
-
-
-
-
-
-
-
+export default HomeForm

@@ -59,9 +59,20 @@ classroomsSection:
   title: 'We provide early learning and care to children in the following classrooms:'
 testimonials: []
 directorStatement:
-  content: "I hold a Diploma of Early Childhood and I have been in the early childhood profession for the past X years. I am extremely passionate about early childhood education, having worked with all age groups and having been involved in all aspects of child development. I believe that childhood is a special time of life and that the first five years are so very important not only for the child but also for the family as well.\n\nIt is a privilege to be a part of a child’s fundamental growth and development and I’m sure that you would agree that there is something very rewarding in seeing children reach their true potential during this formative and important period of time.\L\LI look forward to meeting and working with you and your family."
+  content: >-
+    I have been working in Early childhood for 6 years here at Mildura Central
+    Early Learning and hold a Diploma of Early Childhood. My Strong passion and
+    excitement for the Early Years is supported through the Victorian Early
+    Years Learning Framework and many Professional Developments. I have explored
+    learning and development with all age groups as Educational Leader with
+    inspiration from Reggio Emilia and our local community. 
+
+
+    I look forward to meeting and working with you and your family
   image: /images/uploads/shutterstock_58596811.jpg
-  title: "Hello, my name is Ainslee Sullivan and I am the Centre Director here at Mildura Central Early Learning Centre.\L\L"
+  title: >-
+    Hello, my name is Bree Harding and I am the Assistant Director at Mildura
+    Central Early Learning Centre.
 gallery:
   - image: /images/uploads/istock-147323697.jpg
   - image: /images/uploads/istock-516621014_supe_crop.jpg

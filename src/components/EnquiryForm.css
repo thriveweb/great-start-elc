@@ -236,13 +236,6 @@
   margin-bottom: 0;
 }
 
-.ReferFriend .Button {
-  align-self: flex-start;
-}
-
-
-
-
 @media only screen and (max-width: 1350px) {
   .checkbox-container {
     width: 100%;

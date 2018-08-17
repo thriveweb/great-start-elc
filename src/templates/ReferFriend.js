@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
-import ReferFriendForm from '../components/ReferFriendForm'
+import ReferFriendSection from '../components/ReferFriendSection'
 import ExceedBanner from '../components/ExceedBanner'
 
 // Export Template for use in CMS preview
@@ -25,7 +25,7 @@ export const ReferFriendTemplate = ({
       <section className="section">
         <div className="container content">
           <Content source={body} />
-          <ReferFriendForm />  
+          <ReferFriendSection />  
         </div>    
       </section>
       <div className="section thin">

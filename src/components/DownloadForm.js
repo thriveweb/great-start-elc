@@ -80,6 +80,10 @@ class Form extends React.Component {
     const { name, subject, action, formName, active, fields, title, description } = this.props
     const { emailaddress = '', yourname = '', phone = '' } = fields
 
+    console.log(fields)
+
+    // const formDownload = fields.map(field => field === 'East Melvern' ? 'download1.txt' : '')
+
 
     return <form
         className={`DownloadForm download-banner-form ${active ? 'active' : ''}`}
@@ -144,7 +148,7 @@ class Form extends React.Component {
             value="Download"
             disabled={this.state.disabled}
           />
-        <a href='/somefile.txt' download ref={this.myRef}></a>
+        <a href='{formDownload}' download ref={this.myRef}></a>
       </form>
   }
 }

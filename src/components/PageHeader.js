@@ -24,7 +24,7 @@ const PageHeader = ({ title, subtitle, backgroundImage, large, button, className
       </div>
       {large &&
         backgroundImage && (
-          <Image src={backgroundImage} />
+          <Image src={backgroundImage} alt='' />
       )}
         <Link className='fixed-button' to='/enrolments/book/'><ICONEye/>Book a Tour</Link>
     </div>

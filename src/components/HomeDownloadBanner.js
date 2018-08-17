@@ -40,8 +40,9 @@ class HomeForm extends React.Component {
     return (
       <section className='download-banner home-download'>
         <div className='container'>
-          {centres.map(centreItem => 
+          {centres.map((centreItem, index) => 
             <Form
+              key={`Home Download ${index}`}
               active={centre === centreItem}
               formName={centreItem}
               fields={fields}

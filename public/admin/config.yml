@@ -548,9 +548,9 @@ collections: # A list of collections the CMS should be able to edit
             name: familyHandbookDownload
             widget: object
             fields:
-              - {label: East Malvern, name: eastMalvern, widget: string, required: false}
-              - {label: Mildura, name: mildura, widget: string, required: false}
-              - {label: Mildura Centre, name: milduraCentral, widget: string, required: false}
+              - {label: East Malvern, name: eastMalvern, widget: file, required: false}
+              - {label: Mildura, name: mildura, widget: file, required: false}
+              - {label: Mildura Centre, name: milduraCentral, widget: file, required: false}
 
 
 

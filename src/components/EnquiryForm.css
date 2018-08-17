@@ -144,8 +144,6 @@
   align-self: center;
 }
 
-/*Application Form*/
-
 .ApplicationForm, .BookTour, .ReferFriend {
   padding: 4rem;
   border: .4rem solid #222f50;
@@ -156,10 +154,6 @@
   position: relative;
   z-index: 2;
   background-color: white;
-}
-
-.ApplicationForm .Button {
-  align-self: flex-end !important;
 }
 
 .checkbox {

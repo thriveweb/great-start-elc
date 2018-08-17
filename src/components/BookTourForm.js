@@ -71,7 +71,7 @@ class Form extends React.Component {
   }
 
   render() {
-    const { name, subject, action, formName, active, fields, } = this.props
+    const { name, subject, action, formName, active, fields } = this.props
     const { emailaddress = '', yourname = '', childname = '', phone = '', birthday = '', startdate = '', comments = ''  } = fields
 
 

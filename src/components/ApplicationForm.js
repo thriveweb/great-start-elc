@@ -6,7 +6,7 @@ import { ICONUpload } from './Icons'
 import { withRouter } from 'react-router'
 import qs from 'qs'
 
-import './EnquiryForm.css'
+import './ApplicationForm.css'
 
 
 class Application extends React.Component {
@@ -39,10 +39,8 @@ class Application extends React.Component {
             top: this.formRef.current.offsetTop
         });
       }, 100)
-      
     }
   }
-  
 
   handleUpload = (event, target) => {
     const fileNames = []
@@ -57,7 +55,6 @@ class Application extends React.Component {
       [target]: !!fileNames.length ? fileNames.join(', ') : file
     })
   }
-
 
   handleSubmit = e => {
     e.preventDefault()
@@ -75,14 +72,15 @@ class Application extends React.Component {
   }
 
   render() {
-    const { name, subject, action } = this.props
+    const { name, subject, action, formName, active, fields } = this.props
+    const { emailaddress = '', yourname = '', phone = '', role = '', qualifications = '', message = '', centre  } = fields
 
     const queryString = qs.parse(this.props.location.search, { ignoreQueryPrefix: true })
 
     return (
       <form
-        className="ApplicationForm"
-        name={name}
+        className={`ApplicationForm ${active ? 'active' : ''}`}
+        name={formName}
         action='?submit=true'
         method='post'
         onSubmit={this.handleSubmit}
@@ -99,7 +97,9 @@ class Application extends React.Component {
             className="EnquiryForm--Input"
             type="text"
             placeholder="Your Name"
-            name="name"
+            name="yourname"
+            value={yourname}
+            onChange={this.props.handleChange}
             required
           />
         </label>
@@ -109,6 +109,8 @@ class Application extends React.Component {
             type="text"
             placeholder="Phone"
             name="phone"
+            value={phone}
+            onChange={this.props.handleChange}
             required
           />
         </label>
@@ -117,7 +119,9 @@ class Application extends React.Component {
             className="EnquiryForm--Input"
             type="email"
             placeholder="Email"
-            name="e-mail"
+            name="emailaddress"
+            value={emailaddress}
+            onChange={this.props.handleChange}
             required
           />
         </label>
@@ -127,21 +131,26 @@ class Application extends React.Component {
             type="text"
             placeholder="Preferred Role"
             name="role"
+            value={role}
+            onChange={this.props.handleChange}
             required
           />
         </label>
         <Select
           placeholder='Preferred Centre'
           name='centre'
+          handleChange={this.props.handleChange}
           options={[
+            'East Malvern Learning Centre',
             'Mildura Early Learning Centre',
-            'Mildura Central Early Learning Centre',
-            'East Malvern Learning Centre'
+            'Mildura Central Early Learning Centre'
           ]}
+          selectedOption={centre}
         />
         <Select
           placeholder='Joining as'
           name='type'
+          handleChange={this.props.handleChange}
           options={[
             'option 1',
             'option 2',
@@ -154,6 +163,8 @@ class Application extends React.Component {
             type="text"
             placeholder="Qualifications"
             name="qualifications"
+            value={qualifications}
+            onChange={this.props.handleChange}
             required
           />
         </label>
@@ -163,6 +174,8 @@ class Application extends React.Component {
             type="text"
             placeholder="Why do you want to work for Great Start?"
             name="message"
+            value={message}
+            onChange={this.props.handleChange}
             required
           />
         </label>
@@ -200,7 +213,7 @@ class Application extends React.Component {
         </div>
         <input type="text" name="_gotcha" style={{ display: 'none' }} />
         {!!subject && <input type="hidden" name="subject" value={subject} />}
-        <input type="hidden" name="form-name" value={name} />
+        <input type="hidden" name="form-name" value={formName} />
         <input
           className="Button hasShadowHover EnquiryForm--SubmitButton"
           type="submit"

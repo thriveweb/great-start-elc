@@ -3,16 +3,34 @@ import { ICONArrowDown } from './Icons'
 import './Select.css'
 
 class Select extends Component {
-  state = {}
+  constructor(props) {
+    super(props)
+
+    this.selectRef = React.createRef()
+
+    this.state = {}
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if(prevState.active !== this.state.active) {
+      this.props.handleChange({
+        target: {
+          name: this.selectRef.current.name,
+          value: this.selectRef.current.value
+        }
+      })
+    }
+  }
+
 
   render() {
-    const { name, options, placeholder } = this.props
+    const { name, options, placeholder, handleChange, selectedOption } = this.props
     const { active, activeDropdown = false } = this.state
 
     return <label className={`EnquiryForm--Label`}>
-      <select style={{display: 'none'}} name={name}>
+      <select style={{display: 'none'}} name={name} ref={this.selectRef}>
         {options.map((option, index) => 
-          <option key={option} value={option} selected={option === active ? true : null}>
+          <option key={option} value={option} selected={option === selectedOption ? true : false}>
             {option}
           </option>
         )}

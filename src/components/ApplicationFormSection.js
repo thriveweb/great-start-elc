@@ -1,18 +1,21 @@
 import React, { Component } from 'react'
 
-import BookTourForm from './BookTourForm'
+import ApplicationForm from './ApplicationForm'
 
 
 class BookingSection extends Component {
 
 	state = {
 		fields: {
-			centre: 'East Malvern'
+			centre: 'East Malvern Learning Centre'
 		}
 	}
 
     handleChange = e => {
-        e.persist()
+        if(e.persist && {}.toString.call(e.persist) === '[object Function]') {
+        	e.persist()
+        }
+
         this.setState(prevState => {
 	        return {
 	          fields: {
@@ -26,22 +29,22 @@ class BookingSection extends Component {
 	render() {
 		const { name, subject, action } = this.props
 
-	    const centres = ['East Malvern', 'Mildura', 'Mildura Central']
+	    const centres = ['East Malvern Learning Centre', 'Mildura Early Learning Centre', 'Mildura Central Early Learning Centre']
 
 	    const { fields } = this.state
 	    const { centre } = fields
 
 		return <div className='bookingsection'>
 			<div className='container'>
-				{centres.map((centreItem, index) => 
-					<BookTourForm 
+				{centres.map((centreItem, index) => {
+					return <ApplicationForm
 						key={centreItem + index}
 						active={centre === centreItem}
-			            formName={`${centreItem} Tour Form`}
+			            formName={`${centreItem} Application Form`}
 			            fields={fields}
 			            handleChange={this.handleChange}
 					/>
-				)}
+				})}
 			</div> 
 		</div>		
 	}

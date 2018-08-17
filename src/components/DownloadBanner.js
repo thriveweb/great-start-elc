@@ -8,7 +8,11 @@ import './DownloadForm.css'
 import Form from './DownloadForm'
 
 class DownloadBanner extends React.Component {
-  state = {}
+  state = {
+    fields: {
+      centre: 'East Malvern'
+    }
+  }
 
   handleChange = e => {
     e.persist()
@@ -27,7 +31,7 @@ class DownloadBanner extends React.Component {
 
     const centres = ['East Malvern', 'Mildura', 'Mildura Central']
 
-    const { fields = { centre: centres[0] } } = this.state
+    const { fields } = this.state
     const { centre } = fields
 
     const title = ''

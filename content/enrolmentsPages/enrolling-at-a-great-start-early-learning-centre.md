@@ -53,7 +53,7 @@ enrolmentsSection2:
         undertake orientation at the centre.
       title: Add Your Booking Request To The Waitlist
 enrolBanner:
-  buttonLinkTo: 'https://www.qkenhanced.com.au/webui/Account /Embeddable/?databaseId=5583'
+  buttonLinkTo: 'https://www.qkenhanced.com.au/webui/Account/Embeddable/?databaseId=5583'
   buttonTitle: Visit Site
   title: Enrol Through My Family Lounge
 enrolmentsSection3: >

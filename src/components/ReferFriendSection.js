@@ -39,7 +39,7 @@ class BookingSection extends Component {
 				return <ReferFriendForm
 					key={centreItem + index}
 					active={centre === centreItem}
-		            formName={`${centreItem} Application Form`}
+		            formName={`${centreItem} Referal Form`}
 		            fields={fields}
 		            handleChange={this.handleChange}
 				/>

@@ -8,7 +8,11 @@ import Form from './DownloadForm'
 import './DownloadForm.css'
 
 class HomeForm extends React.Component {
-  state = {}
+  state = {
+    fields: {
+      centre: 'East Malvern'
+    } 
+  }
 
   handleChange = e => {
     e.persist()
@@ -27,7 +31,7 @@ class HomeForm extends React.Component {
 
     const centres = ['East Malvern', 'Mildura', 'Mildura Central']
 
-    const { fields = { centre: centres[0] } } = this.state
+    const { fields } = this.state
     const { centre } = fields
 
     const title = 'Download Our Family Handbook'

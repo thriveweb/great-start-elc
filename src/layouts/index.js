@@ -67,7 +67,6 @@ export const query = graphql`
       exceedText
       exceedTextLong
       exceedLogo
-      handbookFile
       handbookImage
     }
 

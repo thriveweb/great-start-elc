@@ -22,9 +22,12 @@ export const HomePageTemplate = ({
   homeSection3,
   homeSection4,
   footerSettings
-}) => (
+}) => {
   // showHandbook
-  <main className="Home">
+
+  const { familyHandbookDownload } = footerSettings
+
+  return <main className="Home">
     <PageHeader
       large
       title={title}
@@ -150,14 +153,14 @@ export const HomePageTemplate = ({
         <JoinBanner linkTo="/" />
       </div>
     </div>
-    <HomeDownloadBanner />
+    <HomeDownloadBanner familyHandbookDownload={familyHandbookDownload} />
     <div className="section thin">
       <div className="container">
         <ExceedBanner footerSettings={footerSettings} />
       </div>
     </div>
   </main>
-)
+}
 
 // Export Default HomePage for front-end
 const HomePage = ({ data: { markdownRemark, footerSettings } }) => (
@@ -223,6 +226,11 @@ export const pageQuery = graphql`
       exceedText
       exceedTextLong
       exceedLogo
+      familyHandbookDownload {
+        eastMalvern
+        mildura
+        milduraCentral
+      }
     }
   }
 `

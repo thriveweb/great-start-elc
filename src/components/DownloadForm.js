@@ -58,6 +58,10 @@ class Form extends React.Component {
     })
   }
 
+  ComponentDidUpdate = () => {
+
+  }
+
   renderOption = (name, value) => {
     const { fields } = this.props
     const { centre } = fields
@@ -77,12 +81,9 @@ class Form extends React.Component {
   }
 
   render() {
-    const { name, subject, action, formName, active, fields, title, description } = this.props
+    const { name, subject, action, formName, active, fields, title, description, familyHandbookDownload } = this.props
     const { emailaddress = '', yourname = '', phone = '' } = fields
-
-    console.log(fields)
-
-    // const formDownload = fields.map(field => field === 'East Melvern' ? 'download1.txt' : '')
+    const { eastMalvern, mildura, milduraCentral } = familyHandbookDownload
 
 
     return <form

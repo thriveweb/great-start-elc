@@ -546,11 +546,10 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Handbook Image, name: handbookImage, widget: image, required: false}
           - label: Family Handbook Download
             name: familyHandbookDownload
-            widget: object
+            widget: list
             fields:
-              - {label: East Malvern, name: eastMalvern, widget: file, required: false}
-              - {label: Mildura, name: mildura, widget: file, required: false}
-              - {label: Mildura Centre, name: milduraCentral, widget: file, required: false}
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: File, name: file, widget: file, required: false}
 
 
 

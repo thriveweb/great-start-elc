@@ -54,25 +54,32 @@ class Form extends React.Component {
   }
 
   renderOption = (name, value) => {
+    const { fields } = this.props
+    const { centre } = fields
+
     return <label className="checkbox-container" key={value}>
       <input 
         className="EnquiryForm--Input" 
         type="radio" 
         name={name}
         value={value}
+        checked={centre === value ? true : false}
+        onChange={this.props.handleChange}
       /> 
       {value}
       <span className='checkbox'></span>
     </label>
   }
 
+
   render() {
-    const { name, subject, action } = this.props
+    const { name, subject, action, formName, active, fields } = this.props
+    const { emailaddress = '' } = fields
 
     return (
       <form
-        className="SubscribeForm"
-        name={name}
+        className={`SubscribeForm ${active ? 'active' : ''}`}
+        name={formName}
         action={action}
         onSubmit={this.handleSubmit}
         data-netlify=""
@@ -94,13 +101,15 @@ class Form extends React.Component {
               className="EnquiryForm--Input"
               type="email"
               placeholder="your email"
-              name="e-mail"
+              name="emailaddress"
+              value={emailaddress}
+              onChange={this.props.handleChange}
               required
             />
           </label>
           <input type="text" name="_gotcha" style={{ display: 'none' }} />
           {!!subject && <input type="hidden" name="subject" value={subject} />}
-          <input type="hidden" name="form-name" value={name} />
+          <input type="hidden" name="form-name" value={formName} />
           <input
             className="EnquiryForm--SubmitButton"
             type="submit"

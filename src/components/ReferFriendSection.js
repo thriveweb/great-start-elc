@@ -37,7 +37,7 @@ class BookingSection extends Component {
 		return <div className='bookingsection'>
 			{centres.map((centreItem, index) => {
 				return <ReferFriendForm
-					key={centreItem + index}
+					key={centreItem + 'Referal' + index}
 					active={centre === centreItem}
 		            formName={`${centreItem} Referal Form`}
 		            fields={fields}

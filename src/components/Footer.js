@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 import JoinBanner from '../components/JoinBanner'
 import FamilyHandbookSection from '../components/FamilyHandbookSection'
 import ExceedBanner from '../components/ExceedBanner'
-import SubscribeForm from '../components/SubscribeForm'
+import SubscribeFormSection from '../components/SubscribeFormSection'
 import './Footer.css'
 
 export default ({
@@ -74,7 +74,7 @@ export default ({
             <div className="Footer--column">
               <div className="Footer--column--title">
                 Sign up for Centre Newsletter
-                <SubscribeForm />
+                <SubscribeFormSection />
               </div>
             </div>
           </div>

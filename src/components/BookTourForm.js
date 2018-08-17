@@ -2,7 +2,7 @@ import React from 'react'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
 
-import './EnquiryForm.css'
+import './BookTourForm.css'
 
 class Form extends React.Component {
   static defaultProps = {
@@ -53,42 +53,31 @@ class Form extends React.Component {
   }
 
   renderOption = (name, value) => {
+    const { fields } = this.props
+    const { centre } = fields
+
     return <label className="checkbox-container" key={value}>
       <input 
         className="EnquiryForm--Input" 
         type="radio" 
         name={name}
         value={value}
-        onChange={e => this.setState({ centre: e.target.value})}
+        checked={centre === value ? true : false}
+        onChange={this.props.handleChange}
       /> 
       {value}
       <span className='checkbox'></span>
     </label>
   }
 
-  handleChange = e => {
-    e.persist()
-    this.setState(prevState => {
-      return {
-        fields: {
-          ...prevState.fields,
-          [e.target.name]: e.target.value
-        }
-      }
-    })
-  }
-
   render() {
-    const { name, subject, action } = this.props
-    const formName = this.state.centre + ' Tour Form' || name
+    const { name, subject, action, formName, active, fields, } = this.props
+    const { emailaddress = '', yourname = '', childname = '', phone = '', birthday = '', startdate = '', comments = ''  } = fields
 
-    const centres = ['East Malvern', 'Mildura', 'Mildura Central']
-
-    console.log(formName)
 
     return (
       <form
-        className="BookTour"
+        className={`BookTour ${active ? 'active' : ''}`}
         name={formName}
         action={action}
         onSubmit={this.handleSubmit}
@@ -103,7 +92,9 @@ class Form extends React.Component {
             className="EnquiryForm--Input"
             type="text"
             placeholder="Your Name"
-            name="name"
+            name="yourname"
+            value={yourname}
+            onChange={this.props.handleChange}
             required
           />
         </label>
@@ -112,7 +103,9 @@ class Form extends React.Component {
             className="EnquiryForm--Input"
             type="text"
             placeholder="Your Child's Name"
-            name="child-name"
+            name="childname"
+            value={childname}
+            onChange={this.props.handleChange}
             required
           />
         </label>
@@ -121,7 +114,9 @@ class Form extends React.Component {
             className="EnquiryForm--Input"
             type="email"
             placeholder="Email"
-            name="e-mail"
+            name="emailaddress"
+            value={emailaddress}
+            onChange={this.props.handleChange}
             required
           />
         </label>
@@ -131,6 +126,8 @@ class Form extends React.Component {
             type="text"
             placeholder="Phone"
             name="phone"
+            value={phone}
+            onChange={this.props.handleChange}
             required
           />
         </label>
@@ -141,6 +138,8 @@ class Form extends React.Component {
             type="text"
             placeholder="DD / MM / YYYY"
             name="birthday"
+            value={birthday}
+            onChange={this.props.handleChange}
             required
           />
         </label>
@@ -158,7 +157,9 @@ class Form extends React.Component {
             className="EnquiryForm--Input"
             type="text"
             placeholder="MM / YYYY"
-            name="start-date"
+            name="startdate"
+            value={startdate}
+            onChange={this.props.handleChange}
             required
           />
         </label>
@@ -166,7 +167,9 @@ class Form extends React.Component {
           <input
             className="EnquiryForm--Input"
             placeholder="Other Comments"
-            name="text"
+            name="comments"
+            value={comments}
+            onChange={this.props.handleChange}
           />
         </label>
         <input type="text" name="_gotcha" style={{ display: 'none' }} />

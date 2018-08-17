@@ -1,9 +1,8 @@
 import React from 'react'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
-import Image from './Image'
 
-import './EnquiryForm.css'
+import './DownloadForm.css'
 
 class Form extends React.Component {
   static defaultProps = {

@@ -36,8 +36,9 @@ class DownloadBanner extends React.Component {
     return (
       <section className='download-banner'>
         <Image background src='/images/uploads/handbook.jpg' alt='image of handbook' />
-        {centres.map(centreItem => 
+        {centres.map((centreItem, index) => 
           <Form
+            key={centreItem + 'Download' + index}
             active={centre === centreItem}
             formName={`${centreItem} Download Form`}
             fields={fields}

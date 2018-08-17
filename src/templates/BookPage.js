@@ -1,16 +1,17 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Helmet from 'react-helmet'
 
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
-import BookTourForm from '../components/BookTourForm'
+import BookTourSection from '../components/BookTourSection'
 import DownloadBanner from '../components/DownloadBanner'
 import JoinBanner from '../components/JoinBanner'
 import ExceedBanner from '../components/ExceedBanner'
 import './BookPage.css'
 
+
 export const BookPageTemplate = ({ title, subtitle, featuredImage, body, footerSettings }) => {
-  // showHandbook
+
   return (
     <main className="BookPage">
       <Helmet>
@@ -22,8 +23,8 @@ export const BookPageTemplate = ({ title, subtitle, featuredImage, body, footerS
       <div className="section">
         <div className="container content">
           <Content source={body} />
-          <BookTourForm />
         </div>
+        <BookTourSection />
         <DownloadBanner />
       </div>
       <div className="section thin JoinBannerSection">
@@ -39,6 +40,7 @@ export const BookPageTemplate = ({ title, subtitle, featuredImage, body, footerS
     </main>
   )
 }
+
 
 const BookPage = ({ data }) => {
   const { markdownRemark: page, footerSettings } = data

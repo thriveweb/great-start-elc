@@ -84,7 +84,7 @@ export default class Nav extends Component {
 
             <div className="Nav--Container--Sep" />
             <NavLink
-              href="https://www.qkenhanced.com.au/webui/Account/LogOn"
+              href="https://www.qkenhanced.com.au/webui/Account/Embeddable/?databaseId=5583"
               target="_blank"
               rel="nofollow"
               className="primary"

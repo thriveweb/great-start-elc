@@ -83,8 +83,7 @@ class Form extends React.Component {
   render() {
     const { name, subject, action, formName, active, fields, title, description, familyHandbookDownload } = this.props
     const { emailaddress = '', yourname = '', phone = '' } = fields
-    const { eastMalvern, mildura, milduraCentral } = familyHandbookDownload
-
+    // const { eastMalvern, mildura, milduraCentral } = familyHandbookDownload
 
     return <form
         className={`DownloadForm download-banner-form ${active ? 'active' : ''}`}

@@ -27,7 +27,7 @@ class HomeForm extends React.Component {
   }
 
   render() {
-    const { name, subject, action, familyHandbookDownload } = this.props
+    const { name, subject, action } = this.props
 
     const centres = ['East Malvern', 'Mildura', 'Mildura Central']
 
@@ -49,7 +49,6 @@ class HomeForm extends React.Component {
               handleChange={this.handleChange}
               title={title}
               description={description}
-              familyHandbookDownload={familyHandbookDownload}
             /> 
           )}
         </div>  

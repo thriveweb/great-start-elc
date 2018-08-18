@@ -533,14 +533,7 @@ collections: # A list of collections the CMS should be able to edit
             name: socialMediaCard
             widget: object
             fields:
-              - {label: Facebook Url, name: facebookUrl, widget: string, required: false}
-          - label: Family Handbook Download
-            name: familyHandbookDownload
-            widget: list
-            fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: File, name: file, widget: file, required: false}    
-
+              - {label: Facebook Url, name: facebookUrl, widget: string, required: false} 
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
       - file: "content/settings/footer.yml"
         label: "Footer"
@@ -550,6 +543,12 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Exceed Banner Text (Long), name: exceedTextLong, widget: text, required: false}
           - {label: Exceed Banner Logo, name: exceedLogo, widget: image, required: false}
           - {label: Handbook Image, name: handbookImage, widget: image, required: false}
+          - label: Handbook Download
+            name: handbookDownload
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: File, name: file, widget: file, required: false}   
 
 
 

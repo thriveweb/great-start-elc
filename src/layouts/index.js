@@ -58,9 +58,6 @@ export const query = graphql`
     globalSettings: settingsYaml(id: { regex: "/global.yml/" }) {
       siteTitle
       headerScripts
-      socialMediaCard {
-        image
-      }
     }
 
     footerSettings: settingsYaml(id: { regex: "/footer.yml/" }) {

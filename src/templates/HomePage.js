@@ -25,7 +25,7 @@ export const HomePageTemplate = ({
 }) => {
   // showHandbook
 
-  // const { familyHandbookDownload } = footerSettings
+  const { handbookDownload } = footerSettings
 
   return <main className="Home">
     <PageHeader
@@ -153,7 +153,7 @@ export const HomePageTemplate = ({
         <JoinBanner linkTo="/" />
       </div>
     </div>
-    <HomeDownloadBanner />
+    <HomeDownloadBanner handbookDownload={handbookDownload} />
     <div className="section thin">
       <div className="container">
         <ExceedBanner footerSettings={footerSettings} />
@@ -226,6 +226,10 @@ export const pageQuery = graphql`
       exceedText
       exceedTextLong
       exceedLogo
+      handbookDownload {
+        file
+        title
+      }
     }
   }
 `

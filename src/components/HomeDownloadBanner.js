@@ -27,7 +27,7 @@ class HomeForm extends React.Component {
   }
 
   render() {
-    const { name, subject, action } = this.props
+    const { name, subject, action, handbookDownload } = this.props
 
     const centres = ['East Malvern', 'Mildura', 'Mildura Central']
 
@@ -37,20 +37,22 @@ class HomeForm extends React.Component {
     const title = 'Download Our Family Handbook'
     const description = 'Fill out the form and download our family handbook or contact us 123 456 789'
 
+
     return (
       <section className='download-banner home-download'>
         <div className='container'>
-          {centres.map((centreItem, index) => 
-            <Form
-              key={`Home Download ${index}`}
-              active={centre === centreItem}
-              formName={centreItem}
-              fields={fields}
-              handleChange={this.handleChange}
-              title={title}
-              description={description}
-            /> 
-          )}
+          {centres.map((centreItem, index) => {
+            return <Form
+                key={`Home Download ${index}`}
+                active={centre === centreItem}
+                formName={centreItem}
+                fields={fields}
+                handleChange={this.handleChange}
+                title={title}
+                description={description}
+                handbookDownload={handbookDownload}
+              /> 
+          })}
         </div>  
         <Image background src='/images/uploads/handbook.jpg' alt='image of handbook' />
       </section>  

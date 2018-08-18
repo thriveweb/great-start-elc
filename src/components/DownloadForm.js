@@ -58,10 +58,6 @@ class Form extends React.Component {
     })
   }
 
-  ComponentDidUpdate = () => {
-
-  }
-
   renderOption = (name, value) => {
     const { fields } = this.props
     const { centre } = fields
@@ -81,9 +77,11 @@ class Form extends React.Component {
   }
 
   render() {
-    const { name, subject, action, formName, active, fields, title, description, familyHandbookDownload } = this.props
+    const { name, subject, action, formName, active, fields, title, description, handbookDownload } = this.props
     const { emailaddress = '', yourname = '', phone = '' } = fields
-    // const { eastMalvern, mildura, milduraCentral } = familyHandbookDownload
+
+    const fileDownloads = handbookDownload.filter(handbookItem => handbookItem.title === formName && active === true)
+    const fileDownload = fileDownloads.map(downloadItem => downloadItem.file)
 
     return <form
         className={`DownloadForm download-banner-form ${active ? 'active' : ''}`}
@@ -148,7 +146,7 @@ class Form extends React.Component {
             value="Download"
             disabled={this.state.disabled}
           />
-        <a href='{formDownload}' download ref={this.myRef}></a>
+        <a href={fileDownload} download ref={this.myRef}></a>
       </form>
   }
 }

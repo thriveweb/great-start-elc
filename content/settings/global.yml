@@ -3,9 +3,12 @@ siteUrl: 'https://great-start-elc.netlify.com'
 siteDescription: >-
   A starter project for creating lightning-fast, offline-first websites with
   Netlify CMS and React.
-socialMediaCard:
-  image: /images/uploads/card-og.png
+socialMediaCard: {}
+familyHandbookDownload:
+  - file: /images/uploads/baby.jpg
+    title: East Malvern
+  - file: /images/uploads/centre.jpg
+    title: Mildura
+  - file: /images/uploads/action-child-children.jpg
+    title: Mildura Central
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
-standardsBanner:
-  description: Our centres are rated as exceeding the National Quality Standards
-  image: /images/uploads/exceeding.png

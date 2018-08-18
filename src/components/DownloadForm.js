@@ -77,13 +77,12 @@ class Form extends React.Component {
   }
 
   render() {
-    const { name, subject, action, formName, active, fields, title, description, handbookDownload = [] } = this.props
+    const { name, subject, action, formName, active, fields, title, description, handbookDownload = [], centreItem } = this.props
     const { emailaddress = '', yourname = '', phone = '' } = fields
 
-    let fileDownloads = handbookDownload.map(handbookItem => handbookItem.title === formName && active === true)
-    const fileDownload = fileDownloads.map(downloadItem => downloadItem.file)
-
-    // console.log(handbookDownload)
+    const fileDownload = handbookDownload.find(handbook => 
+      handbook.title === centreItem
+    ) || {}
 
     return <form
         className={`DownloadForm download-banner-form ${active ? 'active' : ''}`}
@@ -148,7 +147,7 @@ class Form extends React.Component {
             value="Download"
             disabled={this.state.disabled}
           />
-        <a href={fileDownload} download ref={this.myRef}></a>
+        <a href={fileDownload.file} download ref={this.myRef}></a>
       </form>
   }
 }

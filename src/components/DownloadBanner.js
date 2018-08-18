@@ -45,6 +45,7 @@ class DownloadBanner extends React.Component {
             key={centreItem + 'Download' + index}
             active={centre === centreItem}
             formName={`${centreItem} Download Form`}
+            centreItem={centreItem}
             fields={fields}
             handleChange={this.handleChange}
             title={title}

@@ -77,11 +77,13 @@ class Form extends React.Component {
   }
 
   render() {
-    const { name, subject, action, formName, active, fields, title, description, handbookDownload = {} } = this.props
+    const { name, subject, action, formName, active, fields, title, description, handbookDownload = [] } = this.props
     const { emailaddress = '', yourname = '', phone = '' } = fields
 
-    const fileDownloads = handbookDownload.filter(handbookItem => handbookItem.title === formName && active === true)
+    let fileDownloads = handbookDownload.map(handbookItem => handbookItem.title === formName && active === true)
     const fileDownload = fileDownloads.map(downloadItem => downloadItem.file)
+
+    // console.log(handbookDownload)
 
     return <form
         className={`DownloadForm download-banner-form ${active ? 'active' : ''}`}

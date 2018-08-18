@@ -30,6 +30,8 @@ export const EnrolmentsPageTemplate = ({
 }) => {
   // showHandbook
 
+  const { handbookDownload } = footerSettings
+
   return (
     <main className="EnrolmentsPage background-dots">
       <Helmet>
@@ -109,7 +111,7 @@ export const EnrolmentsPageTemplate = ({
           <Accordion items={accordion} />
         </div> 
       </section>
-      <DownloadBanner />
+      <DownloadBanner handbookDownload={handbookDownload} />
       <div className="section thin">
         <div className="container">
           <ExceedBanner footerSettings={footerSettings} />
@@ -170,6 +172,10 @@ export const pageQuery = graphql`
       exceedText
       exceedTextLong
       exceedLogo
+      handbookDownload {
+        file
+        title
+      }
     }
   }
 `

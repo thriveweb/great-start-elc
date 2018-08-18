@@ -12,6 +12,8 @@ import './BookPage.css'
 
 export const BookPageTemplate = ({ title, subtitle, featuredImage, body, footerSettings }) => {
 
+  const { handbookDownload } = footerSettings
+
   return (
     <main className="BookPage">
       <Helmet>
@@ -25,7 +27,7 @@ export const BookPageTemplate = ({ title, subtitle, featuredImage, body, footerS
           <Content source={body} />
         </div>
         <BookTourSection />
-        <DownloadBanner />
+        <DownloadBanner handbookDownload={handbookDownload} />
       </div>
       <div className="section thin JoinBannerSection">
         <div className="container">
@@ -69,6 +71,10 @@ export const pageQuery = graphql`
       exceedText
       exceedTextLong
       exceedLogo
+      handbookDownload {
+        file
+        title
+      }
     }
   }
 `

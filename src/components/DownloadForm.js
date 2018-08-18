@@ -77,7 +77,7 @@ class Form extends React.Component {
   }
 
   render() {
-    const { name, subject, action, formName, active, fields, title, description, handbookDownload } = this.props
+    const { name, subject, action, formName, active, fields, title, description, handbookDownload = {} } = this.props
     const { emailaddress = '', yourname = '', phone = '' } = fields
 
     const fileDownloads = handbookDownload.filter(handbookItem => handbookItem.title === formName && active === true)

@@ -27,7 +27,7 @@ class DownloadBanner extends React.Component {
   }
 
   render() {
-    const { name, subject, action } = this.props
+    const { name, subject, action, handbookDownload } = this.props
 
     const centres = ['East Malvern', 'Mildura', 'Mildura Central']
 
@@ -49,6 +49,7 @@ class DownloadBanner extends React.Component {
             handleChange={this.handleChange}
             title={title}
             description={description}
+            handbookDownload={handbookDownload}
           /> 
         )}
       </section>  

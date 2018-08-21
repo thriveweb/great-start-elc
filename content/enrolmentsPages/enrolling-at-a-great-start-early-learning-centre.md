@@ -10,13 +10,13 @@ enrolmentsSection1:
     curriculum and learning programs and see our environment first hand.
 breakoutBox:
   content: >-
-    In order to enrol your child in a Great Start learning centre, you will need
-    to register with My Family Lounge, a parent portal providing access for
-    parents to view published observations, photos and stories as well as manage
-    their waitlist and enrolments. When a vacancy arises, you will be contacted
-    by the Centre Director with an offer of placement. When an offer for
-    placement is made to you, please accept the enrolment and complete the
-    online enrolment form and direct debit authorisation form.
+    In order to enrol your child in a Great Start Early Learning Centre, you
+    will need to register with My Family Lounge, a parent portal providing
+    access for parents to view published observations, photos and stories as
+    well as manage their waitlist and enrolments. When a vacancy arises, you
+    will be contacted by the Centre Director with an offer of placement. When an
+    offer for placement is made to you, please accept the enrolment and complete
+    the online enrolment form and direct debit authorisation form.
 
 
     Note: Before applying for a placement at the centre, it is important that

@@ -22,7 +22,7 @@ breakoutBox:
     Note: Before applying for a placement at the centre, it is important that
     you have read and agree to abide by the Enrolment Terms and Conditions,
     Centre Policies and Procedures.
-  title: How to enrol your child in a Great Start learning centre
+  title: How to enrol your child in a Great Start Learning Centre
 enrolmentsSection2:
   steps:
     - content: >-

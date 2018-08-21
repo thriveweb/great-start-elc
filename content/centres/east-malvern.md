@@ -128,7 +128,7 @@ directorStatement:
 
     We invite you to come and visit our centre to meet our team and to see for
     yourself our commitment to your child’s early learning journey.
-  image: /images/uploads/shutterstock_58596811.jpg
+  image: /images/uploads/liz.jpg
   title: >-
     Hello, my name is Liz Cosier and I have been the Centre Director and
     Nominated Supervisor at East Malvern Early Learning Centre since 2006. I

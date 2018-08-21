@@ -4,9 +4,9 @@ title: East Malvern Early Learning Centre
 logo: /images/uploads/east-malvern.svg
 centreDetails:
   email: eastmalvern@mychildelc.com.au
-  latitude: '-37.8693581'
+  latitude: '-37.869338'
   location: 11 Illowa Street Malvern East VIC 3145
-  longitude: '145.059228'
+  longitude: '145.0594313'
   openingHours: 'Monday to Friday 7:00am - 6:00pm'
   phone: "03 9886 9142\L"
 centreIntro: >-

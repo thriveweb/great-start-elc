@@ -134,11 +134,10 @@ We pride ourselves on having the best curriculum and education programs, this is
 
 We understand the importance of education and believe that childhood is a unique time of life which should be valued and enjoyed. We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing. We use a Reggio Emilia inspired approach to meet the objectives outlined in the National and Victorian Early Years Learning and Development Frameworks; including emphasis on literacy, numeracy, music and movement and social development.
 
-#### Diet
+#### Nutritional Menu
 
  Our cook freshly prepares and serves warm meals and snacks on the premises, taking into consideration any special dietary requirements. Our qualified and trained staff implement a developmental program that enhances and challenges each child's individual learning and promotes a safe and happy environment.
 
 #### Team
 
 We believe that we are only as great as our people. Our team of educators are well trained, knowledgeable, trust worthy and above all else, their level of commitment to the wellbeing of children is second to none. All our educators hold formal qualifications; including bachelor degrees, advance diplomas, diplomas and certificate III in early childhood. All our educators hold Working With Children Checks and have current first aid and CPR certificates. Our educators attend regular professional development and training to allow them to deliver best practice educational programs for your children.
-

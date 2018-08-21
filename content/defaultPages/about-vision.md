@@ -228,6 +228,7 @@ We believe that being part of a community is important in the development of a c
 * Breast Cancer: fundraising and afternoon teas
 * Red Nose Day: fundraising
 * Relay for Life: fundraising
+* Starlight Foundation
 * Secondary school students volunteering at our centres
 * Christmas food hamper appeals
 * Eco-village members

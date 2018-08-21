@@ -98,7 +98,7 @@ directorStatement:
 
     We invite you to come and visit our centre to meet our team and to see for
     yourself our commitment to your child’s early learning journey.
-  image: /images/uploads/shutterstock_58596811.jpg
+  image: /images/uploads/megan-gooding.jpg
   title: >-
     Hello, my name is Megan Gooding and I have been the Centre Director since
     2017 and Nominated Supervisor at Mildura Early Learning Centre since 2007. I

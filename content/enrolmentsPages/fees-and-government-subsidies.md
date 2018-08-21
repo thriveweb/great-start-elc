@@ -174,6 +174,7 @@ accordion:
       to your centre’s waiting list using QK Enrol portal.
     title: Changes to your Child’s Regular Booked Days
 downloadFileText: Download Terms and Conditions
-downloadFile: /images/uploads/blank.pdf
+downloadFile: >-
+  /images/uploads/02.-great-start-early-learning-centres_terms-and-conditions_06.18_pdf.pdf
 ---
 

@@ -75,7 +75,7 @@ members:
       2017 and Nominated Supervisor at Mildura Early Learning Centre since 2007.
       I have been in the early learning and child care industry since 2004 and I
       have an Advanced Diploma in Early Childhood Education.
-    image: /images/uploads/member-2.jpg
+    image: /images/uploads/megan-gooding.jpg
     name: Megan Gooding
     title: Centre Director
   - description: >-
@@ -152,5 +152,8 @@ members:
     image: /images/uploads/istock-178590721_super_crop.jpg
     name: ' Sarah Bennett'
     title: ' Assistant Centre Director'
+  - image: /images/uploads/amy-godfrey.jpg
+    name: Amy Godfrey
+    title: Assistant Director
 ---
 

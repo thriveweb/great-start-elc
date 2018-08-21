@@ -1,7 +1,7 @@
 ---
 template: EnrolmentsPage
 slug: enrolments/enrolling-great-start-early-learing-centre
-title: Enrolling at a Great Start Early Learning Centres
+title: Enrolling at a Great Start Early Learning Centre
 featuredImage: /images/uploads/istock-529400494_super_crop.jpg
 enrolmentsSection1:
   title: >-

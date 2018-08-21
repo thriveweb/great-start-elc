@@ -50,7 +50,7 @@ export default ({
                   const phone = _get(centreDetails, 'phone') || ''
 
                   return <div key={index} className="Footer--column">
-                    <div className="Footer--column--title">{title}</div>
+                    <div className="Footer--column--title">{title.replace('Early Learning Centre', '')}</div>
                     <a href={`mail:${email}`} className="Footer--email noDecoration colorInherit">
                       {email}
                     </a>
@@ -63,7 +63,7 @@ export default ({
                   </div>
                 })}
             </div>
-            <div className="Footer--column">
+            <div className="Footer--column form-column">
               <div className="Footer--column--title">
                 Sign up for Centre Newsletter
                 <SubscribeFormSection />

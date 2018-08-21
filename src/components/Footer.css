@@ -56,13 +56,32 @@
   padding-top: 0;
 }
 
+@media only screen and (max-width: 1400px) {
+  .Footer--column a, .Footer--column p {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .footer-centres {
+    flex: 1;
+  }
+
+  .form-column {
+    flex: auto;
+    margin-top: 3rem;
+  }
+}
 
 @media only screen and (max-width: 1020px) {
   .footer-centres {
     flex: 0 0 100%;
     justify-content: space-around;
-    margin-bottom: 4rem;
     flex-wrap: wrap;
+  }
+
+  .footer-centres .Footer--column {
+    flex: 0 0 33%;
   }
 
   .Footer--upper--container {
@@ -72,6 +91,10 @@
 
   .footer-centres .Footer--column {
     margin-right: 0;
+  }
+
+  .SubscribeForm.active {
+    display: inline-block;
   }
 
   .SubscribeForm .EnquiryForm--Label {
@@ -108,7 +131,7 @@
 
 @media only screen and (max-width: 400px) {
   .SubscribeForm {
-    max-width: 80%;
+    max-width: 86%;
     margin: 0 auto;
   }
 

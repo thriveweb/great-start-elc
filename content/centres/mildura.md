@@ -124,8 +124,8 @@ additionalInfoBoxes:
       provides financial assistance to eligible families to help cover the cost
       of childcare. The childcare subsidies help eligible families reduce their
       weekly payments and make childcare more affordable. To find out more
-      information about childcare subsidies, please contact the Family Assistant
-      Office on 13 61 50 or see their website. 
+      information about childcare subsidies, please contact Centrelink on 13 61
+      50 or see their website. 
     title: Childcare Subsidies
 ---
 We offer care to all age groups from as young as six weeks up to school age. We are open every day from Monday to Friday, except for public holidays.

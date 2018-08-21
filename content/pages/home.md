@@ -45,8 +45,8 @@ homeSection3:
         We have taken the Reggio Emilia Approach to early childhood education
         and adapted it.
     - icon: /images/uploads/rocket.svg
-      title: Exceeding Standards
-      subtitle: Our centres are rated as ‘Exceeding’ the National Quality Standards.
+      title: High Standards & Quality
+      subtitle: 'Our centres provide high quality education and care. '
     - icon: /images/uploads/apple.svg
       title: Nutritional Menu
       subtitle: >-

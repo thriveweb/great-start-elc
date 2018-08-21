@@ -126,7 +126,7 @@ additionalInfoBoxes:
       weekly payments and make childcare more affordable. To find out more
       information about childcare subsidies, please contact Centrelink on 13 61
       50 or see their website. 
-    title: Childcare Subsidies
+    title: Child Care Subsidies
 ---
 We offer care to all age groups from as young as six weeks up to school age. We are open every day from Monday to Friday, except for public holidays.
 

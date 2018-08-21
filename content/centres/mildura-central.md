@@ -61,11 +61,11 @@ testimonials: []
 directorStatement:
   content: >-
     I have been working in Early childhood for 6 years here at Mildura Central
-    Early Learning and hold a Diploma of Early Childhood. My Strong passion and
-    excitement for the Early Years is supported through the Victorian Early
-    Years Learning Framework and many Professional Developments. I have explored
-    learning and development with all age groups as Educational Leader with
-    inspiration from Reggio Emilia and our local community. 
+    Early Learning Centre and hold a Diploma of Early Childhood. My Strong
+    passion and excitement for the Early Years is supported through the
+    Victorian Early Years Learning Framework and many Professional Developments.
+    I have explored learning and development with all age groups as Educational
+    Leader with inspiration from Reggio Emilia and our local community. 
 
 
     I look forward to meeting and working with you and your family
@@ -92,9 +92,9 @@ additionalInfoBoxes:
       provides financial assistance to eligible families to help cover the cost
       of childcare. The childcare subsidies help eligible families reduce their
       weekly payments and make childcare more affordable. To find out more
-      information about childcare subsidies, please contact the Family Assistant
-      Office on 13 61 50 or see their website. 
-    title: Childcare Subsidies
+      information about childcare subsidies, please contact Centrelink on 13 61
+      50 or see their website. 
+    title: Child Care Subsidies
 ---
 Channelling a world-class Reggio Emilia approach, we provide beautiful, nature-inspired spaces, a supportive co-learning approach and degree-qualified teachers, to best stimulate a lifelong love of learning, exploration and discovery.
 

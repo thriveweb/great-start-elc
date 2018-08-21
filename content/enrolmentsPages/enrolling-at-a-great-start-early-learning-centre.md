@@ -26,22 +26,33 @@ breakoutBox:
 enrolmentsSection2:
   steps:
     - content: >-
-        For families who have an existing My Family Lounge account, skip the
-        registration process and go to the next step. If you do not have an
-        existing account, click the “Enrol Now” button below or [click
-        here](https://great-start-elc.thdi.net/enrol). The email address you
-        enter will be the user name and also the email address from which you
-        receive correspondence going forward. During the registration process,
-        you will be sent an email from My Family Lounge. Once you receive this
-        email, click the ‘Complete Registration’ button to enter a password and
-        also review and agree to the terms and conditions of enrolment. On
-        completion of My Family Lounge registration, enter QK Enrol to add your
-        contact information.
+        For NEW families to the Centre who have an existing My Family Lounge
+        account, skip the registration process and go to the next step. 
+
+
+        For NEW families to this centre who have not used My Family Lounge and
+        therefore do not have an existing account, click the “Enrol Now” button
+        below or [click here](https://great-start-elc.thdi.net/enrol). 
+
+
+        Click on the REGISTER button on the right. You will be taken through to
+        a registration process to create your My Family Lounge account.
+
+
+        The email address you enter will be the user name and also the email
+        address from which you receive correspondence going forward. 
+
+
+        During the registration process, you will be sent an email from My
+        Family Lounge. Once you receive this email, click the ‘Complete
+        Registration’ button to enter a password and also review and agree to
+        the terms and conditions of enrolment. On completion of My Family Lounge
+        registration, enter QK Enrol to add your contact information.
       title: Register For My Family Lounge
     - content: >-
-        Enter QK Enrol, press ‘Add Child’ under the ‘Child’ section. Search and
-        select our centre. Add in your child details and answer the waitlist
-        questions. Press Save.
+        In the My Family Lounge, enter QK Enrol, press ‘Add Child’ under the
+        ‘Child’ section. Search and select our centre. Add in your child details
+        and answer the waitlist questions. Press Save.
       title: Add Your Child To The Waitlist
     - content: >-
         Enter QK Enrol in the My Family Lounge. Under Booking Requests, click

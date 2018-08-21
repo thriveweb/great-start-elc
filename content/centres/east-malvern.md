@@ -69,6 +69,8 @@ contentColumns:
       while teaching the children about being a contributing and active member
       of society.
 
+
+
       We invite you to come and take a look at our fabulous early learning
       centre and see why we are Exceeding the National Quality Standard in all
       seven areas.

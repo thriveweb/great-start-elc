@@ -38,7 +38,7 @@ members:
       Nominated Supervisor at East Malvern Early Learning Centre since 2006. I
       have been in the early learning and child care industry since 1989 and I
       have an Advanced Diploma in Early Childhood Education.
-    image: /images/uploads/member-3.jpg
+    image: /images/uploads/liz.jpg
     name: Liz Cosier
     title: Centre Director
   - description: >-
@@ -149,7 +149,7 @@ members:
     excerpt: >-
       I am the Assistant Centre Director and Educational Leader in the Toddler
       room. I have worked at East Malvern Early Learning Centre since 2007.
-    image: /images/uploads/istock-178590721_super_crop.jpg
+    image: /images/uploads/sarah-bennett.jpg
     name: ' Sarah Bennett'
     title: ' Assistant Centre Director'
   - image: /images/uploads/amy-godfrey.jpg

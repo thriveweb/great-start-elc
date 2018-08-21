@@ -32,9 +32,13 @@ export default class Nav extends Component {
         page => _get(page, 'fields.slug', '').indexOf(parentSlug) === 0
       )
 
+
     const renderChildPageLinks = parentSlug => {
       const childPages = getChildPages(parentSlug)
       if (!childPages.length) return null
+
+      console.log(getChildPages(parentSlug))
+
       return (
         <div className={`SubNav SubNav-${_kebabCase(parentSlug)}`}>
           {getChildPages(parentSlug).map(page => {

@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import _get from 'lodash/get'
 
 import JoinBanner from '../components/JoinBanner'
 import FamilyHandbookSection from '../components/FamilyHandbookSection'
@@ -12,9 +13,11 @@ export default ({
   showExceedBannerLong = false,
   globalSettings = {},
   footerSettings = {},
+  centres = {},
   ...props
 }) => {
   const { siteTitle } = globalSettings
+  const edges = _get(centres, 'edges') || []
 
   return (
     <Fragment>
@@ -34,42 +37,31 @@ export default ({
         <div className="Footer--upper">
           <div className="container Footer--upper--container">
             <div className='footer-centres'>
-              <div className="Footer--column">
-                <div className="Footer--column--title">East Malvern</div>
-                <a href="" className="Footer--email noDecoration colorInherit">
-                  email@email.com
-                </a>
-                <a href="" className="Footer--phone noDecoration colorInherit">
-                  01 234 567
-                </a>
-                <a href="" className="Footer--view colorInherit">
-                  View Centre
-                </a>
-              </div>
-              <div className="Footer--column">
-                <div className="Footer--column--title">East Malvern</div>
-                <a href="" className="Footer--email noDecoration colorInherit">
-                  email@email.com
-                </a>
-                <a href="" className="Footer--phone noDecoration colorInherit">
-                  01 234 567
-                </a>
-                <a href="" className="Footer--view colorInherit">
-                  View Centre
-                </a>
-              </div>
-              <div className="Footer--column">
-                <div className="Footer--column--title">East Malvern</div>
-                <a href="" className="Footer--email noDecoration colorInherit">
-                  email@email.com
-                </a>
-                <a href="" className="Footer--phone noDecoration colorInherit">
-                  01 234 567
-                </a>
-                <a href="" className="Footer--view colorInherit">
-                  View Centre
-                </a>
-              </div>
+              {edges &&
+                edges.map((centre, index) => {
+                  const node = _get(centre, 'node') || []
+                  const fields = _get(node, 'fields') || []
+                  const slug = _get(fields, 'slug') || []
+
+                  const frontmatter = _get(node, 'frontmatter') || []
+                  const title = _get(frontmatter, 'title') || ''
+                  const centreDetails = _get(frontmatter, 'centreDetails') || []
+                  const email = _get(centreDetails, 'email') || ''
+                  const phone = _get(centreDetails, 'phone') || ''
+
+                  return <div key={index} className="Footer--column">
+                    <div className="Footer--column--title">{title}</div>
+                    <a href={`mail:${email}`} className="Footer--email noDecoration colorInherit">
+                      {email}
+                    </a>
+                    <a href={`tel:${phone}`} className="Footer--phone noDecoration colorInherit">
+                      {phone}
+                    </a>
+                    <a href={slug} className="Footer--view colorInherit">
+                      View Centre
+                    </a>
+                  </div>
+                })}
             </div>
             <div className="Footer--column">
               <div className="Footer--column--title">

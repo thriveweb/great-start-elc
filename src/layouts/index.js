@@ -9,10 +9,11 @@ import Footer from '../components/Footer'
 import FamilyHandbookBanner from '../components/FamilyHandbookBanner'
 
 export default ({ children, data }) => {
-  const { footerSettings, globalSettings } = data
+  const { footerSettings, globalSettings, centres } = data
   const { siteTitle, siteUrl, socialMediaCard, headerScripts } = globalSettings
   const { showHandbook = false, simpleFooter = false, downloadBanner } = data
   const allPages = data.allPages.edges.map(edge => edge.node)
+
 
   return (
     <Fragment>
@@ -48,6 +49,7 @@ export default ({ children, data }) => {
         simple={simpleFooter || !!downloadBanner}
         footerSettings={footerSettings}
         globalSettings={globalSettings}
+        centres={centres}
       />
     </Fragment>
   )
@@ -65,6 +67,23 @@ export const query = graphql`
       exceedTextLong
       exceedLogo
       handbookImage
+    }
+
+    centres: allMarkdownRemark( filter: { fields: { contentType: { regex: "/centre/" } } }) {
+      edges {
+        node {
+          fields {
+            slug          
+          }
+          frontmatter {
+            title
+            centreDetails {
+              email
+              phone
+            }
+          }
+        }
+      }
     }
 
     allPages: allMarkdownRemark {

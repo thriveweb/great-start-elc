@@ -4,7 +4,7 @@ title: Mildura Early Learning Centre
 logo: /images/uploads/mildura.svg
 centreDetails:
   email: mildura@mychildelc.com.au
-  latitude: '-34.2049225'
+  latitude: '-34.204927'
   location: 340-342 San Mateo Avenue Mildura VIC 3500
   longitude: '142.1468799'
   openingHours: 'Monday to Friday 6:30am - 6:30pm'

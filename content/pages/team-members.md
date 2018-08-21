@@ -1,7 +1,7 @@
 ---
 template: TeamMembers
 slug: about/team
-title: Our Team
+title: Our Teams
 members:
   - description: >-
 

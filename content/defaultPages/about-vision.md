@@ -1,7 +1,7 @@
 ---
 template: DefaultPage
 slug: about/vision
-title: Our Vision & Philosophy
+title: Our Vision & Philosophys
 downloadBanner:
   title: ''
 accordion:

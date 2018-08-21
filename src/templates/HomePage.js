@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import _get from 'lodash/get'
 
 import PageHeader from '../components/PageHeader'
 import Wave from '../components/Wave'
@@ -25,7 +26,7 @@ export const HomePageTemplate = ({
 }) => {
   // showHandbook
 
-  const { handbookDownload } = footerSettings
+  const handbookDownload = _get(footerSettings, 'handbookDownload') || []
 
   return <main className="Home">
     <PageHeader

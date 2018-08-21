@@ -4,7 +4,7 @@ title: Mildura Central Early Learning Centre
 logo: /images/uploads/mildura-central.svg
 centreDetails:
   email: milduracentral@mychildelc.com.au
-  latitude: '-34.1869067'
+  latitude: '-34.1869112'
   location: 145-149 Lime Avenue Mildura VIC 3500
   longitude: '142.1536492'
   openingHours: 'Monday to Friday 6:30am - 6:30pm'

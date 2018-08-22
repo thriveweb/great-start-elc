@@ -46,3 +46,33 @@ menu:
       - title: Fees and Government Subsidies
         url: /enrolments/fees/
     title: Enrolments
+  - subMenu:
+      - title: Healthy Menu
+        url: /parents/healthy-menu/
+      - title: Helpful Links
+        url: /parents/helpful-links/
+      - title: Safety and Security
+        url: /parents/safety-security/
+      - title: Settling Tips
+        url: /parents/settling-tips/
+      - title: Centre Forms and Handbooks
+        url: /parents/centre-forms-handbooks/
+      - title: New Family Checklist
+        url: /parents/family-checklist/
+      - title: Health & Medication Information
+        url: /parents/health-information/
+      - title: Refer a Friend
+        url: /parents/refer-friend/
+      - title: FAQs
+        url: /parents/faqs/
+      - title: Our Policies
+        url: /parents/policies/
+    title: Parents
+  - subMenu:
+      - title: Why Join Our Team?
+        url: /careers/why-join/
+      - title: Employment Opportunities
+        url: /careers/employment-opportunities/
+    title: Careers
+  - title: Contact
+    url: /contact/

@@ -20,6 +20,7 @@ homeSection1:
     - description: >-
         Mildura Central Early Learning Centre is a boutique centre located in
         the Mildura CBD area.
+      linkTo: /centres/mildura-central-early-learning-centre/
       logo: /images/uploads/mildura-central.svg
   title: Our Learning Centres
 homeSection2:

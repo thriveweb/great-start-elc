@@ -179,6 +179,10 @@ accordionSection:
           the new room and start to become familiar with other educators and
           their new environments.
         title: When does my Child Transition Between Classrooms?
+      - content: >-
+          Please refer to the Enrolment Terms and Conditions & Complying Written
+          Agreement document.
+        title: What are the Enrolment Terms and Conditions?
     title: Parent Info
   - accordion:
       - content: >-

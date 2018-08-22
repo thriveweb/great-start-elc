@@ -70,17 +70,18 @@ export const EnrolmentsPageTemplate = ({
         <section className="section">
           <div className="container content">
               {enrolmentsSection2.steps &&
-              enrolmentsSection2.steps.map((step, index) => (
-                <div key={step.title} className="EnrolmentsPage--Section2--Step">
+              enrolmentsSection2.steps.map((step, index) => {
+                const iframeSource = _get(step, 'iframeSource') || ''
+                return <div key={step.title} className="EnrolmentsPage--Section2--Step">
                   <span className='Button hasShadow'>Step {index + 1}</span>
                   <div>
                     <h4>{step.title}</h4>
                     <Content src={step.content} />
-                    {step.iframeSource && 
+                    {iframeSource && 
                       <div className='login-form'>
                         <iframe width="230"
                           height="260"
-                          src={step.iframeSource}
+                          src={iframeSource}
                           scrolling="no"
                           seamless="seamless">
                         </iframe>
@@ -88,7 +89,7 @@ export const EnrolmentsPageTemplate = ({
                     } 
                   </div>
                 </div>
-              ))}
+              })}
           </div>
         </section>
       }

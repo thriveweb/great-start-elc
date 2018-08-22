@@ -58,7 +58,7 @@ classroomsSection:
   subtitle: Our education programs cater for each individual child’s needs.
   title: 'We provide early learning and care to children in the following classrooms:'
 testimonials:
-  - name: Jo
+  - name: 'Joanne, Noah''s Mum'
     testimonial: >-
       Mildura Central Early Learning Centre is a caring and nurturing
       environment which my child thoroughly enjoys attending. The educational
@@ -74,7 +74,7 @@ testimonials:
 
       I couldn't recommend Mildura Central Early Learning Centre more, we are so
       happy with our son's education and care!
-  - name: Pam
+  - name: 'Pam, Alexia and Anthony''s Mum'
     testimonial: >-
       Mildura Central attracted me because of the location of the Centre, close
       to my house and work site and the educators were very friendly and
@@ -117,7 +117,7 @@ testimonials:
 
       Thank you’ s for taking care of my children and making them feel happy and
       safe
-  - name: Sonia
+  - name: 'Sonia, Emmi''s Mum'
     testimonial: >-
       All three of my children have attended Mildura Central Early Learning
       Centre. As a parent, child care is always a daunting thought and process

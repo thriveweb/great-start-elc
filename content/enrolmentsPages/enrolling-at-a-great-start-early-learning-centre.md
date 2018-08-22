@@ -26,17 +26,15 @@ breakoutBox:
 enrolmentsSection2:
   steps:
     - content: >-
-        For NEW families to the Centre who have an existing My Family Lounge
-        account, skip the registration process and go to the next step. 
+        For NEW families to the Centre who have an EXISTING My Family Lounge
+        account (from the Great Start Early Learning Centre or another
+        organisation), skip the registration process and go to the next step. 
 
 
         For NEW families to this centre who have not used My Family Lounge and
-        therefore do not have an existing account, click the “Enrol Now” button
-        below or [click here](https://great-start-elc.thdi.net/enrol). 
-
-
-        Click on the REGISTER button on the right. You will be taken through to
-        a registration process to create your My Family Lounge account.
+        therefore do not have an existing account, Click on the REGISTER button
+        on the right. You will be taken through to a registration process to
+        create your My Family Lounge account.
 
 
         The email address you enter will be the user name and also the email
@@ -49,7 +47,6 @@ enrolmentsSection2:
         the terms and conditions of enrolment. On completion of My Family Lounge
         registration, enter QK Enrol to add your contact information.
       title: Register For My Family Lounge
-      iframeSource: https://www.qkenhanced.com.au/Account/Embeddable/?databaseId=5583
     - content: >-
         In the My Family Lounge, enter QK Enrol, press ‘Add Child’ under the
         ‘Child’ section. Search and select our centre. Add in your child details

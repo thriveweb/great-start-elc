@@ -6,7 +6,7 @@ centreDetails:
   email: mildura@mychildelc.com.au
   latitude: '-34.204927'
   location: 340-342 San Mateo Avenue Mildura VIC 3500
-  longitude: '142.1468799'
+  longitude: '142.149069'
   openingHours: 'Monday to Friday 6:30am - 6:30pm'
   phone: 03 5023 2888
 centreIntro: >-

@@ -247,7 +247,7 @@ infoSection:
         children may be necessary and your assistance and/or permission will be
         sought in advance.
       icon: /images/uploads/bunny-hat.svg
-      title: Excursions and Enlistment Programs
+      title: Excursions and Enrichment Programs
     - content: >-
         The curriculum incorporates activities, stories, rhymes, music and food
         that acknowledge the many important cultural and religious events

@@ -61,6 +61,15 @@
 	text-decoration: underline;
 }
 
+.login-form {
+	text-align: center;
+	margin-top: 4rem;
+}
+
+.login-form iframe {
+	border: none;
+}
+
 
 @media only screen and (max-width: 1300px) {
 	.EnrolmentsPage--Section1 h3 {

@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import _get from 'lodash/get'
 
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
@@ -30,7 +31,7 @@ export const EnrolmentsPageTemplate = ({
 }) => {
   // showHandbook
 
-  const { handbookDownload } = footerSettings
+  const handbookDownload = _get(footerSettings, 'handbookDownload') || []
 
   return (
     <main className="EnrolmentsPage background-dots">
@@ -78,6 +79,14 @@ export const EnrolmentsPageTemplate = ({
                   </div>
                 </div>
               ))}
+            <div className='login-form'>
+              <iframe width="230"
+                height="260"
+                src="https://www.qkenhanced.com.au/Account/Embeddable/?databaseId=5583"
+                scrolling="no"
+                seamless="seamless">
+              </iframe>
+            </div>  
           </div>
         </section>
       }

@@ -33,7 +33,7 @@ export const HomePageTemplate = ({
       large
       title={title}
       subtitle={subtitle}
-      button={{ linkTo: '/enrolling-great-start-early-learing-centre/', title: 'Enrol Now' }}
+      button={{ linkTo: '/enrolments/enrolling-great-start-early-learing-centre/', title: 'Enrol Now' }}
       backgroundImage={featuredImage}
     />
     {homeSection1 && (

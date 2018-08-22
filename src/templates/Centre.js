@@ -81,7 +81,7 @@ export const CentreTemplate = ({
               </div>
             )}
             <br />
-            <Button to={'/'}>Enrol Now</Button>
+            <Button to='/enrolments/enrolling-great-start-early-learing-centre/'>Enrol Now</Button>
           </BreakoutBox>
           <Content source={body} />
           {!!contentColumns.length && 

@@ -15,7 +15,7 @@ centreIntro: >-
   Darlington Train Station.
 contentColumns:
   - content: >-
-      #### Outdoors
+      #### Outdoor Play Spaces
 
 
       Our outdoor play space stimulates children's imagination, creativity,
@@ -27,7 +27,7 @@ contentColumns:
       their imaginations roam.
 
 
-      #### Team
+      #### Our Educators
 
 
       We believe that we are only as great as our people. Our team of educators
@@ -46,7 +46,7 @@ contentColumns:
       premises, taking into consideration any special dietary requirements. 
 
 
-      #### Environment
+      #### Educational Programs and Curriculum
 
 
       Our qualified and trained educators implement an educational program that

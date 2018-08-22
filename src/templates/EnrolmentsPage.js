@@ -76,17 +76,19 @@ export const EnrolmentsPageTemplate = ({
                   <div>
                     <h4>{step.title}</h4>
                     <Content src={step.content} />
+                    {step.iframeSource && 
+                      <div className='login-form'>
+                        <iframe width="230"
+                          height="260"
+                          src={step.iframeSource}
+                          scrolling="no"
+                          seamless="seamless">
+                        </iframe>
+                      </div>
+                    } 
                   </div>
                 </div>
               ))}
-            <div className='login-form'>
-              <iframe width="230"
-                height="260"
-                src="https://www.qkenhanced.com.au/Account/Embeddable/?databaseId=5583"
-                scrolling="no"
-                seamless="seamless">
-              </iframe>
-            </div>  
           </div>
         </section>
       }
@@ -159,6 +161,7 @@ export const pageQuery = graphql`
           steps {
             title
             content
+            iframeSource
           }
         }
         enrolBanner {

@@ -49,6 +49,7 @@ enrolmentsSection2:
         the terms and conditions of enrolment. On completion of My Family Lounge
         registration, enter QK Enrol to add your contact information.
       title: Register For My Family Lounge
+      iframeSource: https://www.qkenhanced.com.au/Account/Embeddable/?databaseId=5583
     - content: >-
         In the My Family Lounge, enter QK Enrol, press ‘Add Child’ under the
         ‘Child’ section. Search and select our centre. Add in your child details

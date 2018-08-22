@@ -6,7 +6,7 @@ subtitle: >-
   We strive for all children to achieve their full potential by offering the
   education, care and nurturing they need to grow and have a great start in
   life.
-featuredImage: /images/uploads/greatstartelchomeimage2.png
+featuredImage: /images/uploads/istock-502148524_small.png
 homeSection1:
   centres:
     - description: >-

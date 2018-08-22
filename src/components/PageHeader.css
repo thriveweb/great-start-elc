@@ -58,7 +58,7 @@
   height: auto;
   width: 55rem;
   position: absolute !important;
-  bottom: -34rem;
+  bottom: -38rem;
   right: 15rem;
   z-index: 1;
 }
@@ -132,7 +132,7 @@
   .PageHeader-large .Image {
     right: 0;
     width: 42rem;
-    bottom: -25rem;
+    bottom: -28rem;
   }
 
   .PageHeader-large .PageHeader--Title {
@@ -159,7 +159,7 @@
 
   .PageHeader-large .Image {
     width: 40rem;
-    bottom: -22rem;
+    bottom: -25rem;
   }
 
   .PageHeader--Title {
@@ -194,7 +194,7 @@
 
   .PageHeader-large .Image {
     width: 37rem;
-    bottom: -21rem;
+    bottom: -23rem;
   }
 
   .PageHeader-large .PageHeader--Title {

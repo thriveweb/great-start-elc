@@ -57,7 +57,88 @@ classroomsSection:
       title: Kindergarten Classroom
   subtitle: Our education programs cater for each individual child’s needs.
   title: 'We provide early learning and care to children in the following classrooms:'
-testimonials: []
+testimonials:
+  - name: Jo
+    testimonial: >-
+      Mildura Central Early Learning Centre is a caring and nurturing
+      environment which my child thoroughly enjoys attending. The educational
+      program offered is one which is well planned and extends my child's
+      interest and knowledge. He particularly enjoys Jolly Phonics, and has the
+      whole family singing along.
+
+
+      The educators are wonderful with their caring and warm nature, showing a
+      genuine interest in my child and his growth and development, keeping me up
+      to date about his learning through the My family lounge app.
+
+
+      I couldn't recommend Mildura Central Early Learning Centre more, we are so
+      happy with our son's education and care!
+  - name: Pam
+    testimonial: >-
+      Mildura Central attracted me because of the location of the Centre, close
+      to my house and work site and the educators were very friendly and
+      welcoming.
+
+
+      My eldest girls is 6 years old now and she attended the Daycare when she
+      was around 6months old. I have since had 2 more children and they both
+      attend there. They have formed bonds with the Educators, which makes me
+      feel happy knowing my children feel safe with the educators and I don’t
+      have to worry too much about them. I love seeing how all my children show
+      that connection with the Educators, and they are excited to attend. Even
+      when they are sad and sometimes don’t want to be there first thing, but
+      the educators makes it so easy by making sure the kids are ok and will
+      have an enjoyable day, also by comforting them when they are upset.
+
+
+      Also the Centre is very cosy and feels like home when you take the
+      children there. They have lots of activities ready for them to do and the
+      food is great. Knowing your children are going to have a healthy nutrition
+      for the day and seeing them just settle right in when you drop them off.
+      Also I love how it’s multi cultured and the Centre is very great in
+      wanting to be part of stories, activities when it comes to NAIDOC day, The
+      Educators always ask what my thoughts and ideas are to improve their
+      NAIDOC Celebrations which makes me feel happy and recognized as a parent
+      and knowing the Centre really wants to learn about our culture and
+      memories.
+
+
+      Also seeing all the friendships my children share with other kids-all the
+      children make you feel welcome as well as their parents. Always friendly
+      and can stop and have a chat with the parents it’s like the center is my
+      children’s second home where they feel happy and safe.
+
+
+      I have recommended the Centre to a few families I know and I have stopped
+      and had a chat with them. They always have good comments about the Centre
+      and Educators and are happy that I recommended it for them.
+
+
+      Thank you’ s for taking care of my children and making them feel happy and
+      safe
+  - name: Sonia
+    testimonial: >-
+      All three of my children have attended Mildura Central Early Learning
+      Centre. As a parent, child care is always a daunting thought and process
+      to begin. The educators at MCELC have made the process for each of my
+      children, and myself very positive with their positive and respectful
+      nature. 
+
+
+      As a parent, it is very comforting knowing that my children are in the
+      care of such loving, kind educators who are passionate about their job and
+      the wellbeing and happiness of the children. The interaction from the
+      educators is fantastic and professional. Parents are regularly updated
+      with programs, excursions and celebrations that the children are always
+      involved in. 
+
+
+      The day my last child leaves Mildura Central Early Learning Centre will be
+      a sad day, as they and myself have formed some wonderful connections with
+      the educators. I am more than satisfied with the care my children receive
+      here, and I would definitely recommend the centre to anyone that is
+      searching for a child care centre for their children.
 directorStatement:
   content: >-
     I have been working in Early childhood for 6 years here at Mildura Central

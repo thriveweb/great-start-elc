@@ -48,6 +48,7 @@ enrolmentsSection2:
         the terms and conditions of enrolment. On completion of My Family Lounge
         registration, enter QK Enrol to add your contact information.
       title: Register For My Family Lounge
+      iframeSource: "https://www.qkenhanced.com.au/Account/Embeddable/?databaseId=5583"
     - content: >-
         In the My Family Lounge, enter QK Enrol, press ‘Add Child’ under the
         ‘Child’ section. Search and select our centre. Add in your child details
@@ -62,7 +63,6 @@ enrolmentsSection2:
         We will contact you to arrange suitable times for you and your child to
         undertake orientation at the centre.
       title: Add Your Booking Request To The Waitlist
-      iframeSource: "https://www.qkenhanced.com.au/Account/Embeddable/?databaseId=5583"
 enrolBanner:
   buttonLinkTo: 'https://www.qkenhanced.com.au/webui/Account/Embeddable/?databaseId=5583'
   buttonTitle: Visit Site

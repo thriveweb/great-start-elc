@@ -11,7 +11,7 @@ import Image from '../components/Image.js'
 import BreakoutBox from '../components/BreakoutBox.js'
 import DownloadBanner from '../components/DownloadBanner.js'
 import JoinBanner from '../components/JoinBanner.js'
-import ExceedBanner from '../components/ExceedBanner.js'
+import PopoutBanner from '../components/PopoutBanner.js'
 import './EnrolmentsPage.css'
 
 // Export Template for use in CMS preview
@@ -91,18 +91,7 @@ export const EnrolmentsPageTemplate = ({
                 </div>
               })}
           </div>
-        </section>
-      }
-
-      {enrolBanner.title && 
-        <section className="EnrolmentsPage--EnrolBanner background-clouds">
-          <div className="container">
-            <JoinBanner
-              title={enrolBanner.title}
-              buttonLinkTo={enrolBanner.buttonLinkTo}
-              buttonTitle={enrolBanner.buttonTitle}
-            />
-          </div>
+          {footerSettings && <PopoutBanner image={footerSettings.exceedLogo} title={footerSettings.exceedTextLong} />}
         </section>
       }
 
@@ -124,11 +113,6 @@ export const EnrolmentsPageTemplate = ({
         </div> 
       </section>
       <DownloadBanner handbookDownload={handbookDownload} />
-      <div className="section thin">
-        <div className="container">
-          <ExceedBanner footerSettings={footerSettings} />
-        </div>
-      </div>
     </main>
   )
 }

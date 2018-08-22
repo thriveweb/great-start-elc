@@ -69,6 +69,11 @@
 	border: none;
 }
 
+.EnrolmentsPage .PopoutBanner {
+	margin-top: 14rem;
+	padding-bottom: 0;
+}
+
 
 @media only screen and (max-width: 1300px) {
 	.EnrolmentsPage--Section1 h3 {

@@ -14,6 +14,8 @@ export default ({ children, data }) => {
   const { showHandbook = false, simpleFooter = false, downloadBanner } = data
   const allPages = data.allPages.edges.map(edge => edge.node)
 
+  console.log(header)
+
 
   return (
     <Fragment>
@@ -69,7 +71,7 @@ export const query = graphql`
       handbookImage
     }
 
-    header: settingsYaml {
+    header: settingsYaml(id: { regex: "/header.yml/" }) {
       menu {
         title
         url

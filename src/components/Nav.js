@@ -29,6 +29,8 @@ export default class Nav extends Component {
 
     const menuItems = _get(header, 'menu') || []
 
+    console.log(menuItems)
+
 
     // const getChildPages = parentSlug =>
     //   allPages.filter(

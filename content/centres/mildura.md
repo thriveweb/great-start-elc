@@ -93,11 +93,9 @@ directorStatement:
 
     The team I am fortunate to work with shares my passion for seeing children
     meet their potential. They are dedicated, professional, experienced and
-    highly qualified.
-
-
-    We invite you to come and visit our centre to meet our team and to see for
-    yourself our commitment to your child’s early learning journey.
+    highly qualified. We invite you to come and visit our centre to meet our
+    team and to see for yourself our commitment to your child’s early learning
+    journey.
   image: /images/uploads/megan-gooding.jpg
   title: >-
     Hello, my name is Megan Gooding and I have been the Centre Director since

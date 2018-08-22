@@ -389,7 +389,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {name: title, label: Title, widget: string}
               - {name: content, label: Content, widget: markdown}
-              - {name: iframeSource, label: Iframe Source, widget: hidden, widget: string}
+              - {name: iframeSource, label: Iframe Source, widget: hidden, default: ''}
 
       - name: enrolBanner
         label: Enrol Banner

@@ -24,44 +24,45 @@ export default class Nav extends Component {
     })
 
   render() {
-    const { allPages } = this.props
+    const { allPages, header } = this.props
     const { active, menuItemActive } = this.state
 
-    const getChildPages = parentSlug =>
-      allPages.filter(
-        page => _get(page, 'fields.slug', '').indexOf(parentSlug) === 0
-      )
+    const menuItems = _get(header, 'menu') || []
 
 
-    const renderChildPageLinks = parentSlug => {
-      const childPages = getChildPages(parentSlug)
-      if (!childPages.length) return null
+    // const getChildPages = parentSlug =>
+    //   allPages.filter(
+    //     page => _get(page, 'fields.slug', '').indexOf(parentSlug) === 0
+    //   )
+
+
+    // const renderChildPageLinks = parentSlug => {
+    //   const childPages = getChildPages(parentSlug)
+    //   if (!childPages.length) return null
         
-      return (
-        <div className={`SubNav SubNav-${_kebabCase(parentSlug)}`}>
-          {getChildPages(parentSlug).map(page => {
-            return <NavLink key={page.fields.slug} to={page.fields.slug} exact onClick={this.toggleActive}>
-              {page.frontmatter.title}
-            </NavLink>
-          })}
-        </div>
-      )
-    }
+    //   return (
+    //     <div className={`SubNav SubNav-${_kebabCase(parentSlug)}`}>
+    //       {getChildPages(parentSlug).map(page => {
+    //         return <NavLink key={page.fields.slug} to={page.fields.slug} exact onClick={this.toggleActive}>
+    //           {page.frontmatter.title}
+    //         </NavLink>
+    //       })}
+    //     </div>
+    //   )
+    // }
 
-    const NavLinkGroup = ({ to, title, dropdown, ...props }) => (
-      <div className={`NavLinkGroup ${menuItemActive === dropdown ? 'menu-active' : ''}`}>
-        <li className='NavLink' to={to} {...props}>
-          {title}
-        </li>
-        {renderChildPageLinks(to)}
-        <span 
-        className={`MenuToggle`}
-        onClick={() => this.setState({ menuItemActive: menuItemActive === dropdown ? false : dropdown })}
-        >
-          <ICONArrowDown/>
-        </span>
-      </div>
-    )
+    // const NavLinkGroup = ({ to, title, dropdown, ...props }) => (
+    //   <div className={`NavLinkGroup ${menuItemActive === dropdown ? 'menu-active' : ''}`}>
+    //     <li className='NavLink' to={to} {...props}>
+    //       {title}
+    //     </li>
+    //     {renderChildPageLinks(to)}
+
+    //   </div>
+    // )
+
+
+
 
     return (
       <nav className="Nav">
@@ -76,13 +77,34 @@ export default class Nav extends Component {
             {active ? <X /> : <Menu />}
           </button>
           <div className={`Nav--Container--Links ${active ? 'active' : ''}`}>
-            <NavLinkGroup to="/about/" title="About" dropdown="1" />
-            <NavLinkGroup to="/learning/" title="Learning" dropdown="2" />
-            <NavLinkGroup to="/centres/" title="Centres" dropdown="3" />
-            <NavLinkGroup to="/enrolments/" title="Enrolments" dropdown="4" />
-            <NavLinkGroup to="/parents/" title="Parents" dropdown="5" />
-            <NavLinkGroup to="/careers/" title="Careers" dropdown="6" />
-            <NavLink to="/contact/">Contact</NavLink>
+            {menuItems.map((menuItem, index) => {
+              const { title, url, subMenu } = menuItem
+
+              return <div key={`menu-${index}`} className={`NavLinkGroup ${menuItemActive === index ? 'menu-active' : ''}`}>
+                <li className='NavLink'>
+                  <Link to={url}>{title}</Link>
+                </li>  
+                {subMenu &&
+                  <div key={`subMenu-${index}`} className='SubNav'>
+                    {subMenu.map((subMenuItem, index) => {
+                      const { title, url } = subMenuItem
+
+                      return <li className='NavLink'>
+                            <Link to={url}>{title}</Link>
+                          </li>
+                    })}
+                  </div>
+                }
+                {subMenu && 
+                  <span 
+                  className={`MenuToggle`}
+                  onClick={() => this.setState({ menuItemActive: menuItemActive === index ? false : index })}
+                  >
+                    <ICONArrowDown/>
+                  </span>
+                }
+              </div>
+            })}
 
             <div className="Nav--Container--Sep" />
             <NavLink

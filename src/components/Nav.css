@@ -44,6 +44,7 @@
   background: white;
   border: 3px solid currentColor;
   top: 100%;
+  left: 0;
   text-align: left;
   width: 300px;
   padding: 1rem;
@@ -69,8 +70,9 @@
   margin-left: auto;
 }
 
-.NavLinkGroup, .NavLink {
+.NavLinkGroup, .NavLink a {
   font-size: 1.4rem;
+  color: var(--secondary);
 }
 
 @media (max-width: 1250px) {
@@ -107,6 +109,7 @@
 
   .NavLinkGroup, .NavLink {
     width: 100%;
+    display: block;
   }
 
   .NavLink {

@@ -150,7 +150,7 @@ directorStatement:
 
 
     I look forward to meeting and working with you and your family
-  image: /images/uploads/shutterstock_58596811.jpg
+  image: /images/uploads/bree.jpg
   title: >-
     Hello, my name is Bree Harding and I am the Assistant Director at Mildura
     Central Early Learning Centre.

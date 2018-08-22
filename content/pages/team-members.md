@@ -117,7 +117,7 @@ members:
       Central Early Learning Centre.
     image: /images/uploads/baby.jpg
     name: Bree Harding
-    title: Assistent Centre Director
+    title: Assistant Centre Director
   - description: >-
       During this time I have had the opportunity to work with children of all
       ages from 0-5 years, therefore in each of the rooms at the centre. I
@@ -154,6 +154,6 @@ members:
     title: ' Assistant Centre Director'
   - image: /images/uploads/amy-godfrey.jpg
     name: Amy Godfrey
-    title: Assistant Director
+    title: Assistant Centre Director
 ---
 

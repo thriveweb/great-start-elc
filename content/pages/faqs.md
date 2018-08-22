@@ -181,8 +181,8 @@ accordionSection:
         title: When does my Child Transition Between Classrooms?
       - content: >-
           Please refer to the Enrolment [Terms and
-          Conditions](terms-conditions.PDF) & Complying Written Agreement
-          document.
+          Conditions](/images/uploads/terms-conditions.pdf) & Complying Written
+          Agreement document.
         title: What are the Enrolment Terms and Conditions?
     title: Parent Info
   - accordion:

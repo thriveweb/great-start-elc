@@ -99,7 +99,7 @@ members:
     excerpt: >-
       Hello, my name is Ainslee Sullivan and I am the Centre Director here at
       Mildura Central Early Learning Centre.
-    image: /images/uploads/member-1.jpg
+    image: /images/uploads/ainslee.jpg
     name: Ainslee Sullivan
     title: Centre Director
   - description: >-
@@ -115,7 +115,7 @@ members:
     excerpt: >-
       Hello, my name is Bree Harding and I am the Assistant Director at Mildura
       Central Early Learning Centre.
-    image: /images/uploads/baby.jpg
+    image: /images/uploads/bree.jpg
     name: Bree Harding
     title: Assistant Centre Director
   - description: >-

@@ -537,6 +537,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Facebook Url, name: facebookUrl, widget: string, required: false} 
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
+
       - file: "content/settings/footer.yml"
         label: "Footer"
         name: "footer"
@@ -550,7 +551,25 @@ collections: # A list of collections the CMS should be able to edit
             widget: list
             fields:
               - {label: Title, name: title, widget: string, required: false}
-              - {label: File, name: file, widget: file, required: false}   
+              - {label: File, name: file, widget: file, required: false} 
+
+      - file: "content/settings/header.yml"
+        label: "Header"
+        name: "header"
+        fields:
+          - label: Menu
+            name: menu
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: url, name: url, widget: string}
+              - label: Sub Menu
+                name: subMenu
+                widget: list
+                required: false
+                fields:
+                  - {label: Title, name: title, widget: string, required: false}
+                  - {label: url, name: url, widget: string, required: false}
 
 
 

@@ -47,8 +47,8 @@ enrolmentsSection2:
         Registration’ button to enter a password and also review and agree to
         the terms and conditions of enrolment. On completion of My Family Lounge
         registration, enter QK Enrol to add your contact information.
+      iframeSource: 'https://www.qkenhanced.com.au/Account/Embeddable/?databaseId=5583'
       title: Register For My Family Lounge
-      iframeSource: "https://www.qkenhanced.com.au/Account/Embeddable/?databaseId=5583"
     - content: >-
         In the My Family Lounge, enter QK Enrol, press ‘Add Child’ under the
         ‘Child’ section. Search and select our centre. Add in your child details
@@ -137,8 +137,6 @@ accordion:
 
       Complete relevant "Medical Management, Risk Minimisation & Communication
       Plan” - this form is obtained from the centre or our website.
-
-
 
 
       Complete the relevant form:

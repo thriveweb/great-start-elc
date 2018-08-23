@@ -91,10 +91,19 @@ classroomsSection:
   subtitle: Our education programs cater for each individual child’s needs.
   title: 'We provide early learning and care to children in the following classrooms:'
 testimonials:
-  - name: Jane Doe
-    testimonial: "Childhood Education.\LI am very passionate about the Reggio Emilia Approach. We tailor our curriculum to encourage learning and lay down strong foundations which are so vital in the early years. Our curriculum is designed to address the children’s interests and to develop their skills. Our programming format is unique and is designed to address key learning areas including social skills, language, maths, investigation, creative pursuits, fine and gross motor skills, sensory experiences, cultural experiences and environmental understanding. In addition to this it addresses the Outcomes as outlined in the Early Years Learning Frameworks."
-  - name: John Doe
-    testimonial: "Childhood Education.\LI am very passionate about the Reggio Emilia Approach. We tailor our curriculum to encourage learning and lay down strong foundations which are so vital in the early years. Our curriculum is designed to address the children’s interests and to develop their skills. Our programming format is unique and is designed to address key learning areas including social skills, language, maths, investigation, creative pursuits, fine and gross motor skills, sensory experiences, cultural experiences and environmental understanding. In addition to this it addresses the Outcomes as outlined in the Early Years Learning Frameworks."
+  - name: 'Nay & Les, Mollies Mum and Dad.'
+    testimonial: >-
+      Since our daughter began at East Malvern Early Learning Centre her
+      confidence has grown significantly and she is thriving across all areas of
+      her development. This is thanks in great deal to the dedicated, caring
+      educators and the rich, holistic programs available at the centre.  Our
+      daughter is so engaged in all learning opportunities presented to the
+      children and we love seeing her make connections with what she has learnt
+      both at home and at the centre. We love the sense of community that has
+      been built through regular parent and family involvement, as well as
+      valuing the children’s interests and including them in their learning. We
+      honestly couldn’t have found a better centre to trust with the care and
+      wellbeing of our daughter. 
 directorStatement:
   content: >-
     **Liz Cosier – Centre Director**

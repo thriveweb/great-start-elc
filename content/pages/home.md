@@ -1,6 +1,5 @@
 ---
 template: HomePage
-slug: ''
 title: 'Where Learning Begins: The love of learning that will last a lifetime.'
 subtitle: >-
   We strive for all children to achieve their full potential by offering the
@@ -52,7 +51,7 @@ homeSection3:
       title: Nutritional Menu
       subtitle: >-
         We prepare in accordance with Food Safety and Nutrition standards plus
-        dietary, cultural and medical needs.
+        dietary and medical needs.
     - icon: /images/uploads/teacher.svg
       title: 'Professional, Experienced and Qualified Educators'
       subtitle: >-

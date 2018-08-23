@@ -1,6 +1,5 @@
 ---
 template: EnrolmentsPage
-slug: enrolments/enrolling-great-start-early-learing-centre
 title: Enrolling at a Great Start Early Learning Centre
 featuredImage: /images/uploads/istock-529400494_super_crop.jpg
 enrolmentsSection1:
@@ -147,10 +146,10 @@ accordion:
       website.
 
       2. Complete an ASCIA Action Plan for Anaphylaxis Reactions
-      [form](http://google.com)
+      [form](https://allergy.org.au/hp/anaphylaxis/ascia-action-plan-for-anaphylaxis/)
 
       3. Complete an ASCIA Action Plan for Allergic Reactions
-      [form](www.allergy.org.au)
+      [form](https://www.allergy.org.au/images/stories/anaphylaxis/2018/ASCIA_Action_Plan_Allergic_Reactions_Green_2018.pdf)
 
       4. Complete an Asthma Australia Asthma Care Plan for Education and Care
       Centre [form](www.asthmaaustralia.org.au)

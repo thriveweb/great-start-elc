@@ -15,10 +15,11 @@ centreIntro: >-
   groups from as young as six weeks up to school age. We are open every day from
   Monday to Friday, except for public holidays.
 contentColumns:
-  - content: "#### Outdoors\n\nOutside, our playground areas are a balance of natural and manmade elements and play surfaces – with sandpits, worm farm, vegetable patch, water tank, mud kitchen, bike path, gardens, a stage, cubbyhouse and lots of shade. We have carefully designed and planned spaces to encourage a stronger understanding of the environment and sustainability – while giving children the scope to explore, play and let their imaginations roam.\L\LOur cook freshly prepares and serves warm meals and snacks on the premises, taking into consideration any special dietary requirements. Our qualified and trained staff implement a developmental program that enhances and challenges each child's individual learning and promotes a safe and happy environment."
+  - content: "#### Outdoor Play Spaces\n\nOutside, our playground areas are a balance of natural and manmade elements and play surfaces – with sandpits, worm farm, vegetable patch, water tank, mud kitchen, bike path, gardens, a stage, cubbyhouse and lots of shade. We have carefully designed and planned spaces to encourage a stronger understanding of the environment and sustainability – while giving children the scope to explore, play and let their imaginations roam.\L\LOur cook freshly prepares and serves warm meals and snacks on the premises, taking into consideration any special dietary requirements. Our qualified and trained staff implement a developmental program that enhances and challenges each child's individual learning and promotes a safe and happy environment."
     image: /images/uploads/istock-674298928.jpg
   - content: >-
-      #### Team
+      #### Our Educators
+
 
       We believe that we are only as great as our people. Our team of educators
       are well trained, knowledgeable, trust worthy and above all else, their

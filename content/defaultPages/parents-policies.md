@@ -1,6 +1,5 @@
 ---
 template: DefaultPage
-slug: parents/policies
 title: Our Policies
 accordion:
   - content: "Quality Area 1 of the National Quality Standard focuses on ensuring that the educational program and practice is stimulating and engaging and enhances children’s learning and development. We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing. We use a Reggio Emilia inspired approach to meet the objectives outlined in the National and Victorian Early Years Learning and Development Frameworks; including emphasis on literacy, numeracy, music and movement and social development.\_ In a Reggio Emilia learning environment, children learn meaningful skills that support them through their future education and life. Our teaching methods are linked to the National Quality Framework to ensure that a consistent and high quality early childhood education curriculum is provided.\n\nOur key policies for this area are 89 - Education, Curriculum and Learning Policy, 44 - Curriculum and Planning Policy and 82 - National Quality Framework."
@@ -541,6 +540,30 @@ accordion:
       National Quality Standards.
 
 
+      **Other key policies for NQS 7:**
+
+
+      * 78 - Governance of Service, Management and Educator Policy
+
+      * 52 - Employment Policy
+
+      * 58 - Team Member Training Policy
+
+      * 55 - Student and Volunteer Policy
+
+      * 16 - Privacy and Confidentiality Policy
+
+      * 70 - Ethical Conduct and Code of Ethics Policy
+
+      * 10 - Occupational Health & Safety Policy
+
+      * 83 - Policy and Procedure Review Policy
+
+      * 84 - Recording Keeping and Retention Policy
+
+      * 7 - Complaints and Grievance Policy
+
+
       #### Governance
 
 
@@ -551,107 +574,6 @@ accordion:
       practices. We ensure there are appropriate governance arrangements in
       place at all times to manage foreseeable and long-term risks associated
       with centres.
-
-
-      #### The following provide a summary of the organisational stakeholders:
-
-
-      ###### Approved Provider - Great Start Early Learning Centres Pty Ltd ATF
-      Great Start Unit Trust
-
-
-      Great Start Early Learning Centres is a privately owned and operated
-      organisation. The Approved Provider has a range of responsibilities
-      prescribed in the Education and Care Services National Law and
-      Regulations, including keeping accurate records and retaining them for
-      specified timeframes. Our approved Provider is also responsible for:
-
-
-      * ensuring the financial viability of the service;
-
-      * overseeing control and accountability systems; and
-
-      * supporting the Nominated Supervisor / Responsible Person in their role
-      and providing resources as appropriate for the effective running of the
-      service.
-
-
-      ###### Centre Director – Nominated Supervisor (Responsible Person Present)
-      and Head Educational Leader: 
-
-      The Centre Director will work directly with the educators and families
-      ensuring quality education and care is being provided.  The Centre
-      Director is also available at all times to the families in our service for
-      both formal and informal discussions on the centre’s operations and their
-      children. Due to the experience and knowledge held by the Centre Director
-      they also are the Head Educational Leader.
-
-
-      ###### Responsible Persons: 
-
-      Educators appointed to this role and are fit and proper to hold a position
-      of responsible person in the absence of the nominated supervisor. The
-      responsible person will be made know by the notice in the foyer of the
-      centre.
-
-
-      ###### Educational Leaders: 
-
-      Within the service we have a committee of Educational Leaders. The
-      Educational Leaders are room leaders within the service where they
-      supervise and direct and engage both team members and children in relation
-      to the educational programs and care routines.
-
-
-      ###### Team Members: 
-
-      Other team members include Assistant Centre Director, Kindergarten
-      Teachers, Qualified Educators, Assistant Educators, Cooks, Cleaners and
-      Maintenance staff.
-
-
-      ###### Parent Consultative Group: 
-
-      The parent consultative group are parent volunteer’s whose children attend
-      the service. The parent consultative group provide the service access to a
-      group of key stakeholders to seek their opinion in relation to specific
-      operational matters.
-
-
-      Each educator, committee member, educator, volunteer and student at the
-      service uphold the core ethical conduct principles to positively promote
-      interactions within the centre and the local community.
-    title: "NQS 7.\_Leadership and service management"
-  - content: >-
-      #### Australian Children’s Education & Care Quality Authority (ACECQA)
-
-
-      Their primary role is to guide the administration of the National Quality
-      Framework to ensure consistent implementation across all states and
-      territories.  The National Quality Framework creates a jointly governed
-      uniform national system aimed at improving quality of education and care
-      services.
-
-
-      #### Department of Education and Training (DET)
-
-
-      The Department provides services to children and young people both
-      directly through government schools and indirectly through regulation and
-      funding of early childhood services and non-government schools. The
-      Department has four main responsibilities:
-
-
-      * provide policy advice to our Ministers about education, early childhood
-      development and children's services in general 
-
-      * implement Victorian Government policy on early childhood services 
-
-      * implement Victorian Government policy on school education for all school
-      age students 
-
-      * manage and drive continuous improvement in the delivery of primary and
-      secondary education in Victorian government schools. 
 
 
       For further information please see our Governance of Service, Management
@@ -731,27 +653,124 @@ accordion:
       the Guild Insurance website: https://www.guildinsurance.com.au .
 
 
-      #### Grievances and complaints
 
 
-      All parents are encouraged to discuss any grievances in an environment
-      that is open and responsive. Any grievances will be handled confidentially
-      (unless there are legislative requirements not to). Parents and their
-      children will not be disadvantaged in any way for raising a grievance.
+      #### The following provide a summary of the organisational stakeholders:
 
 
-      We encourage informal resolution as a first option. We want to model
-      effective conflict resolution techniques and want to respond to parents
-      concerns without any disruption to the child or the relationships between
-      educators and families.
+      ###### Approved Provider - Great Start Early Learning Centres Pty Ltd ATF
+      Great Start Unit Trust
 
 
-      The Complaints and Grievance Policy is available in the Policy Handbook in
-      the foyer of the Centre. If the issue cannot be resolved through informal
-      resolution, we will follow the procedure outlined in the above policy.
+      Great Start Early Learning Centres is a privately owned and operated
+      organisation. The Approved Provider has a range of responsibilities
+      prescribed in the Education and Care Services National Law and
+      Regulations, including keeping accurate records and retaining them for
+      specified timeframes. Our approved Provider is also responsible for:
+
+
+      * ensuring the financial viability of the service;
+
+      * overseeing control and accountability systems; and
+
+      * supporting the Nominated Supervisor / Responsible Person in their role
+      and providing resources as appropriate for the effective running of the
+      service.
+
+
+      ###### Centre Director – Nominated Supervisor (Responsible Person Present)
+      and Head Educational Leader:
+
+
+      The Centre Director will work directly with the educators and families
+      ensuring quality education and care is being provided.  The Centre
+      Director is also available at all times to the families in our service for
+      both formal and informal discussions on the centre’s operations and their
+      children. Due to the experience and knowledge held by the Centre Director
+      they also are the Head Educational Leader.
+
+
+      ###### Responsible Persons:
+
+
+      Educators appointed to this role and are fit and proper to hold a position
+      of responsible person in the absence of the nominated supervisor. The
+      responsible person will be made know by the notice in the foyer of the
+      centre.
+
+
+      ###### Educational Leaders:
+
+
+      Within the service we have a committee of Educational Leaders. The
+      Educational Leaders are room leaders within the service where they
+      supervise and direct and engage both team members and children in relation
+      to the educational programs and care routines.
+
+
+      ###### Team Members:
+
+
+      Other team members include Assistant Centre Director, Kindergarten
+      Teachers, Qualified Educators, Assistant Educators, Cooks, Cleaners and
+      Maintenance staff.
+
+
+      ###### Parent Consultative Group:
+
+
+      The parent consultative group are parent volunteer’s whose children attend
+      the service. The parent consultative group provide the service access to a
+      group of key stakeholders to seek their opinion in relation to specific
+      operational matters.
+
+
+      Each educator, committee member, educator, volunteer and student at the
+      service uphold the core ethical conduct principles to positively promote
+      interactions within the centre and the local community.
+
+
+      ###### External Regulatory Agencies and Departments:
+
+
+      Two key external regulatory agencies and department are Australian
+      Children’s Education and Care Quality Authority (ACECQA) and Department of
+      Education and Training (DET) Please refer to the section below for their
+      roles as a key stakeholder in a childcare service.
+    title: "NQS 7.\_Leadership and service management"
+  - content: >-
+      #### Australian Children’s Education & Care Quality Authority (ACECQA)
+
+
+      Their primary role is to guide the administration of the National Quality
+      Framework to ensure consistent implementation across all states and
+      territories.  The National Quality Framework creates a jointly governed
+      uniform national system aimed at improving quality of education and care
+      services.
+
+
+      #### Department of Education and Training (DET)
+
+
+      The Department provides services to children and young people both
+      directly through government schools and indirectly through regulation and
+      funding of early childhood services and non-government schools. The
+      Department has four main responsibilities:
+
+
+      * provide policy advice to our Ministers about education, early childhood
+      development and children's services in general 
+
+      * implement Victorian Government policy on early childhood services 
+
+      * implement Victorian Government policy on school education for all school
+      age students 
+
+      * manage and drive continuous improvement in the delivery of primary and
+      secondary education in Victorian government schools.
     title: 'External Regulatory Authorities '
-  - content: "#### Centres Management and Approved Provider\n\n**Scott Zannes**\n\nManaging Director\n\nGreat Start Early Learning Centres\n\nPO Box 3740, Victoria Point West QLD 4165\n\nPhone: 04 1140 1288 \n\nEmail: szannes@mychildelc.com.au \n\n- - -\n\n**Should any parent or guardian wish to discuss concerns with the state regulatory office, please contact:**\n\n**\LFor East Malvern Early Learning Centre**\n\nDepartment of Education and Early Childhood Development\n\nQuality Assessment and Regulation Division\n\nTelephone: 03 8765 5600\n\nEmail: smr.qar@edumail.vic.gov.au  \n\nPostal Address: PO Box 5, DANDENONG VIC 3175\n\n- - -\n\n**For Mildura Centres**\n\nDepartment of Education and Early Childhood Development\n\nQuality Assessment and Regulation Division\n\nTelephone: 03 5440 3111 \n\nEmail: lmr.qar@edumail.vic.gov.au \n\nPostal Address: PO Box 442, BENDIGO VIC\_3550\n\nStreet Address: 7-15 McLaren Street, BENDIGO VIC 3550\n\n**Other key policies for this area:**\n\n* 78 - Governance of Service, Management and Educator Policy\n* 52 - Employment Policy\n* 58 - Team Member Training Policy\n* 55 - Student and Volunteer Policy\n* 16 - Privacy and Confidentiality Policy\n* 70 - Ethical Conduct and Code of Ethics Policy\n* 10 - Occupational Health & Safety Policy\n* 83 - Policy and Procedure Review Policy\n* 84 - Recording Keeping and Retention Policy\n* 7 - Complaints and Grievance Policy"
-    title: Contact information
+  - content: "All parents are encouraged to discuss any grievances in an environment that is open and responsive. Any grievances will be handled confidentially (unless there are legislative requirements not to). Parents and their children will not be disadvantaged in any way for raising a grievance.\n\nWe encourage informal resolution as a first option. We want to model effective conflict resolution techniques and want to respond to parents concerns without any disruption to the child or the relationships between educators and families.\n\nThe Complaints and Grievance Policy is available in the Policy Handbook in the foyer of the Centre. If the issue cannot be resolved through informal resolution, we will follow the procedure outlined in the above policy.\n\n#### Centres Management and Approved Provider\n\n**Scott Zannes**\n\nManaging Director\n\nGreat Start Early Learning Centres\n\nPO Box 3740, Victoria Point West QLD 4165\n\nPhone: 04 1140 1288 \n\nEmail: szannes@mychildelc.com.au \n\n- - -\n\n**Should any parent or guardian wish to discuss concerns with the state regulatory office, please contact:**\n\n**\LFor East Malvern Early Learning Centre**\n\nDepartment of Education and Early Childhood Development\n\nQuality Assessment and Regulation Division\n\nTelephone: 03 8765 5600\n\nEmail: smr.qar@edumail.vic.gov.au  \n\nPostal Address: PO Box 5, DANDENONG VIC 3175\n\n- - -\n\n**For Mildura Centres**\n\nDepartment of Education and Training (DET)\n\nQuality Assessment and Regulation Division\n\nTelephone: 03 5440 3111 \n\nEmail: lmr.qar@edumail.vic.gov.au \n\nPostal Address: PO Box 442, BENDIGO VIC\_3550\n\nStreet Address: 7-15 McLaren Street, BENDIGO VIC 3550"
+    title: Grievances and Formal Complaints
 ---
 ### The National Quality Framework, Policies and Procedures
 

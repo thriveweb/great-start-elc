@@ -1,6 +1,6 @@
 ---
 template: HomePage
-title: 'Where Learning Begins: The love of learning that will last a lifetime.'
+title: 'Where Learning Begins: Nurturing a love of learning that will last a lifetime.'
 subtitle: >-
   We strive for all children to achieve their full potential by offering the
   education, care and nurturing they need to grow and have a great start in

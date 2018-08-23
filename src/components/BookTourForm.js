@@ -184,7 +184,7 @@ class Form extends React.Component {
         <div className='privacy-check'>
           <input className="EnquiryForm--Input" type="checkbox" name="privacy" required />
           <span className='checkbox'></span>
-          <p>Yes, I have read and agree to the Great Start <a href="/">Privacy Policy</a></p>
+          <p>Yes, I have read and agree to the Great Start <a href="/defaultPages/our-policies/">Privacy Policy</a></p>
         </div>
       </form>
     )

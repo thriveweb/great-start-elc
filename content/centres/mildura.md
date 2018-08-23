@@ -16,7 +16,7 @@ centreIntro: >-
   their full potential.
 contentColumns:
   - content: >-
-      #### Our Community
+      #### Positive Learning Environment
 
 
       At Mildura Early Learning Centre, we provide an environment where both
@@ -39,6 +39,9 @@ contentColumns:
       roam.
     image: /images/uploads/istock-505569134_high.jpg
   - content: >-
+      Our Community & Enrichment Programs
+
+
       A major focus for our centre is how working with the broader community can
       help us enrich the children’s learning experience. Through visits to the
       centre as well as excursions and participation in community events, we are

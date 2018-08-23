@@ -39,7 +39,7 @@ contentColumns:
       roam.
     image: /images/uploads/istock-505569134_high.jpg
   - content: >-
-      Our Community & Enrichment Programs
+      #### Our Community & Enrichment Programs
 
 
       A major focus for our centre is how working with the broader community can

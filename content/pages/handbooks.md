@@ -1,6 +1,5 @@
 ---
 template: Handbooks
-slug: parents/centre-forms-handbooks
 title: Centre Forms and Handbooks
 downloadableForms:
   - file: >-
@@ -47,5 +46,3 @@ downloadableForms:
     title: Greatstart handbook - Milduracentral (PDF)
 ---
 #### Here are some important downloads
-
-Enrolment Terms and Conditions (On enrolment page – reference / link)

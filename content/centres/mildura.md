@@ -52,16 +52,16 @@ contentColumns:
 classroomsSection:
   items:
     - icon: /images/uploads/baby.svg
-      subtitle: 'Koala Classroom, 6 week to 12 months old'
+      subtitle: 'Koala Classroom, 6 weeks to 18 months old'
       title: Nursery
     - icon: /images/uploads/toddler.svg
-      subtitle: 'Wombat Classroom, 12 months to 2 1/2 years old'
+      subtitle: 'Wombat, Platypus & Kangaroo Classrooms, 12 months to 4 years old'
       title: Toddler
     - icon: /images/uploads/prekindergarten.svg
-      subtitle: 3.5 to 4 years old
+      subtitle: 3 to 4 1/2 years old
       title: Prekindergarten Classroom
     - icon: /images/uploads/kindergarten.svg
-      subtitle: 4 to 5 years old
+      subtitle: 4 + years old
       title: Kindergarten Classroom
   subtitle: Our education programs cater for each individual child’s needs.
   title: 'We provide early learning and care to children in the following classrooms:'
@@ -110,11 +110,11 @@ additionalInfoBoxes:
   - buttonLinkTo: /
     buttonTitle: Read More
     content: >-
-      At Mildura Early Learning Centre, we offer an approved kindergarten
-      program within our long day care program. Our kindergarten teachers are
-      university qualified and provide a play-based emergent curriculum that
-      supports your child in learning school readiness skills. 
-    title: Approved Kindergarten Program
+      At Mildura Early Learning Centre, we offer a kindergarten program within
+      our long day care program. Our kindergarten teachers are university
+      qualified and provide a play-based emergent curriculum that supports your
+      child in learning school readiness skills. 
+    title: Kindergarten Program
   - buttonLinkTo: /
     buttonTitle: Read More
     content: >-

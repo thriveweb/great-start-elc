@@ -16,7 +16,7 @@ centreIntro: >-
   their full potential.
 contentColumns:
   - content: >-
-      #### Centre
+      #### Our Community
 
 
       At Mildura Early Learning Centre, we provide an environment where both
@@ -26,7 +26,8 @@ contentColumns:
       always open and valued.
     image: /images/uploads/centreimg2.jpg
   - content: >-
-      #### Outdoor
+      #### Outdoor Play Spaces
+
 
       Our inspired outdoor play spaces stimulate children's imagination,
       creativity, exploration, discovery, engagement and a sense of wonder. We
@@ -47,8 +48,7 @@ contentColumns:
 
 
       We invite you to come and take a look at our fabulous early learning
-      centre and see why we are rated ‘Exceeding’ the National Quality
-      Standards.
+      centre and see our high quality centre first hand.
 classroomsSection:
   items:
     - icon: /images/uploads/baby.svg
@@ -136,6 +136,6 @@ We understand the importance of education and believe that childhood is a unique
 
  Our cook freshly prepares and serves warm meals and snacks on the premises, taking into consideration any special dietary requirements. Our qualified and trained staff implement a developmental program that enhances and challenges each child's individual learning and promotes a safe and happy environment.
 
-#### Team
+#### Our Educators and Team
 
 We believe that we are only as great as our people. Our team of educators are well trained, knowledgeable, trust worthy and above all else, their level of commitment to the wellbeing of children is second to none. All our educators hold formal qualifications; including bachelor degrees, advance diplomas, diplomas and certificate III in early childhood. All our educators hold Working With Children Checks and have current first aid and CPR certificates. Our educators attend regular professional development and training to allow them to deliver best practice educational programs for your children.

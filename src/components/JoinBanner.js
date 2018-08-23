@@ -5,9 +5,9 @@ import Wave from './Wave'
 import './JoinBanner.css'
 
 export default ({
-  buttonLinkTo = '/enrolments/enrolling-great-start-early-learing-centre/',
-  buttonTitle = 'Enrol Now',
-  title = 'Join Our Community',
+  buttonLinkTo = '/careers/employment-opportunities/',
+  buttonTitle = 'Join Now',
+  title = 'Join Our Team',
   ...props
 }) => (
   <div className="col5 JoinBanner">

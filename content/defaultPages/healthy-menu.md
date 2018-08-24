@@ -1,6 +1,6 @@
 ---
 template: DefaultPage
-slug: parents/Healthy-Menu
+slug: parents/healthy-menu
 title: Healthy Menu
 ---
 ### We aim to instil in all children the importance of maintaining a lifelong respect for food and living a healthy lifestyle.

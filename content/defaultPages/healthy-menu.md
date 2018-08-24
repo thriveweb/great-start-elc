@@ -1,6 +1,5 @@
 ---
 template: DefaultPage
-slug: parents/Healthy-Menu
 title: Healthy Menu
 ---
 ### We aim to instil in all children the importance of maintaining a lifelong respect for food and living a healthy lifestyle.
@@ -9,4 +8,4 @@ It is important that children understand where food comes from and each centre u
 
 To ensure strict compliance with all nutrition guidelines and due to children’s allergies, we ask all families not to bring any food into the centres and support our nut free policy. We do allow you to bring in cakes to celebrate your child’s birthday, however, the cake must be purchased from a commercial outlet and have a food label detailing the contents. We are a nut-free centre to keep our children with allergies safe.
 
-#### Sample Menu – prepare for our menu
+#### [Sample Menu](/images/uploads/healthy-menu.pdf) – prepare for our menu

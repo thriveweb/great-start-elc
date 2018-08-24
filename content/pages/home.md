@@ -1,5 +1,6 @@
 ---
 template: HomePage
+slug: ''
 title: 'Where Learning Begins: Nurturing a love of learning that will last a lifetime.'
 subtitle: >-
   We strive for all children to achieve their full potential by offering the

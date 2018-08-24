@@ -1,6 +1,7 @@
 ---
 template: DefaultPage
 title: Our Policies
+slug: parents/our-policies
 accordion:
   - content: "Quality Area 1 of the National Quality Standard focuses on ensuring that the educational program and practice is stimulating and engaging and enhances children’s learning and development. We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing. We use a Reggio Emilia inspired approach to meet the objectives outlined in the National and Victorian Early Years Learning and Development Frameworks; including emphasis on literacy, numeracy, music and movement and social development.\_ In a Reggio Emilia learning environment, children learn meaningful skills that support them through their future education and life. Our teaching methods are linked to the National Quality Framework to ensure that a consistent and high quality early childhood education curriculum is provided.\n\nOur key policies for this area are 89 - Education, Curriculum and Learning Policy, 44 - Curriculum and Planning Policy and 82 - National Quality Framework."
     title: 'NQS 1: Educational program and practice'

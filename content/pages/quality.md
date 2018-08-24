@@ -1,6 +1,7 @@
 ---
 template: NationalQuality
 title: National Quality Framework
+slug: learning/national-quality-framework
 ---
 ### The National Quality Framework (NQF) encourages services to provide a high quality and consistent standard of early childhood education and care across Australia. The NQF includes:
 

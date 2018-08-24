@@ -1,6 +1,7 @@
 ---
 template: Centre
 title: Mildura Early Learning Centre
+slug: centres/mildura-early-learning-centre
 logo: /images/uploads/mildura.svg
 centreDetails:
   email: mildura@mychildelc.com.au

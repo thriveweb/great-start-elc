@@ -1,6 +1,6 @@
 ---
 template: ContactPage
-slug: 'contact'
+slug: contact
 title: Contact us
 ---
 

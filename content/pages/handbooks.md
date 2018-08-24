@@ -1,6 +1,7 @@
 ---
 template: Handbooks
 title: Centre Forms and Handbooks
+slug: parents/centre-forms-and-handbooks
 downloadableForms:
   - file: >-
       /images/uploads/allergy_ascia-action-plan-allergic-reactions_no-autoinjector_0818.pdf

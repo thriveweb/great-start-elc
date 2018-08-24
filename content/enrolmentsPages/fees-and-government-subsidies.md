@@ -1,6 +1,7 @@
 ---
 template: EnrolmentsPage
 title: Fees and Government Subsidies
+slug: enrolments/fees-and-government-subsidies
 enrolmentsSection1:
   title: >-
     ### Great Start Early Learning Centres is registered as a provider of

@@ -1,6 +1,7 @@
 ---
 template: DefaultPage
 title: Educational Programs and Curriculum
+slug: learning/educational-programs-and-curriculum
 accordion:
   - content: >-
       Young children need lots of love and extra special care. Our dedicated

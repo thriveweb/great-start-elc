@@ -52,6 +52,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "family-checklist"
         fields:
           - {name: template, label: Template, widget: hidden, default: FamilyChecklist}
+          - {name: slug, label: Slug, widget: hidden, default: 'parents/family-checklist'}
           - {name: title, label: Title, widget: string}
           - {label: Body, name: body, widget: markdown}
           - label: Checklist
@@ -83,6 +84,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "health-info-page"
         fields:
           - {name: template, label: Template, widget: hidden, default: HealthInfoPage}
+          - {name: slug, label: Slug, widget: hidden, default: 'parents/health-info'}
           - {name: title, label: Title, widget: string}
           - {label: Upper Section, name: body, widget: markdown}
           - label: Table
@@ -119,6 +121,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "home-page"
         fields:
           - {name: template, label: Template, widget: hidden, default: 'HomePage'}
+          - {name: slug, label: Slug, widget: hidden, default: ''}
           - {name: title, label: Title, widget: string}
           - {name: subtitle, label: Subtitle, widget: string}
           - {name: featuredImage, label: Featured Image, widget: image, required: true}
@@ -178,6 +181,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "teamMembers" 
         fields:
           - {name: template, label: Template, widget: hidden, default: 'TeamMembers'}
+          - {name: slug, label: Slug, widget: hidden, default: 'about/our-team'}
           - {name: title, label: Title, widget: string, required: false}
           - {name: content, label: Content, widget: markdown, required: false}
           - name: members
@@ -195,6 +199,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "nationalQuality"
         fields:
           - {name: template, label: Template, widget: hidden, default: 'NationalQuality'}
+          - {name: slug, label: Slug, widget: hidden, default: 'learning/national-quality'}
           - {name: title, label: Title, widget: string, required: false}
           - {name: body, label: Content, widget: markdown, required: false}
 
@@ -203,6 +208,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "qkPortal"
         fields:
           - {name: template, label: Template, widget: hidden, default: 'QKPortalPage'}
+          - {name: slug, label: Slug, widget: hidden, default: 'learning/qk-curriculum-portal'}
           - {name: title, label: Title, widget: string, required: false}
           - {name: image, label: Image, widget: image, required: false}
           - {name: boxTitle, label: Box Title, widget: string, required: false}
@@ -225,6 +231,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "employmentOpportunities"
         fields:
           - {label: Template, name: template, widget: hidden, default: EmploymentOpportunities}
+          - {name: slug, label: Slug, widget: hidden, default: 'careers/employment-opportunities'}
           - {label: Title, name: title, widget: string}
           - {label: Content, name: body, widget: markdown}
 
@@ -233,6 +240,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "bookPage"
         fields:
           - {label: Template, name: template, widget: hidden, default: BookPage}
+          - {name: slug, label: Slug, widget: hidden, default: 'enrolments/book-tour'}
           - {label: Title, name: title, widget: string}
           - {label: Content, name: body, widget: markdown}
 
@@ -241,6 +249,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "faqs"
         fields:
           - {label: Template, name: template, widget: hidden, default: Faqs}
+          - {name: slug, label: Slug, widget: hidden, default: 'parents/faqs'}
           - {label: Title, name: title, widget: string}
           - label: Accordion Section
             name: accordionSection
@@ -261,6 +270,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "handBooks"
         fields:
           - {label: Template, name: template, widget: hidden, default: Handbooks}
+          - {name: slug, label: Slug, widget: hidden, default: 'parents/handbooks'}
           - {label: Title, name: title, widget: string}
           - {label: Content, name: body, widget: markdown}
           - label: Downloadable Forms
@@ -276,6 +286,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "referFriend"
         fields:
           - {label: Template, name: template, widget: hidden, default: ReferFriend}
+          - {name: slug, label: Slug, widget: hidden, default: 'parents/refer-friend'}
           - {label: Title, name: title, widget: string}
           - {label: Content, name: body, widget: markdown}
 
@@ -289,6 +300,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: Template, name: template, widget: hidden, default: DefaultPage}
+      - {name: slug, label: Slug, widget: hidden, default: ''}
       - {label: Title, name: title, widget: string}
       - {label: Content, name: body, widget: markdown}
       - label: Download Banner
@@ -347,6 +359,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: Template, name: template, widget: hidden, default: EnrolmentsPage}
+      - {name: slug, label: Slug, widget: hidden, default: ''}
       - {label: Title, name: title, widget: string}
       - {label: Featured Image, name: featuredImage, widget: image, required: false}
       - name: enrolmentsSection1
@@ -405,6 +418,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {name: template, label: Template, widget: hidden, default: 'DownloadPages'}
+      - {name: slug, label: Slug, widget: hidden, default: ''}
       - {name: title, label: Title, widget: string, required: false}
       - {name: body, label: Content, widget: markdown, required: false}
       - label: Download Banner
@@ -424,6 +438,7 @@ collections: # A list of collections the CMS should be able to edit
     create: false # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: Template, name: template, widget: hidden, default: Centre}
+      - {name: slug, label: Slug, widget: hidden, default: ''}
       - {label: Title, name: title, widget: string}
       - {label: Logo, name: logo, widget: image, required: true}
       - {label: Content, name: body, widget: markdown}

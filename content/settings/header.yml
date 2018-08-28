@@ -3,7 +3,7 @@ menu:
       - title: Welcome
         url: /about/welcome/
       - title: Our Vision & Philosophy
-        url: /defaultPages/our-vision-philosophy/
+        url: /about/our-vision-philosophy/
       - title: Our Team
         url: /about/team/
       - title: Our Learning Environments
@@ -16,7 +16,7 @@ menu:
       - title: Learning at Great Start Early Learning Centres
         url: /learning/learning-great-start-early-learning-centres/
       - title: Educational Programs and Curriculum
-        url: defaultPages/educational-programs-and-curriculum/
+        url: /learning/educational-programs-and-curriculum/
       - title: QK Journeys Curriculum Portal
         url: /learning/qk-curriculum-portal/
       - title: Our Teaching Frameworks
@@ -44,7 +44,7 @@ menu:
       - title: Getting Started
         url: /enrolments/getting-started/
       - title: Fees and Government Subsidies
-        url: /enrolmentsPages/fees-and-government-subsidies/
+        url: /enrolments/fees-and-government-subsidies/
     title: Enrolments
   - subMenu:
       - title: Healthy Menu
@@ -56,7 +56,7 @@ menu:
       - title: Settling Tips
         url: /parents/settling-tips/
       - title: Centre Forms and Handbooks
-        url: /pages/centre-forms-and-handbooks/
+        url: /parents/centre-forms-and-handbooks/
       - title: New Family Checklist
         url: /parents/family-checklist/
       - title: Health & Medication Information
@@ -66,7 +66,7 @@ menu:
       - title: FAQs
         url: /parents/faqs/
       - title: Our Policies
-        url: /defaultPages/our-policies/
+        url: /parents/our-policies/
     title: Parents
   - subMenu:
       - title: Why Join Our Team?

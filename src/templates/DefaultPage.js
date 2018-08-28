@@ -15,6 +15,7 @@ import './DefaultPage.css'
 // Export Template for use in CMS preview
 export const DefaultPageTemplate = ({
   title,
+  className,
   subtitle,
   featuredImage,
   downloadBanner,
@@ -57,7 +58,7 @@ export const DefaultPageTemplate = ({
       )}
       <div className="section thin JoinBannerSection">
         <div className="container">
-          <JoinBanner linkTo="/" />
+          <JoinBanner linkTo="/" className />
         </div>
       </div>
       <div className="section thin">
@@ -81,7 +82,7 @@ export const pageQuery = graphql`
       html
       rawMarkdownBody
       frontmatter {
-        class
+        className
         title
         subtitle
         featuredImage {

@@ -58,7 +58,7 @@ export const DefaultPageTemplate = ({
       )}
       <div className="section thin JoinBannerSection">
         <div className="container">
-          <JoinBanner linkTo="/" className />
+          <JoinBanner linkTo="/" className={className} />
         </div>
       </div>
       <div className="section thin">

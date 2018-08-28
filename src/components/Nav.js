@@ -29,43 +29,6 @@ export default class Nav extends Component {
 
     const menuItems = _get(header, 'menu') || []
 
-    console.log(menuItems)
-
-
-    // const getChildPages = parentSlug =>
-    //   allPages.filter(
-    //     page => _get(page, 'fields.slug', '').indexOf(parentSlug) === 0
-    //   )
-
-
-    // const renderChildPageLinks = parentSlug => {
-    //   const childPages = getChildPages(parentSlug)
-    //   if (!childPages.length) return null
-        
-    //   return (
-    //     <div className={`SubNav SubNav-${_kebabCase(parentSlug)}`}>
-    //       {getChildPages(parentSlug).map(page => {
-    //         return <NavLink key={page.fields.slug} to={page.fields.slug} exact onClick={this.toggleActive}>
-    //           {page.frontmatter.title}
-    //         </NavLink>
-    //       })}
-    //     </div>
-    //   )
-    // }
-
-    // const NavLinkGroup = ({ to, title, dropdown, ...props }) => (
-    //   <div className={`NavLinkGroup ${menuItemActive === dropdown ? 'menu-active' : ''}`}>
-    //     <li className='NavLink' to={to} {...props}>
-    //       {title}
-    //     </li>
-    //     {renderChildPageLinks(to)}
-
-    //   </div>
-    // )
-
-
-
-
     return (
       <nav className="Nav">
         <div className="Nav--Container container">

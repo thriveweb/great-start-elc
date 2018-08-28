@@ -8,9 +8,10 @@ export default ({
   buttonLinkTo = '/enrolments/enrolling-great-start-early-learing-centre/',
   buttonTitle = 'Enrol Now',
   title = 'Join Our Community',
-  className = '',
+  className,
   ...props
 }) => {
+
 	if(className) return <div className="col5 JoinBanner">
 		    <h3 className="JoinBanner--title">Join Our Team</h3>
 		    <Wave />

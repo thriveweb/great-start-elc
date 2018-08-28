@@ -1,6 +1,7 @@
 ---
 template: DefaultPage
 slug: careers/why-join
+className: why-join-banner
 title: Why Join Our Team?
 ---
 ## As a team member you can expect:

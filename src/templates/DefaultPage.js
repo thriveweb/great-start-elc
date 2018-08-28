@@ -81,6 +81,7 @@ export const pageQuery = graphql`
       html
       rawMarkdownBody
       frontmatter {
+        class
         title
         subtitle
         featuredImage {

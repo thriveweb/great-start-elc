@@ -301,6 +301,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: Template, name: template, widget: hidden, default: DefaultPage}
       - {name: slug, label: Slug, widget: hidden, default: ''}
+      - {name: class, label: Class, widget: hidden, default: ''}
       - {label: Title, name: title, widget: string}
       - {label: Content, name: body, widget: markdown}
       - label: Download Banner

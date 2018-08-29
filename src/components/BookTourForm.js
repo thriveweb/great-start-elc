@@ -140,7 +140,6 @@ class Form extends React.Component {
             name="childname"
             value={childname}
             onChange={this.props.handleChange}
-            required
           />
         </label>
         <label className="EnquiryForm--Label label-text">
@@ -152,7 +151,6 @@ class Form extends React.Component {
             name="birthday"
             value={birthday}
             onChange={this.props.handleChange}
-            required
           />
         </label>
         <label className="EnquiryForm--Label">
@@ -163,7 +161,6 @@ class Form extends React.Component {
             name="childname"
             value={childname}
             onChange={this.props.handleChange}
-            required
           />
         </label>
         <label className="EnquiryForm--Label label-text">
@@ -175,7 +172,6 @@ class Form extends React.Component {
             name="birthday"
             value={birthday}
             onChange={this.props.handleChange}
-            required
           />
         </label>
         <label className="EnquiryForm--Label">

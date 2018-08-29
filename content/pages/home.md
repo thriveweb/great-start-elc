@@ -43,22 +43,22 @@ homeSection3:
         We have taken the Reggio Emilia Approach to early childhood education to
         provide a curriculum and educational programs that allows each child to
         reach their potential.
-    - icon: /images/uploads/sun.svg
-      title: Fun and Safe Environment
-      subtitle: Our curriculum is fun and exciting within a safe and secure environment.
-    - icon: /images/uploads/rocket.svg
-      title: High Standards & Quality
-      subtitle: 'Our centres provide high quality education and care. '
-    - icon: /images/uploads/apple.svg
-      title: Nutritional Menu
-      subtitle: >-
-        We prepare in accordance with Food Safety and Nutrition standards plus
-        dietary and medical needs.
     - icon: /images/uploads/teacher.svg
       title: 'Professional, Experienced and Qualified Educators'
       subtitle: >-
         All our educators and teachers are qualified in early childhood
         education and have considerable early learning experience.
+    - icon: /images/uploads/rocket.svg
+      title: High Standards & Quality
+      subtitle: 'Our centres provide high quality education and care. '
+    - icon: /images/uploads/sun.svg
+      title: Fun and Safe Environment
+      subtitle: Our curriculum is fun and exciting within a safe and secure environment.
+    - icon: /images/uploads/apple.svg
+      title: Nutritional Menu
+      subtitle: >-
+        We prepare in accordance with Food Safety and Nutrition standards plus
+        dietary and medical needs.
   title: Why Choose Us?
 homeSection4:
   image1: /images/uploads/istock-516621014_supe_crop.jpg

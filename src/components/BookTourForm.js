@@ -101,17 +101,6 @@ class Form extends React.Component {
         <label className="EnquiryForm--Label">
           <input
             className="EnquiryForm--Input"
-            type="text"
-            placeholder="Your Child's Name"
-            name="childname"
-            value={childname}
-            onChange={this.props.handleChange}
-            required
-          />
-        </label>
-        <label className="EnquiryForm--Label">
-          <input
-            className="EnquiryForm--Input"
             type="email"
             placeholder="Email"
             name="emailaddress"
@@ -124,9 +113,9 @@ class Form extends React.Component {
           <input
             className="EnquiryForm--Input"
             type="text"
-            placeholder="Phone"
-            name="phone"
-            value={phone}
+            placeholder="Your Child's Name"
+            name="childname"
+            value={childname}
             onChange={this.props.handleChange}
             required
           />
@@ -139,6 +128,63 @@ class Form extends React.Component {
             placeholder="DD / MM / YYYY"
             name="birthday"
             value={birthday}
+            onChange={this.props.handleChange}
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Your Child's Name"
+            name="childname"
+            value={childname}
+            onChange={this.props.handleChange}
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label label-text">
+          <p>Child's Date of Birth:</p>
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="DD / MM / YYYY"
+            name="birthday"
+            value={birthday}
+            onChange={this.props.handleChange}
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Your Child's Name"
+            name="childname"
+            value={childname}
+            onChange={this.props.handleChange}
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label label-text">
+          <p>Child's Date of Birth:</p>
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="DD / MM / YYYY"
+            name="birthday"
+            value={birthday}
+            onChange={this.props.handleChange}
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Phone"
+            name="phone"
+            value={phone}
             onChange={this.props.handleChange}
             required
           />

@@ -30,7 +30,7 @@ homeSection2:
     school readiness and achievement of learning outcomes by applying our
     knowledge and experience of how children learn and play.
   image: /images/uploads/istock-178590721_super_crop.jpg
-  linkTo: /
+  linkTo: /learning/educational-programs-and-curriculum/
   title: We strive to create a foundation for your child's future
   subtitle: >-
     Early childhood is a time when foundations are laid for future health,

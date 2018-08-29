@@ -24,7 +24,7 @@ checklist:
   - cell1: Reviewed the recommendations for what your child needs to bring?
   - cell1: Been provided a centre calendar of events and discussed upcoming events?
 checklistDownload:
-  file: /images/uploads/blank.pdf
+  file: /images/uploads/family-checklist.pdf
   preview: /images/uploads/family-checklist.jpg
   title: >-
     Download our printable family checklist to get you and your child ready to

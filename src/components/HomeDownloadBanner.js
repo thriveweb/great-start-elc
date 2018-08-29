@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
 import Image from './Image'
+import Link from 'gatsby-link'
 
 import Form from './DownloadForm'
 
@@ -35,7 +36,7 @@ class HomeForm extends React.Component {
     const { centre } = fields
 
     const title = 'Download Our Family Handbook'
-    const description = 'Fill out the form and download our family handbook or contact us 123 456 789'
+    const description = <Fragment>Fill out the form and download our family handbook or <Link to='/contact'>contact us</Link></Fragment>
 
 
     return (

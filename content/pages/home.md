@@ -41,10 +41,11 @@ homeSection3:
       title: Fun and Safe Environment
       subtitle: Our curriculum is fun and exciting within a safe and secure environment.
     - icon: /images/uploads/notebook.svg
-      title: Reggio Emilia Approach
+      title: Educational Programs & Reggio Emilia Approach
       subtitle: >-
-        We have taken the Reggio Emilia Approach to early childhood education
-        and adapted it.
+        We have taken the Reggio Emilia Approach to early childhood education to
+        provide a curriculum and educational programs that allows each child to
+        reach their potential.
     - icon: /images/uploads/rocket.svg
       title: High Standards & Quality
       subtitle: 'Our centres provide high quality education and care. '

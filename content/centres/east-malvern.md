@@ -13,7 +13,7 @@ centreDetails:
 centreIntro: >-
   East Malvern Early Learning Centre is a beautiful cottage with lots of charm
   and character. We are in the Malvern East community, close to buses and
-  Darlington Train Station.
+  Darling Train Station.
 contentColumns:
   - content: >-
       #### Outdoor Play Spaces
@@ -78,10 +78,10 @@ contentColumns:
 classroomsSection:
   items:
     - icon: /images/uploads/toddler.svg
-      subtitle: 'Joey Classroom, 6 week to 18 months old'
+      subtitle: 'Joey Classroom, 6 weeks to 2 years old'
       title: Nursery
     - icon: /images/uploads/baby.svg
-      subtitle: 'Possum Classroom, 18 months to 3 years old'
+      subtitle: 'Possum Classroom,  2 to 3 years old'
       title: Toddler
     - icon: /images/uploads/prekindergarten.svg
       subtitle: 3 to 4 years old

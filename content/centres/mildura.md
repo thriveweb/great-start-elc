@@ -69,7 +69,21 @@ classroomsSection:
       title: Kindergarten Classroom
   subtitle: Our education programs cater for each individual child’s needs.
   title: 'We provide early learning and care to children in the following classrooms:'
-testimonials: []
+testimonials:
+  - name: 'Kristen, Alaska’s Mum'
+    testimonial: >-
+      Alaska has been attending Mildura Early Learning Centre for 2 months, when
+      she started we were apprehensive as we had a bad experience at another
+      centre. Alaska was only 6 months when she started and we wondered how she
+      would go being at care, three times a week. We attended the orientation
+      days and absolutely fell in love with the Koala room and the centre
+      itself. The staff are professional, caring and made us feel so welcome.
+      Alaska loves going to care and has adjusted incredibly well, so much that
+      she gets excited and starts smiling when we arrive, she is also always
+      having a great time with the staff and other children when we arrive.
+      Sometimes I think she would quite like to stay longer! The staff genuinely
+      care and have made the whole experience stress free for us, we know that
+      Alaska is being cared for by her second family.
 directorStatement:
   content: >-
     **Megan Gooding – Centre Director**

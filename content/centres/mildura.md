@@ -1,7 +1,7 @@
 ---
 template: Centre
-title: Mildura Early Learning Centre
 slug: centres/mildura-early-learning-centre
+title: Mildura Early Learning Centre
 logo: /images/uploads/mildura.svg
 centreDetails:
   email: mildura@mychildelc.com.au
@@ -111,7 +111,7 @@ gallery:
   - image: /images/uploads/img_0775.jpg
   - image: /images/uploads/img_0765.jpg
 additionalInfoBoxes:
-  - buttonLinkTo: /
+  - buttonLinkTo: /learning/educational-programs-and-curriculum/
     buttonTitle: Read More
     content: >-
       At Mildura Early Learning Centre, we offer a kindergarten program within
@@ -119,7 +119,7 @@ additionalInfoBoxes:
       qualified and provide a play-based emergent curriculum that supports your
       child in learning school readiness skills. 
     title: Kindergarten Program
-  - buttonLinkTo: /
+  - buttonLinkTo: /enrolments/fees-and-government-subsidies/
     buttonTitle: Read More
     content: >-
       We are an approved childcare operator and the Australian Government

@@ -152,9 +152,11 @@ class Application extends React.Component {
           name='type'
           handleChange={this.props.handleChange}
           options={[
-            'option 1',
-            'option 2',
-            'option 3'
+            'Room Leader',
+            'Diploma Qualified Educator',
+            'Certificate 3 Qualified Educator',
+            'Unqualified Educator – working towards qualification',
+            'Cook'
           ]}
         />
         <label className="EnquiryForm--Label full-width">

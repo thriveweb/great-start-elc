@@ -1,9 +1,9 @@
 ---
 template: Centre
-title: East Malvern Early Learning Centre
 slug: centres/east-malvern-early-learning-centre
+title: East Malvern Early Learning Centre
 logo: /images/uploads/east-malvern.svg
-centreDetails: 
+centreDetails:
   email: eastmalvern@mychildelc.com.au
   latitude: '-37.869338'
   location: 11 Illowa Street Malvern East VIC 3145
@@ -146,7 +146,7 @@ gallery:
   - image: /images/uploads/istock-921101386.jpg
   - image: /images/uploads/shutterstock_570751849.jpg
 additionalInfoBoxes:
-  - buttonLinkTo: /
+  - buttonLinkTo: /learning/educational-programs-and-curriculum/
     buttonTitle: Read More
     content: >-
       At East Malvern Early Learning Centre we offer an approved kindergarten
@@ -154,7 +154,7 @@ additionalInfoBoxes:
       university qualified and provided a play-based emergent curriculum that
       supports your child in learning school readiness skills. 
     title: Approved Kindergarten Program
-  - buttonLinkTo: /
+  - buttonLinkTo: /enrolments/fees-and-government-subsidies/
     buttonTitle: Read More
     content: >
       We are an approved childcare operator and the Australian Government

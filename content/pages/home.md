@@ -37,15 +37,15 @@ homeSection2:
     learning and wellbeing.
 homeSection3:
   items:
-    - icon: /images/uploads/sun.svg
-      title: Fun and Safe Environment
-      subtitle: Our curriculum is fun and exciting within a safe and secure environment.
     - icon: /images/uploads/notebook.svg
       title: Educational Programs & Reggio Emilia Approach
       subtitle: >-
         We have taken the Reggio Emilia Approach to early childhood education to
         provide a curriculum and educational programs that allows each child to
         reach their potential.
+    - icon: /images/uploads/sun.svg
+      title: Fun and Safe Environment
+      subtitle: Our curriculum is fun and exciting within a safe and secure environment.
     - icon: /images/uploads/rocket.svg
       title: High Standards & Quality
       subtitle: 'Our centres provide high quality education and care. '

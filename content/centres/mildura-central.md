@@ -141,6 +141,22 @@ testimonials:
       the educators. I am more than satisfied with the care my children receive
       here, and I would definitely recommend the centre to anyone that is
       searching for a child care centre for their children.
+  - name: Brooke & Luke - William & Georgia’s Mum and Dad.
+    testimonial: >-
+      As parents, we entrust our greatest blessings to the wonderful educators
+      at Mildura Central Early Learning Centre two days each week, and we are
+      forever grateful for the loving care and attention they both receive. The
+      educators and director look at each child as an individual, with their own
+      strengths and needs. Both of our children have and continue to learn
+      something new each day they attend the centre and we are kept up to date
+      with their development in line with their individual learning goals via an
+      app. We love reading about what they have experienced in the centre each
+      day, and enjoy looking at the photos of their day which makes leaving them
+      in the care of someone else that little bit easier. We have always found
+      the director to be flexible with unexpected changes to our routines and
+      love that we are welcomed at every pick up and drop off with a smile. We
+      have absolutely no hesitation recommending Mildura Central Early Learning
+      Centre!  
 directorStatement:
   content: >-
     I have been working in Early childhood for 6 years here at Mildura Central

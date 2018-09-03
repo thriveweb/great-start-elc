@@ -6,7 +6,7 @@ subtitle: >-
   We strive for all children to achieve their full potential by offering the
   education, care and nurturing they need to grow and have a great start in
   life.
-featuredImage: /images/uploads/istock-502148524_small.png
+featuredImage: /images/uploads/home-bannerv2.png
 homeSection1:
   centres:
     - description: >-

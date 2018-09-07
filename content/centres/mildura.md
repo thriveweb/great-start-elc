@@ -84,6 +84,20 @@ testimonials:
       Sometimes I think she would quite like to stay longer! The staff genuinely
       care and have made the whole experience stress free for us, we know that
       Alaska is being cared for by her second family.
+  - name: 'Lauren, Willow and Lola’s Mum'
+    testimonial: >-
+      We have had 3 out of our 4 children come through Mildura Early Learning
+      Centre, from babies right through the kindergarten program and off to
+      school. We cannot recommend the service any more highly. The level of
+      education and care provided to our children was important and as working
+      parents there is always an element of guilt in leaving your children in
+      care. However the service provided to families at the centre soon removes
+      that guilt. The centre is family friendly, large and functional rooms with
+      lots of activities and options for play as well as regularly organised
+      incursions and excursions for the children to attend. The educational toys
+      are rotated and updated regularly. We have also appreciated the
+      willingness of the centre to be accommodating for extra sessions where
+      required and available.
 directorStatement:
   content: >-
     **Megan Gooding – Centre Director**

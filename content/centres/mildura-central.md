@@ -46,13 +46,13 @@ contentColumns:
 classroomsSection:
   items:
     - icon: /images/uploads/baby.svg
-      subtitle: 'Seahorse Classroom, 6 week to 12 months old'
+      subtitle: 'Seahorse Classroom, 6 week to 18 months old'
       title: Nursery
     - icon: /images/uploads/toddler.svg
-      subtitle: 'Dolphin Classroom, 12 months to 2 1/2 years old'
+      subtitle: 'Dolphin & Starfish Classrooms, 12 months to 3 1/2 years old'
       title: Toddler
     - icon: /images/uploads/prekindergarten.svg
-      subtitle: 3 to 4 years old
+      subtitle: 3 to 4 1/2 years old
       title: Prekindergarten Classroom
     - icon: /images/uploads/kindergarten.svg
       subtitle: 4 to 5 years old

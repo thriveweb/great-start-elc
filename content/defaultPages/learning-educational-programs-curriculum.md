@@ -237,7 +237,7 @@ infoSection:
       icon: /images/uploads/pencils.svg
       title: Creative Arts Program
     - content: >-
-        To enhance and enrich each child’s ;earning we incorporate additional
+        To enhance and enrich each child’s learning we incorporate additional
         extra - curricular experiences into our curriculum. Experiences may
         include puppet shows, indigenous performers, musical performances, magic
         shows, animal farms, etc.

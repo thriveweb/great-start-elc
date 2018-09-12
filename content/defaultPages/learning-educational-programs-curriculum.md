@@ -1,7 +1,7 @@
 ---
 template: DefaultPage
-title: Educational Programs and Curriculum
 slug: learning/educational-programs-and-curriculum
+title: Educational Programs and Curriculum
 accordion:
   - content: >-
       Young children need lots of love and extra special care. Our dedicated
@@ -36,8 +36,8 @@ accordion:
       boundaries of their independence.
 
 
-      Our educations in the toddler classrooms will acknowledge individuality
-      and all areas of development. Furthermore, our educators will scaffold all
+      Our educators in the toddler classrooms will acknowledge individuality and
+      all areas of development. Furthermore, our educators will scaffold all
       children’s learning by taking them step by step through new skills with
       enough support to ensure their success.
 

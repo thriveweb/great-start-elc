@@ -27,8 +27,6 @@ title: Why Join Our Team?
 
 Educators must be open to receiving feedback, strive for continuous improvement and be prepared to go above and beyond to ensure the highest quality of service delivery every day.  There is a requirement that all educators respect our philosophy.
 
-**Careers > Professional Development**
-
 ## Professional Development
 
 We encourage professional development of all educators by way of continued training in the form of workshops, professional development days, seminars and online training programs.

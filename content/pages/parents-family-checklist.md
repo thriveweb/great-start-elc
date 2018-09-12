@@ -41,7 +41,7 @@ Having complete the orientation sessions we find that parents and children are f
 
 There are some important things you need to make sure you have completed before the first day. Please use New Family Checklist to remind you of task needing to be completed. 
 
-We also recommend you reading to the Parent Information section of the website to review the following:
+We also recommend you read the Parent Information section of the website to review the following:
 
 * [Settling Tips](/parents/settling-tips/)
 * [Frequently Asked Questions?](/parents/faqs/)

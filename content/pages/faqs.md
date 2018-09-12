@@ -35,7 +35,7 @@ accordionSection:
         title: >-
           Do you have a funded four-year-old kindergarten program at your
           centres with a qualified Kindergarten Teacher?
-      - content: "The ratios of educators to children are regulated by the Victorian Government. We always ensure these ratios are met or exceeded.\L0-3 year old’s - 1:4\L3-5 year old’s - 1:11"
+      - content: "The ratios of educators to children are regulated by the Victorian Government. We always ensure these ratios are met or exceeded over the service as follows: .\L\n\n0-3 year old children  - 1 educator : 4 children.\n\n\L3-5 year old children - 1 educator : 11 children."
         title: What are the staff to child ratios?
       - content: >-
           All educators require a minimum of Certificate III in Children’s

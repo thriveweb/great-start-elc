@@ -1,7 +1,7 @@
 ---
 template: DefaultPage
-title: Our Vision & Philosophy
 slug: about/our-vision-philosophy
+title: Our Vision & Philosophy
 downloadBanner:
   title: ''
 accordion:
@@ -202,7 +202,7 @@ We strive for all children to achieve their full potential by offering the educa
 
 We are committed to educational excellence for every child through the delivery of high quality early years curriculum.  Our pedagogy promotes school readiness and achievement of learning outcomes by applying our knowledge and experience of how children learn and play.
 
- We understand at Great Start Early Learning Centres, we understand the importance of education and believe that childhood is a unique time of life which should be valued and enjoyed. We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing. We use a Reggio Emilia inspired approach to meet the objectives outlined in the National and Victorian Early Years Learning and Development Frameworks; including emphasis on literacy, numeracy, music and movement and social development.  In a Reggio Emilia learning environment, children learn meaningful skills that support them through their future education and life. Our teaching methods are linked to the National Quality Standards for Early Childhood Education and Care & School Age Care to ensure that a consistent and high quality early childhood education curriculum is provided.
+ We understand at Great Start Early Learning Centres the importance of education and believe that childhood is a unique time of life which should be valued and enjoyed. We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing. We use a Reggio Emilia inspired approach to meet the objectives outlined in the National and Victorian Early Years Learning and Development Frameworks; including emphasis on literacy, numeracy, music and movement and social development.  In a Reggio Emilia learning environment, children learn meaningful skills that support them through their future education and life. Our teaching methods are linked to the National Quality Standards for Early Childhood Education and Care & School Age Care to ensure that a consistent and high quality early childhood education curriculum is provided.
 
 We believe that children are capable, inquisitive and active learners who play a crucial role in education.  It is our role as Educators to support and scaffold the children’s development and learning.  We believe in allowing children to learn through exploration, inquiry projects and open-ended play.  We value an inclusive, supportive and stimulating learning environment that evokes imagination and creativity, while providing opportunities for problem solving and independence.  Collaboration between children, educators and families is valued and enables us to better understand the child as a whole.  We believe in documenting the children’s experiences to make their learning visible to our community and provide the children with opportunities to reflect, share and build on their understanding.
 

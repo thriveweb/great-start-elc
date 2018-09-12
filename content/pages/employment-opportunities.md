@@ -19,7 +19,7 @@ All candidates considered suitable for an interview will be notified via email o
 
 # Application Process
 
-We are always looking for passionate, qualified and exceptional educator to join our team. If you consider yourself to be a star and want to grow and develop in a career in early childhood education then please contact us. We will always find a position for great people.
+We are always looking for passionate, qualified and exceptional educators to join our team. If you consider yourself to be a star and want to grow and develop in a career in early childhood education then please contact us. We will always find a position for great people.
 
 We also advertise employment opportunities on seek.com.au. We are always happy to hear from you if you are interested in joining our team, either on a casual or permanent basis.
 Your application should include:

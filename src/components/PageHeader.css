@@ -210,7 +210,7 @@
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1260px) {
   .PageHeader-large .Image {
     display: none;
   }
@@ -307,7 +307,3 @@
     width: 13.1rem;
   }
 }
-
-
-
-

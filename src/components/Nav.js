@@ -19,7 +19,7 @@ export default class Nav extends Component {
   }
 
   toggleActive = () =>
-    this.setState({ 
+    this.setState({
       active: !this.state.active
     })
 
@@ -48,7 +48,7 @@ export default class Nav extends Component {
               return <div key={`menu-${index}`} className={`NavLinkGroup ${menuItemActive === index ? 'menu-active' : ''}`}>
                 <li className='NavLink'>
                   <Link to={url}>{title}</Link>
-                </li>  
+                </li>
                 {subMenu &&
                   <div key={`subMenu-${index}`} className='SubNav'>
                     {subMenu.map((subMenuItem, index) => {
@@ -60,8 +60,8 @@ export default class Nav extends Component {
                     })}
                   </div>
                 }
-                {subMenu && 
-                  <span 
+                {subMenu &&
+                  <span
                   className={`MenuToggle`}
                   onClick={() => this.setState({ menuItemActive: menuItemActive === index ? false : index })}
                   >
@@ -79,7 +79,7 @@ export default class Nav extends Component {
               className="primary"
             >
               <User />
-              QK Login
+              My Family Lounge
             </NavLink>
             <Button to="/enrolments/enrolling-great-start-early-learing-centre/">Enrol Now</Button>
           </div>

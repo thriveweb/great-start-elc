@@ -59,6 +59,15 @@ homeSection3:
       subtitle: >-
         We prepare in accordance with Food Safety and Nutrition standards plus
         dietary and medical needs.
+    - icon: /images/uploads/clock.svg
+      title: 'Flexible Hours: Maximise Your Child Care Subsidy'
+      subtitle: >-
+        Nine-hour, ten-hour and full day options are available to all families
+        under the one associated flat fee, enabling them to make the most out of
+        the Child Care Subsidy. We know that there is no one size fits all
+        option for our families when it comes to early childhood education and
+        care. That is why we are giving families the freedom to choose which
+        hours best suit their needs.
   title: Why Choose Us?
 homeSection4:
   image1: /images/uploads/istock-516621014_supe_crop.jpg

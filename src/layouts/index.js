@@ -87,13 +87,14 @@ export const query = graphql`
       edges {
         node {
           fields {
-            slug          
+            slug
           }
           frontmatter {
             title
             centreDetails {
               email
               phone
+              facebook
             }
           }
         }

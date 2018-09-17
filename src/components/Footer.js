@@ -5,6 +5,7 @@ import JoinBanner from '../components/JoinBanner'
 import FamilyHandbookSection from '../components/FamilyHandbookSection'
 import ExceedBanner from '../components/ExceedBanner'
 import SubscribeFormSection from '../components/SubscribeFormSection'
+import { ICONFacebook } from '../components/Icons'
 import './Footer.css'
 
 export default ({
@@ -48,6 +49,7 @@ export default ({
                   const centreDetails = _get(frontmatter, 'centreDetails') || []
                   const email = _get(centreDetails, 'email') || ''
                   const phone = _get(centreDetails, 'phone') || ''
+                  const facebook = _get(centreDetails, 'facebook') || ''
 
                   return <div key={index} className="Footer--column">
                     <div className="Footer--column--title">{title.replace('Early Learning Centre', '')}</div>
@@ -60,6 +62,7 @@ export default ({
                     <a href={slug} className="Footer--view colorInherit">
                       View Centre
                     </a>
+                    <a className='centreSocial' href={facebook} target="_blank"><ICONFacebook /></a>
                   </div>
                 })}
             </div>

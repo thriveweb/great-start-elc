@@ -56,6 +56,20 @@
   padding-top: 0;
 }
 
+.centreSocial {
+  margin-top: 1.5rem;
+}
+
+.centreSocial svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.centreSocial svg * {
+  fill: #222f50;
+  fill: var(--secondary);
+}
+
 @media only screen and (max-width: 1400px) {
   .Footer--column a, .Footer--column p {
     font-size: 1.4rem;
@@ -146,8 +160,3 @@
     font-size: 1.8rem;
   }
 }
-
-
-
-
-

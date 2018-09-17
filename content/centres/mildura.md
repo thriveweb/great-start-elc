@@ -5,6 +5,7 @@ title: Mildura Early Learning Centre
 logo: /images/uploads/mildura.svg
 centreDetails:
   email: mildura@mychildelc.com.au
+  facebook: ' https://www.facebook.com/milduraearlylearningcentre'
   latitude: '-34.204927'
   location: 340-342 San Mateo Avenue Mildura VIC 3500
   longitude: '142.149069'

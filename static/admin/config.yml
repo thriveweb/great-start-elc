@@ -178,7 +178,7 @@ collections: # A list of collections the CMS should be able to edit
 
       - file: "content/pages/team-members.md"
         label: "Team Members"
-        name: "teamMembers" 
+        name: "teamMembers"
         fields:
           - {name: template, label: Template, widget: hidden, default: 'TeamMembers'}
           - {name: slug, label: Slug, widget: hidden, default: 'about/our-team'}
@@ -192,7 +192,7 @@ collections: # A list of collections the CMS should be able to edit
               - {name: name, label: Name, widget: string}
               - {name: title, label: Title, widget: string, required: false}
               - {name: excerpt, label: Excerpt, widget: text}
-              - {name: description, label: Description, widget: markdown} 
+              - {name: description, label: Description, widget: markdown}
 
       - file: "content/pages/quality.md"
         label: "National Quality"
@@ -224,8 +224,8 @@ collections: # A list of collections the CMS should be able to edit
                 widget: list
                 fields:
                   - {name: icon, label: icon, widget: image}
-                  - {name: description, label: Description, widget: markdown} 
-                  
+                  - {name: description, label: Description, widget: markdown}
+
       - file: "content/pages/employment-opportunities.md"
         label: "Employment Opportunities"
         name: "employmentOpportunities"
@@ -453,6 +453,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Longitude, name: longitude, widget: string, required: false}
           - {label: Phone, name: phone, widget: string, required: false}
           - {label: Email, name: email, widget: string, required: false}
+          - {label: Facebook, name: facebook, widget: string, required: false}
       - {label: Centre Intro, name: centreIntro, widget: text}
       - label: Content Columns
         name: contentColumns
@@ -534,7 +535,7 @@ collections: # A list of collections the CMS should be able to edit
             name: socialMediaCard
             widget: object
             fields:
-              - {label: Facebook Url, name: facebookUrl, widget: string, required: false} 
+              - {label: Facebook Url, name: facebookUrl, widget: string, required: false}
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
 
       - file: "content/settings/footer.yml"
@@ -550,7 +551,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: list
             fields:
               - {label: Title, name: title, widget: string, required: false}
-              - {label: File, name: file, widget: file, required: false} 
+              - {label: File, name: file, widget: file, required: false}
 
       - file: "content/settings/header.yml"
         label: "Header"
@@ -569,11 +570,3 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {label: Title, name: title, widget: string, required: false}
                   - {label: url, name: url, widget: string, required: false}
-
-
-
-
-
-
-
-

@@ -5,6 +5,7 @@ title: East Malvern Early Learning Centre
 logo: /images/uploads/east-malvern.svg
 centreDetails:
   email: eastmalvern@mychildelc.com.au
+  facebook: 'https://www.facebook.com/eastmalvernearlylearningcentre/'
   latitude: '-37.869338'
   location: 11 Illowa Street Malvern East VIC 3145
   longitude: '145.061620'

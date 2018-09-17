@@ -1,3 +1,6 @@
+require('core-js')
+require('babel-polyfill')
+
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import 'modern-normalize/modern-normalize.css'

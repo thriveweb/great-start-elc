@@ -28,8 +28,8 @@ export default ({ children, data }) => {
 
         <meta name="msvalidate.01" content="B0112812CA622A13C327AF572E2BA5B5" />
         <meta name="google-site-verification" content="MoxAZiT4Uwrk6d0PZek_l-BN5JhW65hgzkVSZoUe3vE" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123975389-5"></script>
-        <script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123975389-5" />
+        <script type="text/javascript">
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());

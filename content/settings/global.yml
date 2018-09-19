@@ -4,4 +4,5 @@ siteDescription: >-
   A starter project for creating lightning-fast, offline-first websites with
   Netlify CMS and React.
 socialMediaCard: {}
+openGraphCard: /images/uploads/open-graph-card.jpg
 headerScripts: ''

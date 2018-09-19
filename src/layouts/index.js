@@ -28,7 +28,6 @@ export default ({ children, data }) => {
 
         <meta name="msvalidate.01" content="B0112812CA622A13C327AF572E2BA5B5" />
         <meta name="google-site-verification" content="MoxAZiT4Uwrk6d0PZek_l-BN5JhW65hgzkVSZoUe3vE" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123975389-5"></script>
         <script>
           window.dataLayer = window.dataLayer || [];

@@ -47,14 +47,14 @@ export default class Nav extends Component {
 
               return <div key={`menu-${index}`} className={`NavLinkGroup ${menuItemActive === index ? 'menu-active' : ''}`}>
                 <li className='NavLink'>
-                  <Link to={url}>{title}</Link>
+                  {url ? <Link to={url}>{title}</Link> : `${title}`}
                 </li>
                 {subMenu &&
                   <div key={`subMenu-${index}`} className='SubNav'>
                     {subMenu.map((subMenuItem, index) => {
                       const { title, url } = subMenuItem
 
-                      return <li className='NavLink'>
+                      return <li className='NavLink' key={index}>
                             <Link to={url}>{title}</Link>
                           </li>
                     })}

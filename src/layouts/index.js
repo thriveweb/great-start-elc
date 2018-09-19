@@ -13,7 +13,7 @@ import FamilyHandbookBanner from '../components/FamilyHandbookBanner'
 
 export default ({ children, data }) => {
   const { footerSettings, globalSettings, centres, header } = data
-  const { siteTitle, siteUrl, socialMediaCard, headerScripts } = globalSettings
+  const { siteTitle, siteUrl, socialMediaCard, headerScripts, openGraphCard } = globalSettings
   const { showHandbook = false, simpleFooter = false, downloadBanner } = data
   const allPages = data.allPages.edges.map(edge => edge.node)
 
@@ -42,9 +42,9 @@ export default ({ children, data }) => {
       <Meta
         headerScripts={headerScripts}
         absoluteImageUrl={
-          socialMediaCard &&
-          socialMediaCard.image &&
-          siteUrl + socialMediaCard.image
+          openGraphCard &&
+          openGraphCard.image &&
+          siteUrl + openGraphCard.image
         }
       />
 

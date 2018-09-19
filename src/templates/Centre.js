@@ -86,7 +86,7 @@ export const CentreTemplate = ({
               {contentColumns.map((column, index) => {
                 const { image, content } = column
 
-                return <div className='column-content'>   
+                return <div className='column-content' key={index}>   
                     {image && <Image src={image} alt='centre image' />}
                     {content && <Content src={content} />}
                   </div>

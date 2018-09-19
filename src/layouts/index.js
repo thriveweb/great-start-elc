@@ -17,7 +17,6 @@ export default ({ children, data }) => {
   const { showHandbook = false, simpleFooter = false, downloadBanner } = data
   const allPages = data.allPages.edges.map(edge => edge.node)
 
-
   return (
     <Fragment>
       <Helmet defaultTitle={siteTitle} titleTemplate={`${siteTitle} | %s`}>
@@ -25,17 +24,6 @@ export default ({ children, data }) => {
           href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,600,700|Varela+Round"
           rel="stylesheet"
         />
-
-        <meta name="msvalidate.01" content="B0112812CA622A13C327AF572E2BA5B5" />
-        <meta name="google-site-verification" content="MoxAZiT4Uwrk6d0PZek_l-BN5JhW65hgzkVSZoUe3vE" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123975389-5" />
-        <script type="text/javascript">
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-123975389-5');
-        </script>
       </Helmet>
       <Meta
         headerScripts={headerScripts}
@@ -94,7 +82,9 @@ export const query = graphql`
       }
     }
 
-    centres: allMarkdownRemark( filter: { fields: { contentType: { regex: "/centre/" } } }) {
+    centres: allMarkdownRemark(
+      filter: { fields: { contentType: { regex: "/centre/" } } }
+    ) {
       edges {
         node {
           fields {

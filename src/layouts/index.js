@@ -40,7 +40,8 @@ export default ({ children, data }) => {
       </Helmet>
       <Meta
         headerScripts={headerScripts}
-        absoluteImageUrl={
+        property="og:image"
+        content={
           openGraphCard &&
           openGraphCard.image &&
           siteUrl + openGraphCard.image

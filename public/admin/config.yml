@@ -531,12 +531,11 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Site Title, name: siteTitle, widget: string}
           - {label: Site Url, name: siteUrl, widget: string, required: false}
           - {label: Site Description, name: siteDescription, widget: text, required: false}
-          - label: Social Media Card
-            name: socialMediaCard
+          - label: Open Graph Card
+            name: openGraphCard
             widget: object
             fields:
-              - {label: Facebook Url, name: facebookUrl, widget: string, required: false}
-          - {label: Open Graph Card, name: openGraphCard, widget: image, required: false}
+              - {label: Image, name: image, widget: image, required: false}
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
 
       - file: "content/settings/footer.yml"

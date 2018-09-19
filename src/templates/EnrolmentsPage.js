@@ -35,9 +35,7 @@ export const EnrolmentsPageTemplate = ({
 
   return (
     <main className="EnrolmentsPage background-dots">
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
+      <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
 
       <PageHeader title={title} subtitle={subtitle} />
 

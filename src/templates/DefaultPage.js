@@ -32,9 +32,7 @@ export const DefaultPageTemplate = ({
 
   return (
     <main className="DefaultPage background-dots">
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
+      <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
 
       <PageHeader title={title} subtitle={subtitle} />
 

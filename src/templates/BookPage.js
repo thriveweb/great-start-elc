@@ -16,9 +16,7 @@ export const BookPageTemplate = ({ title, subtitle, featuredImage, body, footerS
 
   return (
     <main className="BookPage">
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
+      <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
 
       <PageHeader title={title} subtitle={subtitle} />
 

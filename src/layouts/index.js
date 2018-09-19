@@ -17,6 +17,7 @@ export default ({ children, data }) => {
   const { showHandbook = false, simpleFooter = false, downloadBanner } = data
   const allPages = data.allPages.edges.map(edge => edge.node)
 
+
   return (
     <Fragment>
       <Helmet defaultTitle={siteTitle} titleTemplate={`${siteTitle} | %s`}>
@@ -82,9 +83,7 @@ export const query = graphql`
       }
     }
 
-    centres: allMarkdownRemark(
-      filter: { fields: { contentType: { regex: "/centre/" } } }
-    ) {
+    centres: allMarkdownRemark( filter: { fields: { contentType: { regex: "/centre/" } } }) {
       edges {
         node {
           fields {

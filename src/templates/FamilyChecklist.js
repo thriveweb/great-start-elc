@@ -19,9 +19,7 @@ export const FamilyChecklistTemplate = ({
   checklist
 }) => (
   <main className="FamilyChecklist background-dots">
-    <Helmet>
-      <title>{title}</title>
-    </Helmet>
+    <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
 
     <PageHeader title={title} subtitle={subtitle} />
 

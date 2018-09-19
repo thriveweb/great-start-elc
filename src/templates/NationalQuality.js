@@ -17,9 +17,7 @@ export const NationalQualityTemplate = ({
 
   return (
     <main className="NationalQuality background-dots">
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
+      <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
 
       <PageHeader title={title} subtitle={subtitle} />
 

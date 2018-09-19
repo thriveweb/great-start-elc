@@ -29,7 +29,7 @@ export const ContactPageTemplate = ({
       </div>
 
       <div className="container Contact--Centres">
-        <Helmet>
+        <Helmet defaultTitle={`${title} | Great Start ELC`}>
           <script
             async
             defer

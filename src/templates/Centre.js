@@ -38,10 +38,7 @@ export const CentreTemplate = ({
 
   return (
     <main className="Centre">
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
-
+      <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
       <Meta {...meta} />
       <PageHeader title={title} subtitle={subtitle} />
 

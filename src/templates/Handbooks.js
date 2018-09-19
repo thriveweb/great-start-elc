@@ -25,9 +25,7 @@ export const HandbooksTemplate = ({
 
   return (
     <main className="Handbooks background-dots">
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
+      <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
 
       <PageHeader title={title} subtitle={subtitle} />
 

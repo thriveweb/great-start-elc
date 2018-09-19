@@ -22,9 +22,7 @@ export const HealthInfoPageTemplate = ({
   footerSettings
 }) => (
   <main className="HealthInfoPage background-dots">
-    <Helmet>
-      <title>{title}</title>
-    </Helmet>
+    <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
 
     <PageHeader title={title} subtitle={subtitle} />
 

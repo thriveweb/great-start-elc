@@ -14,9 +14,7 @@ import './QKPortalPage.css'
 export const QKPortalPageTemplate = ({ title, subtitle, image, boxTitle, boxContent, features, rawMarkdownBody, footerSettings }) => {
 
   return <main className="QKPortalPage">
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
+      <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
 
       <PageHeader title={title} subtitle={subtitle} />
 

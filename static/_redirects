@@ -1,5 +1,6 @@
 # Redirects from what the browser requests to what we serve
 
+https://great-start-elc.netlify.com/* https://greatstartelc.com.au
 http://mychildelc.com.au/main/page_our_centres_our_centres.html/* https://greatstartelc.com.au
 http://mychildelc.com.au/main/page_home.html/* https://greatstartelc.com.au
 http://mychildelc.com.au/main/page_our_centres_east_malvern_early_learning_centre_our_centre.html/* https://greatstartelc.com.au/centres/east-malvern-early-learning-centre

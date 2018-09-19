@@ -72,7 +72,16 @@ class Form extends React.Component {
 
   render() {
     const { name, subject, action, formName, active, fields } = this.props
-    const { emailaddress = '', yourname = '', childname = '', phone = '', birthday = '', startdate = '', comments = ''  } = fields
+    const { 
+      emailaddress = '', 
+      yourname = '', 
+      childname_1 = '',
+      childname_2 = '',
+      childname_3 = '',
+      birthday_1 = '',
+      birthday_2 = '',
+      birthday_3 = '',
+      phone = '', startdate = '', comments = ''  } = fields
 
 
     return (
@@ -114,8 +123,8 @@ class Form extends React.Component {
             className="EnquiryForm--Input"
             type="text"
             placeholder="Your Child's Name"
-            name="childname"
-            value={childname}
+            name="childname_1"
+            value={childname_1}
             onChange={this.props.handleChange}
             required
           />
@@ -126,8 +135,8 @@ class Form extends React.Component {
             className="EnquiryForm--Input"
             type="text"
             placeholder="DD / MM / YYYY"
-            name="birthday"
-            value={birthday}
+            name="birthday_1"
+            value={birthday_1}
             onChange={this.props.handleChange}
             required
           />
@@ -137,8 +146,8 @@ class Form extends React.Component {
             className="EnquiryForm--Input"
             type="text"
             placeholder="Your Child's Name"
-            name="childname"
-            value={childname}
+            name="childname_2"
+            value={childname_2}
             onChange={this.props.handleChange}
           />
         </label>
@@ -148,8 +157,8 @@ class Form extends React.Component {
             className="EnquiryForm--Input"
             type="text"
             placeholder="DD / MM / YYYY"
-            name="birthday"
-            value={birthday}
+            name="birthday_2"
+            value={birthday_2}
             onChange={this.props.handleChange}
           />
         </label>
@@ -158,8 +167,8 @@ class Form extends React.Component {
             className="EnquiryForm--Input"
             type="text"
             placeholder="Your Child's Name"
-            name="childname"
-            value={childname}
+            name="childname_3"
+            value={childname_3}
             onChange={this.props.handleChange}
           />
         </label>
@@ -169,8 +178,8 @@ class Form extends React.Component {
             className="EnquiryForm--Input"
             type="text"
             placeholder="DD / MM / YYYY"
-            name="birthday"
-            value={birthday}
+            name="birthday_3"
+            value={birthday_3}
             onChange={this.props.handleChange}
           />
         </label>

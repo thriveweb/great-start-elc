@@ -43,8 +43,7 @@ export default ({ children, data }) => {
         headerScripts={headerScripts}
         absoluteImageUrl={
           openGraphCard &&
-          openGraphCard.image &&
-          siteUrl + openGraphCard.image
+          siteUrl + openGraphCard
         }
       />
 

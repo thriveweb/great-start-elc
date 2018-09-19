@@ -12,8 +12,6 @@ import './TeamMembers.css'
 // Export Template for use in CMS preview
 export const TeamMembersTemplate = ({ title, popoutBanner, members, body, footerSettings }) => {
 
-  console.log(title)
-
   return (
     <main className="TeamMembers background-dots">
       <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>

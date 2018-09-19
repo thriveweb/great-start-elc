@@ -536,6 +536,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: object
             fields:
               - {label: Facebook Url, name: facebookUrl, widget: string, required: false}
+          - {label: Open Graph Card, name: openGraphCard, widget: image, required: false}
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
 
       - file: "content/settings/footer.yml"

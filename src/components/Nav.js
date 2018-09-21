@@ -54,7 +54,11 @@ export default class Nav extends Component {
                     {subMenu.map((subMenuItem, index) => {
                       const { title, url } = subMenuItem
 
-                      return <li className='NavLink' key={index}>
+                      return <li 
+                          className='NavLink' 
+                          key={index}
+                          onClick={this.toggleActive}
+                        >
                             <Link to={url}>{title}</Link>
                           </li>
                     })}

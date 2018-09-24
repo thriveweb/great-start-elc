@@ -1,7 +1,7 @@
 ---
 template: EnrolmentsPage
-title: Enrolling at a Great Start Early Learning Centre
 slug: enrolments/enrolling-great-start-early-learing-centre
+title: Enrolling at a Great Start Early Learning Centre
 featuredImage: /images/uploads/istock-529400494_super_crop.jpg
 enrolmentsSection1:
   title: >-
@@ -59,9 +59,9 @@ enrolmentsSection2:
         ‘New Request’ and the ‘Add Waitlist Details’ screen will appear. Follows
         steps and press save to add child’s name to centre waitlist. The centre
         will be in contact once a position is available. Once you are offered a
-        place at the centre you will complete an enrolment form for each child.
-        We will contact you to arrange suitable times for you and your child to
-        undertake orientation at the centre.
+        place at the centre via QK Enrol, you will complete an enrolment form
+        for each child. We will contact you to arrange suitable times for you
+        and your child to undertake orientation at the centre.
       title: Add Your Booking Request To The Waitlist
 enrolBanner:
   buttonLinkTo: 'https://www.qkenhanced.com.au/webui/Account/Embeddable/?databaseId=5583'

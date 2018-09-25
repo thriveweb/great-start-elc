@@ -67,7 +67,7 @@ enrolBanner:
   buttonLinkTo: 'https://www.qkenhanced.com.au/webui/Account/Embeddable/?databaseId=5583'
   buttonTitle: Visit Site
   title: Enrol Through My Family Lounge
-enrolmentsSection3: >
+enrolmentsSection3: >-
   ###### If there are no vacancies at the centre, please complete the
   waitlisting form using the QK Enrol portal. We regularly review the waitlist
   and we will contact you if a place becomes available.
@@ -87,7 +87,7 @@ enrolmentsSection3: >
   if any of your information changes.
 
 
-  ###### The information you need to have available for enrolment includes:
+  ###### The information you need to have available for enrolment form includes:
 
 
   * Customer Reference Number (CRN) for your child

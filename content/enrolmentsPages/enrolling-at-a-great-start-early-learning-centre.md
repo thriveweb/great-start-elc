@@ -50,6 +50,11 @@ enrolmentsSection2:
       iframeSource: 'https://www.qkenhanced.com.au/Account/Embeddable/?databaseId=5583'
       title: Register For My Family Lounge
     - content: >-
+        If there are no vacancies at the centre, please complete the waitlisting
+        form using the QK Enrol portal. We regularly review the waitlist and we
+        will contact you if a place becomes available.
+
+
         In the My Family Lounge, enter QK Enrol, press ‘Add Child’ under the
         ‘Child’ section. Search and select our centre. Add in your child details
         and answer the waitlist questions. Press Save.
@@ -58,35 +63,34 @@ enrolmentsSection2:
         Enter QK Enrol in the My Family Lounge. Under Booking Requests, click
         ‘New Request’ and the ‘Add Waitlist Details’ screen will appear. Follows
         steps and press save to add child’s name to centre waitlist. The centre
-        will be in contact once a position is available. Once you are offered a
-        place at the centre via QK Enrol, you will complete an enrolment form
-        for each child. We will contact you to arrange suitable times for you
-        and your child to undertake orientation at the centre.
+        will be in contact once a position is available.
       title: Add Your Booking Request To The Waitlist
+    - content: >-
+        Once you are offered a place at the centre via QK Enrol, you will
+        complete an enrolment form for each child. We will contact you to
+        arrange suitable times for you and your child to undertake orientation
+        at the centre.
+
+
+        To finalise the enrolment an initial fee must be paid. The initial fee
+        is calculated as the greater of amounts: $100 or two weeks fees. Your
+        centre director will advise the initial fee amount. On your child’s
+        commencement, the initial fee amount will be credited to your account
+        and offset against the amount due for the two weeks fees due in advance.
+        Please note, if your child does not commence as booked, the initial fee
+        is non-refundable.
+
+
+        We’ve made payment easy for you and have direct debit implemented via
+        bank account or credit card on a weekly basis. A direct debit authority
+        form is required to be completed and signed upon enrolment. Please
+        complete a new form if any of your information changes.
+      title: Enrolling - Accepting Offer
 enrolBanner:
   buttonLinkTo: 'https://www.qkenhanced.com.au/webui/Account/Embeddable/?databaseId=5583'
   buttonTitle: Visit Site
   title: Enrol Through My Family Lounge
 enrolmentsSection3: >-
-  ###### If there are no vacancies at the centre, please complete the
-  waitlisting form using the QK Enrol portal. We regularly review the waitlist
-  and we will contact you if a place becomes available.
-
-
-  To finalise the enrolment an initial fee must be paid. The initial fee is
-  calculated as the greater of amounts: $100 or two weeks fees. Your centre
-  director will advise the initial fee amount. On your child’s commencement, the
-  initial fee amount will be credited to your account and offset against the
-  amount due for the two weeks fees due in advance. Please note, if your child
-  does not commence as booked, the initial fee is non-refundable.
-
-
-  We’ve made payment easy for you and have direct debit implemented via bank
-  account or credit card on a weekly basis. A direct debit authority form is
-  required to be completed and signed upon enrolment. Please complete a new form
-  if any of your information changes.
-
-
   ###### The information you need to have available for enrolment form includes:
 
 
@@ -106,6 +110,12 @@ enrolmentsSection3: >-
   * Medicare Details
 
   * Private Health and Ambulance Insurance Details (if applicable)
+
+  * Court Orders
+
+  * Medical Conditions and Illnesses
+
+  * Immunisation History Statement
 accordion:
   - content: >-
       If court order, parent plans or orders apply, a copy must be provided to

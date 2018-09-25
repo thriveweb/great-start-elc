@@ -41,7 +41,7 @@ export const EnrolmentsPageTemplate = ({
 
       <section className="section EnrolmentsPage--Section1">
         <div className="container content">
-          {featuredImage && 
+          {featuredImage &&
             <div className="relative EnrolmentsPage--Section1-Image">
               <Image
                 background
@@ -75,7 +75,7 @@ export const EnrolmentsPageTemplate = ({
                   <div>
                     <h4>{step.title}</h4>
                     <Content src={step.content} />
-                    {iframeSource && 
+                    {iframeSource &&
                       <div className='login-form'>
                         <iframe width="230"
                           height="260"
@@ -84,22 +84,21 @@ export const EnrolmentsPageTemplate = ({
                           seamless="seamless">
                         </iframe>
                       </div>
-                    } 
+                    }
                   </div>
                 </div>
               })}
           </div>
-          {footerSettings && <PopoutBanner image={footerSettings.exceedLogo} title={footerSettings.exceedTextLong} />}
         </section>
       }
 
       <section className="section">
         <div className="container content">
           <Content src={enrolmentsSection3} />
-          {downloadFile && 
+          {downloadFile &&
             <section className='download-file'>
               <ICONDownload/>
-              <a 
+              <a
                 href={downloadFile.publicURL}
                 target="_blank"
               >
@@ -108,8 +107,9 @@ export const EnrolmentsPageTemplate = ({
             </section>
           }
           <Accordion items={accordion} />
-        </div> 
+        </div>
       </section>
+      {footerSettings && <PopoutBanner image={footerSettings.exceedLogo} title={footerSettings.exceedTextLong} />}
       <DownloadBanner handbookDownload={handbookDownload} />
     </main>
   )

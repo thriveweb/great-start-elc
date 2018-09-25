@@ -67,9 +67,11 @@ enrolmentsSection2:
       title: Add Your Booking Request To The Waitlist
     - content: >-
         Once you are offered a place at the centre via QK Enrol, you will
-        complete an enrolment form for each child. We will contact you to
-        arrange suitable times for you and your child to undertake orientation
-        at the centre.
+        complete an Enrolment Form and Complying Written Arrangement (CWA) for
+        each child. In the Complying Written Arrangement you will need to elect
+        the session duration most appropriate for your family. We will contact
+        you to arrange suitable times for you and your child to undertake
+        orientation at the centre.
 
 
         To finalise the enrolment an initial fee must be paid. The initial fee

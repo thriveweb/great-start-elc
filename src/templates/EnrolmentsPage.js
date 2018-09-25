@@ -89,7 +89,6 @@ export const EnrolmentsPageTemplate = ({
                 </div>
               })}
           </div>
-          {footerSettings && <PopoutBanner image={footerSettings.exceedLogo} title={footerSettings.exceedTextLong} />}
         </section>
       }
 
@@ -109,6 +108,7 @@ export const EnrolmentsPageTemplate = ({
           }
           <Accordion items={accordion} />
         </div>
+        {footerSettings && <PopoutBanner image={footerSettings.exceedLogo} title={footerSettings.exceedTextLong} />}
       </section>
       <DownloadBanner handbookDownload={handbookDownload} />
     </main>

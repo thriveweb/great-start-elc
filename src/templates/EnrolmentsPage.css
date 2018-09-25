@@ -70,7 +70,7 @@
 }
 
 .EnrolmentsPage .PopoutBanner {
-	/* margin-top: 14rem; */
+	margin-top: 8rem;
 	padding-bottom: 0;
 }
 
@@ -89,7 +89,6 @@
 	.EnrolmentsPage--Section2--Step .Button {
 		margin-bottom: 2rem;
 	}
-
 }
 
 @media only screen and (max-width: 1000px) {

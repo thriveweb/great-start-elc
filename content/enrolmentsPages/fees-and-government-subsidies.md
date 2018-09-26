@@ -1,7 +1,7 @@
 ---
 template: EnrolmentsPage
-title: Fees and Government Subsidies
 slug: enrolments/fees-and-government-subsidies
+title: Fees and Government Subsidies
 enrolmentsSection1:
   title: >-
     ### Great Start Early Learning Centres is registered as a provider of
@@ -115,13 +115,13 @@ accordion:
       website.
 
       2. Complete an ASCIA Action Plan for Anaphylaxis Reactions
-      [form](www.allergy.org.au)
+      [form](https://allergy.org.au)
 
       3. Complete an ASCIA Action Plan for Allergic Reactions
-      [form](www.allergy.org.au)
+      [form](https://allergy.org.au)
 
       4. Complete an Asthma Australia Asthma Care Plan for Education and Care
-      Centre [form](www.asthmaaustralia.org.au)
+      Centre [form](https://asthmaaustralia.org.au)
 
       5. Have the forms signed by your child's doctor.
 

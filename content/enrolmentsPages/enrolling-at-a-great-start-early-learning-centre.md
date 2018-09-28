@@ -146,8 +146,6 @@ accordion:
 
       Please undertake the following:
 
-      <a href="http://example.com/" target="_blank">Hello, world!</a>
-
 
       Complete relevant "Medical Management, Risk Minimisation & Communication
       Plan” - this form is obtained from the centre or our website.

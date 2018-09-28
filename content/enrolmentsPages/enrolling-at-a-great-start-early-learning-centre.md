@@ -171,14 +171,6 @@ accordion:
       5. Have the forms signed by your child's doctor.
 
 
-
-      ```
-
-      <a href="http://example.com/" target="_blank">Hello, world!</a>
-
-      ```
-
-
       A Medical Management, Risk Minimisation & Communication Plan is required
       for each type of medical condition. If the medical dietary condition is an
       allergy please follow the Allergy Medical Condition requirements.

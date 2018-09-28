@@ -170,10 +170,6 @@ accordion:
 
       5. Have the forms signed by your child's doctor.
 
-      6. Please discuss Forms and Plans with the Centre Director during
-      orientation sessions. Upload signed forms to our enrolment system section
-      - Medical Condition & Dietary Restriction. 
-
 
       A Medical Management, Risk Minimisation & Communication Plan is required
       for each type of medical condition. If the medical dietary condition is an

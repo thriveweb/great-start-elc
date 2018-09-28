@@ -146,6 +146,8 @@ accordion:
 
       Please undertake the following:
 
+      <a href="http://example.com/" target="_blank">Hello, world!</a>
+
 
       Complete relevant "Medical Management, Risk Minimisation & Communication
       Plan” - this form is obtained from the centre or our website.
@@ -170,9 +172,13 @@ accordion:
 
       5. Have the forms signed by your child's doctor.
 
-      6. Please discuss Forms and Plans with the Centre Director during
-      orientation sessions. Upload signed forms to our enrolment system section
-      - Medical Condition & Dietary Restriction. 
+
+
+      ```
+
+      <a href="http://example.com/" target="_blank">Hello, world!</a>
+
+      ```
 
 
       A Medical Management, Risk Minimisation & Communication Plan is required

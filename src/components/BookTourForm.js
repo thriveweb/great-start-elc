@@ -57,14 +57,14 @@ class Form extends React.Component {
     const { centre } = fields
 
     return <label className="checkbox-container" key={value}>
-      <input 
-        className="EnquiryForm--Input" 
-        type="radio" 
+      <input
+        className="EnquiryForm--Input"
+        type="radio"
         name={name}
         value={value}
         checked={centre === value ? true : false}
         onChange={this.props.handleChange}
-      /> 
+      />
       {value}
       <span className='checkbox'></span>
     </label>
@@ -72,9 +72,9 @@ class Form extends React.Component {
 
   render() {
     const { name, subject, action, formName, active, fields } = this.props
-    const { 
-      emailaddress = '', 
-      yourname = '', 
+    const {
+      emailaddress = '',
+      yourname = '',
       childname_1 = '',
       childname_2 = '',
       childname_3 = '',
@@ -196,7 +196,7 @@ class Form extends React.Component {
         </label>
         <div className='EnquiryForm--Label label-text'>
           <p>Choose Centre:</p>
-          {[ 
+          {[
             this.renderOption('centre', 'East Malvern'),
             this.renderOption('centre', 'Mildura'),
             this.renderOption('centre', 'Mildura Central')
@@ -235,7 +235,7 @@ class Form extends React.Component {
         <div className='privacy-check'>
           <input className="EnquiryForm--Input" type="checkbox" name="privacy" required />
           <span className='checkbox'></span>
-          <p>Yes, I have read and agree to the Great Start <a href="/defaultPages/our-policies/">Privacy Policy</a></p>
+          <p>Yes, I have read and agree to the Great Start <a href="/parents/our-policies/">Privacy Policy</a></p>
         </div>
       </form>
     )

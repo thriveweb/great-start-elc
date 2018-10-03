@@ -34,7 +34,9 @@ enrolmentsSection1:
     centre offering) and make the most out of the Child Care Subsidy.
 
 
-    ![null](/images/uploads/table-1_-flexible-hours.jpg)
+    ![null](/images/uploads/2018_10_03_17_10_27_flexible_hours_table_10_2018.docx_compatibility_mode_word.jpg)
+
+
 
 
     ## Child Care Subsidies

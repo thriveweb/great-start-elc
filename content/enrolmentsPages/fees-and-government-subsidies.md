@@ -76,11 +76,52 @@ enrolmentsSection1:
     * Your child’s date of birth.
 
 
-    ###### **This information will be provided to the Australian Government and
-    validated against their records to determine if you can receive fee
-    subsidies. Your subsidy will then be subtracted from the full fees owing,
-    leaving a gap fee which is the amount families pay to the Centre, meaning
-    less out of pocket expense.**
+    # Am I Entitled to Child Care Subsidy?
+
+
+    The Child Care Subsidy (CCS) is a payment made by the Australian Government
+     to help families with the cost of quality child care and early education. This is
+     paid directly to the service to reduce your weekly fees. It is the responsibility of the parent to register for Child Care Subsidy. This can be done by contacting Centrelink either in
+     person, by phone on 136 150 or by accessing their My Gov account at my.gov.au
+
+    Three things will determine a family’s level of Child Care Subsidy:
+
+
+    1. A family’s combined income will determine the percentage of subsidy they
+    are eligible to receive.
+
+    2. An activity test will determine how many hours of subsidised care
+    families can access, up to a maximum of 100 per fortnight.
+
+    3. The type of child care service will determine the hourly rate cap.
+
+
+    Some basic requirements must be satisfied for an individual to be eligible
+    to
+     receive the Child Care Subsidy. These include:
+
+    * The age of the child (must be 13 or under and not attending secondary
+    school).
+
+    * The child meeting immunisation requirements.
+
+    * The individual, or their partner, meeting the residency requirements.
+
+
+    The number of hours of subsidised child care that families will have access
+    to per fortnight will be determined by a three-step activity test.
+
+
+    In two parent families both parents, unless exempt, must meet the activity
+    test. In the case where both parents meet different steps of the activity
+    test, the parent with the lowest entitlement will determine the hours of
+    subsidised care for the child.
+
+
+    Low income families on $66,958 (2018/19 Financial Year) or less a year who
+    do not meet the activity test will be able to access 24 hours of subsided
+    care per child per fortnight without having to meet the activity test, as
+    part of the Child Care Safety Net.
 breakoutBox:
   content: "Registering can be completed through:\n\n* In person: [at Medicare offices or Centrelink offices](https://findus.humanservices.gov.au/)\n* \LInternet:\_[www.humanservices.gov.au](https://humanservices.gov.au)\n* Telephone (Centrelink): 13 61 50\n\nWe also require you to register at myGov at [my.gov.au](https://my.gov.au). MyGov is a simple and secure government online service providing information on:\n\n* Australian Taxation Office\n* Centrelink\n* Child Support\n* Medicare\n* My Health Record\n\n**You will be required to authorise your child’s attendance using the MyGov or telephoning the government agency.**"
   title: Registering for Child Care Subsidies

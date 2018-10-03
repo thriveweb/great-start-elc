@@ -54,11 +54,9 @@ enrolmentsSection1:
     Subsidy with Centrelink:
 
 
-    * Your Customer Reference Number (CRN – issued to you by the Family
-    Assistance Office).
+    * Your Customer Reference Number (CRN – issued to you by Centrelink).
 
-    * Your child’s Customer Reference Number (issued to you by the Family
-    Assistance Office)
+    * Your child’s Customer Reference Number (issued to you by Centrelink)
 
     * Your date of birth (CRN Holder).
 

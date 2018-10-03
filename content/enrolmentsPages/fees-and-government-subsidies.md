@@ -48,9 +48,8 @@ enrolmentsSection1:
     family must register and apply for the Child Care Subsidy via Centrelink.
 
 
-    The Australian Government may provide financial assistance towards the cost
-    of childcare. If you would like to access this assistance, please include
-    this information in your child’s enrolment form and register for Child Care
+    If you would like to receive the Child Care Subsidy, please include this
+    information in your child’s enrolment form and register for Child Care
     Subsidy with Centrelink:
 
 

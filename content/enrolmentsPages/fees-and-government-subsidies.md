@@ -32,7 +32,7 @@ enrolmentsSection1:
     leaving a gap fee which is the amount families pay to the Centre, meaning
     less out of pocket expense.**
 breakoutBox:
-  content: "Registering can be completed through:\nIn person: [at Medicare offices or Centrelink offices](https://findus.humanservices.gov.au/)\n\LInternet:\_w[ww.humanservices.gov.au\n](www.humanserives.gov.au)Phone: 13 61 50"
+  content: "Registering can be completed through:\nIn person: [at Medicare offices or Centrelink offices](https://findus.humanservices.gov.au/)\n\LInternet:\_[www.humanservices.gov.au](https://humanservices.gov.au)\nPhone: 13 61 50"
   title: Registering for Child Care Subsidies
 enrolmentsSection2:
   steps: []

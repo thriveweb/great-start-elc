@@ -130,7 +130,7 @@ class Form extends React.Component {
           />
         </label>
         <label className="EnquiryForm--Label label-text">
-          <p>Child's Date of Birth:</p>
+          <p>{"Child's Date of Birth:"}</p>
           <input
             className="EnquiryForm--Input"
             type="text"
@@ -152,7 +152,7 @@ class Form extends React.Component {
           />
         </label>
         <label className="EnquiryForm--Label label-text">
-          <p>Child's Date of Birth:</p>
+          <p>{"Child's Date of Birth:"}</p>
           <input
             className="EnquiryForm--Input"
             type="text"
@@ -173,7 +173,7 @@ class Form extends React.Component {
           />
         </label>
         <label className="EnquiryForm--Label label-text">
-          <p>Child's Date of Birth:</p>
+          <p>{"Child's Date of Birth:"}</p>
           <input
             className="EnquiryForm--Input"
             type="text"

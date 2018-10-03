@@ -63,25 +63,25 @@ class Form extends React.Component {
     const { centre } = fields
 
     return <label className="checkbox-container" key={value}>
-      <input 
-        className="EnquiryForm--Input" 
-        type="radio" 
+      <input
+        className="EnquiryForm--Input"
+        type="radio"
         name={name}
         value={value}
         checked={centre === value ? true : false}
         onChange={this.props.handleChange}
-      /> 
+      />
       {value}
       <span className='checkbox'></span>
     </label>
   }
 
   render() {
-    const { name, subject, action, formName, active, fields, title, description, handbookDownload = [], centreItem } = this.props
-    const { emailaddress = '', yourname = '', phone = '' } = fields
+    const { name, subject, action, formName, active, fields, title, description, handbookDownload = [] } = this.props
+    const { emailaddress = '', yourname = '', phone = '', centre } = fields
 
-    const fileDownload = handbookDownload.find(handbook => 
-      handbook.title === centreItem
+    const fileDownload = handbookDownload.find(handbook =>
+      handbook.title === centre
     ) || {}
 
     return <form
@@ -132,7 +132,7 @@ class Form extends React.Component {
         </label>
         <div className='EnquiryForm--Label label-text'>
           <p>Choose Centre:</p>
-          {[ 
+          {[
             this.renderOption('centre', 'East Malvern'),
             this.renderOption('centre', 'Mildura'),
             this.renderOption('centre', 'Mildura Central')

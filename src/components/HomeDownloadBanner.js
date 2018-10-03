@@ -12,7 +12,7 @@ class HomeForm extends React.Component {
   state = {
     fields: {
       centre: 'East Malvern'
-    } 
+    }
   }
 
   handleChange = e => {
@@ -38,7 +38,6 @@ class HomeForm extends React.Component {
     const title = 'Download Our Family Handbook'
     const description = <Fragment>Fill out the form and download our family handbook or <Link to='/contact'>contact us</Link></Fragment>
 
-
     return (
       <section className='download-banner home-download'>
         <div className='container'>
@@ -52,11 +51,11 @@ class HomeForm extends React.Component {
                 title={title}
                 description={description}
                 handbookDownload={handbookDownload}
-              /> 
+              />
           })}
-        </div>  
+        </div>
         <Image background src='/images/uploads/handbook.jpg' alt='image of handbook' />
-      </section>  
+      </section>
     )
   }
 }

@@ -49,7 +49,8 @@ enrolmentsSection1:
 
     The Australian Government may provide financial assistance towards the cost
     of childcare. If you would like to access this assistance, please include
-    this information in your child’s enrolment form:
+    this information in your child’s enrolment form and register for Child Care
+    Subsidy with Centrelink:
 
 
     * Your Customer Reference Number (CRN – issued to you by the Family

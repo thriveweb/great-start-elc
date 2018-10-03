@@ -4,7 +4,7 @@ slug: enrolments/fees-and-government-subsidies
 title: Fees and Government Subsidies
 enrolmentsSection1:
   title: >-
-    Flexible Hours and the Child Care Subsidy
+    ### Flexible Hour Sessions and the Child Care Subsidy
 
 
     We know that there is no one size fits all option for our families when it
@@ -31,15 +31,13 @@ enrolmentsSection1:
 
 
     Choose from our nine-hour\*, ten-hour or full day sessions (\*subject to
-    centre offering) and make the most
-     out of the Child Care Subsidy.
-
-    ![null](/images/uploads/table-1_-flexible-hours.jpg)
+    centre offering) and make the most out of the Child Care Subsidy.
 
 
+    ![](/images/uploads/table-1_-flexible-hours.jpg)
 
 
-    ### Child Care Subsidies
+    ## Child Care Subsidies
 
 
     Great Start Early Learning Centres is registered as a provider of "Approved

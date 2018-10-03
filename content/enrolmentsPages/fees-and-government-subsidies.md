@@ -7,8 +7,8 @@ enrolmentsSection1:
     # Flexible Hour Sessions and the Child Care Subsidy
 
 
-    > We know that there is no one size fits all option for our families when it
-    comes to early childhood education and care. That is why we are giving
+    ## We know that there is no one size fits all option for our families when
+    it comes to early childhood education and care. That is why we are giving
     families the freedom to choose which hours best suit their needs.
 
 
@@ -35,6 +35,10 @@ enrolmentsSection1:
 
 
     ![null](/images/uploads/2018_10_03_17_10_27_flexible_hours_table_10_2018.docx_compatibility_mode_word.jpg)
+
+
+
+
 
 
 

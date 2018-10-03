@@ -3,34 +3,7 @@ template: EnrolmentsPage
 slug: enrolments/fees-and-government-subsidies
 title: Fees and Government Subsidies
 enrolmentsSection1:
-  title: >-
-    ### Great Start Early Learning Centres is registered as a provider of
-    “Approved Care” under the Child Care System (“CCS”). Under CCS, the Federal
-    Government provides us with each family’s approval details directly, which
-    is why each family must be registered with Centrelink.
-
-
-    The Australian Government may provide financial assistance towards the cost
-    of childcare. If you would like to access this assistance, please include
-    this information in your child’s enrolment form:
-
-
-    * Your Customer Reference Number (CRN – issued to you by the Family
-    Assistance Office).
-
-    * Your child’s Customer Reference Number (issued to you by the Family
-    Assistance Office)
-
-    * Your date of birth (CRN Holder).
-
-    * Your child’s date of birth.
-
-
-    ###### **This information will be provided to the Australian Government and
-    validated against their records to determine if you can receive fee
-    subsidies. Your subsidy will then be subtracted from the full fees owing,
-    leaving a gap fee which is the amount families pay to the Centre, meaning
-    less out of pocket expense.**
+  title: "Flexible Hours and the Child Care Subsidy\n\nWe know that there is no one size fits all option for our families when it comes\r to early childhood education and care. That is why we are giving families the\r freedom to choose which hours best suit their needs.\n\nNine-hour, ten-hour and full day options are available (Please refer to offering at each centre) to all families under the\r one associated flat fee, enabling them to make the most out of the Child Care\r Subsidy.\n\nFlexible Hours reduces out of pocket costs and increase access to subsidised hours,\r the new flexible model is part of our commitment to providing greater access to\r quality early childhood education and care.\n\nOur families will:\r\n\n* Not be limited by start and finish times like models from other early\r education providers.\r\n* Be able to confirm their enrolment in one of our flexible options.\n\nChoose from our nine-hour, ten-hour or full day sessions and make the most\r out of the Child Care Subsidy.\n\n![](/images/uploads/table-1_-flexible-hours.jpg)\n\n### Great Start Early Learning Centres is registered as a provider of “Approved Care” under the Child Care System (“CCS”). Under CCS, the Federal Government provides us with each family’s approval details directly, which is why each family must be registered with Centrelink.\n\nThe Australian Government may provide financial assistance towards the cost of childcare. If you would like to access this assistance, please include this information in your child’s enrolment form:\n\n* Your Customer Reference Number (CRN – issued to you by the Family Assistance Office).\n* Your child’s Customer Reference Number (issued to you by the Family Assistance Office)\n* Your date of birth (CRN Holder).\n* Your child’s date of birth.\n\n###### **This information will be provided to the Australian Government and validated against their records to determine if you can receive fee subsidies. Your subsidy will then be subtracted from the full fees owing, leaving a gap fee which is the amount families pay to the Centre, meaning less out of pocket expense.**"
 breakoutBox:
   content: "Registering can be completed through:\nIn person: [at Medicare offices or Centrelink offices](https://findus.humanservices.gov.au/)\n\LInternet:\_[www.humanservices.gov.au](https://humanservices.gov.au)\nPhone: 13 61 50"
   title: Registering for Child Care Subsidies

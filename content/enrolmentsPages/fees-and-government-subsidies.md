@@ -102,13 +102,13 @@ enrolmentsSection1:
     to per fortnight will be determined by a three-step activity test.
 
 
-    ![null](/images/uploads/table-1.jpg)
-
-
     In two parent families both parents, unless exempt, must meet the activity
     test. In the case where both parents meet different steps of the activity
     test, the parent with the lowest entitlement will determine the hours of
     subsidised care for the child.
+
+
+    ![null](/images/uploads/table-1.jpg)
 
 
     Low income families on $66,958 (2018/19 Financial Year) or less a year who

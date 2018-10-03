@@ -26,12 +26,13 @@ enrolmentsSection1:
 
 
     * Not be limited by start and finish times like models from other early
-      education providers.
+    education providers.
+
     * Be able to confirm their enrolment in one of our flexible options.
 
 
-    Choose from our nine-hour\*, ten-hour or full day sessions (\*subject to
-    centre offering) and make the most out of the Child Care Subsidy.
+    Choose from our nine-hour, ten-hour or full day sessions (subject to
+    individual centre offering) and make the most out of the Child Care Subsidy.
 
 
     ![null](/images/uploads/2018_10_03_17_10_27_flexible_hours_table_10_2018.docx_compatibility_mode_word.jpg)

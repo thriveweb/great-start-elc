@@ -96,17 +96,15 @@ accordion:
       The Child Care Subsidy (CCS) is a payment made by the Australian
       Government
        to help families with the cost of quality child care and early education. This is
-       paid directly to the service to reduce your weekly fees. It is the responsibility of the parent to register for Child Care
-       Subsidy. This can be done by contacting Centrelink either in
-       person, by phone on 136 150 or by accessing their My Gov account
-       at my.gov.au
+       paid directly to the service to reduce your weekly fees. It is the responsibility of the parent to register for Child Care Subsidy. This can be done by contacting Centrelink either in
+       person, by phone on 136 150 or by accessing their My Gov account at my.gov.au
 
       Three things will determine a family’s level of Child Care Subsidy:
 
 
       1. A family’s combined income will determine the percentage of subsidy
-      they
-         are eligible to receive.
+      they are eligible to receive.
+
       2. An activity test will determine how many hours of subsidised care
       families can access, up to a maximum of 100 per fortnight.
 
@@ -118,26 +116,28 @@ accordion:
        receive the Child Care Subsidy. These include:
 
       * The age of the child (must be 13 or under and not attending secondary
-        school).
+      school).
+
       * The child meeting immunisation requirements.
 
       * The individual, or their partner, meeting the residency requirements.
 
 
       The number of hours of subsidised child care that families will have
-      access to
-       per fortnight will be determined by a three-step activity test.
+      access to per fortnight will be determined by a three-step activity test.
+
 
       In two parent families both parents, unless exempt, must meet the activity
-      test.
-       In the case where both parents meet different steps of the activity test, the
-       parent with the lowest entitlement will determine the hours of subsidised care
-       for the child.
+      test. In the case where both parents meet different steps of the activity
+      test, the parent with the lowest entitlement will determine the hours of
+      subsidised care for the child.
+
 
       Low income families on $66,958 (2018/19 Financial Year) or less a year who
-      do not meet the activity test
-       will be able to access 24 hours of subsided care per child per fortnight without
-       having to meet the activity test, as part of the Child Care Safety Net.
+      do not meet the activity test will be able to access 24 hours of subsided
+      care per child per fortnight without having to meet the activity test, as
+      part of the Child Care Safety Net.
+
 
       ![null](/images/uploads/table-1.jpg)
     title: Am I entitled to Government Assistant?

@@ -4,7 +4,7 @@ slug: enrolments/fees-and-government-subsidies
 title: Fees and Government Subsidies
 enrolmentsSection1:
   title: >-
-    ### Flexible Hour Sessions and the Child Care Subsidy
+    # Flexible Hour Sessions and the Child Care Subsidy
 
 
     We know that there is no one size fits all option for our families when it
@@ -35,6 +35,8 @@ enrolmentsSection1:
 
 
     ![](/images/uploads/table-1_-flexible-hours.jpg)
+
+
 
 
     ## Child Care Subsidies

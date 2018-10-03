@@ -531,9 +531,8 @@ accordion:
 
       For detailed information please refer to the ‘Early Learning Business
       Insurance’ - Product Disclosure Statement and Policy. This can be found on
-      the Guild Insurance website: https://www.guildinsurance.com.au .
-
-
+      the Guild Insurance website:
+      [guildinsurance.com.au](https://guildinsurance.com.au).
 
 
       #### The following provide a summary of the organisational stakeholders:
@@ -667,6 +666,6 @@ The National Quality Framework (NQF) encourages services to provide a high quali
 
 The seven National Quality Standard (NQS) areas are:  NQS1. Educational program and practice. NQS 2. Children’s health and safety. NQS 3. The physical environment. NQS 4. Staffing arrangements. NQS 5. Relationships with children. NQS 6. Collaborative partnerships with families and communities. NQS 7. Leadership and service management.
 
-Our policies and procedures cover these key seven areas. You can find more information about the NQF and NQS at http://acecqa.gov.au.
+Our policies and procedures cover these key seven areas. You can find more information about the NQF and NQS at [acecqa.gov.au](https://acecqa.gov.au).
 
 All centres are required to have policies and related documents in relation to certain matters under Regulation 168 of the Education and Care Services National Regulations. If you would like a copy of any centre policy please speak with your Centre Director or view at the centre.

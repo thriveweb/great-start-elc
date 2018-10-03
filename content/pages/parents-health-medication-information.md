@@ -27,12 +27,13 @@ lowerSection: >-
 
   1  Complete relevant "Medical Management, Risk Minimisation & Communication
   Plan” - this form is obtained from the centre or our website.
+  [greatstartelc.com.au/parents/centre-forms-and-handbooks](/parents/centre-forms-and-handbooks)
 
 
   2  Complete the relevant forms:
 
 
-  *  ASCIA Action Plan for Anaphylaxis Reactions form (Found at ASCIA -
+  * ASCIA Action Plan for Anaphylaxis Reactions form (Found at ASCIA -
   www.allergy.org.au); or
 
   * Complete an ASCIA Action Plan for Allergic Reactions form (Found at ASCIA -
@@ -40,6 +41,9 @@ lowerSection: >-
 
   * Complete an Asthma Australia Asthma Care Plan for Education and Care Centre
   form (Found at Asthma Australia - www.asthmaaustralia.org.au)
+
+  * You can find the above forms, as well as more information at
+  [greatstartelc.com.au/parents/centre-forms-and-handbooks](/parents/centre-forms-and-handbooks)
 
 
   3  Have the forms signed by your child's doctor.

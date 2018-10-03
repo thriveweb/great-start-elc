@@ -31,8 +31,9 @@ enrolmentsSection1:
     * Be able to confirm their enrolment in one of our flexible options.
 
 
-    Choose from our nine-hour, ten-hour or full day sessions (subject to
-    individual centre offering) and make the most out of the Child Care Subsidy.
+    Choose from our nine-hour, ten-hour or full day sessions (please discuss
+    individual centre offering with Centre Director) and make the most out of
+    the Child Care Subsidy.
 
 
     ![

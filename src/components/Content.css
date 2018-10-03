@@ -49,7 +49,7 @@
 @media (min-width: 1000px) {
   .Content--Image,
   .Content .gatsby-resp-image-wrapper {
-    width: 50%;
+    max-width: 50%;
     float: left;
     margin: 1rem 3rem 2rem 0 !important;
   }

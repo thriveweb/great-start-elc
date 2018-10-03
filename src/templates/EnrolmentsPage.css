@@ -2,7 +2,9 @@
 	top: 15%;
 }
 
-.EnrolmentsPage--Section1 {
+.EnrolmentsPage--Section1 .Content--Image {
+	float: none;
+	max-width: 100%;
 }
 
 .EnrolmentsPage--Section1 .container {

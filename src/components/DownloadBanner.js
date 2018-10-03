@@ -40,34 +40,21 @@ class DownloadBanner extends React.Component {
     return (
       <section className='download-banner'>
         <Image background src='/images/uploads/handbook.jpg' alt='image of handbook' />
-        {centres.map((centreItem, index) => 
+        {centres.map((centreItem, index) =>
           <Form
             key={centreItem + 'Download' + index}
             active={centre === centreItem}
             formName={`${centreItem} Download Form`}
-            centreItem={centreItem}
             fields={fields}
             handleChange={this.handleChange}
             title={title}
             description={description}
             handbookDownload={handbookDownload}
-          /> 
+          />
         )}
-      </section>  
+      </section>
     )
   }
 }
 
 export default DownloadBanner
-
-
-
-
-
-
-
-
-
-
-
-

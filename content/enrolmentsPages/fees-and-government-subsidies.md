@@ -38,17 +38,6 @@ enrolmentsSection1:
     ![
     ](/images/uploads/2018_10_03_17_10_27_flexible_hours_table_10_2018.docx_compatibility_mode_word.jpg)
 
-     
-
-
-
-
-
-
-
-
-
-
 
     ## Child Care Subsidies
 
@@ -122,6 +111,9 @@ enrolmentsSection1:
     do not meet the activity test will be able to access 24 hours of subsided
     care per child per fortnight without having to meet the activity test, as
     part of the Child Care Safety Net.
+
+
+    ![](/images/uploads/table-1.jpg)
 breakoutBox:
   content: "Registering can be completed through:\n\n* In person: [at Medicare offices or Centrelink offices](https://findus.humanservices.gov.au/)\n* \LInternet:\_[www.humanservices.gov.au](https://humanservices.gov.au)\n* Telephone (Centrelink): 13 61 50\n\nWe also require you to register at myGov at [my.gov.au](https://my.gov.au). MyGov is a simple and secure government online service providing information on:\n\n* Australian Taxation Office\n* Centrelink\n* Child Support\n* Medicare\n* My Health Record\n\n**You will be required to authorise your child’s attendance using the MyGov or telephoning the government agency.**"
   title: Registering for Child Care Subsidies

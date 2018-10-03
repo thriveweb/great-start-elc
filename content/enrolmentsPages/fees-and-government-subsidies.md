@@ -45,7 +45,7 @@ enrolmentsSection1:
     Great Start Early Learning Centres is registered as a provider of "Approved
     Care" under the Child Care System ("CCS"). Under CCS, the Federal Government
     provide us with each families subsidy details directly, which is why each
-    family must register and apply for the Child Care Subsidy.
+    family must register and apply for the Child Care Subsidy via Centrelink.
 
 
     The Australian Government may provide financial assistance towards the cost

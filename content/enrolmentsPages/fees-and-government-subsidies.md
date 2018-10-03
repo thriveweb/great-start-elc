@@ -67,9 +67,12 @@ enrolmentsSection1:
 
 
     The Child Care Subsidy (CCS) is a payment made by the Australian Government
-     to help families with the cost of quality child care and early education. This is
-     paid directly to the service to reduce your weekly fees. It is the responsibility of the parent to register for Child Care Subsidy. This can be done by contacting Centrelink either in
-     person, by phone on 136 150 or by accessing their My Gov account at my.gov.au
+    to help families with the cost of quality child care and early education.
+    This is paid directly to the service to reduce your weekly fees. It is the
+    responsibility of the parent to register for Child Care Subsidy. This can be
+    done by contacting Centrelink either in person, by phone on 136 150 or by
+    accessing their My Gov account at my.gov.au
+
 
     Three things will determine a family’s level of Child Care Subsidy:
 
@@ -106,13 +109,13 @@ enrolmentsSection1:
     subsidised care for the child.
 
 
+    ![](/images/uploads/table-1.jpg)
+
+
     Low income families on $66,958 (2018/19 Financial Year) or less a year who
     do not meet the activity test will be able to access 24 hours of subsided
     care per child per fortnight without having to meet the activity test, as
     part of the Child Care Safety Net.
-
-
-    ![null](/images/uploads/table-1.jpg)
 breakoutBox:
   content: "Registering can be completed through:\n\n* In person: [at Medicare offices or Centrelink offices](https://findus.humanservices.gov.au/)\n* \LInternet:\_[www.humanservices.gov.au](https://humanservices.gov.au)\n* Telephone (Centrelink): 13 61 50\n\nWe also require you to register at myGov at [my.gov.au](https://my.gov.au). MyGov is a simple and secure government online service providing information on:\n\n* Australian Taxation Office\n* Centrelink\n* Child Support\n* Medicare\n* My Health Record\n\n**You will be required to authorise your child’s attendance using the MyGov or telephoning the government agency.**"
   title: Registering for Child Care Subsidies

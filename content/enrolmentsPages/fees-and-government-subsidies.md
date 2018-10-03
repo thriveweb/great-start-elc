@@ -254,7 +254,7 @@ accordion:
       two-week notice period will result in ineligibility for child care
       subsidies, hence full fees will be payable in the event of non-attendance.
     title: Changes to your Child’s Regular Booked Days
-downloadFileText: Download Terms and Conditions
+downloadFileText: View and Download Enrolment Terms and Conditions
 downloadFile: >-
   /images/uploads/02.-great-start-early-learning-centres_terms-and-conditions_06.18_pdf.pdf
 ---

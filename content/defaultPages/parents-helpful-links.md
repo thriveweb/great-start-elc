@@ -8,7 +8,7 @@ title: Helpful Links
 * Department of Education and Training (DET)
   www.education.vic.gov.au
 * Australian Children's Education and Care Quality Authority (ACECQA)
-  [www.acecqa.gov.au](https://education.vic.gov.au)
+  [www.acecqa.gov.au](https://acecqa.gov.au)
 * Centrelink
   [www.humanservices.gov.au/customer/subjects/assistance-child-care-fees](https://humanservices.gov.au/customer/subjects/assistance-child-care-fees)
 * Nutrition Australia

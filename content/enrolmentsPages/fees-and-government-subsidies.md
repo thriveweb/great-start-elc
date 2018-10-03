@@ -116,7 +116,7 @@ enrolmentsSection1:
     care per child per fortnight without having to meet the activity test, as
     part of the Child Care Safety Net.
 breakoutBox:
-  content: "Registering can be completed through:\n\n* Using myGov at [my.gov.au](https://my.gov.au)\n* In person: [at Medicare offices or Centrelink offices](https://findus.humanservices.gov.au/)\n* \LInternet:\_[www.humanservices.gov.au](https://humanservices.gov.au)\n* Telephone (Centrelink): 13 61 50\n\nMyGov is a simple and secure government online service providing information on:\n\n* Australian Taxation Office\n* Centrelink\n* Child Support\n* Medicare\n* My Health Record\n\n**You will also be required to authorise your child’s initial attendance pattern using the myGov or telephoning the government agency.**"
+  content: "Registering can be completed through:\n\n* Using your myGov account at [my.gov.au](https://my.gov.au)\n* \LInternet:\_[www.humanservices.gov.au](https://humanservices.gov.au)\n* Telephone (Centrelink): 13 61 50\n* In person: [at Medicare offices or Centrelink offices](https://findus.humanservices.gov.au/)\n\n**You will also be required to authorise your child’s initial attendance pattern using the myGov or telephoning the government agency.**"
   title: Registering for Child Care Subsidies
 enrolmentsSection2:
   steps: []

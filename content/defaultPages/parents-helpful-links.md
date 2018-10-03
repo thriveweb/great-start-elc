@@ -21,6 +21,8 @@ title: Helpful Links
   [www.earlychildhoodaustralia.org.au](www.earlychildhoodaustralia.org.au)
 * Royal Children's Hospital - Melbourne
   [www.rch.org.au](www.rch.org.au)
+* Department of Education & Training - Practical Information For Parents
+  https://www.education.vic.gov.au/parents/Pages/default.aspx
 
 **Useful Resources containing tips on parenting**
 Play does not need to involve expensive toys, games or props. Often the best type of play is unstructured, spontaneous and fun. However, if you are looking for inspiration there are many websites, blogs and Facebook pages out there to provide you with ideas.

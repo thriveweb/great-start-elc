@@ -109,7 +109,7 @@ enrolmentsSection1:
     subsidised care for the child.
 
 
-    ![null](/images/uploads/table-1.jpg)
+    ![null](/images/uploads/ccs-hours-table_07-18.png)
 
 
     Low income families on $66,958 (2018/19 Financial Year) or less a year who

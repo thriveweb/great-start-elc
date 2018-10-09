@@ -32,6 +32,10 @@ const HtmlBlock = ({ value }) => {
   )
 }
 
+function LinkRenderer(props) {
+  return <a href={props.href} target="_blank">{props.children}</a>
+}
+
 const Content = ({ source, src, className = '' }) => {
   // accepts either html or markdown
   source = source || src || ''
@@ -45,13 +49,16 @@ const Content = ({ source, src, className = '' }) => {
     )
   }
 
+  console.log(source)
+
   return (
     <Marked
       className={`Content ${className}`}
       source={encodeMarkdownURIs(source)}
       renderers={{
         image: Image,
-        html: HtmlBlock
+        html: HtmlBlock,
+        link: LinkRenderer
       }}
     />
   )

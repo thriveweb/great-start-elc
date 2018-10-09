@@ -36,7 +36,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Subtitle, name: subtitle, widget: markdown, options: {linkAttrs: {target: _blank, rel: noreferrer noopener}}
+          - {label: Subtitle, name: subtitle, widget: markdown, options: { linkAttrs: { target: _blank, rel: noreferrer noopener }} }
           - label: "Meta"
             required: false
             name: "meta"
@@ -54,7 +54,7 @@ collections: # A list of collections the CMS should be able to edit
           - {name: template, label: Template, widget: hidden, default: FamilyChecklist}
           - {name: slug, label: Slug, widget: hidden, default: 'parents/family-checklist'}
           - {name: title, label: Title, widget: string}
-          - {label: Body, name: body, widget: markdown, options: { linkAttrs: { target: _blank, rel: noreferrer noopener }}
+          - {label: Body, name: body, widget: markdown}
           - label: Checklist
             name: checklist
             required: false

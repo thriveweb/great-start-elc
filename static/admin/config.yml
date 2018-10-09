@@ -54,7 +54,7 @@ collections: # A list of collections the CMS should be able to edit
           - {name: template, label: Template, widget: hidden, default: FamilyChecklist}
           - {name: slug, label: Slug, widget: hidden, default: 'parents/family-checklist'}
           - {name: title, label: Title, widget: string}
-          - {label: Body, name: body, widget: markdown, options: { linkAttrs: { target: _blank, rel: noreferrer noopener }}}
+          - {label: Body, name: body, widget: markdown}
           - label: Checklist
             name: checklist
             required: false
@@ -405,7 +405,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: list
         fields:
           - {label: Title, name: title, widget: string, required: false}
-          - {label: Content, name: content, widget: markdown, required: false }
+          - {label: Content, name: content, widget: markdown, required: false, options: { linkAttrs: { target: _blank, rel: noreferrer noopener } }}
       - {label: Download File Text, name: downloadFileText, widget: string, required: false}
       - {label: Download File, name: downloadFile, widget: file, required: false}
 

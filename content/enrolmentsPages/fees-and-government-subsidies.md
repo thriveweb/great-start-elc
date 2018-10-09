@@ -192,8 +192,6 @@ accordion:
       Plan” - this form is obtained from the centre or our website.
 
 
-
-
       Complete the relevant form:
 
 
@@ -214,7 +212,7 @@ accordion:
 
       6. Please discuss Forms and Plans with the Centre Director during
       orientation sessions. Upload signed forms to our enrolment system section
-      - Medical Condition & Dietary Restriction. 
+      - Medical Condition & Dietary Restriction.  
 
 
       A Medical Management, Risk Minimisation & Communication Plan is required

@@ -42,8 +42,8 @@ lowerSection: >-
   * Complete an Asthma Australia Asthma Care Plan for Education and Care Centre
   form (Found at Asthma Australia - www.asthmaaustralia.org.au)
 
-  * You can find the above forms, as well as more information at
-  [greatstartelc.com.au/parents/centre-forms-and-handbooks](/parents/centre-forms-and-handbooks)
+  * You can find the above forms and more information
+  [here](/parents/centre-forms-and-handbooks).
 
 
   3  Have the forms signed by your child's doctor.

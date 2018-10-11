@@ -26,8 +26,8 @@ lowerSection: >-
 
 
   1  Complete relevant "Medical Management, Risk Minimisation & Communication
-  Plan” - this form is obtained from the centre or our website.
-  [greatstartelc.com.au/parents/centre-forms-and-handbooks](/parents/centre-forms-and-handbooks)
+  Plan” - this form is obtained from the centre or our website
+  [here](/parents/centre-forms-and-handbooks)
 
 
   2  Complete the relevant forms:

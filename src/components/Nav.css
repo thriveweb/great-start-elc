@@ -71,7 +71,7 @@
 }
 
 .NavLinkGroup, .NavLink a {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--secondary);
 }
 
@@ -105,6 +105,15 @@
     bottom: 0;
     background: white;
     overflow-y: scroll;
+  }
+
+  .SubNav .NavLink {
+    padding: 0;
+  }
+
+  .SubNav .NavLink a {
+    padding: 1rem 2rem;
+    display: block;
   }
 
   .NavLinkGroup, .NavLink {
@@ -195,6 +204,10 @@
 
   .Nav--Container--Links .Button {
     font-size: 1.3rem;
+  }
+
+  .Button {
+    margin-top: 2rem;
   }
 }
 

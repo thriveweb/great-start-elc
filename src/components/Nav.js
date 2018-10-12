@@ -47,15 +47,22 @@ export default class Nav extends Component {
 
               return <div key={`menu-${index}`} className={`NavLinkGroup ${menuItemActive === index ? 'menu-active' : ''}`}>
                 <li className='NavLink'>
-                  {url ? <Link to={url}>{title}</Link> : `${title}`}
+                  {url
+                    ? <Link
+                      to={url}
+                      onClick={this.toggleActive}
+                      >
+                        {title}
+                      </Link>
+                  : `${title}`}
                 </li>
                 {subMenu &&
                   <div key={`subMenu-${index}`} className='SubNav'>
                     {subMenu.map((subMenuItem, index) => {
                       const { title, url } = subMenuItem
 
-                      return <li 
-                          className='NavLink' 
+                      return <li
+                          className='NavLink'
                           key={index}
                           onClick={this.toggleActive}
                         >
@@ -85,7 +92,13 @@ export default class Nav extends Component {
               <User />
               My Family Lounge
             </NavLink>
-            <Button to="/enrolments/enrolling-great-start-early-learing-centre/">Enrol Now</Button>
+            <Link
+              className="Button hasShadowHover"
+              to="/enrolments/enrolling-great-start-early-learing-centre/"
+              onClick={() => this.setState({ menuItemActive: menuItemActive === index ? false : index })}
+            >
+              Enrol Now
+            </Link>
           </div>
         </div>
       </nav>

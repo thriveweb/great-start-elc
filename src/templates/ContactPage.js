@@ -37,7 +37,7 @@ export const ContactPageTemplate = ({
           />
         </Helmet>
         {centres && centres.map(({ title, centreDetails = {} }) => {
-           
+
            if(!centreDetails) return null
 
            return <BreakoutBox title={title} key={title}>

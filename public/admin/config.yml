@@ -19,6 +19,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "contact-page"
         fields:
           - {name: template, label: Template, widget: hidden, default: ContactPage}
+          - {name: slug, label: Slug, widget: hidden, default: 'contact'}
           - {label: Title, name: title, widget: string}
           - label: "Meta"
             required: false

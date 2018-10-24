@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import _get from 'lodash/get'
+import Helmet from 'react-helmet'
 
 import PageHeader from '../components/PageHeader'
 import Wave from '../components/Wave'
@@ -22,13 +23,18 @@ export const HomePageTemplate = ({
   homeSection2,
   homeSection3,
   homeSection4,
-  footerSettings
+  footerSettings,
+  meta
 }) => {
   // showHandbook
 
   const handbookDownload = _get(footerSettings, 'handbookDownload') || []
 
   return <main className="Home">
+    <Helmet defaultTitle={meta && meta.title || `${title} | Great Start ELC`}>
+      {meta && <meta name="description" content={meta.description} />}
+      {meta && <link rel="canonical" href={meta.canonical} />}
+    </Helmet>
     <PageHeader
       large
       title={title}
@@ -99,7 +105,7 @@ export const HomePageTemplate = ({
                       src={item.icon}
                       alt={item.title}
                     />
-                  </div>  
+                  </div>
                   <div>
                     <div className="homeSection3--item--title">
                       {item.title}
@@ -220,6 +226,11 @@ export const pageQuery = graphql`
             description
             linkTo
           }
+        }
+        meta {
+          canonicalLink
+          description
+          title
         }
       }
     }

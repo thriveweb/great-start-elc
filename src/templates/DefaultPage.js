@@ -24,7 +24,8 @@ export const DefaultPageTemplate = ({
   downloadableForms,
   infoSection,
   footerSettings,
-  body
+  body,
+  meta
 }) => {
 
   const description = _get(infoSection, 'description') || ''
@@ -32,7 +33,10 @@ export const DefaultPageTemplate = ({
 
   return (
     <main className="DefaultPage background-dots">
-      <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
+      <Helmet defaultTitle={meta && meta.title || `${title} | Great Start ELC`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
+      </Helmet>
 
       <PageHeader title={title} subtitle={subtitle} />
 
@@ -48,7 +52,7 @@ export const DefaultPageTemplate = ({
             <Accordion items={accordion} />
           </div>
         )}
-        <InfoListing description={description} infoListing={infoListing} />        
+        <InfoListing description={description} infoListing={infoListing} />
       </section>
 
       {popoutBanner && (
@@ -114,6 +118,11 @@ export const pageQuery = graphql`
             title
             content
           }
+        }
+        meta {
+          canonicalLink
+          description
+          title
         }
       }
     }

@@ -27,7 +27,8 @@ export const EnrolmentsPageTemplate = ({
   accordion,
   downloadFile,
   downloadFileText,
-  footerSettings
+  footerSettings,
+  meta
 }) => {
   // showHandbook
 
@@ -35,7 +36,10 @@ export const EnrolmentsPageTemplate = ({
 
   return (
     <main className="EnrolmentsPage background-dots">
-      <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
+      <Helmet defaultTitle={meta && meta.title || `${title} | Great Start ELC`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
+      </Helmet>
 
       <PageHeader title={title} subtitle={subtitle} />
 
@@ -160,6 +164,11 @@ export const pageQuery = graphql`
         accordion {
           title
           content
+        }
+        meta {
+          canonicalLink
+          description
+          title
         }
       }
     }

@@ -19,13 +19,17 @@ export const HandbooksTemplate = ({
   featuredImage,
   downloadableForms,
   footerSettings,
-  body
+  body,
+  meta
 }) => {
 
 
   return (
     <main className="Handbooks background-dots">
-      <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
+      <Helmet defaultTitle={meta && meta.title || `${title} | Great Start ELC`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
+      </Helmet>
 
       <PageHeader title={title} subtitle={subtitle} />
 
@@ -35,7 +39,7 @@ export const HandbooksTemplate = ({
         </div>
         <div className="container content m-t-2">
           {downloadableForms && <DownloadBox listItems={downloadableForms} />}
-        </div>     
+        </div>
       </section>
       <div className="section thin JoinBannerSection">
         <div className="container">
@@ -72,6 +76,11 @@ export const pageQuery = graphql`
           file {
             publicURL
           }
+          title
+        }
+        meta {
+          canonicalLink
+          description
           title
         }
       }

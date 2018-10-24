@@ -18,7 +18,8 @@ export const ContactPageTemplate = ({
   title,
   featuredImage,
   centres = [],
-  footerSettings
+  footerSettings,
+  meta
 }) => (
   <main className="Contact">
     <PageHeader title={title} backgroundImage={featuredImage} />
@@ -29,7 +30,9 @@ export const ContactPageTemplate = ({
       </div>
 
       <div className="container Contact--Centres">
-        <Helmet defaultTitle={`${title} | Great Start ELC`}>
+        <Helmet defaultTitle={meta && meta.title || `${title} | Great Start ELC`}>
+          {meta && <meta name="description" content={meta.description} />}
+          {meta && <link rel="canonical" href={meta.canonical} />}
           <script
             async
             defer
@@ -109,6 +112,11 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        meta {
+          canonicalLink
+          description
+          title
+        }
       }
     }
     centres: allMarkdownRemark(

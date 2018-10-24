@@ -11,20 +11,24 @@ export const DownloadPagesTemplate = ({
   title,
   subtitle,
   downloadBanner,
-  body
+  body,
+  meta
 }) => {
 
   return (
     <main className="DownloadPage background-dots">
-      <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
+      <Helmet defaultTitle={meta && meta.title || `${title} | Great Start ELC`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
+      </Helmet>
 
       <PageHeader title={title} subtitle={subtitle} />
 
       <section className="section">
         <div className="container content">
           <Content source={body} />
-        </div>  
-        <FamilyHandbookBanner downloadBanner={downloadBanner} />    
+        </div>
+        <FamilyHandbookBanner downloadBanner={downloadBanner} />
       </section>
     </main>
   )
@@ -52,6 +56,11 @@ export const pageQuery = graphql`
           preview {
             ...SmallImage
           }
+        }
+        meta {
+          canonicalLink
+          description
+          title
         }
       }
     }

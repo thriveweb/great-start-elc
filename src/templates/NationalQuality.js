@@ -13,18 +13,22 @@ export const NationalQualityTemplate = ({
   subtitle,
   footerSettings,
   body,
+  meta
 }) => {
 
   return (
     <main className="NationalQuality background-dots">
-      <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
+      <Helmet defaultTitle={meta && meta.title || `${title} | Great Start ELC`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
+      </Helmet>
 
       <PageHeader title={title} subtitle={subtitle} />
 
       <section className="section">
         <div className="container content">
           <Content source={body} />
-        </div>       
+        </div>
       </section>
 
       {footerSettings && <PopoutBanner image={footerSettings.exceedLogo} title={footerSettings.exceedTextLong} />}
@@ -46,6 +50,11 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subtitle
+        meta {
+          canonicalLink
+          description
+          title
+        }
       }
     }
     footerSettings: settingsYaml(id: { regex: "/footer.yml/" }) {

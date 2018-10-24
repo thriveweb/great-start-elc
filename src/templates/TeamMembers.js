@@ -10,13 +10,16 @@ import ExceedBanner from '../components/ExceedBanner'
 import './TeamMembers.css'
 
 // Export Template for use in CMS preview
-export const TeamMembersTemplate = ({ title, popoutBanner, members, body, footerSettings }) => {
+export const TeamMembersTemplate = ({ title, popoutBanner, members, body, footerSettings, meta }) => {
 
   return (
     <main className="TeamMembers background-dots">
-      <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
-      <PageHeader 
-        title={title} 
+      <Helmet defaultTitle={meta && meta.title || `${title} | Great Start ELC`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
+      </Helmet>
+      <PageHeader
+        title={title}
       />
       <section className="section team-content">
         <div className="container content">
@@ -27,8 +30,8 @@ export const TeamMembersTemplate = ({ title, popoutBanner, members, body, footer
         <div className='container'>
           <h3>Our Teachers and Educators</h3>
           <MemberSlider members={members} />
-        </div>  
-      </section>  
+        </div>
+      </section>
       {popoutBanner && (
         <PopoutBanner image={popoutBanner.image} title={popoutBanner.title} />
       )}
@@ -67,6 +70,11 @@ export const pageQuery = graphql`
           image {
             ...SmallImage
           }
+        }
+        meta {
+          canonicalLink
+          description
+          title
         }
       }
     }

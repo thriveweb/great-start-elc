@@ -32,14 +32,16 @@ export const CentreTemplate = ({
   additionalInfoBoxes = [],
   body,
   meta,
-  footerSettings
+  footerSettings,
 }) => {
   const { openingHours, location, latitude, longitude, phone, email } = centreDetails
 
   return (
     <main className="Centre">
-      <Helmet defaultTitle={`${title} | Great Start ELC`}></Helmet>
-      <Meta {...meta} />
+      <Helmet defaultTitle={meta && meta.title || `${title} | Great Start ELC`}>
+        {meta && <meta name="description" content={meta.description} />}
+        {meta && <link rel="canonical" href={meta.canonical} />}
+      </Helmet>
       <PageHeader title={title} subtitle={subtitle} />
 
       <section className="section Centre--Intro background-dots">
@@ -81,12 +83,12 @@ export const CentreTemplate = ({
             <Button to='/enrolments/enrolling-great-start-early-learing-centre/'>Enrol Now</Button>
           </BreakoutBox>
           <Content source={body} />
-          {!!contentColumns.length && 
+          {!!contentColumns.length &&
             <div className='column-section'>
               {contentColumns.map((column, index) => {
                 const { image, content } = column
 
-                return <div className='column-content' key={index}>   
+                return <div className='column-content' key={index}>
                     {image && <Image src={image} alt='centre image' />}
                     {content && <Content src={content} />}
                   </div>
@@ -116,7 +118,7 @@ export const CentreTemplate = ({
                         src={item.icon}
                         alt={item.title}
                       />
-                    </div>  
+                    </div>
                     <h6 className="Centre--ClassroomsSection--Item--Title">
                       {item.title}
                     </h6>
@@ -255,6 +257,11 @@ export const pageQuery = graphql`
           content
           buttonTitle
           buttonLinkTo
+        }
+        meta {
+          canonicalLink
+          description
+          title
         }
       }
     }

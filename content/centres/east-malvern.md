@@ -146,7 +146,7 @@ directorStatement:
 gallery:
   - image: /images/uploads/outdoor-15_emelc_used.jpg
   - image: /images/uploads/istock-921101386.jpg
-  - image: /images/uploads/outdoor-13_emelc_used.jpg
+  - image: /images/uploads/outdoor-14_emelc_used.jpg
   - image: /images/uploads/outdoor-11_emelc_used.jpg
   - image: /images/uploads/shutterstock_570751849.jpg
   - image: /images/uploads/outdoor-10_emelc_used.jpg

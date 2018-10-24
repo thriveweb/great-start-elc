@@ -60,9 +60,9 @@ lowerSection: >-
   required for each type of medical condition. If the medical dietary condition
   is an allergy please follow the Allergy Medical Condition requirements.**
 meta:
-  canonicalLink: test
-  description: testing description
-  title: test
+  canonicalLink: ''
+  description: ''
+  title: ''
 ---
 ### Our priority is providing your child with a safe, clean and nurturing environment. If your child has fallen ill, for the interest of you, your child, and other children in the centre we ask that they should be picked up immediately.
 

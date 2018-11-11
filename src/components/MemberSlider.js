@@ -61,7 +61,7 @@ class MemberSlider extends Component {
 		};
 
 	    const { members = [] } = this.props
-		
+
 		if(!members.length) return null
 
 		return <section className='TeamMember--slider'>
@@ -70,18 +70,18 @@ class MemberSlider extends Component {
 					const {name, title, image, excerpt, description} = member
 
 					return (
-						<div 
+						<div
 							key={`member-${index}`}
 							className='slide member hasShadowHover'
 							onClick={() => this.handlePopup(index)}
 						>
-							{image && <Image background src={image} alt='profile image'/>}
+							{image && <Image background src={image} alt={`${name} profile image`}/>}
 							<div className='member-info'>
 								{name && <h4>{name}</h4>}
 								{title && <p>{title}</p>}
 								<p className='readmore Button'>Read Full Bio</p>
 							</div>
-						</div>	
+						</div>
 					)
 				})}
 			</Slider>
@@ -92,7 +92,7 @@ class MemberSlider extends Component {
 					<MemberPopup
 						key={`service-popup-${index}`}
 						image={image}
-						title={title} 
+						title={title}
 						name={name}
 						excerpt={excerpt}
 						description={description}
@@ -106,4 +106,3 @@ class MemberSlider extends Component {
 }
 
 export default MemberSlider
-

@@ -23,7 +23,7 @@ export const QKPortalPageTemplate = ({ title, subtitle, image, boxTitle, boxCont
 
       <div className="section">
         <div className='header-columns background-dots'>
-          {image && <Image src={image} alt='featured image' />}
+          {image && <Image src={image} alt={title} />}
           <div className="container content">
             <BreakoutBox title={boxTitle}>
               {boxContent && <Content src={boxContent} />}

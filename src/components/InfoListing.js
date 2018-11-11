@@ -11,14 +11,14 @@ export default ({ description, infoListing }) => {
 	} else {
 		return <div className='info-section'>
 	      <div className='container content'>
-	        {description && 
+	        {description &&
 	          <div className='info-section-heading'>
 	            <Content src={description} />
 	          </div>
 	        }
 	        {infoListing && infoListing.map(({ icon, title, content }) => {
 	          return <div className='icon-list-item'>
-	            <div className='icon-list-item-image'><Image src={icon} /></div>
+	            <div className='icon-list-item-image'><Image src={icon} alt={title} /></div>
 	            <div className=''>
 	              {title && <h3>{title}</h3>}
 	              {content && <Content src={content} />}
@@ -26,6 +26,6 @@ export default ({ description, infoListing }) => {
 	          </div>
 	        })}
 	      </div>
-	    </div> 
-	} 
+	    </div>
+	}
 }

@@ -31,8 +31,8 @@ export const HomePageTemplate = ({
   const handbookDownload = _get(footerSettings, 'handbookDownload') || []
 
   return <main className="Home">
-    <Helmet defaultTitle={meta && meta.title || `${title} | Great Start ELC`}>
-      {meta && <meta name="description" content={meta.description} />}
+    <Helmet defaultTitle={meta && meta.siteTitle || `${title} | Great Start ELC`}>
+      {meta && <meta name="description" content={meta.siteDescription} />}
       {meta && <link rel="canonical" href={meta.canonical} />}
     </Helmet>
     <PageHeader
@@ -227,21 +227,23 @@ export const pageQuery = graphql`
             linkTo
           }
         }
-        meta {
-          canonicalLink
-          description
-          title
-        }
       }
     }
     footerSettings: settingsYaml(id: { regex: "/footer.yml/" }) {
       exceedText
       exceedTextLong
       exceedLogo
+      siteTitle
+      siteDescription
       handbookDownload {
         file
         title
       }
+    }
+
+    meta: settingsYaml {
+      siteTitle
+      siteDescription
     }
   }
 `

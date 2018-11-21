@@ -37,7 +37,7 @@ export default class GoogleMap extends Component {
     }, 1000)
   }
 
-  componentDidUpdate() {  
+  componentDidUpdate() {
     if(!this.state.mapSet) {
       window.initMap = this.initMap
 

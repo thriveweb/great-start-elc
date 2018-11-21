@@ -291,6 +291,58 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Content, name: body, widget: markdown}
 
+      - file: "content/pages/handbook-thankyou.md"
+        label: "Handbook Thankyou"
+        name: "handbookThankyou"
+        fields:
+          - {label: Template, name: template, widget: hidden, default: ThankYou}
+          - {name: slug, label: Slug, widget: hidden, default: 'thank-you'}
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: body, widget: markdown}
+          - label: Secondary Banner
+            name: secondaryBanner
+            required: false
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Button Text, name: buttonText, widget: string, required: false}
+              - {label: Button Link, name: buttonLink, widget: string, required: false}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+
+
+      - file: "content/pages/booking-thankyou.md"
+        label: "Booking Thankyou"
+        name: "bookingThankyou"
+        fields:
+          - {label: Template, name: template, widget: hidden, default: ThankYou}
+          - {name: slug, label: Slug, widget: hidden, default: 'thank-you'}
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: body, widget: markdown}
+          - label: Secondary Banner
+            name: secondaryBanner
+            required: false
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Button Text, name: buttonText, widget: string, required: false}
+              - {label: Button Link, name: buttonLink, widget: string, required: false}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+
+
   - name: defaultPages
     label: Default Page
     editor:

@@ -1,6 +1,7 @@
 import React from 'react'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
+import { navigateTo } from 'gatsby-link'
 
 import './DownloadForm.css'
 
@@ -8,7 +9,7 @@ class Form extends React.Component {
   static defaultProps = {
     name: 'Download Form',
     subject: '', // optional subject of the notification email
-    action: '',
+    action: '/handbook-thank-you/',
     successMessage: 'Thanks for your enquiry, we will get back to you soon',
     errorMessage:
       'There is a problem, your message has not been sent, please try contacting us via email'
@@ -48,6 +49,9 @@ class Form extends React.Component {
         disabled: false
       }, () => {
         this.myRef.current.click()
+        setTimeout(() => {
+            navigateTo(this.props.action)
+        }, 300)
       })
     })
     .catch(err => {
@@ -79,11 +83,12 @@ class Form extends React.Component {
   render() {
     const { name, subject, action, formName, active, fields, title, description, handbookDownload = [] } = this.props
     const { emailaddress = '', yourname = '', phone = '', centre } = fields
-    
+
     const fileDownload = handbookDownload.find(handbook =>
       handbook.title === centre
     ) || {}
 
+    console.log(action)
     return <form
         className={`DownloadForm download-banner-form ${active ? 'active' : ''}`}
         name={formName}

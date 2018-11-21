@@ -1,6 +1,7 @@
 import React from 'react'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
+import { navigateTo } from 'gatsby-link'
 
 import './BookTourForm.css'
 
@@ -8,7 +9,7 @@ class Form extends React.Component {
   static defaultProps = {
     name: 'Tour Booking',
     subject: '', // optional subject of the notification email
-    action: '',
+    action: '/booking-thank-you/',
     successMessage: 'Thanks for your enquiry, we will get back to you soon',
     errorMessage:
       'There is a problem, your message has not been sent, please try contacting us via email'
@@ -37,11 +38,7 @@ class Form extends React.Component {
       }
     })
     .then(() => {
-      form.reset()
-      this.setState({
-        alert: this.props.successMessage,
-        disabled: false
-      })
+      navigateTo(this.props.action)
     })
     .catch(err => {
       console.error(err)

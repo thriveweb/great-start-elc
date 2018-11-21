@@ -1,6 +1,7 @@
 ---
 title: Thank You
 slug: handbook-thank-you
+template: ThankYou
 secondaryBanner:
   buttonLink: /enrolments/book
   buttonText: Book Now

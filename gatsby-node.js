@@ -49,8 +49,6 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           index === mdFiles.length - 1 ? null : mdFiles[index + 1].node
         const next = index === 0 ? null : mdFiles[index - 1].node
 
-        console.log(page.node.fields.slug)
-
         createPage({
           // page slug set in md frontmatter
           path: page.node.fields.slug,

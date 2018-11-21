@@ -1,6 +1,6 @@
 ---
 title: Thank You
-slug: booking-thank-you
+title: Booking Thank You
 secondaryBanner:
   buttonLink: /enrolments/enrolling-great-start-early-learing-centre/
   buttonText: Enrol Now

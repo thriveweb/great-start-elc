@@ -4,11 +4,14 @@ import PageHeader from '../components/PageHeader'
 import Wave from '../components/Wave'
 import Button from '../components/Button'
 import ExceedBanner from '../components/ExceedBanner'
+import Content from '../components/Content'
+
+import './ThankYou.css'
 
 // Export Template for use in CMS preview
 export const ThankYouPageTemplate = ({
   title,
-  body,
+  mainContent,
   secondaryBanner,
   footerSettings
 }) => {
@@ -16,7 +19,11 @@ export const ThankYouPageTemplate = ({
   return <main className="ThankYou">
     <PageHeader title={title} />
     <div className="container">
-
+      <div className="thankyou-content">
+        <div className="container">
+          <Content src={mainContent} />
+        </div>  
+      </div>
       <div className="col5 JoinBanner">
   		    <h3 className="JoinBanner--title">{secondaryBanner.title}</h3>
   		    <Wave />
@@ -40,6 +47,7 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        mainContent
         secondaryBanner {
           buttonLink
           buttonText

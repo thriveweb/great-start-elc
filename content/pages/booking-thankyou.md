@@ -1,5 +1,5 @@
 ---
-title: Thank You
+title: Booking Thank You
 secondaryBanner:
   buttonLink: /enrolments/enrolling-great-start-early-learing-centre/
   buttonText: Enrol Now

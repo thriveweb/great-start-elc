@@ -1,5 +1,6 @@
 ---
 title: Thank You
+slug: handbook-thank-you
 secondaryBanner:
   buttonLink: /enrolments/book
   buttonText: Book Now

@@ -296,7 +296,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "handbookThankyou"
         fields:
           - {label: Template, name: template, widget: hidden, default: ThankYou}
-          - {name: slug, label: Slug, widget: hidden, default: 'thank-you'}
+          - {name: slug, label: Slug, widget: hidden, default: 'handbook-thank-you'}
           - {label: Title, name: title, widget: string}
           - {label: Content, name: body, widget: markdown}
           - label: Secondary Banner
@@ -322,7 +322,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "bookingThankyou"
         fields:
           - {label: Template, name: template, widget: hidden, default: ThankYou}
-          - {name: slug, label: Slug, widget: hidden, default: 'thank-you'}
+          - {name: slug, label: Slug, widget: hidden, default: 'booking-thank-you'}
           - {label: Title, name: title, widget: string}
           - {label: Content, name: body, widget: markdown}
           - label: Secondary Banner

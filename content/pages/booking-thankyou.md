@@ -7,11 +7,14 @@ mainContent: >-
   you!**
 
 
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur.
+  We would love to find your child a place at our centre. The Centre Director
+  will be in touch with you to arrange a time for your tour. A centre tour is a
+  great way for you and your child to meet the educators, understand our
+  curriculum and learning programs and see our environment first hand.
+
+
+  Interested in what makes our centres so popular? Read more on our [Educational
+  Programs and Curriculum](/learning/educational-programs-and-curriculum/) here.
 secondaryBanner:
   buttonLink: /enrolments/enrolling-great-start-early-learing-centre/
   buttonText: Enrol Now

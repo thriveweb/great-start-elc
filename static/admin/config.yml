@@ -194,6 +194,15 @@ collections: # A list of collections the CMS should be able to edit
               - {name: title, label: Title, widget: string, required: false}
               - {name: excerpt, label: Excerpt, widget: text}
               - {name: description, label: Description, widget: markdown}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
 
       - file: "content/pages/quality.md"
         label: "National Quality"
@@ -203,6 +212,15 @@ collections: # A list of collections the CMS should be able to edit
           - {name: slug, label: Slug, widget: hidden, default: 'learning/national-quality'}
           - {name: title, label: Title, widget: string, required: false}
           - {name: body, label: Content, widget: markdown, required: false}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
 
       - file: "content/pages/qk-portal.md"
         label: "QK Portal"
@@ -226,6 +244,15 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {name: icon, label: icon, widget: image}
                   - {name: description, label: Description, widget: markdown}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
 
       - file: "content/pages/employment-opportunities.md"
         label: "Employment Opportunities"
@@ -235,6 +262,15 @@ collections: # A list of collections the CMS should be able to edit
           - {name: slug, label: Slug, widget: hidden, default: 'careers/employment-opportunities'}
           - {label: Title, name: title, widget: string}
           - {label: Content, name: body, widget: markdown}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
 
       - file: "content/pages/book-page.md"
         label: "Book Page"
@@ -244,6 +280,15 @@ collections: # A list of collections the CMS should be able to edit
           - {name: slug, label: Slug, widget: hidden, default: 'enrolments/book-tour'}
           - {label: Title, name: title, widget: string}
           - {label: Content, name: body, widget: markdown}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
 
       - file: "content/pages/faqs.md"
         label: "FAQS"
@@ -265,6 +310,15 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {label: Title, name: title, widget: string, required: false}
                   - {label: Content, name: content, widget: markdown, required: false}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
 
       - file: "content/pages/handbooks.md"
         label: "Centre Forms and Handbooks"
@@ -281,6 +335,15 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Title, name: title, widget: string, required: false}
               - {label: File, name: file, widget: file, required: false}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
 
       - file: "content/pages/refer-friend.md"
         label: "Refer a Friend"
@@ -290,6 +353,15 @@ collections: # A list of collections the CMS should be able to edit
           - {name: slug, label: Slug, widget: hidden, default: 'parents/refer-friend'}
           - {label: Title, name: title, widget: string}
           - {label: Content, name: body, widget: markdown}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
 
       - file: "content/pages/handbook-thankyou.md"
         label: "Handbook Thankyou"
@@ -442,7 +514,6 @@ collections: # A list of collections the CMS should be able to edit
               - {name: title, label: Title, widget: string}
               - {name: content, label: Content, widget: markdown}
               - {name: iframeSource, label: Iframe Source, widget: hidden, default: ''}
-
       - name: enrolBanner
         label: Enrol Banner
         widget: object
@@ -461,6 +532,15 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Content, name: content, widget: markdown, required: false }
       - {label: Download File Text, name: downloadFileText, widget: string, required: false}
       - {label: Download File, name: downloadFile, widget: file, required: false}
+      - label: "Meta"
+        required: false
+        name: "meta"
+        widget: "object"
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+          - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+          - {label: Noindex, name: noindex, widget: boolean, required: false}
 
   - name: downloadPages
     label: Download Pages
@@ -482,6 +562,15 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string, required: false}
           - {label: File, name: file, widget: file, required: false}
           - {label: Preview Image, name: preview, widget: image, required: false}
+      - label: "Meta"
+        required: false
+        name: "meta"
+        widget: "object"
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+          - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+          - {label: Noindex, name: noindex, widget: boolean, required: false}
 
   - name: centres
     label: Centre

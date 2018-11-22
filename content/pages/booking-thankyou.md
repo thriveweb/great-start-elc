@@ -13,8 +13,9 @@ mainContent: >-
   curriculum and learning programs and see our environment first hand.
 
 
-  Interested in what makes our centres so popular? Read more on our [Educational
-  Programs and Curriculum](/learning/educational-programs-and-curriculum/) here.
+  See firsthand how our centre delivers a high quality education and care to
+  allow child reach their potential. Read more on our [Educational Programs and
+  Curriculum](/learning/educational-programs-and-curriculum/) here.
 secondaryBanner:
   buttonLink: /enrolments/enrolling-great-start-early-learing-centre/
   buttonText: Enrol Now

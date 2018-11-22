@@ -45,7 +45,7 @@ class HomeForm extends React.Component {
             return <Form
                 key={`Home Download ${index}`}
                 active={centre === centreItem}
-                formName={centreItem}
+                formName={`${centreItem} Download Form`}
                 fields={fields}
                 handleChange={this.handleChange}
                 title={title}

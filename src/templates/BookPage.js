@@ -12,8 +12,6 @@ import './BookPage.css'
 
 export const BookPageTemplate = ({ title, subtitle, featuredImage, body, footerSettings, meta }) => {
 
-  console.log(meta)
-
   const { handbookDownload } = footerSettings
 
   return (

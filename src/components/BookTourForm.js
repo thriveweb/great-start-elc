@@ -97,8 +97,19 @@ class Form extends React.Component {
           <input
             className="EnquiryForm--Input"
             type="text"
-            placeholder="Your Name"
-            name="yourname"
+            placeholder="First Name"
+            name="firstname"
+            value={yourname}
+            onChange={this.props.handleChange}
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Last Name"
+            name="lastname"
             value={yourname}
             onChange={this.props.handleChange}
             required
@@ -111,6 +122,17 @@ class Form extends React.Component {
             placeholder="Email"
             name="emailaddress"
             value={emailaddress}
+            onChange={this.props.handleChange}
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Phone"
+            name="phone"
+            value={phone}
             onChange={this.props.handleChange}
             required
           />
@@ -180,17 +202,6 @@ class Form extends React.Component {
             onChange={this.props.handleChange}
           />
         </label>
-        <label className="EnquiryForm--Label">
-          <input
-            className="EnquiryForm--Input"
-            type="text"
-            placeholder="Phone"
-            name="phone"
-            value={phone}
-            onChange={this.props.handleChange}
-            required
-          />
-        </label>
         <div className='EnquiryForm--Label label-text'>
           <p>Choose Centre:</p>
           {[
@@ -211,7 +222,7 @@ class Form extends React.Component {
             required
           />
         </label>
-        <label className="EnquiryForm--Label">
+        <label className="EnquiryForm--Label full-width">
           <input
             className="EnquiryForm--Input"
             placeholder="Other Comments"

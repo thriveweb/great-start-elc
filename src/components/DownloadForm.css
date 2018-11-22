@@ -130,7 +130,9 @@
   margin-left: 0;
 }
 
-
+.DownloadForm .EnquiryForm--Label.label-text {
+  width: 100%;
+}
 
 @media only screen and (max-width: 1575px) {
   .home-download .container {
@@ -244,16 +246,3 @@
     font-size: 1.4rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

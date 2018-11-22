@@ -106,8 +106,19 @@ class Form extends React.Component {
           <input
             className="EnquiryForm--Input"
             type="text"
-            placeholder="Your Name"
-            name="yourname"
+            placeholder="First Name"
+            name="firstname"
+            value={yourname}
+            onChange={this.props.handleChange}
+            required
+          />
+        </label>
+        <label className="EnquiryForm--Label">
+          <input
+            className="EnquiryForm--Input"
+            type="text"
+            placeholder="Last Name"
+            name="lastname"
             value={yourname}
             onChange={this.props.handleChange}
             required

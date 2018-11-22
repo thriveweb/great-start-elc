@@ -78,7 +78,12 @@ class Form extends React.Component {
       birthday_1 = '',
       birthday_2 = '',
       birthday_3 = '',
-      phone = '', startdate = '', comments = ''  } = fields
+      phone = '',
+      startdate = '',
+      comments = '',
+      firstname = '',
+      lastname = ''
+    } = fields
 
 
     return (
@@ -99,7 +104,7 @@ class Form extends React.Component {
             type="text"
             placeholder="First Name"
             name="firstname"
-            value={yourname}
+            value={firstname}
             onChange={this.props.handleChange}
             required
           />
@@ -110,7 +115,7 @@ class Form extends React.Component {
             type="text"
             placeholder="Last Name"
             name="lastname"
-            value={yourname}
+            value={lastname}
             onChange={this.props.handleChange}
             required
           />

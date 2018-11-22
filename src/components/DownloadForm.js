@@ -82,13 +82,12 @@ class Form extends React.Component {
 
   render() {
     const { name, subject, action, formName, active, fields, title, description, handbookDownload = [] } = this.props
-    const { emailaddress = '', yourname = '', phone = '', centre } = fields
+    const { emailaddress = '', firstname = '', lastname = '', phone = '', centre } = fields
 
     const fileDownload = handbookDownload.find(handbook =>
       handbook.title === centre
     ) || {}
 
-    console.log(action)
     return <form
         className={`DownloadForm download-banner-form ${active ? 'active' : ''}`}
         name={formName}
@@ -108,7 +107,7 @@ class Form extends React.Component {
             type="text"
             placeholder="First Name"
             name="firstname"
-            value={yourname}
+            value={firstname}
             onChange={this.props.handleChange}
             required
           />
@@ -119,7 +118,7 @@ class Form extends React.Component {
             type="text"
             placeholder="Last Name"
             name="lastname"
-            value={yourname}
+            value={lastname}
             onChange={this.props.handleChange}
             required
           />

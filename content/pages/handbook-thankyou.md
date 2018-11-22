@@ -7,11 +7,11 @@ mainContent: >-
   the centre is to book a centre tour.**
 
 
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur.
+  We would love to find your child a place at our centre. Please contact the
+  Centre Director to arrange a centre tour if you have not already had one. A
+  centre tour is a great way for you and your child to meet the educators,
+  understand our curriculum and learning programs and see our environment first
+  hand.
 secondaryBanner:
   buttonLink: /enrolments/book
   buttonText: Book Now

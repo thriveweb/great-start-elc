@@ -212,5 +212,10 @@ accordionSection:
           practice throughout our centre and considered an utmost priority.
         title: What are your Hygiene Practices?
     title: Health and Medical
+meta:
+  description: >-
+    Do you have a funded four-year-old kindergarten program at your centres with
+    a qualified Kindergarten Teacher? What are the staff to child ratios?
+  title: FAQs | Great Start ELC
 ---
 

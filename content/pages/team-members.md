@@ -155,5 +155,11 @@ members:
     image: /images/uploads/sarah-bennett.jpg
     name: ' Sarah Bennett'
     title: ' Assistant Centre Director'
+meta:
+  description: >-
+    Liz Cosier. Centre Director. Hello, my name is Liz Cosier and I have been
+    the Centre Director and Nominated Supervisor at East Malvern Early Learning
+    Centre.
+  title: Our Team | Great Start ELC
 ---
 

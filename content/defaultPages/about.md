@@ -2,6 +2,12 @@
 template: DefaultPage
 slug: about/welcome
 title: Welcome
+meta:
+  description: >-
+    Welcome to Great Start Early Learning Centres. We recognise that early
+    childhood is a time when foundations are laid for future health, learning
+    and wellbeing.
+  title: Welcome | Great Start ELC
 ---
 ![null](/images/uploads/learn.jpg)
 

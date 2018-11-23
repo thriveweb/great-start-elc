@@ -171,6 +171,12 @@ additionalInfoBoxes:
       information about childcare subsidies, please contact the Centrelink on 13
       61 50 or see their website. 
     title: Child Care Subsidies
+meta:
+  description: >-
+    Family Participation & Communication · Learning at Great Start Early
+    Learning Centres · Educational Programs and Curriculum · QK Journeys
+    Curriculum Portal.
+  title: East Malvern Early Learning Centre
 ---
 We only have a maximum of 50 children attending the centre each day across four classrooms; this provides opportunities for educators, parents and children to develop close relationships. We offer care to all age groups from as young as six weeks up to school age. We are open every day from Monday to Friday, except for public holidays.
 

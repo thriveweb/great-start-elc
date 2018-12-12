@@ -2,6 +2,12 @@
 template: DefaultPage
 slug: learning/learning-great-start-early-learning-centres
 title: Learning at Great Start Early Learning Centres
+meta:
+  description: >-
+    We recognise that early childhood is a time when foundations are laid for
+    future health, learning and wellbeing. Each day has structure and a flexible
+    routine. 
+  title: Learning at Great Start Early Learning Centres | Great Start ELC
 ---
 
 ### We recognise that early childhood is a time when foundations are laid for future health, learning and wellbeing.

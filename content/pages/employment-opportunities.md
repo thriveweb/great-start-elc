@@ -2,6 +2,12 @@
 template: EmploymentOpportunities
 slug: careers/employment-opportunities
 title: Employment Opportunities
+meta:
+  description: >-
+    Join a team of early childhood professionals who are dedicated to the
+    wellbeing and learning of every child. We strive to maintain a high-quality
+    recruitment.
+  title: Employment Opportunities | Great Start ELC
 ---
 ### Join a team of early childhood professionals who are dedicated to the wellbeing and learning of every child.
 

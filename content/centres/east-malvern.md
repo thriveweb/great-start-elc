@@ -173,10 +173,10 @@ additionalInfoBoxes:
     title: Child Care Subsidies
 meta:
   description: >-
-    Family Participation & Communication · Learning at Great Start Early
-    Learning Centres · Educational Programs and Curriculum · QK Journeys
-    Curriculum Portal.
-  title: East Malvern Early Learning Centre
+    East Malvern Early Learning Centre is a beautiful cottage with lots of charm
+    and character. Located in the Malvern East community. Monday to Friday
+    7:00am - 6:00pm.
+  title: East Malvern Early Learning Centre | Great Start ELC
 ---
 We only have a maximum of 50 children attending the centre each day across four classrooms; this provides opportunities for educators, parents and children to develop close relationships. We offer care to all age groups from as young as six weeks up to school age. We are open every day from Monday to Friday, except for public holidays.
 

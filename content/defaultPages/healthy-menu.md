@@ -2,6 +2,11 @@
 template: DefaultPage
 slug: parents/healthy-menu
 title: Healthy Menu
+meta:
+  description: >-
+    We aim to instil in all children the importance of maintaining a lifelong
+    respect for food and living a healthy lifestyle.
+  title: Healthy Menu | Great Start ELC
 ---
 ### We aim to instil in all children the importance of maintaining a lifelong respect for food and living a healthy lifestyle.
 

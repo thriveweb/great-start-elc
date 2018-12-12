@@ -2,6 +2,12 @@
 template: DefaultPage
 slug: about/our-learning-environments
 title: Our Learning Environments
+meta:
+  description: >-
+    With a focus on the holistic development of each child, we are committed to
+    providing a creative, stimulating and nurturing environment for children to
+    thrive.
+  title: Our Learning Environments | Great Start ELC
 ---
 ### With a focus on the holistic development of each child, we are committed to providing a creative, stimulating and nurturing environment for children to thrive.
 

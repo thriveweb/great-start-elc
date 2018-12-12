@@ -199,6 +199,12 @@ additionalInfoBoxes:
       information about childcare subsidies, please contact Centrelink on 13 61
       50 or see their website. 
     title: Child Care Subsidies
+meta:
+  description: >-
+    Mildura Central Early Learning Centre is located in the Mildura CBD area,
+    being convenient for all families in the community. Monday to Friday 6:30am
+    - 6:30pm.
+  title: Mildura Central Early Learning Centre | Great Start ELC
 ---
 Channelling a world-class Reggio Emilia approach, we provide beautiful, nature-inspired spaces, a supportive co-learning approach and degree-qualified teachers, to best stimulate a lifelong love of learning, exploration and discovery.
 

@@ -184,5 +184,11 @@ accordion:
       the counter at a Medicare Service Centre or by calling AIR on 1800 653
       809.
     title: Immunisation Compliance
+meta:
+  description: >-
+    We would love to find your child a place at our centre. A centre tour is a
+    great way for you and your child to meet the educators and understand our
+    curriculum. 
+  title: Enrolling at a Great Start Early Learning Centre | Great Start ELC
 ---
 

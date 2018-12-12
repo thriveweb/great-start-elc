@@ -2,6 +2,11 @@
 template: DefaultPage
 slug: learning/reggio-emilia
 title: Reggio Emilia Approach
+meta:
+  description: >-
+    It is a constantly evolving approach that bears influences from Montessori,
+    Piaget, Vygotsky and theorists such as Bruner and Gardner.
+  title: Reggio Emilia Approach | Great Start ELC
 ---
 ### The Reggio Emilia Approach was developed in Italy post World War II and is at the forefront of early childhood education.
 

@@ -256,5 +256,10 @@ accordion:
 downloadFileText: Download and View Enrolment Terms and Conditions
 downloadFile: >-
   /images/uploads/02.-great-start-early-learning-centres_terms-and-conditions_06.18_pdf.pdf
+meta:
+  description: >-
+    We Offer Flexible Hour Sessions. We know that there is no one size fits all
+    option for our families when it comes to early childhood education and care.
+  title: Fees and Government Subsidies | Great Start ELC
 ---
 

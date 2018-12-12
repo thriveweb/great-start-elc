@@ -26,10 +26,9 @@ accordion:
     title: Use regular set phrases
 meta:
   description: >-
-    It may not seem reasonable to you, but you are not the one who is feeling
-    it. Please ensure that you acknowledge their sadness, but reassure them they
-    will be fine and confirm when you will return.
-  title: 'If your children shows fear, accept that fear.'
+    Our aim is for each child to separate happily from their parent, to develop
+    strong and trusting relationships with the educators and other children.
+  title: 'Settling Tips | Great Start ELC '
 ---
 ### Leaving your child for the first time can be an anxious time for both parents and children. We have an orientation and transitioning program for all new children at the centre; this is arranged in consultation with parents.
 

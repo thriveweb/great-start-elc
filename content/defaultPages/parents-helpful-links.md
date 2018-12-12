@@ -2,6 +2,11 @@
 template: DefaultPage
 slug: parents/helpful-links
 title: Helpful Links
+meta:
+  description: >-
+    Here's a list of really helpful links & useful resources containing tips on
+    parenting that we often get asked for, we hope they are useful! 
+  title: Helpful Links | Great Start ELC
 ---
 ### Here's a list of really helpful links that we often get asked for, we hope they are useful!
 

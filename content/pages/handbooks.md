@@ -1,7 +1,7 @@
 ---
 template: Handbooks
-title: Centre Forms and Handbooks
 slug: parents/centre-forms-and-handbooks
+title: Centre Forms and Handbooks
 downloadableForms:
   - file: >-
       /images/uploads/allergy_ascia-action-plan-allergic-reactions_no-autoinjector_0818.pdf
@@ -45,5 +45,11 @@ downloadableForms:
     title: Greatstart handbook - Mildura (PDF)
   - file: /images/uploads/greatstart_handbook_milduracentral.pdf
     title: Greatstart handbook - Milduracentral (PDF)
+meta:
+  description: >-
+    Here are some important downloadable forms;  Action Plan Allergic Reactions
+    (PDF) Allergy Management Risk Communication Plan (PDF) Anaphylaxis -
+    Management Risk. 
+  title: Centre Forms and Handbooks | Great Start ELC
 ---
 #### Here are some important downloads

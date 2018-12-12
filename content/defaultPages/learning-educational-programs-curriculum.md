@@ -2,6 +2,8 @@
 template: DefaultPage
 slug: learning/educational-programs-and-curriculum
 title: Educational Programs and Curriculum
+downloadBanner:
+  title: Educational Programs and Curriculum | Great Start ELC
 accordion:
   - content: >-
       Young children need lots of love and extra special care. Our dedicated
@@ -260,6 +262,11 @@ infoSection:
         Calendar or by way of notice.
       icon: /images/uploads/globe.svg
       title: Cultural Celebrations
+meta:
+  description: >-
+    We understand the importance of education and believe that childhood is a
+    unique time of life which should be valued and enjoyed. 
+  title: Educational Programs and Curriculum | Great Start ELC
 ---
 ### We understand the importance of education and believe that childhood is a unique time of life which should be valued and enjoyed.
 

@@ -3,6 +3,12 @@ template: DefaultPage
 slug: careers/why-join
 className: why-join-banner
 title: Why Join Our Team?
+meta:
+  description: >-
+    We encourage development of all educators by way of continued training in
+    the form of workshops, professional development days, seminars and online
+    training.
+  title: Why Join Our Team? | Great Start ELC
 ---
 ## As a team member you can expect:
 

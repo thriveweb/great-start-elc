@@ -5,6 +5,11 @@ title: Family Participation & Communication
 downloadableForms:
   - file: /images/uploads/parent-participation-feedback-and-comments.pdf
     title: Parent Participation & Feedback
+meta:
+  description: >-
+    Open, honest, respectful and harmonious communication between families,
+    educators and children is essential.
+  title: Family Participation & Communication | Great Start ELC
 ---
 
 ### Open, honest, respectful and harmonious communication between families, educators and children is essential. We feel this is important in delivering high-quality, effective education and care for each child.

@@ -651,6 +651,12 @@ accordion:
     title: 'External Regulatory Authorities '
   - content: "All parents are encouraged to discuss any grievances in an environment that is open and responsive. Any grievances will be handled confidentially (unless there are legislative requirements not to). Parents and their children will not be disadvantaged in any way for raising a grievance.\n\nWe encourage informal resolution as a first option. We want to model effective conflict resolution techniques and want to respond to parents concerns without any disruption to the child or the relationships between educators and families.\n\nThe Complaints and Grievance Policy is available in the Policy Handbook in the foyer of the Centre. If the issue cannot be resolved through informal resolution, we will follow the procedure outlined in the above policy.\n\n#### Centres Management and Approved Provider\n\n**Scott Zannes**\n\nManaging Director\n\nGreat Start Early Learning Centres\n\nPO Box 3740, Victoria Point West QLD 4165\n\nPhone: 04 1140 1288 \n\nEmail: szannes@mychildelc.com.au \n\n- - -\n\n**Should any parent or guardian wish to discuss concerns with the state regulatory office, please contact:**\n\n**\LFor East Malvern Early Learning Centre**\n\nDepartment of Education and Early Childhood Development\n\nQuality Assessment and Regulation Division\n\nTelephone: 03 8765 5600\n\nEmail: smr.qar@edumail.vic.gov.au  \n\nPostal Address: PO Box 5, DANDENONG VIC 3175\n\n- - -\n\n**For Mildura Centres**\n\nDepartment of Education and Training (DET)\n\nQuality Assessment and Regulation Division\n\nTelephone: 03 5440 3111 \n\nEmail: lmr.qar@edumail.vic.gov.au \n\nPostal Address: PO Box 442, BENDIGO VIC\_3550\n\nStreet Address: 7-15 McLaren Street, BENDIGO VIC 3550"
     title: Grievances and Formal Complaints
+meta:
+  description: >-
+    Centres are required to have policies and related documents in relation to
+    matters under Regulation of the Education and Care Services National
+    Regulations. 
+  title: Our Policies | Great Start ELC
 ---
 ### The National Quality Framework, Policies and Procedures
 

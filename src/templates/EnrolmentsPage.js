@@ -105,6 +105,7 @@ export const EnrolmentsPageTemplate = ({
               <a
                 href={downloadFile.publicURL}
                 target="_blank"
+                rel="noopener"
               >
                 {downloadFileText}
               </a>

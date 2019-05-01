@@ -33,7 +33,7 @@ const HtmlBlock = ({ value }) => {
 }
 
 function LinkRenderer(props) {
-  return <a href={props.href} target="_blank">{props.children}</a>
+  return <a href={props.href} target="_blank" rel="noopener">{props.children}</a>
 }
 
 const Content = ({ source, src, className = '' }) => {

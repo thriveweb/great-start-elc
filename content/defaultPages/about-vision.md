@@ -10,7 +10,7 @@ accordion:
       acquisition of knowledge. Each child arrives at our service with their own
       experiences, knowledge, personality, interests and needs. Children learn
       through play, exploration, problem solving and sharing of knowledge
-      through social play. 
+      through social play.
 
       We have an uncompromising commitment to nurturing active bodies and
       creating healthy minds through a holistic approach to early childhood
@@ -19,7 +19,7 @@ accordion:
       their full potential.
     title: Image of the child
   - content: >-
-      It is the Educator’s role to facilitate and support the child’s learning. 
+      It is the Educator’s role to facilitate and support the child’s learning.
       Small group interactions are encouraged and children are provided with
       opportunities to collaborate and create inquiry projects.  Independence
       and problem-solving skills are encouraged to help children resolve social
@@ -38,7 +38,7 @@ accordion:
 
       * see themselves as valued and unique;
 
-      * engage in caring and respectful relationships; 
+      * engage in caring and respectful relationships;
 
       * develop resilience, knowledge and confident self-identities;
 
@@ -72,7 +72,7 @@ accordion:
       children our Educators will:
 
 
-      * have a passion for children’s learning; 
+      * have a passion for children’s learning;
 
       * focus on maintaining the health and safety of the children and the
       environment;
@@ -87,10 +87,10 @@ accordion:
       * facilitate an emergent curriculum based on The Reggio Emilia approach.
       This approach to teaching young children puts the natural development of
       children as well as the close relationship they share with their
-      environment as the centre of the philosophy; and 
+      environment as the centre of the philosophy; and
 
       * act with integrity and honesty and offer flexibility to each child,
-      their family and their peers. 
+      their family and their peers.
 
 
       Educators and the service formally acknowledge and commit to the Early
@@ -125,13 +125,13 @@ accordion:
       * create relationships of respect, trust, communication, consultation and
       information sharing;
 
-      * understand the importance of a child’s home and family/community; 
+      * understand the importance of a child’s home and family/community;
 
       * recognise parents as their child’s first and most influential teachers;
       and
 
       * recognise the skills and interests of families and incorporate their
-      beliefs and values into our centre. 
+      beliefs and values into our centre.
 
 
       We feel it is important to connect to our local community and its
@@ -196,7 +196,7 @@ accordion:
 ---
 #### Our Vision
 
-We strive for all children to achieve their full potential by offering the education, care and nurturing they need to grow and have a great start in life. 
+We strive for all children to achieve their full potential by offering the education, care and nurturing they need to grow and have a great start in life.
 
 #### Our Philosophy
 

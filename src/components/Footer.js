@@ -62,7 +62,7 @@ export default ({
                     <a href={slug} className="Footer--view colorInherit">
                       View Centre
                     </a>
-                    <a className='centreSocial' href={facebook} target="_blank"><ICONFacebook /></a>
+                    <a className='centreSocial' href={facebook} target="_blank" rel="noopener"><ICONFacebook /></a>
                   </div>
                 })}
             </div>
@@ -81,6 +81,7 @@ export default ({
             <a
               href="https://thriveweb.com.au"
               target="_blank"
+              rel="noopener"
               className="colorInherit"
               rel="noopener noreferrer"
             >

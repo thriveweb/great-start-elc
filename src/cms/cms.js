@@ -10,7 +10,16 @@ import { CentreTemplate } from '../templates/Centre'
 import { HealthInfoPageTemplate } from '../templates/HealthInfoPage'
 import { FamilyChecklistTemplate } from '../templates/FamilyChecklist'
 
-CMS.registerPreviewStyle('/styles.css')
+if (
+  window.location.hostname === 'localhost' &&
+  window.localStorage.getItem('netlifySiteURL')
+) {
+  CMS.registerPreviewStyle(
+    window.localStorage.getItem('netlifySiteURL') + '/styles.css'
+  )
+} else {
+  CMS.registerPreviewStyle('/styles.css')
+}
 
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
   <HomePageTemplate {...entry.toJS().data} />

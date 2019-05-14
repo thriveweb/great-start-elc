@@ -30,24 +30,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
-
-      - file: "content/pages/blog.md"
-        label: "Blog Page"
-        name: "blog-page"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Subtitle, name: subtitle, widget: markdown}
-          - label: "Meta"
-            required: false
-            name: "meta"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
-              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-              - {label: Noindex, name: noindex, widget: boolean, required: false}
-
       - file: "content/pages/parents-family-checklist.md"
         label: "Family Checklist"
         name: "family-checklist"
@@ -281,7 +263,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
-      - file: "content/pages/book-page.md"
+      - file: "content/pages/enrolments-book.md"
         label: "Book Page"
         name: "bookPage"
         fields:

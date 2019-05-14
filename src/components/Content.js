@@ -49,8 +49,6 @@ const Content = ({ source, src, className = '' }) => {
     )
   }
 
-  console.log(source)
-
   return (
     <Marked
       className={`Content ${className}`}

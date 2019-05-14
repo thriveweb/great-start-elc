@@ -5,7 +5,7 @@ backend:
 media_folder: static/images/uploads
 public_folder: /images/uploads
 
-display_url: https://great-start-elc.thdi.net # This url will display in the top-right of the CMS
+display_url: https://greatstartelc.com.au # This url will display in the top-right of the CMS
 
 collections: # A list of collections the CMS should be able to edit
   - name: "pages"
@@ -176,6 +176,15 @@ collections: # A list of collections the CMS should be able to edit
                   - {name: title, label: Title, widget: string, required: false}
                   - {name: description, label: Description, widget: text, required: false}
                   - {name: linkTo, label: Link To, widget: string, required: false}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
 
       - file: "content/pages/team-members.md"
         label: "Team Members"

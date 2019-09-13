@@ -62,14 +62,7 @@ export const CentreTemplate = ({
               </p>
             )}
             {location && (
-              <div className='location'>
-                <p>
-                  <strong>Centre Location</strong>
-                 <br />
-                 {location}
-                </p>
-                <CentreMap lat={parseFloat(latitude)} lng={parseFloat(longitude)} />
-              </div>
+              latitude
             )}
             {(email || phone) && (
               <div>
